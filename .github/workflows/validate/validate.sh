@@ -28,9 +28,15 @@ while read image; do
 
     # Extract properties into variables
     filename=$(basename "${image}")
+    folderpath=$(dirname "${image}")
+    foldername=$(basename "${folderpath}")
     width="${properties[0]}"
     height="${properties[1]}"
     type="${properties[2]}"
+
+    # Underscore folders are special cases. Instead one should symlink between integration domains
+    [[ "${foldername}" == _* && "${foldername}" != "_placeholder" && "${foldername}" != "_homeassistant" ]] \
+      && error "${folderpath}" "Directories should not start with an underscore (_), please use the integration domain instead"
 
     # Ensure file is actually a PNG file
     [[ "${type}" != "PNG" ]] \
