@@ -82,6 +82,13 @@ symlinking domain folders for the same icon/logos is allowed. The deployment
 process at our hosting provider will unpack these symlinks to actual files
 during the deployment process.
 
+Please note, symlinks should only be created between integration domain
+directories. The `_placeholder` & `_homeassistant` directories are special
+cases and new directories with an underscore (`_`) should not be created.
+
+The names of directories must always match the integration domain. Additional
+directories are not allowed.
+
 ## Trademark Legal Notices
 
 All product names, trademarks and registered trademarks in the images in this
