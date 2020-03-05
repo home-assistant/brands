@@ -53,7 +53,9 @@ All images must have the following requirements:
 - Interlaced is preferred (also known as progressive).
 - Images with transparency is preferred.
 - If multiple images are available, the ones optimized for a white background are preferred.
-- The image should be trimmed, so it contains the minimum amount of empty (white) space on the edges.
+- The image should be trimmed, so it contains the minimum amount of empty space on the edges.
+  This includes things like white/black/any color borders or transparent spacing around the actual
+  subject in the image.
 
 ### Icon image requirements
 
