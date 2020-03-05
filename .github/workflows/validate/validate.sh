@@ -20,7 +20,7 @@ function error() {
 # Find all files in the src folder (should contain only images)
 while read image; do
     # Read properties from image
-    properties=($(identify -format "%w %h %m %[colorspace]" "${image}"))
+    properties=($(identify -format "%w %h %m" "${image}"))
     if [[ "$?" -ne 0 ]]; then
       error "${image}" "Could not read image file"
       continue
@@ -31,15 +31,10 @@ while read image; do
     width="${properties[0]}"
     height="${properties[1]}"
     type="${properties[2]}"
-    colorspace="${properties[3]}"
 
     # Ensure file is actually a PNG file
     [[ "${type}" != "PNG" ]] \
       && error "${image}" "Invalid file type '${type}' for file"
-
-    # Ensure color space is sRGB
-    [[ "${colorspace}" != "sRGB" ]] \
-      && error "${image}" "Invalid color space '${colorspace}' for file"
 
     # Validate image dimensions
     if [[ "${filename}" == "icon.png" ]]; then

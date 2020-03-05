@@ -42,7 +42,6 @@
 -->
 
 - [ ] The added/replaced image(s) are **PNG**
-- [ ] The added/replaced image(s) are in the **rRGB** color space
 - [ ] Icon image size is 256x256px (`icon.png`)
 - [ ] hDPI icon image size is 512x512px for  (`icon@2x.png`)
 - [ ] Logo image size has min 128px, but max 256px, on the shortest side (`logo.png`)

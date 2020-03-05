@@ -49,7 +49,6 @@ our cache.
 All images must have the following requirements:
 
 - The filetype of all images must be PNG.
-- The color space of all images must be rRGB.
 - They should be properly compressed and optimized (lossless is preferred) for use on the web.
 - Interlaced is preferred (also known as progressive).
 - Images with transparency is preferred.
