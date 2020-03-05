@@ -1,0 +1,1 @@
+../.github/workflows/validate/validate.sh

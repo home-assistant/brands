@@ -1,0 +1,19 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    paths:
+      - "src/**"
+
+jobs:
+  validate:
+    name: Images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Validate images
+        uses: ./.github/workflows/validate
