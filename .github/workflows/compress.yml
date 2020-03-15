@@ -16,6 +16,8 @@ jobs:
         id: find
         run: >-
           echo "::set-output name=ignore::$(find -L src -xtype l -type d | head -c -1 | tr '\n' ',')"
+      - name: Check ignored paths
+        run: echo ${{ steps.find.outputs.ignore }}
       - name: Compress Images
         uses: calibreapp/image-actions@master
         with:
