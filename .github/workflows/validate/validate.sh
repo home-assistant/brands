@@ -42,6 +42,15 @@ while read image; do
     [[ "${type}" != "PNG" ]] \
       && error "${image}" "Invalid file type '${type}' for file"
 
+    # Ensure normal version exists when hDPI image is provided
+    [[ "${filename}" == "icon@2x.png" ]] \
+      && [[ ! -f "${folderpath}/icon.png" ]] \
+        && error "${image}" "hDPI icon was provided, but the normal version is missing"
+
+    [[ "${filename}" == "logo@2x.png" ]] \
+      && [[ ! -f "${folderpath}/logo.png" ]] \
+        && error "${image}" "hDPI logo was provided, but the normal version is missing"
+
     # Validate image dimensions
     if [[ "${filename}" == "icon.png" ]]; then
       # icon dimension
