@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 # Copy folder, without symlinks, but use actual files instead
-rsync -aL --exclude '_homeassistant' src/ build
+mkdir -p build/_
+rsync -aL --exclude '_homeassistant' src/ build/_
+rsync -aL --exclude '_homeassistant' --exclude '_placeholder' src/ build
 
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do

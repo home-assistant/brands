@@ -25,14 +25,35 @@ Those images are served in the following format:
 - `https://brands.home-assistant.io/[domain]/logo.png`
 - `https://brands.home-assistant.io/[domain]/icon@2x.png`
 - `https://brands.home-assistant.io/[domain]/logo@2x.png`
+- `https://brands.home-assistant.io/_/[domain]/icon.png`
+- `https://brands.home-assistant.io/_/[domain]/logo.png`
+- `https://brands.home-assistant.io/_/[domain]/icon@2x.png`
+- `https://brands.home-assistant.io/_/[domain]/logo@2x.png`
 
 ### Missing image handling
 
-- If a domain is missing, the images from the `_placeholder` domain is served instead.
-- If a domain is missing the `icon.png` file, the placeholder will be will be served instead.
-- If a domain is missing the `logo.png` file, the `icon.png` is served instead.
-- If a domain is missing the `icon@2.png` file, the `icon.png` is served instead.
-- If a domain is missing the `logo@2.png` file, the `logo.png` is served instead.
+The website can service images with and without a fallback to an placeholder
+image.
+
+### Without placeholder fallback
+
+This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
+A missing image, will result in a 404 being served.
+
+For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
+
+- If a domain is missing the `icon.png` file, 404 will be served
+- If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
+- If a domain is missing the `icon@2.png` file, the `icon.png` is served instead (if available).
+- If a domain is missing the `logo@2.png` file, the `logo.png` is served instead (if available).
+
+### With placeholder fallback
+
+This method uses the plain URLs, **WITH** the `/_/` in the URL path.
+A missing image, will result in placeholder image being served telling the logo/icon is missing.
+This also applies to domains, in case the integration domain is missing.
+
+For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
 
 ### Caching
 
