@@ -3,7 +3,7 @@
   command = "bash ./scripts/build.sh"
 
 [[headers]]
-  for = "/_placeholder/*.png"
+  for = "/_/_placeholder/*.png"
   [headers.values]
     Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"
 
@@ -20,29 +20,29 @@
   headers = {Cache-Control = "public, max-age: 900, s-maxage=604800, must-revalidate"}
 
 [[redirects]]
-  from = "/*/icon.png"
-  to = "/_placeholder/icon.png"
+  from = "/_/*/icon.png"
+  to = "/_/_placeholder/icon.png"
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
 
 [[redirects]]
-  from = "/*/logo.png"
-  to = "/_placeholder/logo.png"
+  from = "/_/*/logo.png"
+  to = "/_/_placeholder/logo.png"
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
 
 [[redirects]]
-  from = "/*/icon@2x.png"
-  to = "/_placeholder/icon@2x.png"
+  from = "/_/*/icon@2x.png"
+  to = "/_/_placeholder/icon@2x.png"
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
 
 [[redirects]]
-  from = "/*/logo@2x.png"
-  to = "/_placeholder/logo@2x.png"
+  from = "/_/*/logo@2x.png"
+  to = "/_/_placeholder/logo@2x.png"
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
