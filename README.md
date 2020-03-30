@@ -44,8 +44,8 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 
 - If a domain is missing the `icon.png` file, 404 will be served
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `icon@2.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `logo@2.png` file, the `logo.png` is served instead (if available).
+- If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
+- If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
 
 ### With placeholder fallback
 
