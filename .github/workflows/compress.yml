@@ -1,9 +1,13 @@
 name: Compress
 
+# on:
+#   pull_request:
+#     paths:
+#       - "src/**.png"
 on:
-  pull_request:
-    paths:
-      - "src/**.png"
+  push:
+    branches-ignore:
+      - "**"
 
 jobs:
   compress:
