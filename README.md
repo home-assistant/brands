@@ -98,6 +98,11 @@ the following requirements are applied as well:
 - Shortest side of the image must be not bigger than 256 pixels, 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
+## Using the same image for logo & icon
+
+If the brand uses the same image for the logo and icon (e.g., if the logo has a square aspect ratio),
+only add the icon images. The icon will be used as a fallback for the logo.
+
 ## Using the same logo & icon for different brands
 
 In order to keep the size of this repository as efficient as possible,
