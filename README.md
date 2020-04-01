@@ -117,6 +117,22 @@ cases and new directories with an underscore (`_`) should not be created.
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
 
+## Tips, Tools & Resources
+
+When adding a new set of icons and logos, the following resources can help you
+finding the needed images and getting them to match our specifications:
+
+- [**RedKetchup Image Resizer**](https://redketchup.io/image-resizer):
+  Resizes most images formats, including SVG, into any format using just your
+  browser.
+- [**Worldvectorlogo**](https://worldvectorlogo.com/):
+  Thousands of SVG brand images, which are perfect to use as a base.
+- [**WikiPedia Commons**](https://commons.wikimedia.org/):
+  Has a lot of good quality images on file.
+
+A lot of brands (especially the larger ones) often offer a press kit on
+their (cooperate) website, that contain high quality images.
+
 ## Trademark Legal Notices
 
 All product names, trademarks and registered trademarks in the images in this
