@@ -100,8 +100,8 @@ the following requirements are applied as well:
 
 ## Using the same image for logo & icon
 
-If the brand uses the same image for the logo and icon (e.g. if the logo is square), just upload
-the icon images. They will be used as fallback from missing logos.
+If the brand uses the same image for the logo and icon (e.g., if the logo has a square aspect ratio),
+only add the icon images. The icon will be used as a fallback for the logo.
 
 ## Using the same logo & icon for different brands
 
