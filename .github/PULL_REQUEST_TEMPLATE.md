@@ -19,7 +19,7 @@
 
 - [ ] Add a new logo or icon for a new integration
 - [ ] Add a missing icon or logo for an existing integration
-- [ ] Replace an exiting icon or logo with a higher quality version
+- [ ] Replace an existing icon or logo with a higher quality version
 - [ ] Removing an icon or logo
 
 ## Additional information
