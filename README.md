@@ -94,8 +94,9 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- Shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- Shortest side of the image must be not bigger than 256 pixels, 512 pixels for the hDPI version.
+- Image length
+  - Normal version: Shortest side of the image must be between 128 and 256 pixels.
+  - hDPI version: Shortest side of the image must be between 256 and 512 pixels.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
 ## Using the same image for logo & icon
