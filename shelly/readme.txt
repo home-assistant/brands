@@ -1,0 +1,1 @@
+Shelly.cloud logos
