@@ -5,6 +5,8 @@
 This repository holds the icons and logos for all the brands Home Assistant
 supports.
 
+Please do not submit icons and logos for custom components.
+
 This repository is used to generate a static website, serving these images
 for use in our Home Assistant projects. The goal is to have a centralized
 repository of brand images.
