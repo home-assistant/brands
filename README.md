@@ -32,13 +32,13 @@ Those images are served in the following format:
 
 ### Missing image handling
 
-The website can service images with and without a fallback to an placeholder
+The website can service images with and without a fallback to a placeholder
 image.
 
 ### Without placeholder fallback
 
 This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
-A missing image, will result in a 404 being served.
+A missing image will result in a 404 being served.
 
 For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 
@@ -50,7 +50,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 ### With placeholder fallback
 
 This method uses the plain URLs, **WITH** the `/_/` in the URL path.
-A missing image, will result in placeholder image being served telling the logo/icon is missing.
+A missing image will result in placeholder image being served telling the logo/icon is missing.
 This also applies to domains, in case the integration domain is missing.
 
 For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
@@ -94,8 +94,8 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- Shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- Shortest side of the image must be not bigger than 256 pixels, 512 pixels for the hDPI version.
+- The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
+- The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
 ## Using the same image for logo & icon
@@ -105,7 +105,7 @@ only add the icon images. The icon will be used as a fallback for the logo.
 
 ## Using the same logo & icon for different brands
 
-In order to keep the size of this repository as efficient as possible,
+To keep the size of this repository as efficient as possible,
 symlinking domain folders for the same icon/logos is allowed. The deployment
 process at our hosting provider will unpack these symlinks to actual files
 during the deployment process.
@@ -127,11 +127,11 @@ finding the needed images and getting them to match our specifications:
   browser.
 - [**Worldvectorlogo**](https://worldvectorlogo.com/):
   Thousands of SVG brand images, which are perfect to use as a base.
-- [**WikiPedia Commons**](https://commons.wikimedia.org/):
+- [**Wikimedia Commons**](https://commons.wikimedia.org/):
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
-their (cooperate) website, that contain high quality images.
+their (cooperate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 
