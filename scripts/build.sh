@@ -2,8 +2,14 @@
 
 # Copy folder, without symlinks, but use actual files instead
 mkdir -p build/_
-rsync -aL --exclude '_homeassistant' src/ build/_
-rsync -aL --exclude '_homeassistant' --exclude '_placeholder' src/ build
+
+# Copy custom integrations
+rsync -aL custom_integrations/ build/_
+rsync -aL custom_integrations/ build
+
+# Copy core integrations 
+rsync -aL --exclude '_homeassistant' core_integrations/ build/_
+rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/ build
 
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do
