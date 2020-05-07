@@ -11,8 +11,18 @@ repository of brand images.
 
 ## Inner workings
 
-The `./src` folder contains a folder for each `domain` Home Assistant provides
-an integration for. A domain can contain four files:
+This repository provides two main folders to store images in:
+
+- `core_integrations`: Contains images for integrations bundled with the
+  Home Assistant Core.
+- `custom_integrations`: Contains images for custom integrations
+  (custom components).
+
+Each of these two main folders contain domain folders. Each domain folder is
+named to the integration `domain` and must match the domain set in the
+integration `manifest.json` file.
+
+A domain folder can contain four files:
 
 - `icon.png`: A square avatar-like icon, representing the brand or product for that domain.
 - `logo.png`: The logo of the brand or product for that domain.
@@ -116,6 +126,12 @@ cases and new directories with an underscore (`_`) should not be created.
 
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
+
+## Integration domain conflict between custom and core integrations
+
+It is possible for a custom integration and a core integration to collide on
+a `domain` name level. In these cases, the core integration domain get
+preference.
 
 ## Tips, Tools & Resources
 
