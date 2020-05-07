@@ -38,6 +38,11 @@ while read image; do
     [[ "${foldername}" == _* && "${foldername}" != "_placeholder" && "${foldername}" != "_homeassistant" ]] \
       && error "${folderpath}" "Directories should not start with an underscore (_), please use the integration domain instead"
 
+    # Ensure the core and custom integrations don't collide
+    [[ -d "core_integrations/${foldername}" ]] \
+      && [[ -d "custom_integrations/${foldername}" ]] \
+        && error "${folderpath}" "The integration ${foldername} exists in both core and custom integrations. Core wins." 
+
     # Ensure file is actually a PNG file
     [[ "${type}" != "PNG" ]] \
       && error "${image}" "Invalid file type '${type}' for file"
@@ -98,7 +103,7 @@ while read image; do
     fi
 
     ((IMAGES++))
-done <<< $(find src -type f)
+done <<< $(find core_integrations custom_integrations -type f)
 
 echo ""
 echo "Total of ${IMAGES} images checked, found ${ERRORS} issues."
