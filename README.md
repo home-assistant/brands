@@ -11,8 +11,18 @@ repository of brand images.
 
 ## Inner workings
 
-The `./src` folder contains a folder for each `domain` Home Assistant provides
-an integration for. A domain can contain four files:
+This repository provides two main folders to store images in:
+
+- `core_integrations`: Contains images for integrations bundled with the
+  Home Assistant Core.
+- `custom_integrations`: Contains images for custom integrations
+  (custom components).
+
+Each of these two main folders contain domain folders. Each domain folder is
+named to the integration `domain` and must match the domain set in the
+integration `manifest.json` file.
+
+A domain folder can contain four files:
 
 - `icon.png`: A square avatar-like icon, representing the brand or product for that domain.
 - `logo.png`: The logo of the brand or product for that domain.
@@ -32,13 +42,13 @@ Those images are served in the following format:
 
 ### Missing image handling
 
-The website can service images with and without a fallback to an placeholder
+The website can service images with and without a fallback to a placeholder
 image.
 
 ### Without placeholder fallback
 
 This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
-A missing image, will result in a 404 being served.
+A missing image will result in a 404 being served.
 
 For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 
@@ -50,7 +60,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 ### With placeholder fallback
 
 This method uses the plain URLs, **WITH** the `/_/` in the URL path.
-A missing image, will result in placeholder image being served telling the logo/icon is missing.
+A missing image will result in placeholder image being served telling the logo/icon is missing.
 This also applies to domains, in case the integration domain is missing.
 
 For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
@@ -94,13 +104,18 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- Shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- Shortest side of the image must be not bigger than 256 pixels, 512 pixels for the hDPI version.
+- The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
+- The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
+
+## Using the same image for logo & icon
+
+If the brand uses the same image for the logo and icon (e.g., if the logo has a square aspect ratio),
+only add the icon images. The icon will be used as a fallback for the logo.
 
 ## Using the same logo & icon for different brands
 
-In order to keep the size of this repository as efficient as possible,
+To keep the size of this repository as efficient as possible,
 symlinking domain folders for the same icon/logos is allowed. The deployment
 process at our hosting provider will unpack these symlinks to actual files
 during the deployment process.
@@ -111,6 +126,28 @@ cases and new directories with an underscore (`_`) should not be created.
 
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
+
+## Integration domain conflict between custom and core integrations
+
+It is possible for a custom integration and a core integration to collide on
+a `domain` name level. In these cases, the core integration domain get
+preference.
+
+## Tips, Tools & Resources
+
+When adding a new set of icons and logos, the following resources can help you
+finding the needed images and getting them to match our specifications:
+
+- [**RedKetchup Image Resizer**](https://redketchup.io/image-resizer):
+  Resizes most images formats, including SVG, into any format using just your
+  browser.
+- [**Worldvectorlogo**](https://worldvectorlogo.com/):
+  Thousands of SVG brand images, which are perfect to use as a base.
+- [**Wikimedia Commons**](https://commons.wikimedia.org/):
+  Has a lot of good quality images on file.
+
+A lot of brands (especially the larger ones) often offer a press kit on
+their (cooperate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 
