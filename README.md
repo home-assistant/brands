@@ -117,15 +117,15 @@ only add the icon images. The icon will be used as a fallback for the logo.
 ## Using the same logo & icon for different brands
 
 To keep the size of this repository as efficient as possible,
-symlinking domain folders for the same icon/logos is allowed. The deployment
+symlinking domain folders for the same icon/logos is allowed for core integrations. The deployment
 process at our hosting provider will unpack these symlinks to actual files
 during the deployment process.
 
 Please note, symlinks should only be created between integration domain
-folders (ie. don't create symlinks for files), and also only between integration domain folders within the same main folder (ie. don't symlink between the custom and core integrations folders).
-
-The `_placeholder` & `_homeassistant` directories are special
+directories. The `_placeholder` & `_homeassistant` directories are special
 cases and new directories with an underscore (`_`) should not be created.
+
+Symlinks are currently not allowed in the custom integrations folder.
 
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
