@@ -37,3 +37,6 @@ find ./build -type f -name "logo.png" | while read logo; do
     echo "Using ${logo} as hDPI logo"
   fi
 done
+
+# Create domains.json
+find ./build -maxdepth 1 -type d -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq 'map(select(length > 0))' > ./build/domains.json
