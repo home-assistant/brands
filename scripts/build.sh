@@ -39,4 +39,6 @@ find ./build -type f -name "logo.png" | while read logo; do
 done
 
 # Create domains.json
-find ./build -maxdepth 1 -type d -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq 'map(select(length > 0))' > ./build/domains.json
+core_integrations=$(find ./core_integrations -maxdepth 1 -type d -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq -r 'map(select(length > 0))')
+custom_integrations=$(find ./custom_integrations -maxdepth 1 -type d -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq -r 'map(select(length > 0))')
+jq -n '{"core": $core, "custom": $custom}' --argjson core "$core_integrations"  --argjson custom "$custom_integrations" | jq -r . > ./build/domains.json
