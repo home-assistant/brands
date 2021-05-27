@@ -5,3 +5,6 @@ build/*
 
 # Windows Explorer
 desktop.ini
+
+# JetBrands IDEs
+.idea/
