@@ -56,18 +56,26 @@ while read image; do
       && [[ ! -f "${folderpath}/logo.png" ]] \
         && error "${image}" "hDPI logo was provided, but the normal version is missing"
 
+    [[ "${filename}" == "dark_icon@2x.png" ]] \
+      && [[ ! -f "${folderpath}/dark_icon.png" ]] \
+        && error "${image}" "hDPI icon was provided, but the normal version is missing"
+
+    [[ "${filename}" == "dark_logo@2x.png" ]] \
+      && [[ ! -f "${folderpath}/dark_logo.png" ]] \
+        && error "${image}" "hDPI logo was provided, but the normal version is missing"
+
     # Validate image dimensions
-    if [[ "${filename}" == "icon.png" ]]; then
+    if [[ "${filename}" == "icon.png" ]] || [[ "${filename}" == "dark_icon.png" ]]; then
       # icon dimension
       [[ "${width}" -ne 256 || "${height}" -ne 256 ]] \
         && error "${image}" "Invalid icon size! Size is ${width}x${height}px, must be 256x256px"
 
-    elif [[ "${filename}" == "icon@2x.png" ]]; then
+    elif [[ "${filename}" == "icon@2x.png" ]] || [[ "${filename}" == "dark_icon@2x.png" ]]; then
       # hDPI icon dimension
       [[ "${width}" -ne 512 || "${height}" -ne 512 ]] \
         && error "${image}" "Invalid hDPI icon size! Size is ${width}x${height}px, must be 512x512px"
 
-    elif [[ "${filename}" == "logo.png" ]]; then
+    elif [[ "${filename}" == "logo.png" ]] || [[ "${filename}" == "dark_logo.png" ]]; then
       # Minimal shortest side
       if [[ "${width}" -le "${height}" && "${width}" -lt 128 ]]; then
         error "${image}" "Invalid logo size! Size is ${width}x${height}px, shortest side must be at least 128px"
@@ -82,7 +90,7 @@ while read image; do
         error "${image}" "Invalid logo size! Size is ${width}x${height}px, shortest side must not exceed 256px"
       fi
 
-    elif [[ "${filename}" == "logo@2x.png" ]]; then
+    elif [[ "${filename}" == "logo@2x.png" ]] || [[ "${filename}" == "dark_logo@2x.png" ]]; then
       # Minimal shortest side
       if [[ "${width}" -le "${height}" && "${width}" -lt 256 ]]; then
         error "${image}" "Invalid hDPI logo size! Size is ${width}x${height}px, shortest side must be at least 256px"
