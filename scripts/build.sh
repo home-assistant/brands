@@ -37,3 +37,18 @@ find ./build -type f -name "logo.png" | while read logo; do
     echo "Using ${logo} as hDPI logo"
   fi
 done
+
+# Create fallback for dark variants
+find ./build -type f -type f -name "icon.png" -o -name "icon@2x.png" -o -name "logo.png" -o -name "logo@2x.png" | while read image; do
+  dir=$(dirname "${image}")
+  filename=$(basename -s .png "${image}")
+  if [[ ! -f "${dir}/dark_${filename}.png" ]]; then
+    cp "${image}" "${dir}/dark_${filename}.png"
+    echo "Using ${image} as dark_${filename}"
+  fi
+done
+
+# Create domains.json
+core_integrations=$(find ./core_integrations -maxdepth 1 -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq -r 'map(select(length > 0))')
+custom_integrations=$(find ./custom_integrations -maxdepth 1 -exec basename {} \; | sort | jq -sR 'split("\n")[1:]' | jq -r 'map(select(length > 0))')
+jq -n '{"core": $core, "custom": $custom}' --argjson core "$core_integrations"  --argjson custom "$custom_integrations" | jq -r . > ./build/domains.json
