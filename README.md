@@ -56,6 +56,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
+- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -84,6 +85,7 @@ All images must have the following requirements:
 - Interlaced is preferred (also known as progressive).
 - Images with transparency is preferred.
 - If multiple images are available, the ones optimized for a white background are preferred.
+  - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
   This includes things like white/black/any color borders or transparent spacing around the actual
   subject in the image.
