@@ -76,6 +76,8 @@ cache on the client-side and are cached for 1 hour on Cloudflare. This allows
 us to replace placeholder images within an acceptable time frame without losing
 our cache.
 
+Image additions and changes may take time to take effect due to caching. The cache is fully flushed in each major version of Home Assistant Core.
+
 ## Image specification
 
 All images must have the following requirements:
