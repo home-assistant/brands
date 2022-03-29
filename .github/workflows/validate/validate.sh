@@ -17,22 +17,15 @@ function error() {
   fi
 }
 
+# Clone MDI icons
+rm -f -r mdi
+git clone --depth=1 https://github.com/Templarian/MaterialDesign mdi
+
 # Find all files in the src folder (should contain only images)
 while read image; do
-    # Read properties from image
-    properties=($(identify -format "%w %h %m" "${image}"))
-    if [[ "$?" -ne 0 ]]; then
-      error "${image}" "Could not read image file"
-      continue
-    fi
-
-    # Extract properties into variables
     filename=$(basename "${image}")
     folderpath=$(dirname "${image}")
     foldername=$(basename "${folderpath}")
-    width="${properties[0]}"
-    height="${properties[1]}"
-    type="${properties[2]}"
 
     # Underscore folders are special cases. Instead one should symlink between integration domains
     [[ "${foldername}" == _* && "${foldername}" != "_placeholder" && "${foldername}" != "_homeassistant" ]] \
@@ -42,6 +35,37 @@ while read image; do
     [[ -d "core_integrations/${foldername}" ]] \
       && [[ -d "custom_integrations/${foldername}" ]] \
         && error "${folderpath}" "The integration ${foldername} exists in both core and custom integrations. Core wins." 
+
+    # If icon filename is icon.txt
+    if [[ "${filename}" == "icon.txt" ]]; then
+      mdi=$(<${image})
+      mdi="${mdi##mdi:}"
+
+      # Check if the icon exists
+      [[ -f "mdi/svg/${mdi}.svg" ]] \
+        || error "${image}" "The icon 'mdi:${mdi}' does not exist"
+
+      # Ensure icon.png and icon@2x.png are missing
+      [[ -f "${folderpath}/icon.png" ]] \
+        && error "${image}" "icon.png exists while icon.txt was provided"
+      [[ -f "${folderpath}/icon@2x.png" ]] \
+        && error "${image}" "icon@2x.png exists while icon.txt was provided"
+
+      # Continue to next image
+      continue
+    fi
+
+    # Read properties from image
+    properties=($(identify -format "%w %h %m" "${image}"))
+    if [[ "$?" -ne 0 ]]; then
+      error "${image}" "Could not read image file"
+      continue
+    fi
+
+    # Extract properties into variables
+    width="${properties[0]}"
+    height="${properties[1]}"
+    type="${properties[2]}"
 
     # Ensure file is actually a PNG file
     [[ "${type}" != "PNG" ]] \
