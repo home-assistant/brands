@@ -27,7 +27,7 @@ find ./build -type f -name "icon.txt" | while read icon; do
     -fill "rgb(0,171,248,1.0)" \
     -opaque black \
     -trim \
-    -resize 256x256 \
+    -resize 240x240 \
     -gravity center \
     -extent 256x256 \
     -write "${dir}/icon.png" \
@@ -39,7 +39,7 @@ find ./build -type f -name "icon.txt" | while read icon; do
     -fill "rgb(0,171,248,1.0)" \
     -opaque black \
     -trim \
-    -resize 512x512 \
+    -resize 480x480 \
     -gravity center \
     -extent 512x512 \
     -write "${dir}/icon@2x.png" \
