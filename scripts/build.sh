@@ -32,6 +32,9 @@ find ./build -type f -name "icon.txt" | while read icon; do
     -extent 256x256 \
     -write "${dir}/icon.png" \
     "mdi/svg/${mdi}.svg"
+
+  optipng -o7 "${dir}/icon.png"
+
   mogrify \
     -format png \
     -density 6400 \
@@ -44,6 +47,9 @@ find ./build -type f -name "icon.txt" | while read icon; do
     -extent 512x512 \
     -write "${dir}/icon@2x.png" \
     "mdi/svg/${mdi}.svg"
+
+  optipng -o7 "${dir}/icon@2x.png"
+
   rm "${icon}"
   echo "Generated mdi:${mdi} for ${icon}"
 done
