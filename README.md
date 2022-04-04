@@ -154,7 +154,7 @@ finding the needed images and getting them to match our specifications:
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
-their (cooperate) website, that contains high quality images.
+their (corporate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 
