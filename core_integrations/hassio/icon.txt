@@ -1,1 +1,1 @@
-mdi:binoculars
+mdi:server-network
