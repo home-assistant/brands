@@ -150,7 +150,7 @@ finding the needed images and getting them to match our specifications:
   browser.
 - [**Worldvectorlogo**](https://worldvectorlogo.com/):
   Thousands of SVG brand images, which are perfect to use as a base.
-- [**Wikimedia Commons**](https://commons.wikimedia.org/):
+- [**Wikimedia Commons**](https://commons.wikimedia.org/wiki/Main_Page):
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
