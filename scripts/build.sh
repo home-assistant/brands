@@ -3,6 +3,10 @@
 # Copy folder, without symlinks, but use actual files instead
 mkdir -p build/_
 
+# Clone MDI icons
+rm -f -r mdi
+git clone --depth=1 https://github.com/Templarian/MaterialDesign mdi
+
 # Copy custom integrations
 rsync -aL custom_integrations/ build/_
 rsync -aL custom_integrations/ build
@@ -10,6 +14,43 @@ rsync -aL custom_integrations/ build
 # Copy core integrations 
 rsync -aL --exclude '_homeassistant' core_integrations/ build/_
 rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/ build
+
+# Generate icons based on MDI
+find ./build -type f -name "icon.txt" | while read icon; do
+  dir=$(dirname "${icon}")
+  mdi=$(<${icon})
+  mdi="${mdi##mdi:}"
+  mogrify \
+    -format png \
+    -density 6400 \
+    -background transparent \
+    -fill "rgb(0,171,248,1.0)" \
+    -opaque black \
+    -trim \
+    -resize 240x240 \
+    -gravity center \
+    -extent 256x256 \
+    -write "${dir}/icon.png" \
+    "mdi/svg/${mdi}.svg"
+
+  mogrify \
+    -format png \
+    -density 6400 \
+    -background transparent \
+    -fill "rgb(0,171,248,1.0)" \
+    -opaque black \
+    -trim \
+    -resize 480x480 \
+    -gravity center \
+    -extent 512x512 \
+    -write "${dir}/icon@2x.png" \
+    "mdi/svg/${mdi}.svg"
+
+  optipng -silent "${dir}/icon.png" "${dir}/icon@2x.png"
+
+  rm "${icon}"
+  echo "Generated mdi:${mdi} for ${icon}"
+done
 
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do
