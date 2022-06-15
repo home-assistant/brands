@@ -15,6 +15,9 @@ rsync -aL custom_integrations/ build
 rsync -aL --exclude '_homeassistant' core_integrations/ build/_
 rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/ build
 
+# Copy hardware
+rsync -aL hardware/ build/hardware
+
 # Generate icons based on MDI
 find ./build -type f -name "icon.txt" | while read icon; do
   dir=$(dirname "${icon}")
