@@ -19,7 +19,7 @@ rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/
 rsync -aL hardware/ build/hardware
 
 # Create fallback for dark hardware variants
-find ./build/hardware -type f -type f -name "*.png" | while read image; do
+find ./build/hardware -type f -name "*.png" | while read image; do
   dir=$(dirname "${image}")
   filename=$(basename -s .png "${image}")
   if [[ ! -f "${dir}/dark_${filename}.png" ]]; then
@@ -27,6 +27,7 @@ find ./build/hardware -type f -type f -name "*.png" | while read image; do
     echo "Using ${image} as dark_${filename}"
   fi
 done
+
 # Generate icons based on MDI
 find ./build -type f -name "icon.txt" | while read icon; do
   dir=$(dirname "${icon}")
