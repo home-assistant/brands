@@ -1,0 +1,1 @@
+mdi:view-dashboard-edit
