@@ -1,1 +1,1 @@
-mdi:alert-octagram
+mdi:alarm-light
