@@ -85,6 +85,7 @@ rsync -aL --exclude 'brands' build/ build/brands
 
 # Overwrite brands with actual brands
 rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_brands/ build/brands
+rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_brands/ build/brands/_
 
 # Use brand icon as logo in case of a missing logo
 find ./build/brands -type f -name "icon.png" | while read icon; do
