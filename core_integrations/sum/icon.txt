@@ -1,1 +1,1 @@
-mdi:plus
+mdi:sigma
