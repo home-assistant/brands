@@ -1,1 +1,1 @@
-mdi:stethoscope
+mdi:heart-pulse
