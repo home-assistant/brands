@@ -56,6 +56,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
+- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -75,6 +76,8 @@ cache on the client-side and are cached for 1 hour on Cloudflare. This allows
 us to replace placeholder images within an acceptable time frame without losing
 our cache.
 
+Image additions and changes may take time to take effect due to caching. The cache is fully flushed in each major version of Home Assistant Core.
+
 ## Image specification
 
 All images must have the following requirements:
@@ -84,9 +87,11 @@ All images must have the following requirements:
 - Interlaced is preferred (also known as progressive).
 - Images with transparency is preferred.
 - If multiple images are available, the ones optimized for a white background are preferred.
+  - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
   This includes things like white/black/any color borders or transparent spacing around the actual
   subject in the image.
+- Custom integrations must not use Home Assistant branded images, as this might confuse the end-user into thinking that the integration is an internal/official integration.
 
 ### Icon image requirements
 
@@ -116,13 +121,15 @@ only add the icon images. The icon will be used as a fallback for the logo.
 ## Using the same logo & icon for different brands
 
 To keep the size of this repository as efficient as possible,
-symlinking domain folders for the same icon/logos is allowed. The deployment
+symlinking domain folders for the same icon/logos is allowed for core integrations. The deployment
 process at our hosting provider will unpack these symlinks to actual files
 during the deployment process.
 
 Please note, symlinks should only be created between integration domain
 directories. The `_placeholder` & `_homeassistant` directories are special
 cases and new directories with an underscore (`_`) should not be created.
+
+Symlinks are currently not allowed in the custom integrations folder.
 
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
@@ -147,7 +154,7 @@ finding the needed images and getting them to match our specifications:
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
-their (cooperate) website, that contains high quality images.
+their (corporate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 
