@@ -24,58 +24,10 @@
   status = 301
   headers = {Cache-Control = "public, max-age: 900, s-maxage=604800, must-revalidate"}
 
+# If an integration icon is not found, search the growing brands folder before showing the placeholder straight away
 [[redirects]]
-  from = "/_/*/icon.png"
-  to = "/_/_placeholder/icon.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/logo.png"
-  to = "/_/_placeholder/logo.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/icon@2x.png"
-  to = "/_/_placeholder/icon@2x.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/logo@2x.png"
-  to = "/_/_placeholder/logo@2x.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/dark_icon.png"
-  to = "/_/_placeholder/icon.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/dark_logo.png"
-  to = "/_/_placeholder/logo.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/dark_icon@2x.png"
-  to = "/_/_placeholder/icon@2x.png"
-  force = false
-  status = 302
-  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
-
-[[redirects]]
-  from = "/_/*/dark_logo@2x.png"
-  to = "/_/_placeholder/logo@2x.png"
+  from = "/_/:brand/:file.png"
+  to = "/brands/_/:brand/:file.png"
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
