@@ -79,3 +79,59 @@
   force = false
   status = 302
   headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/icon.png"
+  to = "/brands/_/_placeholder/icon.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/logo.png"
+  to = "/brands/_/_placeholder/logo.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/icon@2x.png"
+  to = "/brands/_/_placeholder/icon@2x.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/logo@2x.png"
+  to = "/brands/_/_placeholder/logo@2x.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/dark_icon.png"
+  to = "/brands/_/_placeholder/icon.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/dark_logo.png"
+  to = "/brands/_/_placeholder/logo.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/dark_icon@2x.png"
+  to = "/brands/_/_placeholder/icon@2x.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
+
+[[redirects]]
+  from = "/brands/_/*/dark_logo@2x.png"
+  to = "/brands/_/_placeholder/logo@2x.png"
+  force = false
+  status = 302
+  headers = {Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"}
