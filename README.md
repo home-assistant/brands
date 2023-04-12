@@ -145,6 +145,15 @@ preference.
 When adding a new set of icons and logos, the following resources can help you
 finding the needed images and getting them to match our specifications:
 
+### Easiest way to add an icon - by far
+
+- [**Material Design Icons**](https://pictogrammers.com/library/mdi/)
+  To use them in Home Assistant, in the brand folder, create a txt file.
+  Write the name of the icon in this format: mdi:phone-message. Done. 
+  Our code will take care of the rest. No manual creation of png required.
+
+### Other useful tools
+
 - [**RedKetchup Image Resizer**](https://redketchup.io/image-resizer):
   Resizes most images formats, including SVG, into any format using just your
   browser.
@@ -152,7 +161,6 @@ finding the needed images and getting them to match our specifications:
   Thousands of SVG brand images, which are perfect to use as a base.
 - [**Wikimedia Commons**](https://commons.wikimedia.org/):
   Has a lot of good quality images on file.
-
 A lot of brands (especially the larger ones) often offer a press kit on
 their (corporate) website, that contains high quality images.
 
