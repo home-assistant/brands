@@ -1,1 +1,1 @@
-mdi:pid_thermostat
+mdi:thermostat
