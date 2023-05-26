@@ -55,6 +55,11 @@ while read image; do
       continue
     fi
 
+    if [[ "${filename}" == "REMOVAL_NOTE" ]]; then
+      # This file should not be processed
+      continue
+    fi
+
     # Read properties from image
     properties=($(identify -format "%w %h %m" "${image}"))
     if [[ "$?" -ne 0 ]]; then
