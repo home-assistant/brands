@@ -1,1 +1,1 @@
-mdi:gesture-tap-button
+mdi:eye-check
