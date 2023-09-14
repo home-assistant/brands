@@ -6,16 +6,19 @@
   for = "/_/_placeholder/*.png"
   [headers.values]
     Cache-Control = "public, max-age: 900, s-maxage=3600, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/*.png"
   [headers.values]
     Cache-Control = "public, max-age: 900, s-maxage=604800, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/domains.json"
   [headers.values]
     Cache-Control = "public, max-age: 900, s-maxage=604800, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[redirects]]
   from = "/"
