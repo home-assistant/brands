@@ -5,7 +5,6 @@ if ! [ -x "$(command -v rsvg-convert)" ]; then
 fi
 
 # Copy folder, without symlinks, but use actual files instead
-mkdir -p build/_
 mkdir -p build/brands
 
 # Clone MDI icons
@@ -13,12 +12,10 @@ rm -f -r mdi
 git clone --depth=1 https://github.com/Templarian/MaterialDesign mdi
 
 # Copy custom integrations
-rsync -aL custom_integrations/ build/_
 rsync -aL custom_integrations/ build
 
 # Copy core integrations 
-rsync -aL --exclude '_homeassistant' core_integrations/ build/_
-rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/ build
+rsync -aL --exclude '_homeassistant' core_integrations/ build
 
 # Generate integration icons based on MDI
 find ./build -type f -name "icon.txt" | while read icon; do
@@ -81,7 +78,6 @@ rsync -aL --exclude 'brands' build/ build/brands
 
 # Overwrite brands with actual brands
 rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_brands/ build/brands
-rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_brands/ build/brands/_
 
 # Use brand icon as logo in case of a missing logo
 find ./build/brands -type f -name "icon.png" | while read icon; do
