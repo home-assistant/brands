@@ -22,65 +22,51 @@ Each of these two main folders contain domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
 integration `manifest.json` file.
 
-A domain folder can contain four files:
+A domain folder can contain the following files:
 
 - `icon.png`: A square avatar-like icon, representing the brand or product for that domain.
 - `logo.png`: The logo of the brand or product for that domain.
 - `icon@2x.png`: hDPI version of `icon.png`
 - `logo@2x.png`: hDPI version of `logo.png`
 
-Those images are served in the following format:
+Each of those images may also have a dark theme variant for a total of 8 files. They are served in the URL format:
 
-- `https://brands.home-assistant.io/[domain]/icon.png`
-- `https://brands.home-assistant.io/[domain]/logo.png`
-- `https://brands.home-assistant.io/[domain]/icon@2x.png`
-- `https://brands.home-assistant.io/[domain]/logo@2x.png`
-- `https://brands.home-assistant.io/_/[domain]/icon.png`
-- `https://brands.home-assistant.io/_/[domain]/logo.png`
-- `https://brands.home-assistant.io/_/[domain]/icon@2x.png`
-- `https://brands.home-assistant.io/_/[domain]/logo@2x.png`
+```
+https://brands.home-assistant.io/[domain]/{dark_}[icon|logo]{@2x}.png
+```
 
 ### Missing image handling
 
-The website can service images with and without a fallback to a placeholder
-image.
+Each domain folder is expected to at least contain `icon.png`, then the following rules handle any other missing variants:
 
-### Without placeholder fallback
+- If a domain is missing the `logo.png` file, the `icon.png` is served instead
+- If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead
+- If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead
+- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead
 
-This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
-A missing image will result in a 404 being served.
+### Placeholder fallback
 
-For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
+Normally, if an image requested with the above URL pattern does not exist, a 404 will be served.  Instead, a fallback to placeholder images can be requested for missing domains by adding a search parameter to the URL as follows:
 
-- If a domain is missing the `icon.png` file, 404 will be served
-- If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
-- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
-
-### With placeholder fallback
-
-This method uses the plain URLs, **WITH** the `/_/` in the URL path.
-A missing image will result in placeholder image being served telling the logo/icon is missing.
-This also applies to domains, in case the integration domain is missing.
-
-For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
+```
+https://brands.home-assistant.io/[domain]/{dark_}[icon|logo]{@2x}.png?fallback=true
+```
 
 ### Caching
 
 All icons are cached on the client-side browser end for 900 seconds, and cached
 by Cloudflare for 604800 seconds.
 
-Placeholder images are excepted from this. Placeholder images have a 900 seconds
+Placeholder images or 404 responses are excepted from this. These have a 900 seconds
 cache on the client-side and are cached for 1 hour on Cloudflare. This allows
-us to replace placeholder images within an acceptable time frame without losing
+us to add new integrations within an acceptable time frame without losing
 our cache.
 
 Image additions and changes may take time to take effect due to caching. The cache is fully flushed in each major version of Home Assistant Core.
 
 ## Image specification
 
-All images must have the following requirements:
+All images must meet the following requirements:
 
 - The filetype of all images must be PNG.
 - They should be properly compressed and optimized (lossless is preferred) for use on the web.
