@@ -70,13 +70,11 @@ For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
 
 ### Caching
 
-All icons are cached on the client-side browser end for 900 seconds, and cached
-by Cloudflare for 604800 seconds.
+All icons and logos are cached by browsers for 7 days, so additions and changes may take time to reach all users. This gives users the full benefits of local caching with minimal revalidation, and protects against missing content during an internet outage.
 
-Placeholder images are excepted from this. Placeholder images have a 900 seconds
-cache on the client-side and are cached for 1 hour on Cloudflare. This allows
-us to replace placeholder images within an acceptable time frame without losing
-our cache.
+Images are simultaneously cached by Cloudflare for 24 hours. This allows changes to begin being distributed to users relatively quickly without losing the CDN benefits.  It also guarantees a simple refresh (F5) will bring content no more than 1 day old.
+
+The Cloudflare cache is also fully flushed in each major version of Home Assistant Core.
 
 ## Image specification
 
@@ -154,7 +152,7 @@ finding the needed images and getting them to match our specifications:
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
-their (cooperate) website, that contains high quality images.
+their (corporate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 
