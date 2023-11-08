@@ -57,6 +57,7 @@ find ./build -type f -name "icon@2x.png" | while read icon; do
     cp "${icon}" "${dir}/logo@2x.png"
     echo "Using ${icon} as hDPI logo because no logo is provided"
   fi
+done
 
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do
