@@ -55,6 +55,11 @@ while read image; do
       continue
     fi
 
+    if [[ "${filename}" == "REMOVAL_NOTE" ]]; then
+      # This file should not be processed
+      continue
+    fi
+
     # Read properties from image
     properties=($(identify -format "%w %h %m" "${image}"))
     if [[ "$?" -ne 0 ]]; then
@@ -135,7 +140,7 @@ while read image; do
     fi
 
     ((IMAGES++))
-done <<< $(find core_integrations custom_integrations -type f)
+done <<< $(find core_integrations custom_integrations core_brands -type f)
 
 echo ""
 echo "Total of ${IMAGES} images checked, found ${ERRORS} issues."
