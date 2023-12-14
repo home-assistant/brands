@@ -49,6 +49,16 @@ find ./build -type f -name "icon.txt" | while read icon; do
   echo "Generated mdi:${mdi} for ${icon}"
 done
 
+# Use icon@2x as logo@2x in case of a missing logo@2x and no dedicated logo is provided for better resolution
+# This check must before the missing logo check
+find ./build -type f -name "icon@2x.png" | while read icon; do
+  dir=$(dirname "${icon}")
+  if [[ ! -f "${dir}/logo2x.png" && ! -f "${dir}/logo.png" ]]; then
+    cp "${icon}" "${dir}/logo@2x.png"
+    echo "Using ${icon} as hDPI logo because no logo is provided"
+  fi
+done
+
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do
   dir=$(dirname "${icon}")
