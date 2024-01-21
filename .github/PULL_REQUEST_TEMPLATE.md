@@ -23,6 +23,7 @@
   - [ ] I've opened up a PR for my custom integration on the [Home Assistant
     Python wheels repository](https://github.com/home-assistant/wheels-custom-integrations)
 - [ ] Replace an existing icon or logo with a higher quality version
+- [ ] Replace an existing icon or logo after a branding change
 - [ ] Removing an icon or logo
 
 ## Additional information
