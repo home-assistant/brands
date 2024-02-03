@@ -49,12 +49,26 @@ find ./build -type f -name "icon.txt" | while read icon; do
   echo "Generated mdi:${mdi} for ${icon}"
 done
 
+# Use icon@2x as logo@2x in case of a missing logo@2x and no dedicated logo is provided for better resolution
+# This check must before the missing logo check
+find ./build -type f -name "icon@2x.png" | while read icon; do
+  dir=$(dirname "${icon}")
+  if [[ ! -f "${dir}/logo2x.png" && ! -f "${dir}/logo.png" ]]; then
+    cp "${icon}" "${dir}/logo@2x.png"
+    echo "Using ${icon} as hDPI logo because no logo is provided"
+  fi
+done
+
 # Use icon as logo in case of a missing logo
 find ./build -type f -name "icon.png" | while read icon; do
   dir=$(dirname "${icon}")
   if [[ ! -f "${dir}/logo.png" ]]; then
     cp "${icon}" "${dir}/logo.png"
     echo "Using ${icon} as logo"
+  fi
+  if [[ ! -f "${dir}/dark_logo.png" ]] && [[ -f "${dir}/dark_icon.png" ]]; then
+    cp "${dir}/dark_icon.png" "${dir}/dark_logo.png"
+    echo "Using ${dir}/dark_icon.png as dark_logo"
   fi
 done
 
@@ -64,6 +78,10 @@ find ./build -type f -name "icon.png" | while read icon; do
   if [[ ! -f "${dir}/icon@2x.png" ]]; then
     cp "${icon}" "${dir}/icon@2x.png"
     echo "Using ${icon} as hDPI icon"
+  fi
+  if [[ ! -f "${dir}/dark_logo@2x.png" ]] && [[ -f "${dir}/dark_icon@2x.png" ]]; then
+    cp "${dir}/dark_icon@2x.png" "${dir}/dark_logo@2x.png"
+    echo "Using ${dir}/dark_icon@2x.png as dark_logo@2x"
   fi
 done
 
@@ -90,6 +108,10 @@ find ./build/brands -type f -name "icon.png" | while read icon; do
     cp "${icon}" "${dir}/logo.png"
     echo "Using ${icon} as logo"
   fi
+  if [[ ! -f "${dir}/dark_logo.png" ]] && [[ -f "${dir}/dark_icon.png" ]]; then
+    cp "${dir}/dark_icon.png" "${dir}/dark_logo.png"
+    echo "Using ${dir}/dark_icon.png as dark_logo"
+  fi
 done
 
 # Use brand icon as icon@2x in case it is missing
@@ -98,6 +120,10 @@ find ./build/brands -type f -name "icon.png" | while read icon; do
   if [[ ! -f "${dir}/icon@2x.png" ]]; then
     cp "${icon}" "${dir}/icon@2x.png"
     echo "Using ${icon} as hDPI icon"
+  fi
+  if [[ ! -f "${dir}/dark_logo@2x.png" ]] && [[ -f "${dir}/dark_icon@2x.png" ]]; then
+    cp "${dir}/dark_icon@2x.png" "${dir}/dark_logo@2x.png"
+    echo "Using ${dir}/dark_icon@2x.png as dark_logo@2x"
   fi
 done
 
