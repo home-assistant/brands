@@ -20,6 +20,7 @@
 - [ ] Add a new logo or icon for a new core integration
 - [ ] Add a missing icon or logo for an existing core integration
 - [ ] Add a new logo or icon for a custom integration (custom component)
+  - [ ] I've added a link to my custom integration repository in the PR description
   - [ ] I've opened up a PR for my custom integration on the [Home Assistant
     Python wheels repository](https://github.com/home-assistant/wheels-custom-integrations)
 - [ ] Replace an existing icon or logo with a higher quality version
@@ -36,6 +37,7 @@
 - Link to code base pull request: 
 - Link to documentation pull request: 
 - Link to integration documentation on our website: 
+- Link to custom integration repository:
 
 ## Checklist
 <!--
