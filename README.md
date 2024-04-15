@@ -55,7 +55,9 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `icon.png` file, 404 will be served
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
+- If a domain is missing the `logo@2x.png` file:
+  - the `icon@2x.png` is served if available and `logo.png` is missing
+  - the `logo.png` is served instead (if available).
 - If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
@@ -68,15 +70,11 @@ For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
 
 ### Caching
 
-All icons are cached on the client-side browser end for 900 seconds, and cached
-by Cloudflare for 604800 seconds.
+All icons and logos are cached by browsers for 7 days, so additions and changes may take time to reach all users. This gives users the full benefits of local caching with minimal revalidation, and protects against missing content during an internet outage.
 
-Placeholder images are excepted from this. Placeholder images have a 900 seconds
-cache on the client-side and are cached for 1 hour on Cloudflare. This allows
-us to replace placeholder images within an acceptable time frame without losing
-our cache.
+Images are simultaneously cached by Cloudflare for 24 hours. This allows changes to begin being distributed to users relatively quickly without losing the CDN benefits.  It also guarantees a simple refresh (F5) will bring content no more than 1 day old.
 
-Image additions and changes may take time to take effect due to caching. The cache is fully flushed in each major version of Home Assistant Core.
+The Cloudflare cache is also fully flushed in each major version of Home Assistant Core.
 
 ## Image specification
 
