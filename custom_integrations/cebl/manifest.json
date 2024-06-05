@@ -1,0 +1,14 @@
+{
+    "domain": "cebl",
+    "name": "CEBL Tracker",
+    "documentation": "https://github.com/ViceBooster/HA-CEBL",
+    "logo": "logo.png",
+    "dark_logo": "dark_logo.png",
+    "icon": "logo.png",
+    "version": "1.0",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@ViceBooster"],
+    "config_flow": true,
+    "iot_class": "cloud_polling"
+}
