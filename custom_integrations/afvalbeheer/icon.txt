@@ -1,0 +1,1 @@
+mdi:trash-can-outline
