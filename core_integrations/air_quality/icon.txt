@@ -1,0 +1,1 @@
+mdi:weather-windy-variant
