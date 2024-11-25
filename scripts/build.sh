@@ -66,6 +66,10 @@ find ./build -type f -name "icon.png" | while read icon; do
     cp "${icon}" "${dir}/logo.png"
     echo "Using ${icon} as logo"
   fi
+  if [[ ! -f "${dir}/dark_logo.png" ]] && [[ -f "${dir}/dark_icon.png" ]]; then
+    cp "${dir}/dark_icon.png" "${dir}/dark_logo.png"
+    echo "Using ${dir}/dark_icon.png as dark_logo"
+  fi
 done
 
 # Use icon as icon@2x in case it is missing
@@ -74,6 +78,10 @@ find ./build -type f -name "icon.png" | while read icon; do
   if [[ ! -f "${dir}/icon@2x.png" ]]; then
     cp "${icon}" "${dir}/icon@2x.png"
     echo "Using ${icon} as hDPI icon"
+  fi
+  if [[ ! -f "${dir}/dark_logo@2x.png" ]] && [[ -f "${dir}/dark_icon@2x.png" ]]; then
+    cp "${dir}/dark_icon@2x.png" "${dir}/dark_logo@2x.png"
+    echo "Using ${dir}/dark_icon@2x.png as dark_logo@2x"
   fi
 done
 
@@ -100,6 +108,10 @@ find ./build/brands -type f -name "icon.png" | while read icon; do
     cp "${icon}" "${dir}/logo.png"
     echo "Using ${icon} as logo"
   fi
+  if [[ ! -f "${dir}/dark_logo.png" ]] && [[ -f "${dir}/dark_icon.png" ]]; then
+    cp "${dir}/dark_icon.png" "${dir}/dark_logo.png"
+    echo "Using ${dir}/dark_icon.png as dark_logo"
+  fi
 done
 
 # Use brand icon as icon@2x in case it is missing
@@ -108,6 +120,10 @@ find ./build/brands -type f -name "icon.png" | while read icon; do
   if [[ ! -f "${dir}/icon@2x.png" ]]; then
     cp "${icon}" "${dir}/icon@2x.png"
     echo "Using ${icon} as hDPI icon"
+  fi
+  if [[ ! -f "${dir}/dark_logo@2x.png" ]] && [[ -f "${dir}/dark_icon@2x.png" ]]; then
+    cp "${dir}/dark_icon@2x.png" "${dir}/dark_logo@2x.png"
+    echo "Using ${dir}/dark_icon@2x.png as dark_logo@2x"
   fi
 done
 
