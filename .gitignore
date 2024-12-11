@@ -6,3 +6,7 @@ mdi/*
 
 # Windows Explorer
 desktop.ini
+
+# IntelliJ IDEA
+.idea
+*.iml
