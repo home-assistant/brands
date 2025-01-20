@@ -56,8 +56,8 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `logo@2x.png` file:
-  - the `logo.png` is served instead (if available).
-  - the `icon@2x.png` is served if available and `logo.png` is missing
+  - the `logo.png` is served, if available.
+  - the `icon@2x.png` is served, if available and `logo.png` is missing
 - If an image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
