@@ -48,17 +48,17 @@ image.
 ### Without placeholder fallback
 
 This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
-A missing image will result in a 404 being served.
+A missing image will result in status 404 being served.
 
 For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 
-- If a domain is missing the `icon.png` file, 404 will be served
+- If a domain is missing the `icon.png` file, status 404 will be served
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `logo@2x.png` file:
-  - the `icon@2x.png` is served if available and `logo.png` is missing
-  - the `logo.png` is served instead (if available).
-- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
+  - the `logo.png` file is served (if available).
+  - the `icon@2x.png` file is served if available when `logo.png` is missing
+- If an image optimised for dark themes (image is prefixed with 'dark_') is missing, its non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -87,8 +87,7 @@ All images must have the following requirements:
 - If multiple images are available, the ones optimized for a white background are preferred.
   - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
-  This includes things like white/black/any color borders or transparent spacing around the actual
-  subject in the image.
+  This includes things like, any borders or transparent spacing or padding around the actual subject in the image.
 - Custom integrations must not use Home Assistant branded images, as this might confuse the end-user into thinking that the integration is an internal/official integration.
 
 ### Icon image requirements
@@ -107,9 +106,10 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
+- Brand image must not be distored by adjustment to these requirements.
 - The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
 - The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
-- The maximum pixel size for the shortest side of the images is, of course, preferred.
+- The maximum pixel size for the shortest side of the image is preferred.
 
 ## Using the same image for logo & icon
 
@@ -135,7 +135,7 @@ directories are not allowed.
 ## Integration domain conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-a `domain` name level. In these cases, the core integration domain get
+a `domain` name level. In these cases, the core integration domain gets
 preference.
 
 ## Tips, Tools & Resources
