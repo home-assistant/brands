@@ -1,0 +1,10 @@
+{
+  "integrations": [
+    {
+      "domain": "ha_tracker",
+      "name": "HA Tracker",
+      "icon": "icon.png",
+      "logo": "logo.png"
+    }
+  ]
+}
