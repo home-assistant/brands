@@ -55,7 +55,10 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `icon.png` file, 404 will be served
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
-- If a domain is missing the `logo@2x.png` file, the `logo.png` is served instead (if available).
+- If a domain is missing the `logo@2x.png` file:
+  - the `icon@2x.png` is served if available and `logo.png` is missing
+  - the `logo.png` is served instead (if available).
+- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -67,13 +70,11 @@ For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
 
 ### Caching
 
-All icons are cached on the client-side browser end for 900 seconds, and cached
-by Cloudflare for 604800 seconds.
+All icons and logos are cached by browsers for 7 days, so additions and changes may take time to reach all users. This gives users the full benefits of local caching with minimal revalidation, and protects against missing content during an internet outage.
 
-Placeholder images are excepted from this. Placeholder images have a 900 seconds
-cache on the client-side and are cached for 1 hour on Cloudflare. This allows
-us to replace placeholder images within an acceptable time frame without losing
-our cache.
+Images are simultaneously cached by Cloudflare for 24 hours. This allows changes to begin being distributed to users relatively quickly without losing the CDN benefits.  It also guarantees a simple refresh (F5) will bring content no more than 1 day old.
+
+The Cloudflare cache is also fully flushed in each major version of Home Assistant Core.
 
 ## Image specification
 
@@ -84,6 +85,7 @@ All images must have the following requirements:
 - Interlaced is preferred (also known as progressive).
 - Images with transparency is preferred.
 - If multiple images are available, the ones optimized for a white background are preferred.
+  - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
   This includes things like white/black/any color borders or transparent spacing around the actual
   subject in the image.
@@ -150,7 +152,7 @@ finding the needed images and getting them to match our specifications:
   Has a lot of good quality images on file.
 
 A lot of brands (especially the larger ones) often offer a press kit on
-their (cooperate) website, that contains high quality images.
+their (corporate) website, that contains high quality images.
 
 ## Trademark Legal Notices
 

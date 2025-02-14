@@ -1,4 +1,5 @@
 build/*
+mdi/*
 
 # macOS Finder
 .DS_Store
