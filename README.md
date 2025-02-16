@@ -87,7 +87,6 @@ All images must have the following requirements:
 - If multiple images are available, those optimized for a white background are preferred.
 - Images optimized for a dark background should be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
-
   This includes things like solid color borders or transparent spacing around the actual subject in the image.
 - Custom integrations must not use Home Assistant branded images, as this might confuse the end-user into thinking that the integration is an internal/official integration.
 
