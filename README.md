@@ -131,10 +131,11 @@ Symlinks are currently not allowed in the custom integrations folder.
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
 
-## Domain name conflict between custom and core integrations
+## Integration Domain name conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-their `domain` name. In these cases, the core integration domain name takes precedence.
+their `domain` name. In these cases, the custom integration takes precedence.  \
+A warning is signalled on the Integration page for the custom integration: `Custom integration that replaces a core component`
 
 ## Tips, Tools & Resources
 
