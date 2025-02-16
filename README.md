@@ -48,17 +48,17 @@ image.
 ### Without placeholder fallback
 
 This method uses the plain URLs, **WITHOUT** the `/_/` in the URL path.
-A missing image will result in a 404 being served.
+A missing image will result in status 404 being served.
 
 For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 
-- If a domain is missing the `icon.png` file, 404 will be served
+- If a domain is missing the `icon.png` file, status 404 will be served
 - If a domain is missing the `logo.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `icon@2x.png` file, the `icon.png` is served instead (if available).
 - If a domain is missing the `logo@2x.png` file:
-  - the `icon@2x.png` is served if available and `logo.png` is missing
-  - the `logo.png` is served instead (if available).
-- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
+  - the `logo.png` file is served (if available).
+  - the `icon@2x.png` file is served if available when `logo.png` is missing
+- If an image optimised for dark themes (image is prefixed with 'dark_') is missing, its non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -83,11 +83,11 @@ All images must have the following requirements:
 - The filetype of all images must be PNG.
 - They should be properly compressed and optimized (lossless is preferred) for use on the web.
 - Interlaced is preferred (also known as progressive).
-- Images with transparency is preferred.
-- If multiple images are available, the ones optimized for a white background are preferred.
+- Images with transparency are preferred.
+- If multiple images are available, those optimized for a white background are preferred.
   - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
-  This includes things like white/black/any color borders or transparent spacing around the actual
+  This includes things like solid color borders or transparent spacing around the actual
   subject in the image.
 - Custom integrations must not use Home Assistant branded images, as this might confuse the end-user into thinking that the integration is an internal/official integration.
 
@@ -96,20 +96,20 @@ All images must have the following requirements:
 Additional to the general image requirements listed above, for the icon image,
 the following requirements are applied as well:
 
-- Aspect ratio needs to be 1:1 (square).
+- Aspect ratio must be 1:1 (square).
 - Icon size must be 256x256 pixels, for the hDPI this is 512x512 pixels.
-- The maximum icon pixel size is, of course, preferred.
+- The maximum icon pixel size is preferred.
 
 ### Logo image requirements
 
 Additional to the general image requirements listed, for the logo image,
 the following requirements are applied as well:
 
-- A landscape image is preferred.
+- Landscape aspect ratio is preferred.
 - Aspect ratio should respect the logo of the brand.
 - The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
 - The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
-- The maximum pixel size for the shortest side of the images is, of course, preferred.
+- The maximum pixel size for the shortest side of the images is preferred.
 
 ## Using the same image for logo & icon
 
@@ -162,4 +162,4 @@ repository are used by the Home Assistant project for identification purposes
 only.
 
 The use of these names, trademarks and brands appearing in these image files,
-do not imply endorsement.
+does not imply endorsement.
