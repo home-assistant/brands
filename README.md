@@ -85,10 +85,10 @@ All images must have the following requirements:
 - Interlaced is preferred (also known as progressive).
 - Images with transparency are preferred.
 - If multiple images are available, those optimized for a white background are preferred.
-  - Images optimized for a dark background can be prefixed with `dark_`
+- Images optimized for a dark background should be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
-  This includes things like solid color borders or transparent spacing around the actual
-  subject in the image.
+
+  This includes things like solid color borders or transparent spacing around the actual subject in the image.
 - Custom integrations must not use Home Assistant branded images, as this might confuse the end-user into thinking that the integration is an internal/official integration.
 
 ### Icon image requirements
@@ -109,7 +109,7 @@ the following requirements are applied as well:
 - Aspect ratio should respect the logo of the brand.
 - The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
 - The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
-- The maximum pixel size for the shortest side of the images is preferred.
+- The maximum pixel size for the shortest side of the image is preferred.
 
 ## Using the same image for logo & icon
 
@@ -132,11 +132,10 @@ Symlinks are currently not allowed in the custom integrations folder.
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
 
-## Integration domain conflict between custom and core integrations
+## Domain name conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-a `domain` name level. In these cases, the core integration domain get
-preference.
+their `domain` name. In these cases, the core integration domain name takes precedence.
 
 ## Tips, Tools & Resources
 
