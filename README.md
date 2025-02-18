@@ -22,7 +22,7 @@ Each of these two main folders contain domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
 integration `manifest.json` file.
 
-A third main folder `core_brands` is not updated by Itegration creators. This is only updated by Home Assistant team.
+A third main folder `core_brands` is not updated by integration creators. This is only updated by core Home Assistant maintainers.
 
 
 A domain folder can contain four files:
