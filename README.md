@@ -22,6 +22,9 @@ Each of these two main folders contain domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
 integration `manifest.json` file.
 
+A third main folder `core_brands` is not updated by Itegration creators. This is only updated by Home Assistant team.
+
+
 A domain folder can contain four files:
 
 - `icon.png`: A square avatar-like icon, representing the brand or product for that domain.
@@ -134,8 +137,11 @@ directories are not allowed.
 ## Integration Domain name conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-their `domain` name. In these cases, the custom integration takes precedence.  \
-A warning is signalled on the Integration page for the custom integration: `Custom integration that replaces a core component`
+their `domain` name. In these cases, the CI will fail.  \
+To resolve domain name collision, a pull request to this repository linked to the core integration that moves the domain from custom to core in this repository.
+
+Whilst it is possible to have both in Home Assistant, a warning is signalled on the Integration page for the custom integration: `Custom integration that replaces a core component`  /
+It will not be possible to publish such a custom integration via HACS since valid branding repository will not be possible.
 
 ## Tips, Tools & Resources
 
