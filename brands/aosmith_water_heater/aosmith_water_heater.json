@@ -1,0 +1,5 @@
+{
+  "name": "A.O.Smith Water Heater",
+  "render_readme": true,
+  "domains": ["switch"]
+}
