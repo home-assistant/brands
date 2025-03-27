@@ -1,0 +1,5 @@
+{
+  "name": "MySmartWindow",
+  "domain": "mysmartwindow",
+  "codeowners": ["@IoTFenster"]
+}
