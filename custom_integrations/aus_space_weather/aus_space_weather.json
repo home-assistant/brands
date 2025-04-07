@@ -1,9 +1,0 @@
-{
-  "name": "Australian Space Weather",
-  "integrations": [
-    {
-      "integration": "kcoffau/AUS_BOM_Space_Weather_Alert_System",
-      "type": "hacs"
-    }
-  ]
-}
