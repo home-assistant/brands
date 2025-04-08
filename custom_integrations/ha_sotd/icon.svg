@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Optimis� pour HACS -->
+<svg version="1.1" id="Layer_1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 512 512"
+     xml:space="preserve"
+     style="background: transparent;">
+  <rect y="83.2" style="fill:#C9E3F7;" width="512" height="422.4"/>
+  <rect x="256" y="83.2" style="fill:#78B9EB;" width="256" height="422.4"/>
+  <rect x="64" y="83.2" style="fill:#3C5D76;" width="384" height="89.6"/>
+  <rect x="102.4" y="6.4" style="fill:#C9E3F7;" width="76.8" height="115.2"/>
+  <rect x="332.8" y="6.4" style="fill:#78B9EB;" width="76.8" height="115.2"/>
+  <rect x="102.4" y="236.8" style="fill:#78B9EB;" width="76.8" height="76.8"/>
+  <rect x="332.8" y="236.8" style="fill:#3C5D76;" width="76.8" height="76.8"/>
+  <rect x="332.8" y="352" style="fill:#3C5D76;" width="76.8" height="76.8"/>
+  <rect x="102.4" y="352" style="fill:#78B9EB;" width="76.8" height="76.8"/>
+  <rect x="217.6" y="236.8" style="fill:#78B9EB;" width="76.8" height="76.8"/>
+  <rect x="217.6" y="352" style="fill:#78B9EB;" width="76.8" height="76.8"/>
+  <rect x="256" y="236.8" style="fill:#3C5D76;" width="38.4" height="76.8"/>
+  <rect x="256" y="352" style="fill:#3C5D76;" width="38.4" height="76.8"/>
+  <polygon style="fill:#C9E3F7;" points="256,6.4 217.6,6.4 217.6,121.6 256,121.6 268.8,57.6 "/>
+  <rect x="256" y="6.4" style="fill:#78B9EB;" width="38.4" height="115.2"/>
+</svg>
