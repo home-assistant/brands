@@ -109,8 +109,9 @@ Additional to the general image requirements listed above, for the icon image,
 the following requirements are applied as well:
 
 - Aspect ratio needs to be 1:1 (square).
-- Icon size must be 256x256 pixels, for the hDPI this is 512x512 pixels.
-- The maximum icon pixel size is, of course, preferred.
+- Icon size must be:
+  - 256x256 pixels for normal version.
+  - 512x512 pixels for the hDPI version.
 
 ### Logo image requirements
 
@@ -119,8 +120,9 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
+- The shortest side of the image must be:
+  - At least 128 pixels, but no bigger than 256 pixels for the normal version.
+  - At least 256 pixels, but no bigger than 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
 ## Using the same image for logo & icon
