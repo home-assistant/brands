@@ -17,10 +17,10 @@ Added icons and logos for a new integration "Tempest".
   split it into multiple PRs. This makes things easier and faster to code review.
 -->
 
-- [x] Add a new logo or icon for a new core integration
+- [ ] Add a new logo or icon for a new core integration
 - [ ] Add a missing icon or logo for an existing core integration
-- [ ] Add a new logo or icon for a custom integration (custom component)
-  - [ ] I've added a link to my custom integration repository in the PR description
+- [x] Add a new logo or icon for a custom integration (custom component)
+  - [x] I've added a link to my custom integration repository in the PR description
   - [ ] I've opened up a PR for my custom integration on the [Home Assistant
     Python wheels repository](https://github.com/home-assistant/wheels-custom-integrations)
 - [ ] Replace an existing icon or logo with a higher quality version
@@ -37,7 +37,7 @@ Added icons and logos for a new integration "Tempest".
 - Link to code base pull request:
 - Link to documentation pull request:
 - Link to integration documentation on our website:
-- Link to custom integration repository:
+- Link to custom integration repository: https://github.com/julianbow/TempestHomeAssistant/tree/master/tempest
 
 ## Checklist
 <!--
