@@ -7,7 +7,7 @@
   Describe the big picture of your changes here to communicate to the
   maintainers why we should accept this pull request.
 -->
-Added icons and logos for a new integration "Tempest".
+
 
 ## Type of change
 <!--
@@ -19,8 +19,8 @@ Added icons and logos for a new integration "Tempest".
 
 - [ ] Add a new logo or icon for a new core integration
 - [ ] Add a missing icon or logo for an existing core integration
-- [x] Add a new logo or icon for a custom integration (custom component)
-  - [x] I've added a link to my custom integration repository in the PR description
+- [ ] Add a new logo or icon for a custom integration (custom component)
+  - [ ] I've added a link to my custom integration repository in the PR description
   - [ ] I've opened up a PR for my custom integration on the [Home Assistant
     Python wheels repository](https://github.com/home-assistant/wheels-custom-integrations)
 - [ ] Replace an existing icon or logo with a higher quality version
@@ -37,7 +37,7 @@ Added icons and logos for a new integration "Tempest".
 - Link to code base pull request:
 - Link to documentation pull request:
 - Link to integration documentation on our website:
-- Link to custom integration repository: https://github.com/julianbow/TempestHomeAssistant/tree/master/tempest
+- Link to custom integration repository:
 
 ## Checklist
 <!--
@@ -47,11 +47,11 @@ Added icons and logos for a new integration "Tempest".
   for before merging your contribution.
 -->
 
-- [x] The added/replaced image(s) are **PNG**
-- [x] Icon image size is 256x256px (`icon.png`)
-- [x] hDPI icon image size is 512x512px for  (`icon@2x.png`)
-- [x] Logo image size has min 128px, but max 256px, on the shortest side (`logo.png`)
-- [x] hDPI logo image size has min 256px, but max 512px, on the shortest side (`logo@2x.png`)
+- [ ] The added/replaced image(s) are **PNG**
+- [ ] Icon image size is 256x256px (`icon.png`)
+- [ ] hDPI icon image size is 512x512px for  (`icon@2x.png`)
+- [ ] Logo image size has min 128px, but max 256px, on the shortest side (`logo.png`)
+- [ ] hDPI logo image size has min 256px, but max 512px, on the shortest side (`logo@2x.png`)
 
 <!--
   Thank you for contributing <3
