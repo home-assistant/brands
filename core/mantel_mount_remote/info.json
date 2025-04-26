@@ -1,0 +1,5 @@
+{
+  "name": "MantelMount Remote",
+  "domain": "mantel_mount_remote",
+  "codeowners": ["@jliggero"]
+}
