@@ -3,7 +3,7 @@
   Please, DO NOT DELETE ANY TEXT from this template! (unless instructed).
 -->
 ## Proposed change
-<!--
+<!-- 
   Describe the big picture of your changes here to communicate to the
   maintainers why we should accept this pull request.
 -->
@@ -12,7 +12,7 @@
 ## Type of change
 <!--
   What type of change does your PR introduce to the Home Assistant Brands?
-  NOTE: Please, check only 1! box!
+  NOTE: Please, check only 1! box! 
   If your PR requires multiple boxes to be checked, you'll most likely need to
   split it into multiple PRs. This makes things easier and faster to code review.
 -->
@@ -34,9 +34,9 @@
 -->
 
 - This PR fixes or closes issue: fixes #
-- Link to code base pull request:
-- Link to documentation pull request:
-- Link to integration documentation on our website:
+- Link to code base pull request: 
+- Link to documentation pull request: 
+- Link to integration documentation on our website: 
 - Link to custom integration repository:
 
 ## Checklist
