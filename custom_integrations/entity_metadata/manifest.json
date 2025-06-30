@@ -1,0 +1,6 @@
+{
+  "name": "Entity Metadata Persistence",
+  "domain": "entity_metadata",
+  "documentation": "https://github.com/jderose-net/hass-entity-metadata",
+  "issue_tracker": "https://github.com/jderose-net/hass-entity-metadata/issues"
+}
