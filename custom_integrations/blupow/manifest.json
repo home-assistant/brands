@@ -1,0 +1,5 @@
+{
+  "domain": "blupow",
+  "name": "BluPow - Renogy Device Integration",
+  "integrations": ["blupow"]
+} 
