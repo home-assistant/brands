@@ -1,0 +1,8 @@
+{
+  "name": "BaillClim",
+  "domain": "baillclim",
+  "homeassistant": "2023.5.0",
+  "documentation": "https://github.com/hebrru/baillclim",
+  "issue_tracker": "https://github.com/hebrru/baillclim/issues",
+  "codeowners": ["@hebrru"]
+}
