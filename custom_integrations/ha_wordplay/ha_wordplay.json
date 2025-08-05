@@ -1,0 +1,9 @@
+{
+  "domain": "ha_wordplay",
+  "name": "H.A WordPlay",
+  "documentation": "https://github.com/CBDesignS/ha-wordplay",
+  "issue_tracker": "https://github.com/CBDesignS/ha-wordplay/issues",
+  "codeowners": ["@CBDesignS"],
+  "integration_type": "service",
+  "iot_class": "cloud_polling"
+}
