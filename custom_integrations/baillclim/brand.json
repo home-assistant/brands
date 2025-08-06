@@ -1,9 +1,0 @@
-{
-  "name": "BaillClim",
-  "domain": "baillclim",
-  "documentation": "https://github.com/hebrru/baillclim",
-  "logo": "icon.png",
-  "iot_class": "CloudPolling",
-  "integration_type": "integration",
-  "config_flow": true
-}
