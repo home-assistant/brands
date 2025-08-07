@@ -203,6 +203,35 @@ for folder in core_integrations/* custom_integrations/* core_brands/*; do
             error "${folder}/dark_logo@2x.png" "dark_logo@2x.png is identical to logo@2x.png. Please remove dark_logo.png and dark_logo@2x.png as the light version will be used automatically"
         fi
     fi
+    
+    # Check if @2x versions are identical to standard versions (should be higher resolution)
+    # Icon @2x vs standard
+    if [[ -f "${folder}/icon.png" ]] && [[ -f "${folder}/icon@2x.png" ]]; then
+        if cmp -s "${folder}/icon.png" "${folder}/icon@2x.png"; then
+            error "${folder}/icon@2x.png" "icon@2x.png is identical to icon.png. Please remove icon@2x.png as it should be a higher resolution version"
+        fi
+    fi
+    
+    # Logo @2x vs standard
+    if [[ -f "${folder}/logo.png" ]] && [[ -f "${folder}/logo@2x.png" ]]; then
+        if cmp -s "${folder}/logo.png" "${folder}/logo@2x.png"; then
+            error "${folder}/logo@2x.png" "logo@2x.png is identical to logo.png. Please remove logo@2x.png as it should be a higher resolution version"
+        fi
+    fi
+    
+    # Dark icon @2x vs standard
+    if [[ -f "${folder}/dark_icon.png" ]] && [[ -f "${folder}/dark_icon@2x.png" ]]; then
+        if cmp -s "${folder}/dark_icon.png" "${folder}/dark_icon@2x.png"; then
+            error "${folder}/dark_icon@2x.png" "dark_icon@2x.png is identical to dark_icon.png. Please remove dark_icon@2x.png as it should be a higher resolution version"
+        fi
+    fi
+    
+    # Dark logo @2x vs standard
+    if [[ -f "${folder}/dark_logo.png" ]] && [[ -f "${folder}/dark_logo@2x.png" ]]; then
+        if cmp -s "${folder}/dark_logo.png" "${folder}/dark_logo@2x.png"; then
+            error "${folder}/dark_logo@2x.png" "dark_logo@2x.png is identical to dark_logo.png. Please remove dark_logo@2x.png as it should be a higher resolution version"
+        fi
+    fi
 done
 
 echo ""
