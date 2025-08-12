@@ -70,7 +70,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `logo@2x.png` file:
   - the `icon@2x.png` is served if available and `logo.png` is missing
   - the `logo.png` is served instead (if available).
-- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
+- If an image optimized for dark themes (image is prefixed with 'dark_') is missing, its non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -109,8 +109,9 @@ Additional to the general image requirements listed above, for the icon image,
 the following requirements are applied as well:
 
 - Aspect ratio needs to be 1:1 (square).
-- Icon size must be 256x256 pixels, for the hDPI this is 512x512 pixels.
-- The maximum icon pixel size is, of course, preferred.
+- Icon size must be:
+  - 256x256 pixels for normal version.
+  - 512x512 pixels for the hDPI version.
 
 ### Logo image requirements
 
@@ -119,8 +120,9 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
+- The shortest side of the image must be:
+  - At least 128 pixels, but no bigger than 256 pixels for the normal version.
+  - At least 256 pixels, but no bigger than 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
 ## Using the same image for logo & icon
@@ -147,13 +149,13 @@ directories are not allowed.
 ## Integration domain conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-a `domain` name level. In these cases, the core integration domain get
+a `domain` name level. In these cases, the core integration domain gets
 preference.
 
 ## Tips, Tools & Resources
 
 When adding a new set of icons and logos, the following resources can help you
-finding the needed images and getting them to match our specifications:
+find the needed images and get them to match our specifications:
 
 - [**RedKetchup Image Resizer**](https://redketchup.io/image-resizer):
   Resizes most images formats, including SVG, into any format using just your
