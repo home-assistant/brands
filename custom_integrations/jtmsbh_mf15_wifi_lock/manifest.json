@@ -1,0 +1,5 @@
+{
+  "domain": "jtmsbh_mf15_wifi_lock",
+  "name": "JTMSBH MF15 Wifi Lock",
+  "integrations": ["jtmsbh_mf15_wifi_lock"]
+}
