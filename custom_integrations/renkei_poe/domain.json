@@ -1,0 +1,5 @@
+{
+  "domain": "renkei_poe",
+  "name": "Renkei PoE Motor",
+  "integrations": ["renkei_poe"]
+}
