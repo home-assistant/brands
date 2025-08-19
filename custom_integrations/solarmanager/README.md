@@ -1,1 +1,1 @@
-BRand files for solarmanager integration
+Brand files for solarmanager integration
