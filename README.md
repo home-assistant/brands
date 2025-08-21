@@ -22,23 +22,35 @@ Each of these two main folders contain domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
 integration `manifest.json` file.
 
-A domain folder can contain four files:
+A domain folder can contain eight files:
 
 - `icon.png`: A square avatar-like icon, representing the brand or product for that domain.
+- `dark_icon.png`: Dark optimised icon (if required).
 - `logo.png`: The logo of the brand or product for that domain.
+- `dark_logo.png`: Dark optimised logo (if required).
 - `icon@2x.png`: hDPI version of `icon.png`
+- `dark_icon@2x.png`: hDPI version of `dark_icon.png`
 - `logo@2x.png`: hDPI version of `logo.png`
+- `dark_logo@2x.png`: hDPI version of `dark_logo.png`
 
 Those images are served in the following format:
 
 - `https://brands.home-assistant.io/[domain]/icon.png`
+- `https://brands.home-assistant.io/[domain]/dark_icon.png`
 - `https://brands.home-assistant.io/[domain]/logo.png`
+- `https://brands.home-assistant.io/[domain]/dark_logo.png`
 - `https://brands.home-assistant.io/[domain]/icon@2x.png`
+- `https://brands.home-assistant.io/[domain]/dark_icon@2x.png`
 - `https://brands.home-assistant.io/[domain]/logo@2x.png`
+- `https://brands.home-assistant.io/[domain]/dark_logo@2x.png`
 - `https://brands.home-assistant.io/_/[domain]/icon.png`
+- `https://brands.home-assistant.io/_/[domain]/dark_icon.png`
 - `https://brands.home-assistant.io/_/[domain]/logo.png`
+- `https://brands.home-assistant.io/_/[domain]/dark_logo.png`
 - `https://brands.home-assistant.io/_/[domain]/icon@2x.png`
+- `https://brands.home-assistant.io/_/[domain]/dark_icon@2x.png`
 - `https://brands.home-assistant.io/_/[domain]/logo@2x.png`
+- `https://brands.home-assistant.io/_/[domain]/dark_logo@2x.png`
 
 ### Missing image handling
 
@@ -58,7 +70,7 @@ For example: <`https://brands.home-assistant.io/[domain]/icon.png`>
 - If a domain is missing the `logo@2x.png` file:
   - the `icon@2x.png` is served if available and `logo.png` is missing
   - the `logo.png` is served instead (if available).
-- If a image optimised for dark themes (image is prefixed with 'dark_') is missing, it's non-prefixed match will be served instead (if available).
+- If an image optimized for dark themes (image is prefixed with 'dark_') is missing, its non-prefixed match will be served instead (if available).
 
 ### With placeholder fallback
 
@@ -72,7 +84,7 @@ For example: <`https://brands.home-assistant.io/_/[domain]/icon.png`>
 
 All icons and logos are cached by browsers for 7 days, so additions and changes may take time to reach all users. This gives users the full benefits of local caching with minimal revalidation, and protects against missing content during an internet outage.
 
-Images are simultaneously cached by Cloudflare for 24 hours. This allows changes to begin being distributed to users relatively quickly without losing the CDN benefits.  It also guarantees a simple refresh (F5) will bring content no more than 1 day old.
+Images are simultaneously cached by Cloudflare for 24 hours. This allows changes to begin being distributed to users relatively quickly without losing the CDN benefits. It also guarantees a simple refresh (F5) will bring content no more than 1 day old.
 
 The Cloudflare cache is also fully flushed in each major version of Home Assistant Core.
 
@@ -97,8 +109,9 @@ Additional to the general image requirements listed above, for the icon image,
 the following requirements are applied as well:
 
 - Aspect ratio needs to be 1:1 (square).
-- Icon size must be 256x256 pixels, for the hDPI this is 512x512 pixels.
-- The maximum icon pixel size is, of course, preferred.
+- Icon size must be:
+  - 256x256 pixels for normal version.
+  - 512x512 pixels for the hDPI version.
 
 ### Logo image requirements
 
@@ -107,8 +120,9 @@ the following requirements are applied as well:
 
 - A landscape image is preferred.
 - Aspect ratio should respect the logo of the brand.
-- The shortest side of the image must be at least 128 pixels, 256 pixels for the hDPI version.
-- The shortest side of the image must be no bigger than 256 pixels, 512 pixels for the hDPI version.
+- The shortest side of the image must be:
+  - At least 128 pixels, but no bigger than 256 pixels for the normal version.
+  - At least 256 pixels, but no bigger than 512 pixels for the hDPI version.
 - The maximum pixel size for the shortest side of the images is, of course, preferred.
 
 ## Using the same image for logo & icon
@@ -135,13 +149,13 @@ directories are not allowed.
 ## Integration domain conflict between custom and core integrations
 
 It is possible for a custom integration and a core integration to collide on
-a `domain` name level. In these cases, the core integration domain get
+a `domain` name level. In these cases, the core integration domain gets
 preference.
 
 ## Tips, Tools & Resources
 
 When adding a new set of icons and logos, the following resources can help you
-finding the needed images and getting them to match our specifications:
+find the needed images and get them to match our specifications:
 
 - [**RedKetchup Image Resizer**](https://redketchup.io/image-resizer):
   Resizes most images formats, including SVG, into any format using just your
