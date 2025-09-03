@@ -1,0 +1,8 @@
+{
+  "name": "Sunology",
+  "owner": [
+    "sunology"
+  ],
+  "manifest": "https://raw.githubusercontent.com/sunology-tech/sunology-ha/master/custom_components/sunology/manifest.json",
+  "url": "https://github.com/sunology-tech/sunology-ha"
+}
