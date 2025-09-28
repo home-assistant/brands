@@ -1,8 +1,0 @@
-{
-  "domain": "wifi_sensor_tracker",
-  "name": "Wi-Fi Sensor Tracker",
-  "documentation": "https://github.com/5a2v0/HA-WiFi-Sensor-Tracker",
-  "manifest": "https://github.com/5a2v0/HA-WiFi-Sensor-Tracker/blob/main/custom_components/wifi_sensor_tracker/manifest.json",
-  "logo": "logo.png",
-  "icon": "icon.png"
-}
