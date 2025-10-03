@@ -1,0 +1,5 @@
+{
+  "domain": "homebrainz",
+  "name": "HomeBrainz",
+  "integrations": ["homebrainz"]
+}
