@@ -19,6 +19,7 @@
 
 - [ ] Add a new logo or icon for a new core integration
 - [ ] Add a missing icon or logo for an existing core integration
+- [ ] Add a new logo or icon for a new supported brand of an existing integration
 - [ ] Add a new logo or icon for a custom integration (custom component)
   - [ ] I've added a link to my custom integration repository in the PR description
 - [ ] Replace an existing icon or logo with a higher quality version
