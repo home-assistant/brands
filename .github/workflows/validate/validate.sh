@@ -4,6 +4,34 @@
 ERRORS=0
 IMAGES=0
 
+# List of exempted integration domains (existing ones with invalid names)
+# These are grandfathered in and won't be validated for domain naming rules
+EXEMPTED_DOMAINS=(
+  "exchangerate-api"
+  "watermyyard-pro"
+  "meraki-ha"
+  "baidu-charging"
+  "lock-manager"
+  "plugwise-beta"
+  "ACInfinity"
+  "bootstrap-icons"
+  "tauron-outages"
+  "hacs-minerstat"
+  "meteo-swiss"
+  "up-bank"
+)
+
+# Function to check if a domain is exempted
+function is_exempted() {
+  local domain="${1}"
+  for exempted in "${EXEMPTED_DOMAINS[@]}"; do
+    if [[ "${domain}" == "${exempted}" ]]; then
+      return 0
+    fi
+  done
+  return 1
+}
+
 # Small error handling method, that works with GitHub Actions
 function error() {
   local file=${1}
@@ -27,9 +55,18 @@ while read image; do
     folderpath=$(dirname "${image}")
     foldername=$(basename "${folderpath}")
 
-    # Underscore folders are special cases. Instead one should symlink between integration domains
-    [[ "${foldername}" == _* && "${foldername}" != "_placeholder" && "${foldername}" != "_homeassistant" ]] \
-      && error "${folderpath}" "Directories should not start with an underscore (_), please use the integration domain instead"
+    # Validate integration domain naming rules (except for special underscore cases and exempted domains)
+    if [[ "${foldername}" != "_placeholder" && "${foldername}" != "_homeassistant" ]] && ! is_exempted "${foldername}"; then
+      # Check if domain starts with underscore (not allowed except for special cases)
+      if [[ "${foldername}" == _* ]]; then
+        error "${folderpath}" "Invalid integration domain '${foldername}'. Integration domains cannot start with an underscore (_), please use the integration domain instead."
+      fi
+      
+      # Check if domain contains only valid characters (a-z, 0-9, underscore)
+      if [[ ! "${foldername}" =~ ^[a-z0-9_]+$ ]]; then
+        error "${folderpath}" "Invalid integration domain '${foldername}'. Integration domains can only contain lowercase letters (a-z), numbers (0-9), and underscores (_). Hyphens (-) and other special characters are not allowed."
+      fi
+    fi
 
     # Ensure the core and custom integrations don't collide
     [[ -d "core_integrations/${foldername}" ]] \
