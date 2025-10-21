@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .background { fill: #41BDF5; }
+    .text { fill: #FFFFFF; font-family: 'Roboto', 'Helvetica', sans-serif; font-size: 120px; font-weight: 500; text-anchor: middle; dominant-baseline: central; }
+     @media (prefers-color-scheme: dark) {
+      .background { fill: #2E86C1; }
+      .text { fill: #EAEAEA; }
+    }
+  </style>
+  <rect width="256" height="256" rx="30" class="background"/>
+  <text x="128" y="132" class="text">PB</text>
+</svg>
