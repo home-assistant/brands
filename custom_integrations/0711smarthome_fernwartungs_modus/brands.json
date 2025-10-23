@@ -1,0 +1,8 @@
+{
+  "name": "0711 Smart Home Fernwartungs Modus",
+  "domain": "0711smarthome_fernwartungs_modus",
+  "homeassistant": "2025.10.0",
+  "documentation": "https://github.com/0711smarthome/0711smarthome_fernwartungs_modus",
+  "logo": "logo.png",
+  "brand": "0711smarthome"
+}
