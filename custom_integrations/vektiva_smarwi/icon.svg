@@ -1,8 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <circle cx="80" cy="80" r="24" fill="#f58220"/>
-  <circle cx="128" cy="128" r="24" fill="#f58220"/>
-  <circle cx="176" cy="80" r="24" fill="#f58220"/>
-  <circle cx="200" cy="40" r="16" fill="#cccccc"/>
-  <path d="M80 80 C104 104, 152 104, 176 80" stroke="#f58220" stroke-width="16" fill="none"/>
-  <text x="128" y="220" font-size="32" font-family="Arial, sans-serif" fill="#cccccc" text-anchor="middle">VEKTIVA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <!-- Colors -->
+  <!-- Orange pane: #f58220 | Teal arm: #36c | Dark gray: #444 | Light gray: #bbb -->
+
+  <!-- Window frame -->
+  <rect x="60" y="40" width="140" height="100" fill="none" stroke="#444" stroke-width="6" rx="6"/>
+  <!-- Vertical divider -->
+  <line x1="130" y1="44" x2="130" y2="136" stroke="#444" stroke-width="6"/>
+
+  <!-- Left pane (orange) -->
+  <rect x="66" y="46" width="60" height="88" fill="#f58220" rx="3"/>
+  <!-- Right pane (orange, slightly offset to suggest opening) -->
+  <rect x="136" y="50" width="58" height="84" fill="#f58220" rx="3"/>
+
+  <!-- Smarwi arm (teal) -->
+  <!-- Pivot on right pane -->
+  <circle cx="190" cy="92" r="8" fill="#36c"/>
+  <!-- Arm segment -->
+  <line x1="190" y1="92" x2="230" y2="132" stroke="#36c" stroke-width="10" stroke-linecap="round"/>
+  <!-- Frame anchor -->
+  <circle cx="230" cy="132" r="8" fill="#36c"/>
+
+  <!-- Detached light gray node -->
+  <circle cx="250" cy="30" r="10" fill="#bbb"/>
+
+  <!-- Text -->
+  <text x="130" y="185" fill="#444" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="middle">
+    VEKTIVA
+  </text>
+  <text x="130" y="210" fill="#36c" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    Smarwi
+  </text>
 </svg>
