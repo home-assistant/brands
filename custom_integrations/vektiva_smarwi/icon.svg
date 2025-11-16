@@ -1,3 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <path fill="currentColor" d="M128 32l96 64v128H32V96l96-64zM128 64L64 104v96h128v-96l-64-40z"/>
+  <circle cx="80" cy="80" r="24" fill="#f58220"/>
+  <circle cx="128" cy="128" r="24" fill="#f58220"/>
+  <circle cx="176" cy="80" r="24" fill="#f58220"/>
+  <circle cx="200" cy="40" r="16" fill="#cccccc"/>
+  <path d="M80 80 C104 104, 152 104, 176 80" stroke="#f58220" stroke-width="16" fill="none"/>
+  <text x="128" y="220" font-size="32" font-family="Arial, sans-serif" fill="#cccccc" text-anchor="middle">VEKTIVA</text>
 </svg>
