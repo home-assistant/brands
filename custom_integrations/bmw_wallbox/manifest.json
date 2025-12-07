@@ -1,0 +1,5 @@
+{
+  "domain": "bmw_wallbox",
+  "name": "BMW Wallbox (OCPP)",
+  "integrations": ["bmw_wallbox"]
+}
