@@ -1,0 +1,39 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="256" height="256" fill="none"/>
+  <circle cx="128" cy="128" r="112" fill="#44739E"/>
+
+  <!-- Bench -->
+  <rect x="64" y="150" width="128" height="14" rx="4" ry="4" fill="#FFFFFF" />
+  <!-- Bench legs -->
+  <rect x="92" y="164" width="16" height="18" rx="4" ry="4" fill="#E5ECF3" />
+  <rect x="148" y="164" width="16" height="18" rx="4" ry="4" fill="#E5ECF3" />
+
+  <!-- Steam 1 -->
+  <path d="M102 80
+           C 96 92, 96 104, 102 116
+           C 108 128, 108 140, 102 152"
+        fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Steam 2 -->
+  <path d="M128 72
+           C 122 84, 122 98, 128 112
+           C 134 126, 134 140, 128 154"
+        fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Steam 3 -->
+  <path d="M154 80
+           C 148 92, 148 104, 154 116
+           C 160 128, 160 140, 154 152"
+        fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Subtle highlight on top of the circle -->
+  <ellipse cx="128" cy="86" rx="90" ry="46" fill="url(#highlight)" opacity="0.12"/>
+  
+  <defs>
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#44739E"/>
+    </linearGradient>
+  </defs>
+</svg>
