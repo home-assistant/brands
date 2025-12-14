@@ -1,8 +1,0 @@
-build/*
-mdi/*
-
-# macOS Finder
-.DS_Store
-
-# Windows Explorer
-desktop.ini

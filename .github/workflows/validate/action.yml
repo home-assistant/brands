@@ -1,4 +1,0 @@
-name: "validate"
-runs:
-  using: "docker"
-  image: "Dockerfile"
