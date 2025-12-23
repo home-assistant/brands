@@ -1,0 +1,9 @@
+Add branding for custom integration `solarmanager_local`
+
+This PR adds:
+- custom_integrations/solarmanager_local/icon.png (256×256, PNG, transparent)
+- custom_integrations/solarmanager_local/logo.png (512×256, PNG, transparent; shortest side 256 px)
+
+Files follow the Home Assistant Brands guidelines (PNG, sizes within required ranges).
+After merge, the Devices & Services card will fetch these from brands.home-assistant.io.
+Thanks!
