@@ -177,3 +177,9 @@ only.
 
 The use of these names, trademarks and brands appearing in these image files,
 do not imply endorsement.
+
+## Home Assistant Integration
+
+AmpVortex integrates with Home Assistant via an official integration:
+https://github.com/your-org/ha-ampvortex
+
