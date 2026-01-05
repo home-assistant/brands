@@ -181,5 +181,4 @@ do not imply endorsement.
 ## Home Assistant Integration
 
 AmpVortex integrates with Home Assistant via an official integration:
-https://github.com/your-org/ha-ampvortex
-
+https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex
