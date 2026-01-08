@@ -177,8 +177,3 @@ only.
 
 The use of these names, trademarks and brands appearing in these image files,
 do not imply endorsement.
-
-## Home Assistant Integration
-
-OpenAudio integrates with Home Assistant via an official integration:
-https://github.com/OpenAudioHome/HomeAssistant-Integration-for-HOLOWHAS
