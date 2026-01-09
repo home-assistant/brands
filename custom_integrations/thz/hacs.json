@@ -1,0 +1,5 @@
+{
+  "name": "Stiebel Eltron LWZ / Tecalor THZ Integration (unofficial)",
+  "domains": ["thz"],
+  "codeowners": ["@bigbadoooff"]
+}
