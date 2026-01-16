@@ -1,7 +1,0 @@
-{
-  "domain": "otodata_tank_monitor",
-  "name": "Otodata Tank Monitor",
-  "integrations": {
-    "otodata_tank_monitor": {}
-  }
-}
