@@ -1,7 +1,1 @@
-{
-  "name": "Google Drive file manager",
-  "domain": "google_drive_file_manager",
-  "homeassistant": "2025.4.4",
-  "documentation": "https://github.com/wisse-smit/ha_google_drive_file_manager",
-  "render_readme": true
-}
+
