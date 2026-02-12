@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="LOGO PI512X512.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.305"
+     inkscape:cx="614.7541"
+     inkscape:cy="1434.4262"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffcc00;stroke-width:0.535445"
+       id="rect1"
+       width="512"
+       height="512"
+       x="18.991835"
+       y="85.26123" />
+    <ellipse
+       style="display:none;fill:#ffffff;stroke-width:0.236046"
+       id="ellipse5"
+       cx="81.652153"
+       cy="123.2915"
+       rx="5.5302253"
+       ry="4.2289958" />
+    <ellipse
+       style="display:none;fill:#ffffff;stroke-width:0.245128"
+       id="path5"
+       cx="64.519302"
+       cy="123.50837"
+       rx="5.9639683"
+       ry="4.2289958" />
+    <circle
+       style="display:none;fill:#504416;stroke-width:0.264583"
+       id="path4"
+       cx="64.246033"
+       cy="121.25726"
+       r="2.8193307" />
+    <circle
+       style="display:none;fill:#504416;stroke-width:0.264583"
+       id="path4-8"
+       cx="81.981796"
+       cy="122.02496"
+       r="2.8193307" />
+    <g
+       id="g5"
+       transform="matrix(1.9265693,0,0,1.9265693,-64.077562,15.658312)">
+      <text
+         xml:space="preserve"
+         style="font-size:70.5556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:0.264583"
+         x="51.189346"
+         y="188.57249"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:Lexend;-inkscape-font-specification:Lexend;fill:#28220b;stroke-width:0.264583"
+           x="51.189346"
+           y="188.57249">pe</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:Lexend;-inkscape-font-specification:Lexend;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:0.264583"
+         x="-179.01865"
+         y="188.46779"
+         id="text2"
+         transform="scale(-1,1)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-size:70.5556px;fill:#28220b;stroke-width:0.264583"
+           x="-179.01865"
+           y="188.46779">e</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:70.5556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:0.264583"
+         x="178.36482"
+         y="188.85262"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:Lexend;-inkscape-font-specification:Lexend;fill:#28220b;stroke-width:0.264583"
+           x="178.36482"
+           y="188.85262">k-it</tspan></text>
+    </g>
+  </g>
+</svg>
