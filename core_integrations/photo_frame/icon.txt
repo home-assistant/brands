@@ -1,1 +1,1 @@
-mdi:image-frame
+mdi:image-album
