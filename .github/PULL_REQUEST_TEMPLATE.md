@@ -1,6 +1,9 @@
 <!--
   You are amazing! Thanks for contributing to our project!
   Please, DO NOT DELETE ANY TEXT from this template! (unless instructed).
+
+  Pull requests for adding new custom components will no longer be accepted. Please refer to the Brands Proxy API announcement for more details:
+  https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api
 -->
 ## Proposed change
 <!-- 
@@ -19,10 +22,8 @@
 
 - [ ] Add a new logo or icon for a new core integration
 - [ ] Add a missing icon or logo for an existing core integration
-- [ ] Add a new logo or icon for a custom integration (custom component)
-  - [ ] I've opened up a PR for my custom integration on the [Home Assistant
-    Python wheels repository](https://github.com/home-assistant/wheels-custom-integrations)
 - [ ] Replace an existing icon or logo with a higher quality version
+- [ ] Replace an existing icon or logo after a branding change
 - [ ] Removing an icon or logo
 
 ## Additional information
