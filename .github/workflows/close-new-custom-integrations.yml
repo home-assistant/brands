@@ -1,0 +1,77 @@
+name: Close new custom integration PRs
+
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+    paths:
+      - "custom_integrations/**"
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    name: Check for new custom integrations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get added folders
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              per_page: 100,
+            });
+
+            // Collect all unique custom_integrations folders touched by this PR
+            const existingFolders = new Set();
+            const allFolders = new Set();
+
+            for (const file of files) {
+              const match = file.filename.match(/^custom_integrations\/([^/]+)\//);
+              if (!match) continue;
+
+              allFolders.add(match[1]);
+
+              // A folder is "existing" if any file in it was modified or removed
+              // (not purely added). A brand new folder will only have "added" files.
+              if (file.status !== 'added') {
+                existingFolders.add(match[1]);
+              }
+            }
+
+            // New folders are those that only have "added" files
+            const newFolders = [...allFolders].filter(f => !existingFolders.has(f));
+
+            if (newFolders.length === 0) {
+              core.info('No new custom integration folders detected.');
+              return;
+            }
+
+            core.info(`New custom integration folders detected: ${newFolders.join(', ')}`);
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                'Hi there 👋🏻',
+                '',
+                'Thank you for your PR! We really appreciate the contribution.',
+                '',
+                "However, we'll be closing it, as we no longer accept brand icons for custom integrations in this repository. Starting with Home Assistant 2026.3.0, custom integrations can provide their own brand icons directly, so there's no longer a need to add them here.",
+                '',
+                'You can find more details in the announcement:',
+                'https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api',
+              ].join('\n'),
+            });
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'closed',
+            });
