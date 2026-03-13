@@ -1,1 +1,1 @@
-mdi:window
+mdi:window-closed
