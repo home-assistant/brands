@@ -6,3 +6,6 @@ mdi/*
 
 # Windows Explorer
 desktop.ini
+
+# Claude Code
+.claude/
