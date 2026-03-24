@@ -16,9 +16,9 @@ This repository provides two main folders to store images in:
 - `core_integrations`: Contains images for integrations bundled with the
   Home Assistant Core.
 - `custom_integrations`: Contains images for custom integrations
-  (custom components).
+  (custom components). Legacy folder: Since HA 2026.3.0, custom components can include their brand icons directly. Please refer to the [Brands Proxy API announcement](https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api) for more details.
 
-Each of these two main folders contain domain folders. Each domain folder is
+Each of these two main folders contains domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
 integration `manifest.json` file.
 
@@ -95,7 +95,7 @@ All images must have the following requirements:
 - The filetype of all images must be PNG.
 - They should be properly compressed and optimized (lossless is preferred) for use on the web.
 - Interlaced is preferred (also known as progressive).
-- Images with transparency is preferred.
+- Images with transparency are preferred.
 - If multiple images are available, the ones optimized for a white background are preferred.
   - Images optimized for a dark background can be prefixed with `dark_`
 - The image should be trimmed, so it contains the minimum amount of empty space on the edges.
