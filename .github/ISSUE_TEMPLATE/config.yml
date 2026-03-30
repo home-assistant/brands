@@ -3,7 +3,7 @@ contact_links:
   - name: Report a bug with Home Assistant Core
     url: https://github.com/home-assistant/core/issues
     about: This is the issue tracker for our brand assets. Please report issues with the Core in the Core repository.
-  - name: Report a bug with the UI, Frontend or Lovelace
+  - name: Report a bug with the UI, Frontend or Dashboards
     url: https://github.com/home-assistant/frontend/issues
     about: This is the issue tracker for our backend. Please report issues with the UI in the Frontend repository.
   - name: Report incorrect or missing information on our website

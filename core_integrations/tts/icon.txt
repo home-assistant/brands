@@ -1,1 +1,1 @@
-mdi:microphone-message
+mdi:speaker-message
