@@ -1,0 +1,5 @@
+{
+  "domain": "polygonal_zones",
+  "name": "Polygonal Zones",
+  "integrations": ["polygonal_zones"]
+}
