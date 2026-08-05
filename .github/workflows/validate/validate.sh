@@ -7,7 +7,6 @@ IMAGES=0
 # List of exempted integration domains (existing ones with invalid names)
 # These are grandfathered in and won't be validated for domain naming rules
 EXEMPTED_DOMAINS=(
-  "w1000-energy-monitor"
   "exchangerate-api"
   "watermyyard-pro"
   "meraki-ha"
