@@ -168,27 +168,30 @@ done
 # Create domains.json
 core_brands=$(
   find ./core_brands \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 
 core_integrations=$(
   find ./core_integrations \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 custom_integrations=$(
   find ./custom_integrations \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 thread_brands=$(
