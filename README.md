@@ -11,16 +11,20 @@ repository of brand images.
 
 ## Inner workings
 
-This repository provides two main folders to store images in:
+This repository provides three main folders to store images in:
 
 - `core_integrations`: Contains images for integrations bundled with the
   Home Assistant Core.
 - `custom_integrations`: Contains images for custom integrations
   (custom components). Legacy folder: Since HA 2026.3.0, custom components can include their brand icons directly. Please refer to the [Brands Proxy API announcement](https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api) for more details.
+- `thread_brands`: Contains images for brands that do not have an integration
+  at all, but are used to display Thread border routers. See
+  [Thread brands](#thread-brands) below.
 
-Each of these two main folders contains domain folders. Each domain folder is
+Each of these main folders contains domain folders. Each domain folder is
 named to the integration `domain` and must match the domain set in the
-integration `manifest.json` file.
+integration `manifest.json` file. For `thread_brands`, the folder name must
+match the brand used in the Thread integration instead.
 
 A domain folder can contain eight files:
 
@@ -145,6 +149,29 @@ Symlinks are currently not allowed in the custom integrations folder.
 
 The names of directories must always match the integration domain. Additional
 directories are not allowed.
+
+## Thread brands
+
+Home Assistant shows an image for every discovered Thread border router. The
+vendor name advertised by the border router is mapped to a brand in the
+[`KNOWN_BRANDS`][known-brands] mapping of the Thread integration in Home
+Assistant Core, and that brand is then used to look up an image in this
+repository.
+
+Most of those brands belong to an integration, so their images are already in
+`core_integrations` (or, historically, in `custom_integrations`). The remaining
+ones have no integration at all, and live in the `thread_brands` folder.
+
+**Do not remove folders from `thread_brands`** when cleaning up integration
+images: these domains intentionally do not have a matching integration. A
+folder should only be removed here when the brand is dropped from
+`KNOWN_BRANDS` in Home Assistant Core, or when an integration with the same
+domain is added (in that case the images move to `core_integrations`).
+
+Images in `thread_brands` are served on the same URLs as integration images,
+so no URL changes are needed when a brand moves in or out of this folder.
+
+[known-brands]: https://github.com/home-assistant/core/blob/dev/homeassistant/components/thread/discovery.py
 
 ## Integration domain conflict between custom and core integrations
 
