@@ -73,6 +73,11 @@ while read image; do
       && [[ -d "custom_integrations/${foldername}" ]] \
         && error "${folderpath}" "The integration ${foldername} exists in both core and custom integrations. Core wins." 
 
+    # Ensure thread brands don't collide with an integration
+    [[ -d "thread_brands/${foldername}" ]] \
+      && { [[ -d "core_integrations/${foldername}" ]] || [[ -d "custom_integrations/${foldername}" ]]; } \
+        && error "thread_brands/${foldername}" "The domain ${foldername} now has an integration, please remove it from thread_brands."
+
     # If icon filename is icon.txt
     if [[ "${filename}" == "icon.txt" ]]; then
       mdi=$(<${image})
@@ -177,10 +182,10 @@ while read image; do
     fi
 
     ((IMAGES++))
-done <<< $(find core_integrations custom_integrations core_brands -type f)
+done <<< $(find core_integrations custom_integrations core_brands thread_brands -type f)
 
 # Check for identical icon and logo images (using file hashes)
-for folder in core_integrations/* custom_integrations/* core_brands/*; do
+for folder in core_integrations/* custom_integrations/* core_brands/* thread_brands/*; do
     [[ ! -d "${folder}" ]] && continue
     
     # Check if icon and logo files are byte-for-byte identical
