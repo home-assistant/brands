@@ -21,7 +21,9 @@ const INDEX_STALE_AFTER = 24 * 60 * 60 * 1000;
 // asks for it, an installed integration serves its own brand folder.
 const PATH_RE = /^\/marketplace\/([^/]+)\/([^/]+)$/;
 
-const ICON_CACHE = "public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800";
+// Home Assistant keeps an icon for 30 days, so a week on the CDN costs nobody
+// a fresher icon, and the function runs far less
+const ICON_CACHE = "public, max-age=86400, s-maxage=604800, stale-while-revalidate=604800";
 // Shorter, so an icon that just got indexed shows up the same day
 const ABSENT_CACHE = "public, max-age=3600, s-maxage=21600";
 

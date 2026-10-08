@@ -45,6 +45,7 @@ describe("serve", () => {
 
     assert.equal(response.status, 200);
     assert.deepEqual(response.body, ICON);
+    assert.match(response.cacheControl!, /s-maxage=604800/);
     assert.equal(response.cors, "*");
     assert.equal(response.vary, "query=_");
   });
