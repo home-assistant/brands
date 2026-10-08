@@ -18,8 +18,7 @@ const ICON = png();
 const PLACEHOLDER = "placeholder";
 const DAY = 24 * 60 * 60 * 1000;
 
-const request = (query: string) =>
-  new Request(`https://brands.example/.netlify/functions/marketplace-icons?${query}`);
+const request = (path: string) => new Request(`https://brands.example${path}`);
 
 const raw = (body: ConstructorParameters<typeof Response>[0] = ICON, status = 200) =>
   fakeFetch((url) =>
@@ -29,11 +28,11 @@ const raw = (body: ConstructorParameters<typeof Response>[0] = ICON, status = 20
   );
 
 const call = async (
-  query: string,
+  path: string,
   index: IconIndex | undefined,
   fetcher: typeof fetch = raw(),
 ) => {
-  const response = await serve(request(query), { getIndex: async () => index, fetcher });
+  const response = await serve(request(path), { getIndex: async () => index, fetcher });
   return {
     status: response.status,
     body: Buffer.from(await response.arrayBuffer()),
@@ -46,24 +45,31 @@ const call = async (
 const withIcon = iconIndex({ domains: { demo: entry(["icon.png"]) } });
 
 describe("serve", () => {
-  it("serves an indexed icon with a canonical cache key", async () => {
-    const response = await call("domain=demo&image=icon.png", withIcon);
+  it("serves an indexed icon", async () => {
+    const response = await call("/demo/icon.png", withIcon);
 
     assert.equal(response.status, 200);
     assert.deepEqual(response.body, ICON);
-    assert.equal(response.vary, "query=domain|image|placeholder");
+    assert.equal(response.vary, "query=_");
   });
 
-  for (const query of [
-    "domain=demo&image=icon.png&nonce=1",
-    "domain=demo&image=icon.png&placeholder=random",
-    "domain=demo&domain=demo&image=icon.png",
-    "domain=../demo&image=icon.png",
-    "domain=demo&image=icon.svg",
+  it("ignores the query string", async () => {
+    const response = await call("/demo/icon.png?nonce=1", withIcon);
+
+    assert.equal(response.status, 200);
+    assert.equal(response.vary, "query=_");
+  });
+
+  for (const path of [
+    "/Demo/icon.png",
+    "/demo/icon.svg",
+    "/demo/icon.png/more",
+    "/_/_placeholder/icon.png",
+    "/%2E%2E/icon.png",
   ]) {
-    it(`rejects ${query} without looking anything up`, async () => {
+    it(`rejects ${path} without looking anything up`, async () => {
       let looked = false;
-      const response = await serve(request(query), {
+      const response = await serve(request(path), {
         getIndex: async () => {
           looked = true;
           return withIcon;
@@ -71,7 +77,6 @@ describe("serve", () => {
       });
 
       assert.equal(response.status, 404);
-      assert.equal(response.headers.get("cache-control"), "no-store");
       assert.equal(looked, false);
     });
   }
@@ -79,61 +84,61 @@ describe("serve", () => {
   it("serves a variant without icon.png", async () => {
     const index = iconIndex({ domains: { demo: entry(["logo.png"]) } });
 
-    assert.equal((await call("domain=demo&image=logo.png", index)).status, 200);
-    assert.equal((await call("domain=demo&image=icon.png", index)).status, 404);
+    assert.equal((await call("/demo/logo.png", index)).status, 200);
+    assert.equal((await call("/demo/icon.png", index)).status, 404);
   });
 
   it("answers 404 when we know there is no icon", async () => {
     const index = iconIndex({ domains: { demo: entry([]) } });
-    const response = await call("domain=demo&image=icon.png", index);
+    const response = await call("/demo/icon.png", index);
 
     assert.equal(response.status, 404);
     assert.match(response.cacheControl!, /s-maxage=21600/);
   });
 
   it("answers 404 for a domain that is not in the feed", async () => {
-    assert.equal((await call("domain=other&image=icon.png", withIcon)).status, 404);
+    assert.equal((await call("/other/icon.png", withIcon)).status, 404);
   });
 
   it("answers 503 for unknown domains when the index is stale", async () => {
     const stale = iconIndex({ updated: new Date(Date.now() - 2 * DAY).toISOString() });
-    const response = await call("domain=other&image=icon.png", stale);
+    const response = await call("/other/icon.png", stale);
 
     assert.equal(response.status, 503);
     assert.equal(response.cacheControl, "no-store");
   });
 
   it("answers 503 without an index", async () => {
-    assert.equal((await call("domain=demo&image=icon.png", undefined)).status, 503);
+    assert.equal((await call("/demo/icon.png", undefined)).status, 503);
   });
 
   it("answers 503 while a domain waits for its first probe", async () => {
     const index = iconIndex({ pending: ["demo"] });
 
-    assert.equal((await call("domain=demo&image=icon.png", index)).status, 503);
+    assert.equal((await call("/demo/icon.png", index)).status, 503);
   });
 
   it("keeps serving the old icon while a new ref waits", async () => {
     const index = iconIndex({ domains: { demo: entry(["icon.png"]) }, pending: ["demo"] });
 
-    assert.equal((await call("domain=demo&image=icon.png", index)).status, 200);
+    assert.equal((await call("/demo/icon.png", index)).status, 200);
   });
 
   it("answers 503 while a new ref waits and the old one had nothing", async () => {
     const index = iconIndex({ domains: { demo: entry([]) }, pending: ["demo"] });
 
-    assert.equal((await call("domain=demo&image=icon.png", index)).status, 503);
+    assert.equal((await call("/demo/icon.png", index)).status, 503);
   });
 
   it("answers 503 when GitHub does not hand out an indexed icon", async () => {
-    const response = await call("domain=demo&image=icon.png", withIcon, raw("slow down", 429));
+    const response = await call("/demo/icon.png", withIcon, raw("slow down", 429));
 
     assert.equal(response.status, 503);
   });
 
   it("serves the placeholder briefly when an icon is unavailable", async () => {
     const response = await call(
-      "domain=demo&image=icon.png&placeholder=yes",
+      "/_/demo/icon.png",
       withIcon,
       raw("slow down", 429),
     );
@@ -151,7 +156,7 @@ describe("serve", () => {
       },
     });
 
-    assert.equal((await call("domain=demo&image=icon.png", withIcon, raw(endless))).status, 404);
+    assert.equal((await call("/demo/icon.png", withIcon, raw(endless))).status, 404);
   });
 });
 

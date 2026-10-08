@@ -17,7 +17,9 @@ const INDEX_TTL = 5 * 60 * 1000;
 const INDEX_RETRY = 30 * 1000;
 // The sync runs every hour, after this long something is wrong with it
 const INDEX_STALE_AFTER = 24 * 60 * 60 * 1000;
-const QUERY_KEYS = new Set(["domain", "image", "placeholder"]);
+// The paths of netlify/functions/marketplace-icons.mts, with /_/ falling back
+// to the placeholder like the static files do
+const PATH_RE = /^\/(_\/)?([^/]+)\/([^/]+)$/;
 
 const ICON_CACHE = "public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800";
 // Shorter, so an icon that just got indexed shows up the same day
@@ -86,8 +88,9 @@ const responseHeaders = (cacheControl: string) => ({
   "Access-Control-Allow-Origin": "*",
   "Cache-Control": cacheControl,
   "Netlify-CDN-Cache-Control": cacheControl.replace("public,", "public, durable,"),
-  // Without this, any extra query parameter would skip the cache and hit GitHub
-  "Netlify-Vary": "query=domain|image|placeholder",
+  // Nothing here depends on the query string. Without this, any query string
+  // would get its own cache entry and a trip to GitHub.
+  "Netlify-Vary": "query=_",
 });
 
 const CRC_TABLE = Array.from({ length: 256 }, (_, n) => {
@@ -240,23 +243,13 @@ const readBounded = async (
   return data;
 };
 
-// Exactly the parameters the rewrites in netlify.toml send, anything else
-// is not one of our URLs
-const parseQuery = (url: URL) => {
-  const keys = [...url.searchParams.keys()];
-  const domain = url.searchParams.get("domain") ?? "";
-  const image = url.searchParams.get("image") ?? "";
-  const placeholder = url.searchParams.get("placeholder");
+const parsePath = (url: URL) => {
+  const [, placeholder, domain, image] = url.pathname.match(PATH_RE) ?? [];
+  if (!domain || !isDomain(domain) || !isImage(image) || isBlocked(domain)) {
+    return undefined;
+  }
 
-  const canonical =
-    keys.every((key) => QUERY_KEYS.has(key)) &&
-    new Set(keys).size === keys.length &&
-    (placeholder === null || placeholder === "yes") &&
-    isDomain(domain) &&
-    isImage(image) &&
-    !isBlocked(domain);
-
-  return canonical ? { domain, image: image as Image, placeholder: placeholder !== null } : undefined;
+  return { domain, image, placeholder: placeholder !== undefined };
 };
 
 const fetchIcon = async (
@@ -333,13 +326,12 @@ export const serve = async (
   request: Request,
   dependencies: ServeDependencies,
 ): Promise<Response> => {
-  const query = parseQuery(new URL(request.url));
-  // Not cached: it shares a cache key with the valid request it resembles
-  if (!query) {
-    return new Response("Not found", { status: 404, headers: responseHeaders("no-store") });
+  const target = parsePath(new URL(request.url));
+  if (!target) {
+    return new Response("Not found", { status: 404, headers: responseHeaders(ABSENT_CACHE) });
   }
 
-  const { domain, image, placeholder } = query;
+  const { domain, image, placeholder } = target;
   let outcome: Outcome;
   try {
     outcome = await fetchIcon(domain, image, dependencies);

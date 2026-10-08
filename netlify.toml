@@ -15,20 +15,6 @@
   force = true
   status = 301
 
-# Integrations not in this repository, but with their own brand folder in
-# the Marketplace. Only reached when no static file exists.
-[[redirects]]
-  from = "/_/:domain/:image"
-  to = "/.netlify/functions/marketplace-icons?domain=:domain&image=:image&placeholder=yes"
-  force = false
-  status = 200
-
-[[redirects]]
-  from = "/:domain/:image"
-  to = "/.netlify/functions/marketplace-icons?domain=:domain&image=:image"
-  force = false
-  status = 200
-
 [[redirects]]
   from = "/_/*/:image"
   to = "/_/_placeholder/:image"

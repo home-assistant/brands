@@ -5,7 +5,6 @@ import { readIndex } from "../lib/store.ts";
 
 let cache: IndexCache | undefined;
 
-// Only reached when no static file exists for the path, see netlify.toml
 export default async (request: Request, context: Context) => {
   cache ??= new IndexCache(() => readIndex(context));
 
@@ -16,5 +15,8 @@ export default async (request: Request, context: Context) => {
 };
 
 export const config: Config = {
+  path: ["/_/:domain/:image", "/:domain/:image"],
+  // Images in this repository always win
+  preferStatic: true,
   method: "GET",
 };
