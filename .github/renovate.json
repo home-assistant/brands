@@ -1,11 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "helpers:pinGitHubActionDigests"],
-  "enabledManagers": ["github-actions"],
+  "enabledManagers": ["github-actions", "npm"],
   "schedule": ["before 8am on monday"],
   "semanticCommits": "disabled",
-  "labels": ["dependencies", "github_actions"],
+  "labels": ["dependencies"],
   "packageRules": [
+    {
+      "description": "Action updates keep the label they always had",
+      "matchManagers": ["github-actions"],
+      "addLabels": ["github_actions"]
+    },
     {
       "description": "Leave runner labels and action version inputs alone, Dependabot never updated those",
       "matchManagers": ["github-actions"],
