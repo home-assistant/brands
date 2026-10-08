@@ -15,17 +15,12 @@ import {
 } from "./helpers.ts";
 
 const ICON = png();
-const PLACEHOLDER = "placeholder";
 const DAY = 24 * 60 * 60 * 1000;
 
 const request = (path: string) => new Request(`https://brands.example${path}`);
 
 const raw = (body: ConstructorParameters<typeof Response>[0] = ICON, status = 200) =>
-  fakeFetch((url) =>
-    url.includes("/_/_placeholder/")
-      ? new Response(PLACEHOLDER)
-      : new Response(body, { status }),
-  );
+  fakeFetch(() => new Response(body, { status }));
 
 const call = async (
   path: string,
@@ -46,26 +41,29 @@ const withIcon = iconIndex({ domains: { demo: entry(["icon.png"]) } });
 
 describe("serve", () => {
   it("serves an indexed icon", async () => {
-    const response = await call("/demo/icon.png", withIcon);
+    const response = await call("/marketplace/demo/icon.png", withIcon);
 
     assert.equal(response.status, 200);
     assert.deepEqual(response.body, ICON);
+    assert.equal(response.cors, "*");
     assert.equal(response.vary, "query=_");
   });
 
   it("ignores the query string", async () => {
-    const response = await call("/demo/icon.png?nonce=1", withIcon);
+    const response = await call("/marketplace/demo/icon.png?nonce=1", withIcon);
 
     assert.equal(response.status, 200);
     assert.equal(response.vary, "query=_");
   });
 
   for (const path of [
-    "/Demo/icon.png",
-    "/demo/icon.svg",
+    "/demo/icon.png",
+    "/marketplace/Demo/icon.png",
+    "/marketplace/demo/icon.svg",
     "/demo/icon.png/more",
-    "/_/_placeholder/icon.png",
-    "/%2E%2E/icon.png",
+    "/marketplace/demo/icon.png/more",
+    "/_/demo/icon.png",
+    "/marketplace/%2E%2E/icon.png",
   ]) {
     it(`rejects ${path} without looking anything up`, async () => {
       let looked = false;
@@ -84,69 +82,56 @@ describe("serve", () => {
   it("serves a variant without icon.png", async () => {
     const index = iconIndex({ domains: { demo: entry(["logo.png"]) } });
 
-    assert.equal((await call("/demo/logo.png", index)).status, 200);
-    assert.equal((await call("/demo/icon.png", index)).status, 404);
+    assert.equal((await call("/marketplace/demo/logo.png", index)).status, 200);
+    assert.equal((await call("/marketplace/demo/icon.png", index)).status, 404);
   });
 
   it("answers 404 when we know there is no icon", async () => {
     const index = iconIndex({ domains: { demo: entry([]) } });
-    const response = await call("/demo/icon.png", index);
+    const response = await call("/marketplace/demo/icon.png", index);
 
     assert.equal(response.status, 404);
     assert.match(response.cacheControl!, /s-maxage=21600/);
   });
 
   it("answers 404 for a domain that is not in the feed", async () => {
-    assert.equal((await call("/other/icon.png", withIcon)).status, 404);
+    assert.equal((await call("/marketplace/other/icon.png", withIcon)).status, 404);
   });
 
   it("answers 503 for unknown domains when the index is stale", async () => {
     const stale = iconIndex({ updated: new Date(Date.now() - 2 * DAY).toISOString() });
-    const response = await call("/other/icon.png", stale);
+    const response = await call("/marketplace/other/icon.png", stale);
 
     assert.equal(response.status, 503);
     assert.equal(response.cacheControl, "no-store");
   });
 
   it("answers 503 without an index", async () => {
-    assert.equal((await call("/demo/icon.png", undefined)).status, 503);
+    assert.equal((await call("/marketplace/demo/icon.png", undefined)).status, 503);
   });
 
   it("answers 503 while a domain waits for its first probe", async () => {
     const index = iconIndex({ pending: ["demo"] });
 
-    assert.equal((await call("/demo/icon.png", index)).status, 503);
+    assert.equal((await call("/marketplace/demo/icon.png", index)).status, 503);
   });
 
   it("keeps serving the old icon while a new ref waits", async () => {
     const index = iconIndex({ domains: { demo: entry(["icon.png"]) }, pending: ["demo"] });
 
-    assert.equal((await call("/demo/icon.png", index)).status, 200);
+    assert.equal((await call("/marketplace/demo/icon.png", index)).status, 200);
   });
 
   it("answers 503 while a new ref waits and the old one had nothing", async () => {
     const index = iconIndex({ domains: { demo: entry([]) }, pending: ["demo"] });
 
-    assert.equal((await call("/demo/icon.png", index)).status, 503);
+    assert.equal((await call("/marketplace/demo/icon.png", index)).status, 503);
   });
 
   it("answers 503 when GitHub does not hand out an indexed icon", async () => {
-    const response = await call("/demo/icon.png", withIcon, raw("slow down", 429));
+    const response = await call("/marketplace/demo/icon.png", withIcon, raw("slow down", 429));
 
     assert.equal(response.status, 503);
-  });
-
-  it("serves the placeholder briefly when an icon is unavailable", async () => {
-    const response = await call(
-      "/_/demo/icon.png",
-      withIcon,
-      raw("slow down", 429),
-    );
-
-    assert.equal(response.status, 200);
-    assert.equal(response.body.toString(), PLACEHOLDER);
-    assert.match(response.cacheControl!, /max-age=300/);
-    assert.equal(response.cors, "*");
   });
 
   it("does not read past the size limit", async () => {
@@ -156,7 +141,7 @@ describe("serve", () => {
       },
     });
 
-    assert.equal((await call("/demo/icon.png", withIcon, raw(endless))).status, 404);
+    assert.equal((await call("/marketplace/demo/icon.png", withIcon, raw(endless))).status, 404);
   });
 });
 

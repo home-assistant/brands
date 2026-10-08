@@ -17,14 +17,13 @@ const INDEX_TTL = 5 * 60 * 1000;
 const INDEX_RETRY = 30 * 1000;
 // The sync runs every hour, after this long something is wrong with it
 const INDEX_STALE_AFTER = 24 * 60 * 60 * 1000;
-// The paths of netlify/functions/marketplace-icons.mts, with /_/ falling back
-// to the placeholder like the static files do
-const PATH_RE = /^\/(_\/)?([^/]+)\/([^/]+)$/;
+// The path of netlify/functions/marketplace-icons.mts. Only the Marketplace
+// asks for it, an installed integration serves its own brand folder.
+const PATH_RE = /^\/marketplace\/([^/]+)\/([^/]+)$/;
 
 const ICON_CACHE = "public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800";
 // Shorter, so an icon that just got indexed shows up the same day
 const ABSENT_CACHE = "public, max-age=3600, s-maxage=21600";
-const UNAVAILABLE_CACHE = "public, max-age=300, s-maxage=300";
 
 // Home Assistant remembers a 404 for 30 days, so a 404 is only sent when we
 // know there is no icon. Anything else is a 503, which it does not remember.
@@ -244,12 +243,12 @@ const readBounded = async (
 };
 
 const parsePath = (url: URL) => {
-  const [, placeholder, domain, image] = url.pathname.match(PATH_RE) ?? [];
+  const [, domain, image] = url.pathname.match(PATH_RE) ?? [];
   if (!domain || !isDomain(domain) || !isImage(image) || isBlocked(domain)) {
     return undefined;
   }
 
-  return { domain, image, placeholder: placeholder !== undefined };
+  return { domain, image };
 };
 
 const fetchIcon = async (
@@ -300,28 +299,6 @@ const fetchIcon = async (
   return { kind: "icon", data };
 };
 
-const placeholderResponse = async (
-  request: Request,
-  image: Image,
-  cacheControl: string,
-  fetcher: typeof fetch,
-): Promise<Response | undefined> => {
-  try {
-    const response = await fetcher(new URL(`/_/_placeholder/${image}`, request.url), {
-      signal: AbortSignal.timeout(RAW_TIMEOUT),
-    });
-    if (response.ok) {
-      return new Response(response.body, {
-        headers: { "Content-Type": "image/png", ...responseHeaders(cacheControl) },
-      });
-    }
-  } catch (error) {
-    console.error(`Marketplace icons: placeholder ${image} failed:`, error);
-  }
-
-  return undefined;
-};
-
 export const serve = async (
   request: Request,
   dependencies: ServeDependencies,
@@ -331,7 +308,7 @@ export const serve = async (
     return new Response("Not found", { status: 404, headers: responseHeaders(ABSENT_CACHE) });
   }
 
-  const { domain, image, placeholder } = target;
+  const { domain, image } = target;
   let outcome: Outcome;
   try {
     outcome = await fetchIcon(domain, image, dependencies);
@@ -354,21 +331,8 @@ export const serve = async (
     console.warn(`Marketplace icons: ${domain}/${image} unavailable, ${outcome.reason}`);
   }
 
-  const cacheControl = outcome.kind === "absent" ? ABSENT_CACHE : UNAVAILABLE_CACHE;
-  if (placeholder) {
-    const response = await placeholderResponse(
-      request,
-      image,
-      cacheControl,
-      dependencies.fetcher ?? fetch,
-    );
-    if (response) {
-      return response;
-    }
-  }
-
   return outcome.kind === "absent"
-    ? new Response("Not found", { status: 404, headers: responseHeaders(cacheControl) })
+    ? new Response("Not found", { status: 404, headers: responseHeaders(ABSENT_CACHE) })
     : new Response("Unavailable", {
         status: 503,
         headers: { ...responseHeaders("no-store"), "Retry-After": "300" },

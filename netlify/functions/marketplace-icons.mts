@@ -15,8 +15,6 @@ export default async (request: Request, context: Context) => {
 };
 
 export const config: Config = {
-  path: ["/_/:domain/:image", "/:domain/:image"],
-  // Images in this repository always win
-  preferStatic: true,
+  path: "/marketplace/:domain/:image",
   method: "GET",
 };

@@ -97,16 +97,19 @@ The Cloudflare cache is also fully flushed in each major version of Home Assista
 Custom integrations ship their images in a `brand` folder of their own
 nowadays, instead of adding them to this repository. Home Assistant shows
 those once the integration is installed. To show them in the Marketplace
-before that, this site falls back to them for integrations it has no images
-for.
+before that, this site serves them on a path of its own:
+
+`https://brands.home-assistant.io/marketplace/[domain]/icon.png`
+
+Only the Marketplace uses this path. It takes the same image names as above,
+with the same fallbacks, but has no placeholder.
 
 - An hourly function (`netlify/functions/marketplace-icons-sync.mts`) checks
   which images the integrations in the Marketplace have at their latest
   release, and keeps that list in Netlify Blobs. It only looks again when
   a new release comes out, or after a week.
-- When a request has no matching file here, `netlify/functions/marketplace-icons.mts`
-  serves the image straight from the repository of the integration. Images in
-  this repository always win.
+- `netlify/functions/marketplace-icons.mts` serves the image straight from
+  the repository of the integration.
 - A 404 means the integration has no such image. When we do not know yet, or
   GitHub is not answering, the answer is a 503, which Home Assistant does not
   remember.
