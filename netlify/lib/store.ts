@@ -1,17 +1,18 @@
-import { getDeployStore, getStore } from "@netlify/blobs";
+import { getStore } from "@netlify/blobs";
 import type { Context } from "@netlify/functions";
 
 import type { IconIndex } from "./marketplace-icons.ts";
 
-const STORE = "marketplace-icons";
 const INDEX_KEY = "index";
 
-// A site store is shared by every deploy, so previews get their own
-// and cannot touch the index production serves from
+// Previews share an index of their own, so a new commit does not start
+// from scratch and no preview can touch the index production serves from
 const iconStore = (context: Context) =>
-  context.deploy.context === "production"
-    ? getStore(STORE)
-    : getDeployStore(STORE);
+  getStore(
+    context.deploy.context === "production"
+      ? "marketplace-icons"
+      : "marketplace-icons-preview",
+  );
 
 export const readIndex = async (
   context: Context,
