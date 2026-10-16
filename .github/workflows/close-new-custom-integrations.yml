@@ -65,7 +65,7 @@ jobs:
                 "However, we'll be closing it, as we no longer accept brand icons for custom integrations in this repository. Starting with Home Assistant 2026.3.0, custom integrations can provide their own brand icons directly, so there's no longer a need to add them here.",
                 '',
                 'You can find more details in the announcement:',
-                'https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api',
+                'https://contributors.home-assistant.io/blog/2026/02/24/brands-proxy-api/',
               ].join('\n'),
             });
 
