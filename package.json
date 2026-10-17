@@ -1,0 +1,17 @@
+{
+  "name": "brands",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc",
+    "test": "node --test \"netlify/tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.3",
+    "@netlify/functions": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^5.9.3"
+  }
+}
