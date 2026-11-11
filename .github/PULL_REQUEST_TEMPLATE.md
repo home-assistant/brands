@@ -30,11 +30,16 @@
 <!--
   Details are important, and help maintainers processing your PR.
   Please be sure to fill out additional details, if applicable.
+
+  Under "This PR belongs together with", list the pull requests that are
+  part of the same change, in any repository: the code this documents, its
+  documentation or brands, or code that has to be merged together with it.
+  List this pull request on theirs too. Mention other pull requests and
+  issues, like one this builds on or a revert, in the description above.
 -->
 
 - This PR fixes or closes issue: fixes #
-- Link to code base pull request: 
-- Link to documentation pull request: 
+- This PR belongs together with: 
 - Link to integration documentation on our website: 
 
 ## Checklist
