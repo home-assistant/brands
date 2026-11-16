@@ -1,0 +1,52 @@
+name: Prepare Karaca brand icons
+
+on:
+  push:
+    branches:
+      - feature/karaca-connect-brand
+    paths:
+      - .github/workflows/prepare-karaca-brand.yml
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/karaca-connect-brand
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install image tools
+        run: python -m pip install Pillow
+      - name: Resize source artwork to official brand sizes
+        run: |
+          curl --fail --location --silent --show-error \
+            "https://raw.githubusercontent.com/Azadglr/karaca-connect-unofficial/main/brand/icon.png" \
+            --output original.png
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          folder = Path("core_integrations/karaca_connect")
+          folder.mkdir(parents=True, exist_ok=True)
+          with Image.open("original.png") as original:
+              if original.size != (400, 400):
+                  raise ValueError("Unexpected source icon dimensions")
+              icon = original.convert("RGBA")
+              for size, filename in [(256, "icon.png"), (512, "icon@2x.png")]:
+                  output = folder / filename
+                  icon.resize((size, size), Image.Resampling.LANCZOS).save(
+                      output, format="PNG", optimize=True
+                  )
+          PY
+      - name: Commit generated assets to this fork only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add core_integrations/karaca_connect/icon.png core_integrations/karaca_connect/icon@2x.png
+          git diff --cached --quiet || git commit -m "assets: add correctly sized Karaca Connect icons"
+          git push origin HEAD:feature/karaca-connect-brand
