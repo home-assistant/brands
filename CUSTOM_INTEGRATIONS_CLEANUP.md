@@ -8,10 +8,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 
 | Action | Count |
 | --- | ---: |
-| Remove from brands repo | 198 |
-| Needs upstream PR | 893 |
+| Remove from brands repo | 579 |
+| Needs upstream PR | 684 |
 | Needs source repo lookup | 981 |
-| Needs manual follow-up | 2156 |
+| Needs manual follow-up | 1984 |
+
+Upstream PRs opened: 873. Status on 2026-10-21: 203 merged, 666 open, 4 closed without merging.
 
 ## Remove from brands repo
 
@@ -215,904 +217,1076 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `xtool` | home-assistant/brands#6318 | https://github.com/BassXT/xtool | Archived, pushed 2026-05-04 | Upstream repository is archived. | home-assistant/brands#11332 |
 | `yandex_smart_home` | home-assistant/brands#1699 | https://github.com/alryaz/hass-component-yandex-smart-home | Archived, pushed 2021-11-14 | Upstream repository is archived. | home-assistant/brands#11332 |
 | `zadnego_ale` | home-assistant/brands#2366 | https://github.com/bieniu/ha-zadnego-ale | Archived, pushed 2023-04-28 | Upstream repository is archived. | home-assistant/brands#11332 |
+| `ab_gateway` | home-assistant/brands#3920 | https://github.com/AprilBrother/component-ab-gateway | Active, pushed 2024-09-26 | Upstream merged our brand images (AprilBrother/component-ab-gateway#2). |  |
+| `abc_council_bin_collection` | home-assistant/brands#7050 | https://github.com/jordanhinks/abc_council_bin_collection | Active, pushed 2026-10-13 | Upstream merged our brand images (jordanhinks/abc_council_bin_collection#22). |  |
+| `abetterrouteplanner` | home-assistant/brands#8526 | https://github.com/jannis3005/hass-abrp | Active, pushed 2026-09-28 | Upstream already ships local brand assets in `custom_components/abetterrouteplanner/brand/`. |  |
+| `actec` | home-assistant/brands#6767 | https://github.com/AcTECElectronics/ha_actec_home | Active, pushed 2025-06-19 | Upstream merged our brand images (AcTECElectronics/ha_actec_home#1). |  |
+| `actronair_neo` | home-assistant/brands#5818 | https://github.com/domalab/ha-actronair-neo | Active, pushed 2026-10-16 | Upstream merged our brand images (tinkerologie/ha-actronair-neo#192). |  |
+| `acwd` | home-assistant/brands#8657 | https://github.com/funkadelic/ha-acwd | Active, pushed 2026-10-18 | Upstream merged our brand images (funkadelic/ha-acwd#137). |  |
+| `adaptive_lighting` | home-assistant/brands#2727 | https://github.com/basnijholt/adaptive-lighting | Active, pushed 2026-10-12 | Upstream merged our brand images (basnijholt/adaptive-lighting#1643). |  |
+| `advanced_snapshot` | home-assistant/brands#6594 | https://github.com/Phil7989/advanced_snapshot | Active, pushed 2026-01-12 | Upstream merged our brand images (Phil7989/advanced_snapshot#15). |  |
+| `affalddk` | home-assistant/brands#5261 | https://github.com/briis/affalddk | Active, pushed 2026-10-13 | Upstream merged our brand images (briis/affalddk#463). |  |
+| `afvalbeheer` | home-assistant/brands#7114 | https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer | Active, pushed 2026-10-13 | Upstream merged our brand images (pippyn/Home-Assistant-Sensor-Afvalbeheer#753). |  |
+| `afvalwijzer` | home-assistant/brands#1851 | https://github.com/xirixiz/homeassistant-afvalwijzer | Unavailable | Upstream already ships local brand assets in `custom_components/afvalwijzer/brand/`. |  |
+| `agui_agent` | home-assistant/brands#9041 | https://github.com/contextablemark/home-agui-agent | Active, pushed 2026-10-17 | Upstream merged our brand images (contextablemark/home-agui-agent#124). |  |
+| `airahome` | home-assistant/brands#8252 | https://github.com/Invy55/Ha-AiraHome | Active, pushed 2026-09-14 | Upstream merged our brand images (Invy55/ha-airahome#29). |  |
+| `airtouch2` | home-assistant/brands#5997 | https://github.com/nathanvdh/homeassistant-airtouch2 | Active, pushed 2025-01-14 | Upstream merged our brand images (nathanvdh/homeassistant-airtouch2#25). |  |
+| `airtouch4_advanced` | home-assistant/brands#6699 | https://github.com/doenau/airtouch4 | Active, pushed 2026-09-24 | Upstream merged our brand images (0xAHA/airtouch4_advanced#18). |  |
+| `amazon_cloudwatch` | home-assistant/brands#4922 | https://github.com/Mallonbacka/custom-component-cloudwatch | Active, pushed 2026-10-13 | Upstream merged our brand images (Mallonbacka/custom-component-cloudwatch#207). |  |
+| `ambeo_soundbar` | home-assistant/brands#5226 | https://github.com/faizpuru/ha-ambeo_soundbar | Active, pushed 2026-10-09 | Upstream merged our brand images (faizpuru/ha-ambeo_soundbar#118). |  |
+| `amber_express` | home-assistant/brands#9356 | https://github.com/hass-energy/amber-express | Active, pushed 2026-10-18 | Upstream merged our brand images (hass-energy/amber-express#101). |  |
+| `amberelectric_usages` | home-assistant/brands#6215 | https://github.com/Tmbao/amberelectric-usages | Active, pushed 2026-07-13 | Upstream merged our brand images (Tmbao/amberelectric-usages#14). |  |
+| `ambient_music` | home-assistant/brands#7778 | https://github.com/connochio/ambient_music | Active, pushed 2026-04-29 | Upstream merged our brand images (connochio/ambient_music#67). |  |
+| `andersen_ev` | home-assistant/brands#6896 | https://github.com/lwsrbrts/hassio-andersen-ev | Unavailable | Upstream already ships local brand assets in `custom_components/andersen_ev/brand/`. |  |
+| `anker_solix` | home-assistant/brands#5263 | https://github.com/thomluther/hacs-anker-solix | Unavailable | Upstream already ships local brand assets in `custom_components/anker_solix/brand/`. |  |
+| `anniversary` | home-assistant/brands#2746 | https://github.com/amaximus/anniversary | Active, pushed 2026-09-21 | Upstream merged our brand images (amaximus/anniversary#25). |  |
+| `apsystems_ecu_proxy` | home-assistant/brands#6026 | https://github.com/HAEdwin/homeassistant-apsystems_ecu_proxy | Active, pushed 2025-08-25 | Upstream merged our brand images (HAEdwin/homeassistant-apsystems_ecu_proxy#22). |  |
+| `apsystems_ecu_reader` | home-assistant/brands#6516 | https://github.com/HAEdwin/homeassistant-apsystems_ecu_reader | Active, pushed 2026-09-03 | Upstream merged our brand images (HAEdwin/homeassistant-apsystems_ecu_reader#166). |  |
+| `arctic_spa` | home-assistant/brands#9771 | https://github.com/jensenbox/ha-arctic-spa | Unavailable | Upstream already ships local brand assets in `custom_components/arctic_spa/brand/`. |  |
+| `arso_potresi` | home-assistant/brands#6613 | https://github.com/andrejs2/arso_potresi | Active, pushed 2026-03-13 | Upstream merged our brand images (andrejs2/arso_potresi#12). |  |
+| `asterisk_call_status` | home-assistant/brands#4559 | https://github.com/bkbilly/asterisk_call_status | Active, pushed 2024-01-29 | Upstream merged our brand images (bkbilly/asterisk_call_status#9). |  |
+| `asterisk` | home-assistant/brands#3296 | https://github.com/TECH7Fox/asterisk-hass-integration | Active, pushed 2026-04-15 | Upstream merged our brand images (TECH7Fox/asterisk-hass-integration#130). |  |
+| `asusrouter` | home-assistant/brands#3366 | https://github.com/Vaskivskyi/ha-asusrouter | Active, pushed 2026-10-15 | Upstream merged our brand images (Vaskivskyi/ha-asusrouter#1428). |  |
+| `atmo` | home-assistant/brands#4556 | https://github.com/natekspencer/hacs-atmo | Unavailable | Upstream already ships local brand assets in `custom_components/atmo/brand/`. |  |
+| `atmos_energy` | home-assistant/brands#9526 | https://github.com/Valdorama/ha-atmos-energy-sensor | Active, pushed 2026-09-25 | Upstream merged our brand images (Valdorama/ha-atmos-energy-sensor#6). |  |
+| `atrea` | home-assistant/brands#3633 | https://github.com/JurajNyiri/HomeAssistant-Atrea | Active, pushed 2026-07-27 | Upstream merged our brand images (JurajNyiri/HomeAssistant-Atrea#47). |  |
+| `attribute_as_sensor` | home-assistant/brands#4916 | https://github.com/gjohansson-ST/attribute_as_sensor | Active, pushed 2026-10-09 | Upstream merged our brand images (gjohansson-ST/attribute_as_sensor#87). |  |
+| `attributes` | home-assistant/brands#2320 | https://github.com/pilotak/homeassistant-attributes | Active, pushed 2026-07-21 | Upstream merged our brand images (pilotak/homeassistant-attributes#64). |  |
+| `audioflow` | home-assistant/brands#4619 | https://github.com/siku2/hass-audioflow | Active, pushed 2026-08-07 | Upstream merged our brand images (siku2/hass-audioflow#22). |  |
+| `autoarm` | home-assistant/brands#8545 | https://github.com/rhizomatics/autoarm | Unavailable | Upstream already ships local brand assets in `custom_components/autoarm/brand/`. |  |
+| `autopi` | home-assistant/brands#7543 | https://github.com/rknightion/autopi-ha | Active, pushed 2026-10-15 | Upstream merged our brand images (rknightion/autopi-ha#432). |  |
+| `aux_cloud` | home-assistant/brands#6874 | https://github.com/maeek/ha-aux-cloud | Active, pushed 2026-09-13 | Upstream merged our brand images (maeek/ha-aux-cloud#91). |  |
+| `avalon_nano3s` | home-assistant/brands#9596 | https://github.com/jinx-22/avalon_nano3s | Unavailable | Upstream already ships local brand assets in `custom_components/avalon_nano3s/brand/`. |  |
+| `ave_dominaplus` | home-assistant/brands#7039 | https://github.com/emmeoerre/ave_dominaplus | Active, pushed 2026-10-12 | Upstream merged our brand images (emmeoerre/ave_dominaplus#37). |  |
+| `aviationweather` | home-assistant/brands#7300 | https://github.com/eduwardpost/aviation-weather | Active, pushed 2026-09-14 | Upstream merged our brand images (eduwardpost/aviation-weather#28). |  |
+| `awox` | home-assistant/brands#2102 | https://github.com/fsaris/home-assistant-awox | Active, pushed 2026-06-14 | Upstream merged our brand images (fsaris/home-assistant-awox#130). |  |
+| `awtrix` | home-assistant/brands#6801 | https://github.com/MiguelAngelLV/ha-awtrix | Active, pushed 2026-04-26 | Upstream merged our brand images (miguelangellv/ha-awtrix#36). |  |
+| `basestation` | home-assistant/brands#5187 | https://github.com/MineTech13/homeassistant-basestation | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/basestation/brand/`. |  |
+| `battery_monitor` | home-assistant/brands#9334 | https://github.com/DomoticaFacile/battery_monitor | Active, pushed 2026-10-08 | Upstream merged our brand images (DomoticaFacile/battery_monitor#16). |  |
+| `bcnn` | home-assistant/brands#5523 | https://github.com/Muxee4ka/hass-bcnn | Active, pushed 2026-05-24 | Upstream merged our brand images (Muxee4ka/hass-bcnn#7). |  |
+| `becker_centralcontrol_has` | home-assistant/brands#6692 | https://github.com/DominikStarke/becker_centralcontrol_has | Active, pushed 2026-10-12 | Upstream merged our brand images (DominikStarke/becker_centralcontrol_has#30). |  |
+| `bedrock_server_manager` | home-assistant/brands#7025 | https://github.com/DMedina559/bsm-home-assistant-integration | Active, pushed 2026-10-18 | Upstream merged our brand images (DMedina559/bsm-home-assistant-integration#28). |  |
+| `bergfex` | home-assistant/brands#8307 | https://github.com/timmaurice/bergfex | Unavailable | Upstream already ships local brand assets in `custom_components/bergfex/brand/`. |  |
+| `bettercozylife` | home-assistant/brands#6550 | https://github.com/IIRoan/bettercozylife | Active, pushed 2026-02-06 | Upstream merged our brand images (IIRoan/bettercozylife#16). |  |
+| `bezeq_energy` | home-assistant/brands#6031 | https://github.com/GuyKh/bezeq-energy-custom-component | Active, pushed 2026-10-15 | Upstream merged our brand images (GuyKh/bezeq-energy-custom-component#178). |  |
+| `bibliotek_dk` | home-assistant/brands#8754 | https://github.com/TermeHansen/Bibliotek_dk | Active, pushed 2026-10-11 | Upstream merged our brand images (TermeHansen/Bibliotek_dk#14). |  |
+| `bj_led` | home-assistant/brands#5241 | https://github.com/8none1/bj_led | Active, pushed 2024-03-23 | Upstream merged our brand images (8none1/bj_led#9). |  |
+| `bjsy_water_gas` | home-assistant/brands#5626 | https://github.com/jianyun8023/bjsy_water_gas | Active, pushed 2024-12-22 | Upstream merged our brand images (jianyun8023/bjsy_water_gas#1). |  |
+| `blauberg_s21` | home-assistant/brands#5007 | https://github.com/jvitkauskas/homeassistant_blauberg_s21 | Unavailable | Upstream already ships local brand assets in `custom_components/blauberg_s21/brand/`. |  |
+| `blebox_shutterbox_tilt` | home-assistant/brands#3480 | https://github.com/andrzejchm/blebox_shutterbox_tilt | Active, pushed 2025-06-13 | Upstream merged our brand images (andrzejchm/blebox_shutterbox_tilt#241). |  |
+| `bloomin8_pull` | home-assistant/brands#8979 | https://github.com/fwmone/bloomin8_pull | Active, pushed 2026-09-26 | Upstream merged our brand images (fwmone/bloomin8_pull#2). |  |
+| `bluebubbles` | home-assistant/brands#7744 | https://github.com/helv-io/ha-bluebubbles | Active, pushed 2026-10-17 | Upstream merged our brand images (helv-io/ha-bluebubbles#31). |  |
+| `bluesound_alt` | home-assistant/brands#5171 | https://github.com/aunefyren/bluesound_alt | Active, pushed 2026-10-12 | Upstream merged our brand images (aunefyren/bluesound_alt#18). |  |
+| `bodymiscale` | home-assistant/brands#2818 | https://github.com/dckiller51/bodymiscale | Active, pushed 2026-10-15 | Upstream merged our brand images (dckiller51/bodymiscale#472). |  |
+| `bodypetscale` | home-assistant/brands#7021 | https://github.com/dckiller51/bodypetscale | Active, pushed 2026-10-16 | Upstream merged our brand images (dckiller51/bodypetscale#113). |  |
+| `boneco` | home-assistant/brands#6660 | https://github.com/DeKaN/ha-boneco | Active, pushed 2026-03-09 | Upstream merged our brand images (DeKaN/ha-boneco#24). |  |
+| `brewcreator` | home-assistant/brands#6262 | https://github.com/bjorncs/ha-brewcreator | Active, pushed 2025-06-24 | Upstream merged our brand images (bjorncs/ha-brewcreator#4). |  |
+| `bring_shopping` | home-assistant/brands#8929 | https://github.com/costantinoai/bring-widget-hacs | Active, pushed 2026-07-03 | Upstream merged our brand images (costantinoai/bring-shopping-card#4). |  |
+| `broetje_heating` | home-assistant/brands#9598 | https://github.com/henrywiechert/ha-broetje | Active, pushed 2026-10-13 | Upstream merged our brand images (henrywiechert/ha-broetje#36). |  |
+| `bromic_smart_heat_link` | home-assistant/brands#7970 | https://github.com/bharat/homeassistant-bromic-smart-heat-link | Active, pushed 2026-10-15 | Upstream merged our brand images (bharat/homeassistant-bromic-smart-heat-link#121). |  |
+| `browser_mod` | home-assistant/brands#3298 | https://github.com/thomasloven/hass-browser_mod | Active, pushed 2026-10-07 | Upstream merged our brand images (thomasloven/hass-browser_mod#1400). |  |
+| `bureau_of_meteorology` | home-assistant/brands#1983 | https://github.com/bremor/bureau_of_meteorology | Active, pushed 2026-10-18 | Upstream merged our brand images (bremor/bureau_of_meteorology#323). |  |
+| `bwt_perla` | home-assistant/brands#5027 | https://github.com/dkarv/hacs-bwt-perla | Active, pushed 2026-09-27 | Upstream merged our brand images (dkarv/ha-bwt-perla#63). |  |
+| `byd_vehicle` | home-assistant/brands#9530 | https://github.com/jkaberg/hass-byd-vehicle | Active, pushed 2026-10-18 | Upstream merged our brand images (jkaberg/hass-byd-vehicle#200). |  |
+| `calendar_merge` | home-assistant/brands#5670 | https://github.com/kgn3400/calendar_merge | Unavailable | Upstream already ships local brand assets in `custom_components/calendar_merge/brand/`. |  |
+| `cardata` | home-assistant/brands#8642 | https://github.com/kvanbiesen/bmw-cardata-ha | Unavailable | Upstream already ships local brand assets in `custom_components/cardata/brand/`. |  |
+| `cardiffwaste` | home-assistant/brands#3100 | https://github.com/TomBrien/cardiffwaste-ha | Active, pushed 2026-06-23 | Upstream merged our brand images (TomBrien/cardiffwaste-ha#46). |  |
+| `ccei_tild` | home-assistant/brands#4878 | https://github.com/brenard/ccei-tild-custom-component | Active, pushed 2026-10-12 | Upstream merged our brand images (brenard/ccei-tild-custom-component#78). |  |
+| `celcat_calendar` | home-assistant/brands#6653 | https://github.com/etiennec78/ha-celcat | Active, pushed 2026-04-06 | Upstream merged our brand images (etiennec78/ha-celcat#15). |  |
+| `chameleon` | home-assistant/brands#8638 | https://github.com/MKSG-MugunthKumar/ha-chameleon | Active, pushed 2026-10-14 | Upstream merged our brand images (MKSG-MugunthKumar/ha-chameleon#9). |  |
+| `chinese_calendar` | home-assistant/brands#7795 | https://github.com/knoop7/ha_laohuangli | Active, pushed 2026-02-16 | Upstream merged our brand images (knoop7/ha_laohuangli#15). |  |
+| `chitubox_printer` | home-assistant/brands#6480 | https://github.com/bushvin/hass_chitubox_printer | Active, pushed 2026-08-27 | Upstream merged our brand images (bushvin/hass_chitubox_printer#7). |  |
+| `chmu` | home-assistant/brands#8484 | https://github.com/lipelix/home-assistant-chmu-weather | Active, pushed 2026-10-14 | Upstream merged our brand images (lipelix/home-assistant-chmu-weather#33). |  |
+| `chroma` | home-assistant/brands#3652 | https://github.com/Vaskivskyi/ha-chroma | Active, pushed 2026-10-14 | Upstream merged our brand images (Vaskivskyi/ha-chroma#107). |  |
+| `city_visitor_parking` | home-assistant/brands#9048 | https://github.com/sir-Unknown/ha_City-Visitor-Parking | Unavailable | Upstream already ships local brand assets in `custom_components/city_visitor_parking/brand/`. |  |
+| `cloudlibrary` | home-assistant/brands#4993 | https://github.com/geertmeersman/cloudlibrary | Active, pushed 2026-08-18 | Upstream merged our brand images (geertmeersman/cloudlibrary#156). |  |
+| `color_notify` | home-assistant/brands#7127 | https://github.com/cobryan05/ha-color-notify | Active, pushed 2026-10-16 | Upstream merged our brand images (cobryan05/ha-color-notify#23). |  |
+| `combivox_web` | home-assistant/brands#9362 | https://github.com/stich86/ha-combivox-web | Unavailable | Upstream already ships local brand assets in `custom_components/combivox_web/brand/`. |  |
+| `commax_iot` | home-assistant/brands#8751 | https://github.com/yoonpooh/homeassistant-commax-iot | Unavailable | Upstream already ships local brand assets in `custom_components/commax_iot/brand/`. |  |
+| `compal_wifi` | home-assistant/brands#2297 | https://github.com/frimtec/hass-compal-wifi | Active, pushed 2026-10-18 | Upstream merged our brand images (frimtec/hass-compal-wifi#64). |  |
+| `companion_media_player` | home-assistant/brands#9656 | https://github.com/echocat/ha-companion-media-player | Active, pushed 2026-08-12 | Upstream merged our brand images (echocat/ha-companion-media-player#18). |  |
+| `comwatt` | home-assistant/brands#4859 | https://github.com/MateoGreil/homeassistant-comwatt | Active, pushed 2026-10-12 | Upstream merged our brand images (MateoGreil/homeassistant-comwatt#58). |  |
+| `connectivity_monitor` | home-assistant/brands#6155 | https://github.com/joshburkard/ConnectivityMonitor | Unavailable | Upstream already ships local brand assets in `custom_components/connectivity_monitor/brand/`. |  |
+| `connectlife` | home-assistant/brands#5435 | https://github.com/oyvindwe/connectlife-ha | Unavailable | Upstream already ships local brand assets in `custom_components/connectlife/brand/`. |  |
+| `control4_mediaplayer` | home-assistant/brands#7956 | https://github.com/OtisPresley/control4-mediaplayer | Active, pushed 2026-10-04 | Upstream already ships local brand assets in `custom_components/control4_mediaplayer/brand/`. |  |
+| `control_my_spa` | home-assistant/brands#7152 | https://github.com/haresik/Hares-ControlMySpa | Active, pushed 2026-09-30 | Upstream merged our brand images (haresik/Hares-ControlMySpa#52). |  |
+| `coverflex` | home-assistant/brands#3496 | https://github.com/netsoft-ruidias/ha-custom-component-coverflex | Unavailable | Upstream already ships local brand assets in `custom_components/coverflex/brand/`. |  |
+| `creality_box_control` | home-assistant/brands#6029 | https://github.com/pcartwright81/creality_box_control | Active, pushed 2026-10-18 | Upstream merged our brand images (pcartwright81/creality_box_control#204). |  |
+| `ctek_nanogrid_air` | home-assistant/brands#8782 | https://github.com/FreshJonte/CTEK-Nanogrid-Air | Active, pushed 2026-09-29 | Upstream merged our brand images (FreshJonte/CTEK-Nanogrid-Air#12). |  |
+| `cummins_generator` | home-assistant/brands#7867 | https://github.com/mswilson/cummins-hass-integration | Unavailable | Upstream already ships local brand assets in `custom_components/cummins_generator/brand/`. |  |
+| `custom_ambilight` | home-assistant/brands#5349 | https://github.com/aegjoyce/custom-ambilight | Active, pushed 2026-10-14 | Upstream merged our brand images (aegjoyce/custom-ambilight#12). |  |
+| `dabpumps` | home-assistant/brands#4972 | https://github.com/ankohanse/hass-dab-pumps | Active, pushed 2026-10-15 | Upstream merged our brand images (ankohanse/hass-dab-pumps#115). |  |
+| `dahua` | home-assistant/brands#2606 | https://github.com/rroller/dahua | Unavailable | Upstream already ships local brand assets in `custom_components/dahua/brand/`. |  |
+| `daikin_onecta` | home-assistant/brands#5232 | https://github.com/jwillemsen/daikin_onecta | Unavailable | Upstream already ships local brand assets in `custom_components/daikin_onecta/brand/`. |  |
+| `daikinskyport` | home-assistant/brands#4677 | https://github.com/apetrycki/daikinskyport | Active, pushed 2026-10-18 | Upstream merged our brand images (apetrycki/daikinskyport#161). |  |
+| `danalock_cloud` | home-assistant/brands#7010 | https://github.com/furth3st/ha-danalock-cloud | Active, pushed 2025-07-01 | Upstream merged our brand images (furth3st/ha-danalock-cloud#13). |  |
+| `danfoss_ally` | home-assistant/brands#2118 | https://github.com/MTrab/danfoss_ally | Active, pushed 2026-10-14 | Upstream merged our brand images (MTrab/danfoss_ally#433). |  |
+| `dashie` | home-assistant/brands#9133 | https://github.com/jwlerch78/dashie-ha-integration | Unavailable | Upstream already ships local brand assets in `custom_components/dashie/brand/`. |  |
+| `defa_power` | home-assistant/brands#6038 | https://github.com/Bebbssos/ha-defa-power | Active, pushed 2026-10-16 | Upstream merged our brand images (Bebbssos/ha-defa-power#32). |  |
+| `degree_days` | home-assistant/brands#5064 | https://github.com/Ernst79/degree-days | Active, pushed 2026-08-14 | Upstream merged our brand images (Ernst79/degree-days#50). |  |
+| `dess_monitor` | home-assistant/brands#7115 | https://github.com/Antoxa1081/home-assistant-dess-monitor | Active, pushed 2026-05-29 | Upstream merged our brand images (Antoxa1081/home-assistant-dess-monitor#97). |  |
+| `device_tools` | home-assistant/brands#5436 | https://github.com/eulemitkeule/device-tools | Active, pushed 2026-09-25 | Upstream merged our brand images (EuleMitKeule/device-tools#85). |  |
+| `dewpoint` | home-assistant/brands#8171 | https://github.com/andrewjswan/home-assistant-dewpoint | Active, pushed 2025-10-14 | Upstream merged our brand images (andrewjswan/home-assistant-dewpoint#2). |  |
+| `deye_cloud` | home-assistant/brands#9667 | https://github.com/brettmeyerowitz/deye_cloud | Active, pushed 2026-02-16 | Upstream merged our brand images (brettmeyerowitz/deye_cloud#12). |  |
+| `deye_dehumidifier` | home-assistant/brands#4221 | https://github.com/stackia/ha-deye-dehumidifier | Unavailable | Upstream already ships local brand assets in `custom_components/deye_dehumidifier/brand/`. |  |
+| `diematic_3_c230_eco` | home-assistant/brands#3818 | https://github.com/IgnacioHR/de-dietrich-c230-ha | Active, pushed 2024-11-22 | Upstream merged our brand images (IgnacioHR/de-dietrich-c230-ha#1). |  |
+| `discord_game` | home-assistant/brands#5380 | https://github.com/LordBoos/discord_game | Active, pushed 2026-10-09 | Upstream merged our brand images (LordBoos/discord_game#86). |  |
+| `display_tools` | home-assistant/brands#8233 | https://github.com/alaltitov/homeassistant-display-tools | Active, pushed 2026-10-03 | Upstream merged our brand images (alaltitov/homeassistant-display-tools#7). |  |
+| `divera247` | home-assistant/brands#6531 | https://github.com/Loony2392/ha_hacs_divera_247 | Active, pushed 2026-09-19 | Upstream merged our brand images (Loony2392/ha_hacs_divera_247#173). |  |
+| `divoom_pixoo` | home-assistant/brands#4887 | https://github.com/gickowtf/pixoo-homeassistant | Active, pushed 2026-09-30 | Upstream merged our brand images (gickowtf/pixoo-homeassistant#165). |  |
+| `divoom` | home-assistant/brands#5337 | https://github.com/d03n3rfr1tz3/hass-divoom | Active, pushed 2026-10-18 | Upstream merged our brand images (d03n3rfr1tz3/hass-divoom#93). |  |
+| `domintell_ecopilot` | home-assistant/brands#8229 | https://github.com/Domintell/ha_domintell_ecopilot | Active, pushed 2026-02-09 | Upstream merged our brand images (Domintell/ha_domintell_ecopilot#1). |  |
+| `domintell` | home-assistant/brands#6828 | https://github.com/Domintell/hacs_domintell | Active, pushed 2026-09-22 | Upstream merged our brand images (Domintell/ha_domintell#19). |  |
+| `domonap` | home-assistant/brands#6428 | https://github.com/svmironov/domonap_intercom | Active, pushed 2026-09-17 | Upstream merged our brand images (svmironov/domonap_intercom#30). |  |
+| `dreame_mower` | home-assistant/brands#7878 | https://github.com/antondaubert/dreame-mower | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/dreame_mower/brand/`. |  |
+| `drinkaware` | home-assistant/brands#6921 | https://github.com/B-Hartley/drinkaware | Active, pushed 2025-04-23 | Upstream merged our brand images (B-Hartley/drinkaware#11). |  |
+| `dropboxbackup` | home-assistant/brands#7079 | https://github.com/jasonwragg/HA-Dropbox-Backup | Active, pushed 2026-04-01 | Upstream merged our brand images (jasonwragg/HA-Dropbox-Backup#35). |  |
+| `dummy_tracker` | home-assistant/brands#7066 | https://github.com/zubir2k/homeassistant-dummytracker | Active, pushed 2025-05-20 | Upstream merged our brand images (zubir2k/homeassistant-dummytracker#1). |  |
+| `dvla` | home-assistant/brands#4079 | https://github.com/jampez77/DVLA-Vehicle-Enquiry-Service | Active, pushed 2026-10-07 | Upstream merged our brand images (jampez77/DVLA-Vehicle-Enquiry-Service#49). |  |
+| `dwd_precipitation` | home-assistant/brands#7484 | https://github.com/Hoffmann77/ha-dwd-precipitation | Active, pushed 2026-10-18 | Upstream merged our brand images (Hoffmann77/ha-dwd-precipitation#126). |  |
+| `dynamic_energy_cost` | home-assistant/brands#6413 | https://github.com/martinarva/dynamic_energy_cost | Unavailable | Upstream already ships local brand assets in `custom_components/dynamic_energy_cost/brand/`. |  |
+| `easyathome` | home-assistant/brands#9495 | https://github.com/chmielowiec/hass-easyathome | Active, pushed 2026-10-14 | Upstream merged our brand images (chmielowiec/hass-easyathome#63). |  |
+| `ecobulles` | home-assistant/brands#7216 | https://github.com/jul-fls/ha_ecobulles | Unavailable | Upstream already ships local brand assets in `custom_components/ecobulles/brand/`. |  |
+| `ecocompteur` | home-assistant/brands#5943 | https://github.com/AlexandreFournier/ha-ecocompteur | Active, pushed 2026-05-15 | Upstream merged our brand images (AlexandreFournier/ha-ecocompteur#130). |  |
+| `ecodevices` | home-assistant/brands#2203 | https://github.com/Aohzan/ecodevices | Active, pushed 2026-10-14 | Upstream merged our brand images (Aohzan/ecodevices#73). |  |
+| `ecole_directe` | home-assistant/brands#5281 | https://github.com/hacf-fr/hass-ecoledirecte | Active, pushed 2026-10-17 | Upstream merged our brand images (hacf-fr/hass-ecoledirecte#329). |  |
+| `ecovent_v2` | home-assistant/brands#4150 | https://github.com/gody01/ecovent_v2 | Active, pushed 2026-10-15 | Upstream merged our brand images (gody01/ecovent_v2#123). |  |
+| `edge_tts` | home-assistant/brands#3452 | https://github.com/hasscc/hass-edge-tts | Active, pushed 2026-10-13 | Upstream merged our brand images (hasscc/hass-edge-tts#84). |  |
+| `eeveemobility` | home-assistant/brands#4837 | https://github.com/geertmeersman/eeveemobility | Active, pushed 2026-08-18 | Upstream already ships local brand assets in `custom_components/eeveemobility/brand/`. |  |
+| `ef_ble` | home-assistant/brands#5918 | https://github.com/rabits/ha-ef-ble | Active, pushed 2026-10-17 | Upstream merged our brand images (rabits/ha-ef-ble#534). |  |
+| `effektguard` | home-assistant/brands#8216 | https://github.com/enoch85/EffektGuard | Active, pushed 2026-10-18 | Upstream merged our brand images (enoch85/EffektGuard#56). |  |
+| `eg4_web_monitor` | home-assistant/brands#7893 | https://github.com/joyfulhouse/eg4_web_monitor | Active, pushed 2026-10-14 | Upstream merged our brand images (joyfulhouse/eg4_web_monitor#669). |  |
+| `egddistribuce` | home-assistant/brands#4743 | https://github.com/Antrac1t/HomeAssistant-EGDdistribuce | Active, pushed 2026-04-09 | Upstream merged our brand images (Antrac1t/HomeAssistant-EGDdistribuce#67). |  |
+| `einskomma5grad` | home-assistant/brands#6116 | https://github.com/BirknerAlex/hacs_1komma5grad | Active, pushed 2026-10-02 | Upstream merged our brand images (BirknerAlex/ha-1komma5grad#56). |  |
+| `elegoo_printer` | home-assistant/brands#6597 | https://github.com/danielcherubini/elegoo-homeassistant | Active, pushed 2026-10-11 | Upstream merged our brand images (danielcherubini/elegoo-homeassistant#434). |  |
+| `elero` | home-assistant/brands#8085 | https://github.com/W00D00/home-assistant-elero | Active, pushed 2025-07-23 | Upstream merged our brand images (W00D00/home-assistant-elero#55). |  |
+| `elk_bledob` | home-assistant/brands#5240 | https://github.com/8none1/elk-bledob | Active, pushed 2026-05-23 | Upstream merged our brand images (8none1/elk-bledob#6). |  |
+| `elkbledom` | home-assistant/brands#3445 | https://github.com/dave-code-ruiz/elkbledom-ha | Active, pushed 2026-10-13 | Upstream merged our brand images (dave-code-ruiz/elkbledom#161). |  |
+| `ember_mug` | home-assistant/brands#4140 | https://github.com/sopelj/hass-ember-mug-component | Active, pushed 2026-10-17 | Upstream merged our brand images (sopelj/hass-ember-mug-component#169). |  |
+| `energa_mobile` | home-assistant/brands#8819 | https://github.com/ergo5/hass-energa-my-meter-api | Active, pushed 2026-09-10 | Upstream merged our brand images (ergo5/hass-energa-my-meter-api#39). |  |
+| `energy_tracker` | home-assistant/brands#9217 | https://github.com/energy-tracker/home-assistant-energy-tracker | Active, pushed 2026-09-30 | Upstream merged our brand images (energy-tracker/home-assistant-energy-tracker#11). |  |
+| `enpal_webparser` | home-assistant/brands#7023 | https://github.com/derolli1976/enpal | Active, pushed 2026-09-27 | Upstream merged our brand images (derolli1976/enpal#193). |  |
+| `enphase_battery` | home-assistant/brands#8262 | https://github.com/foXaCe/enphase-battery | Active, pushed 2026-10-15 | Upstream merged our brand images (foXaCe/enphase-battery#40). |  |
+| `entur_sx` | home-assistant/brands#8218 | https://github.com/jm-cook/entur_situation_exchange_custom_integration | Unavailable | Upstream already ships local brand assets in `custom_components/entur_sx/brand/`. |  |
+| `epa_uvindex` | home-assistant/brands#4400 | https://github.com/davidn/epa_uvindex | Active, pushed 2024-05-10 | Upstream merged our brand images (davidn/epa_uvindex#8). |  |
+| `eplucon` | home-assistant/brands#5799 | https://github.com/koenhendriks/ha-eplucon | Active, pushed 2026-09-12 | Upstream merged our brand images (koenhendriks/ha-eplucon#40). |  |
+| `epson_workforce` | home-assistant/brands#7792 | https://github.com/lymanepp/ha-epson-workforce | Unavailable | Upstream already ships local brand assets in `custom_components/epson_workforce/brand/`. |  |
+| `eso` | home-assistant/brands#6784 | https://github.com/algirdasc/hass-eso | Active, pushed 2026-08-30 | Upstream merged our brand images (algirdasc/hass-eso#51). |  |
+| `esolatgps` | home-assistant/brands#6089 | https://github.com/zubir2k/homeassistant-esolatgps | Unavailable | Upstream already ships local brand assets in `custom_components/esolatgps/brand/`. |  |
+| `esolattakwim` | home-assistant/brands#6296 | https://github.com/zubir2k/homeassistant-esolattakwim | Unavailable | Upstream already ships local brand assets in `custom_components/esolattakwim/brand/`. |  |
+| `evcc_intg` | home-assistant/brands#5483 | https://github.com/marq24/ha-evcc | Unavailable | Upstream already ships local brand assets in `custom_components/evcc_intg/brand/`. |  |
+| `evse_load_balancer` | home-assistant/brands#7174 | https://github.com/dirkgroenen/hass-evse-load-balancer | Active, pushed 2026-09-23 | Upstream merged our brand images (dirkgroenen/hass-evse-load-balancer#99). |  |
+| `evsemaster` | home-assistant/brands#9280 | https://github.com/RafaelSchridi/evsemaster-homeassistant | Active, pushed 2026-10-16 | Upstream already ships local brand assets in `custom_components/evsemaster/brand/`. |  |
+| `ex_habridge` | home-assistant/brands#7454 | https://github.com/SenMorgan/EX-HABridge | Active, pushed 2026-08-01 | Upstream merged our brand images (SenMorgan/EX-HABridge#53). |  |
+| `ferroamp` | home-assistant/brands#2377 | https://github.com/henricm/ha-ferroamp | Active, pushed 2026-10-16 | Upstream merged our brand images (henricm/ha-ferroamp#941). |  |
+| `file_plusplus` | home-assistant/brands#5928 | https://github.com/benjamin-dcs/File-plusplus | Active, pushed 2025-12-19 | Upstream merged our brand images (benjamin-dcs/file-plusplus#21). |  |
+| `filter_tracker` | home-assistant/brands#8459 | https://github.com/bhaggs/ha-filter-tracker | Active, pushed 2026-09-22 | Upstream merged our brand images (bhaggs/ha-filter-tracker#17). |  |
+| `flashbird` | home-assistant/brands#6358 | https://github.com/gorfo66/flashbird-homeassistant | Active, pushed 2026-04-25 | Upstream merged our brand images (gorfo66/flashbird-homeassistant#17). |  |
+| `flightradar24` | home-assistant/brands#4913 | https://github.com/AlexandrErohin/home-assistant-flightradar24 | Active, pushed 2026-10-06 | Upstream merged our brand images (AlexandrErohin/home-assistant-flightradar24#344). |  |
+| `fnos` | home-assistant/brands#8672 | https://github.com/Timandes/fnos-home-assistant | Active, pushed 2026-07-15 | Upstream merged our brand images (Timandes/fnos-home-assistant#6). |  |
+| `frankenergy` | home-assistant/brands#5759 | https://github.com/brunsy/ha-frankenergy | Active, pushed 2025-07-29 | Upstream merged our brand images (brunsy/ha-frankenergy#4). |  |
+| `freebox_connect` | home-assistant/brands#8148 | https://github.com/foXaCe/Freebox-connect | Active, pushed 2026-10-14 | Upstream merged our brand images (foXaCe/Freebox-connect#11). |  |
+| `frisquet_connect` | home-assistant/brands#5047 | https://github.com/TheGui01/Frisquet-connect-for-home-assistant | Active, pushed 2026-03-15 | Upstream merged our brand images (TheGui01/Frisquet-connect-for-home-assistant#84). |  |
+| `frontend_translations` | home-assistant/brands#6841 | https://github.com/alaltitov/hacs-frontend-translations | Active, pushed 2025-05-18 | Upstream merged our brand images (alaltitov/homeassistant-frontend-translations#1). |  |
+| `g4smobility` | home-assistant/brands#6145 | https://github.com/bkbilly/G4S-Mobility | Active, pushed 2025-06-07 | Upstream merged our brand images (bkbilly/G4S-Mobility#2). |  |
+| `gaggiuino` | home-assistant/brands#6633 | https://github.com/ALERTua/hass-gaggiuino | Active, pushed 2026-10-13 | Upstream merged our brand images (ALERTua/hass-gaggiuino#79). |  |
+| `gas_station_spain` | home-assistant/brands#4451 | https://github.com/MiguelAngelLV/gas_station_spain | Active, pushed 2026-04-04 | Upstream merged our brand images (miguelangellv/ha-gas-station-spain#57). |  |
+| `ge_spot` | home-assistant/brands#6902 | https://github.com/enoch85/ge-spot | Active, pushed 2026-10-17 | Upstream merged our brand images (enoch85/ge-spot#115). |  |
+| `geek_magic` | home-assistant/brands#9245 | https://github.com/aydarik/hass-geekmagic | Active, pushed 2026-10-01 | Upstream merged our brand images (aydarik/hass-geekmagic#11). |  |
+| `generic_water_heater` | home-assistant/brands#3343 | https://github.com/dgomes/ha_generic_water_heater | Active, pushed 2026-03-21 | Upstream merged our brand images (dgomes/ha_generic_water_heater#13). |  |
+| `geolocator` | home-assistant/brands#7012 | https://github.com/SmartyVan/hass-geolocator | Active, pushed 2025-06-01 | Upstream merged our brand images (SmartyVan/hass-geolocator#27). |  |
+| `gif` | home-assistant/brands#7839 | https://github.com/helv-io/ha-gif | Active, pushed 2026-10-17 | Upstream merged our brand images (helv-io/ha-gif#9). |  |
+| `glowdreaming` | home-assistant/brands#6685 | https://github.com/domness/ha_glowdreaming | Active, pushed 2026-04-07 | Upstream merged our brand images (domness/ha_glowdreaming#10). |  |
+| `goecharger_api2` | home-assistant/brands#5411 | https://github.com/marq24/ha-goecharger-api2 | Unavailable | Upstream already ships local brand assets in `custom_components/goecharger_api2/brand/`. |  |
+| `google_vertex_ai_conversation` | home-assistant/brands#5368 | https://github.com/caraar12345/home-assistant-google-vertex-ai-conversation | Active, pushed 2024-04-13 | Upstream merged our brand images (caraar12345/home-assistant-google-vertex-ai-conversation#1). |  |
+| `goveelife` | home-assistant/brands#9452 | https://github.com/disforw/goveelife | Active, pushed 2026-09-08 | Upstream merged our brand images (disforw/goveelife#173). |  |
+| `growatt_modbus` | home-assistant/brands#8076 | https://github.com/0xAHA/Growatt_ModbusTCP | Active, pushed 2026-10-18 | Upstream merged our brand images (0xAHA/Growatt_ModbusTCP#478). |  |
+| `ha_blueair` | home-assistant/brands#3363 | https://github.com/dahlb/ha_blueair | Active, pushed 2026-10-15 | Upstream merged our brand images (dahlb/ha_blueair#433). |  |
+| `ha_guest_mode` | home-assistant/brands#6107 | https://github.com/Darkdragon14/ha-guest-mode | Active, pushed 2026-10-01 | Upstream merged our brand images (Darkdragon14/ha-guest-mode#63). |  |
+| `ha_link2home` | home-assistant/brands#5094 | https://github.com/ReneNulschDE/ha_link2home | Active, pushed 2025-08-01 | Upstream merged our brand images (ReneNulschDE/ha_link2home#13). |  |
+| `ha_text_ai` | home-assistant/brands#6140 | https://github.com/smkrv/ha-text-ai | Unavailable | Upstream already ships local brand assets in `custom_components/ha_text_ai/brand/`. |  |
+| `haeo` | home-assistant/brands#8450 | https://github.com/hass-energy/haeo | Active, pushed 2026-10-18 | Upstream merged our brand images (hass-energy/haeo#580). |  |
+| `hailin` | home-assistant/brands#7675 | https://github.com/alkalixin/Hailin-Climate | Active, pushed 2026-03-24 | Upstream merged our brand images (alkalixin/Hailin-Climate#5). |  |
+| `hass_pontos` | home-assistant/brands#5421 | https://github.com/sangvikh/hass-pontos | Active, pushed 2026-07-16 | Upstream merged our brand images (sangvikh/hass-pontos#54). |  |
+| `hass_vivreco_pac` | home-assistant/brands#7425 | https://github.com/fab5741/hass-vivreco-pac | Active, pushed 2026-03-21 | Upstream merged our brand images (fab5741/hass-vivreco-pac#16). |  |
+| `hass_web_proxy` | home-assistant/brands#6070 | https://github.com/dermotduffy/hass-web-proxy-integration | Active, pushed 2026-02-02 | Upstream merged our brand images (dermotduffy/hass-web-proxy-integration#146). |  |
+| `hav_og_vind` | home-assistant/brands#9545 | https://github.com/Howard0000/home-assistant-hav-og-vind | Active, pushed 2026-02-14 | Upstream merged our brand images (Howard0000/home-assistant-hav-og-vind#2). |  |
+| `hdc` | home-assistant/brands#4570 | https://github.com/caraar12345/hass-hdc-bin-collection | Active, pushed 2026-03-02 | Upstream merged our brand images (caraar12345/hass-hdc-bin-collection#4). |  |
+| `healthchecksio` | home-assistant/brands#4764 | https://github.com/custom-components/healthchecksio | Active, pushed 2026-07-29 | Upstream merged our brand images (custom-components/healthchecksio#220). |  |
+| `heatmiser_edge` | home-assistant/brands#7777 | https://github.com/sftgunner/heatmiseredge-integration | Active, pushed 2026-09-03 | Upstream merged our brand images (sftgunner/heatmiseredge-integration#16). |  |
+| `heatmiserneo` | home-assistant/brands#1998 | https://github.com/MindrustUK/Heatmiser-for-home-assistant | Active, pushed 2026-10-12 | Upstream merged our brand images (MindrustUK/Heatmiser-for-home-assistant#368). |  |
+| `heytech` | home-assistant/brands#6120 | https://github.com/ansgarschulte/heytech-homeassistant-integration | Active, pushed 2026-10-05 | Upstream merged our brand images (ansgarschulte/heytech-homeassistant-integration#143). |  |
+| `higoal` | home-assistant/brands#6830 | https://github.com/Minitour/ha-higoal | Active, pushed 2026-08-25 | Upstream merged our brand images (Minitour/ha-higoal#70). |  |
+| `hilighting_ble` | home-assistant/brands#5308 | https://github.com/8none1/hilighting_homeassistant | Active, pushed 2025-01-01 | Upstream merged our brand images (8none1/hilighting_homeassistant#5). |  |
+| `home_generative_agent` | home-assistant/brands#7497 | https://github.com/goruck/home-generative-agent | Active, pushed 2026-10-18 | Upstream merged our brand images (goruck/home-generative-agent#818). |  |
+| `home_project_ledger` | home-assistant/brands#9377 | https://github.com/FredrikElliot/home-project-ledger | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/home_project_ledger/brand/`. |  |
+| `homewhiz` | home-assistant/brands#3655 | https://github.com/rowysock/home-assistant-HomeWhiz | Active, pushed 2026-10-17 | Upstream merged our brand images (home-assistant-HomeWhiz/home-assistant-HomeWhiz#497). |  |
+| `homgar` | home-assistant/brands#9633 | https://github.com/brettmeyerowitz/homeassistant-homgar | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/homgar/brand/`. |  |
+| `hyperspace_lighting` | home-assistant/brands#7018 | https://github.com/ToddAlvord/hyperspace-homeassistant | Active, pushed 2026-09-12 | Upstream merged our brand images (ToddAlvord/hyperspace-homeassistant#5). |  |
+| `ialarm_controller` | home-assistant/brands#5973 | https://github.com/bigmoby/ialarm_controller | Active, pushed 2026-10-13 | Upstream merged our brand images (bigmoby/ialarm_controller#155). |  |
+| `ialarm_mk2` | home-assistant/brands#6035 | https://github.com/mistermax80/ialarm_mk2 | Active, pushed 2026-10-15 | Upstream merged our brand images (mistermax80/ialarm_mk2#12). |  |
+| `ideal_led` | home-assistant/brands#5031 | https://github.com/8none1/idealLED | Active, pushed 2026-07-10 | Upstream merged our brand images (8none1/idealLED#33). |  |
+| `inpost_air` | home-assistant/brands#5407 | https://github.com/CyberDeer/InPost-Air | Active, pushed 2026-10-14 | Upstream merged our brand images (CyberDeer/InPost-Air#152). |  |
+| `insnrg_chlorinator` | home-assistant/brands#6025 | https://github.com/Mattat01/ha-insnrg-chlorinator | Active, pushed 2026-07-02 | Upstream merged our brand images (Mattat01/insnrg_chlorinator#5). |  |
+| `insta_follower` | home-assistant/brands#6210 | https://github.com/xamrex/Hacs_Insta_follower | Active, pushed 2025-02-14 | Upstream merged our brand images (xamrex/Hacs_Insta_follower#2). |  |
+| `inteno` | home-assistant/brands#7582 | https://github.com/nielstron/inteno_hass | Active, pushed 2026-02-03 | Upstream merged our brand images (nielstron/inteno_hass#42). |  |
+| `interpolation` | home-assistant/brands#9278 | https://github.com/JoshuaLampert/homeassistant-interpolation | Active, pushed 2026-07-17 | Upstream merged our brand images (JoshuaLampert/homeassistant-interpolation#4). |  |
+| `iohouse_climate` | home-assistant/brands#6787 | https://github.com/insound/iohouse_climate | Active, pushed 2026-09-02 | Upstream merged our brand images (insound/iohouse_climate#5). |  |
+| `iolite` | home-assistant/brands#4123 | https://github.com/inverse/home-assistant-iolite-component | Active, pushed 2026-02-08 | Upstream merged our brand images (inverse/home-assistant-iolite-component#36). |  |
+| `irtrans` | home-assistant/brands#4107 | https://github.com/schwarzenbergf/irtrans | Active, pushed 2026-07-20 | Upstream merged our brand images (schwarzenbergf/irtrans#192). |  |
+| `jebao_aqua` | home-assistant/brands#5132 | https://github.com/chrisc123/jebao_aqua-homeassistant | Active, pushed 2026-08-29 | Upstream merged our brand images (chrisc123/jebao_aqua-homeassistant#79). |  |
+| `kamstrup_403` | home-assistant/brands#2787 | https://github.com/golles/ha-kamstrup_403 | Active, pushed 2026-10-18 | Upstream merged our brand images (golles/ha-kamstrup_403#393). |  |
+| `keenetic_router_pro` | home-assistant/brands#9392 | https://github.com/cataseven/Keenetic-Router-Pro | Active, pushed 2026-10-10 | Upstream merged our brand images (cataseven/Keenetic-Router-Pro#75). |  |
+| `kia_connect` | home-assistant/brands#3346 | https://github.com/PimDoos/kia_connect | Active, pushed 2024-07-06 | Upstream merged our brand images (PimDoos/kia_connect#23). |  |
+| `kodi_recently_added` | home-assistant/brands#1871 | https://github.com/boralyl/kodi-recently-added | Active, pushed 2026-09-10 | Upstream merged our brand images (boralyl/kodi-recently-added#24). |  |
+| `komfovent_c5` | home-assistant/brands#4614 | https://github.com/siku2/hass-komfovent-c5 | Active, pushed 2026-08-06 | Upstream merged our brand images (siku2/hass-komfovent-c5#83). |  |
+| `leakbot` | home-assistant/brands#5248 | https://github.com/sHedC/homeassistant-leakbot | Unavailable | Upstream already ships local brand assets in `custom_components/leakbot/brand/`. |  |
+| `ledble_ledlamp` | home-assistant/brands#5320 | https://github.com/8none1/ledble-ledlamp | Active, pushed 2026-09-02 | Upstream merged our brand images (8none1/ledble-ledlamp#7). |  |
+| `leo_ntp` | home-assistant/brands#4406 | https://github.com/CumpsD/home-assistant-leo-ntp | Active, pushed 2024-11-11 | Upstream merged our brand images (CumpsD/home-assistant-leo-ntp#90). |  |
+| `leslies_pool` | home-assistant/brands#5551 | https://github.com/connorgallopo/leslies-pool | Active, pushed 2026-05-12 | Upstream merged our brand images (connorgallopo/leslies-pool#176). |  |
+| `leviton_decora_smart_wifi` | home-assistant/brands#4377 | https://github.com/schmittx/home-assistant-leviton_decora_smart_wifi | Unavailable | Upstream already ships local brand assets in `custom_components/leviton_decora_smart_wifi/brand/`. |  |
+| `lifedomus` | home-assistant/brands#8669 | https://github.com/svalsemey/hassio-lifedomus | Unavailable | Upstream already ships local brand assets in `custom_components/lifedomus/brand/`. |  |
+| `lights_app` | home-assistant/brands#6212 | https://github.com/JurajNyiri/HomeAssistant-Lights-App | Active, pushed 2025-12-08 | Upstream merged our brand images (JurajNyiri/HomeAssistant-Lights-App#24). |  |
+| `listenbrainz` | home-assistant/brands#5112 | https://github.com/Weissnix4711/hass-listenbrainz | Active, pushed 2026-10-05 | Upstream merged our brand images (Weissnix4711/hass-listenbrainz#154). |  |
+| `localvolts` | home-assistant/brands#7772 | https://github.com/gurrier/localvolts | Active, pushed 2026-10-17 | Upstream merged our brand images (gurrier/localvolts#26). |  |
+| `lockly` | home-assistant/brands#9218 | https://github.com/bharat/homeassistant-lockly | Active, pushed 2026-10-15 | Upstream merged our brand images (bharat/homeassistant-lockly#186). |  |
+| `luas` | home-assistant/brands#6442 | https://github.com/lutzky/hass-luas | Active, pushed 2026-10-02 | Upstream merged our brand images (lutzky/hass-luas#230). |  |
+| `lyrion_cli` | home-assistant/brands#6781 | https://github.com/peteS-UK/lyrion_cli | Active, pushed 2026-01-22 | Upstream merged our brand images (peteS-UK/lyrion_cli#9). |  |
+| `maestro_mcz` | home-assistant/brands#4095 | https://github.com/Crisicus/maestro_mcz | Active, pushed 2026-05-13 | Upstream merged our brand images (Robbe-B/maestro_mcz#221). |  |
+| `mailcow_ha_custom` | home-assistant/brands#6630 | https://github.com/Master13011/Mailcow-HA | Active, pushed 2026-09-01 | Upstream merged our brand images (Master13011/Mailcow-HA#11). |  |
+| `maintenance_supporter` | home-assistant/brands#9499 | https://github.com/iluebbe/maintenance_supporter | Active, pushed 2026-10-18 | Upstream merged our brand images (iluebbe/maintenance_supporter#224). |  |
+| `malaysia_weather` | home-assistant/brands#6314 | https://github.com/zubir2k/homeassistant-malaysiaweather | Active, pushed 2026-04-21 | Upstream merged our brand images (zubir2k/homeassistant-malaysiaweather#5). |  |
+| `mammotion` | home-assistant/brands#5507 | https://github.com/mikey0000/HA-Luba | Active, pushed 2026-10-17 | Upstream merged our brand images (mikey0000/Mammotion-HA#953). |  |
+| `mass_queue` | home-assistant/brands#7560 | https://github.com/droans/mass_queue | Active, pushed 2026-09-08 | Upstream merged our brand images (droans/mass_queue#135). |  |
+| `matkahuolto_tracking` | home-assistant/brands#4841 | https://github.com/jesmak/matkahuolto_tracking | Unavailable | Upstream already ships local brand assets in `custom_components/matkahuolto_tracking/brand/`. |  |
+| `mawaqit` | home-assistant/brands#4673 | https://github.com/mawaqit/home-assistant | Unavailable | Upstream already ships local brand assets in `custom_components/mawaqit/brand/`. |  |
+| `mcp2221` | home-assistant/brands#5107 | https://github.com/pilotak/homeassistant-mcp2221 | Active, pushed 2026-06-22 | Upstream merged our brand images (pilotak/homeassistant-mcp2221#13). |  |
+| `mcp23017` | home-assistant/brands#3217 | https://github.com/jpcornil-git/HA-mcp23017 | Active, pushed 2026-07-05 | Upstream merged our brand images (jpcornil-git/HA-mcp23017#54). |  |
+| `mitsubishi_matouch` | home-assistant/brands#6240 | https://github.com/cyaneous/mitsubishi_matouch | Active, pushed 2026-08-02 | Upstream already ships local brand assets in `custom_components/mitsubishi_matouch/brand/`. |  |
+| `miwa` | home-assistant/brands#4352 | https://github.com/geertmeersman/miwa | Active, pushed 2026-08-18 | Upstream already ships local brand assets in `custom_components/miwa/brand/`. |  |
+| `modbus_connect` | home-assistant/brands#6666 | https://github.com/dmatscheko/modbus_connect | Active, pushed 2026-10-08 | Upstream already ships local brand assets in `custom_components/modbus_connect/brand/`. |  |
+| `monoprice_htp1` | home-assistant/brands#9120 | https://github.com/TimoJJ/ha-monolith-htp1 | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/monoprice_htp1/brand/`. |  |
+| `moon_astro` | home-assistant/brands#7871 | https://github.com/svalsemey/hassio-moon-astro | Unavailable | Upstream already ships local brand assets in `custom_components/moon_astro/brand/`. |  |
+| `mozillion` | home-assistant/brands#9193 | https://github.com/KRoperUK/mozillion-hass | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/mozillion/brand/`. |  |
+| `mqtt_discoverystream_alt` | home-assistant/brands#5391 | https://github.com/RogerSelwyn/mqtt_discoverystream_ha | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/mqtt_discoverystream_alt/brand/`. |  |
+| `ms365_calendar` | home-assistant/brands#5511 | https://github.com/RogerSelwyn/MS365-Calendar | Active, pushed 2026-10-15 | Upstream already ships local brand assets in `custom_components/ms365_calendar/brand/`. |  |
+| `ms365_contacts` | home-assistant/brands#7019 | https://github.com/RogerSelwyn/MS365-Contacts | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/ms365_contacts/brand/`. |  |
+| `ms365_mail` | home-assistant/brands#5540 | https://github.com/RogerSelwyn/MS365-Mail | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/ms365_mail/brand/`. |  |
+| `ms365_teams` | home-assistant/brands#5662 | https://github.com/RogerSelwyn/MS365-Teams | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/ms365_teams/brand/`. |  |
+| `ms365_todo` | home-assistant/brands#5526 | https://github.com/RogerSelwyn/MS365-ToDo | Active, pushed 2026-10-15 | Upstream already ships local brand assets in `custom_components/ms365_todo/brand/`. |  |
+| `mspa` | home-assistant/brands#7587 | https://github.com/jm-cook/mspa-homeassistant | Unavailable | Upstream already ships local brand assets in `custom_components/mspa/brand/`. |  |
+| `myelectrica` | home-assistant/brands#6375 | https://github.com/cnecrea/myelectrica | Active, pushed 2026-09-22 | Upstream already ships local brand assets in `custom_components/myelectrica/brand/`. |  |
+| `mysmartbike` | home-assistant/brands#5095 | https://github.com/ReneNulschDE/ha-mysmartbike | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/mysmartbike/brand/`. |  |
+| `nextenergy_battery` | home-assistant/brands#8156 | https://github.com/wimb0/home-assistant-nextenergy-battery-modbus | Unavailable | Upstream already ships local brand assets in `custom_components/nextenergy_battery/brand/`. |  |
+| `nexxtmove` | home-assistant/brands#4286 | https://github.com/geertmeersman/nexxtmove | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/nexxtmove/brand/`. |  |
+| `norway_seaforecast` | home-assistant/brands#9248 | https://github.com/DTekNO/norway_seaforecast | Active, pushed 2026-06-16 | Upstream already ships local brand assets in `custom_components/norway_seaforecast/brand/`. |  |
+| `nuvo_simple` | home-assistant/brands#5668 | https://github.com/brmccrary/nuvo_simple | Active, pushed 2026-10-16 | Upstream already ships local brand assets in `custom_components/nuvo_simple/brand/`. |  |
+| `oasira_b2c` | home-assistant/brands#7826 | https://github.com/EffortlessHome/Oasira_B2C | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/oasira_b2c/brand/`. |  |
+| `oasis_mini` | home-assistant/brands#5644 | https://github.com/natekspencer/hacs-oasis_mini | Unavailable | Upstream already ships local brand assets in `custom_components/oasis_mini/brand/`. |  |
+| `ocado` | home-assistant/brands#7056 | https://github.com/PineappleEmperor/ocado-ha | Active, pushed 2026-10-12 | Upstream already ships local brand assets in `custom_components/ocado/brand/`. |  |
+| `ochsner_local_ots` | home-assistant/brands#9175 | https://github.com/permissionBRICK/OTS-HomeAssistant | Unavailable | Upstream already ships local brand assets in `custom_components/ochsner_local_ots/brand/`. |  |
+| `octopus_french` | home-assistant/brands#7842 | https://github.com/domodom30/ha-octopus-french | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/octopus_french/brand/`. |  |
+| `octopus_germany` | home-assistant/brands#6572 | https://github.com/thecem/octopus_germany | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/octopus_germany/brand/`. |  |
+| `octopus_spain` | home-assistant/brands#4396 | https://github.com/MiguelAngelLV/octopus_spain | Active, pushed 2026-10-08 | Upstream already ships local brand assets in `custom_components/octopus_spain/brand/`. |  |
+| `ojmicroline_thermostat` | home-assistant/brands#4016 | https://github.com/robbinjanssen/home-assistant-ojmicroline-thermostat | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/ojmicroline_thermostat/brand/`. |  |
+| `omnik_inverter` | home-assistant/brands#2850 | https://github.com/robbinjanssen/home-assistant-omnik-inverter | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/omnik_inverter/brand/`. |  |
+| `omnilogic_local` | home-assistant/brands#4365 | https://github.com/cryptk/haomnilogic-local | Active, pushed 2026-09-07 | Upstream already ships local brand assets in `custom_components/omnilogic_local/brand/`. |  |
+| `omnisense` | home-assistant/brands#6535 | https://github.com/sslivins/hass_omnisense | Unavailable | Upstream already ships local brand assets in `custom_components/omnisense/brand/`. |  |
+| `omron` | home-assistant/brands#7391 | https://github.com/eigger/hass-omron | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/omron/brand/`. |  |
+| `openai_whisper_cloud` | home-assistant/brands#5767 | https://github.com/fabio-garavini/ha-openai-whisper-stt-api | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/openai_whisper_cloud/brand/`. |  |
+| `openems` | home-assistant/brands#6607 | https://github.com/Lamarqe/ha_openems | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/openems/brand/`. |  |
+| `openwrt_mqtt` | home-assistant/brands#9538 | https://github.com/aldweb/ha-openwrt-mqtt | Active, pushed 2026-06-22 | Upstream already ships local brand assets in `custom_components/openwrt_mqtt/brand/`. |  |
+| `opus_greennet` | home-assistant/brands#8590 | https://github.com/kegelmeier/opus_homeassistant | Unavailable | Upstream already ships local brand assets in `custom_components/opus_greennet/brand/`. |  |
+| `palgate` | home-assistant/brands#6747 | https://github.com/ShonP40/ha-palgate | Active, pushed 2026-10-12 | Upstream already ships local brand assets in `custom_components/palgate/brand/`. |  |
+| `pdf_scrape` | home-assistant/brands#7436 | https://github.com/iluvdata/pdf_scrape | Active, pushed 2026-09-17 | Upstream already ships local brand assets in `custom_components/pdf_scrape/brand/`. |  |
+| `pdns` | home-assistant/brands#3524 | https://github.com/Cyr-ius/hass-pdns | Active, pushed 2026-10-10 | Upstream already ships local brand assets in `custom_components/pdns/brand/`. |  |
+| `peloton` | home-assistant/brands#1837 | https://github.com/edwork/homeassistant-peloton-sensor | Active, pushed 2026-08-14 | Upstream already ships local brand assets in `custom_components/peloton/brand/`. |  |
+| `periodic_min_max` | home-assistant/brands#6721 | https://github.com/andrew-codechimp/HA-Periodic-Min-Max | Active, pushed 2026-10-16 | Upstream already ships local brand assets in `custom_components/periodic_min_max/brand/`. |  |
+| `phoenix_bad` | home-assistant/brands#6049 | https://github.com/FaserF/ha-phoenixbad | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/phoenix_bad/brand/`. |  |
+| `pi_hole_v6` | home-assistant/brands#6642 | https://github.com/bastgau/ha-pi-hole-v6 | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/pi_hole_v6/brand/`. |  |
+| `pico_link` | home-assistant/brands#8768 | https://github.com/smartqasa/pico-link | Unavailable | Upstream already ships local brand assets in `custom_components/pico_link/brand/`. |  |
+| `planta` | home-assistant/brands#5723 | https://github.com/natekspencer/hacs-planta | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/planta/brand/`. |  |
+| `plum_ecomax` | home-assistant/brands#3417 | https://github.com/denpamusic/homeassistant-plum-ecomax | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/plum_ecomax/brand/`. |  |
+| `pollenlevels` | home-assistant/brands#7420 | https://github.com/eXPerience83/pollenlevels | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/pollenlevels/brand/`. |  |
+| `posti_tracking` | home-assistant/brands#4840 | https://github.com/jesmak/posti_tracking | Active, pushed 2026-10-16 | Upstream already ships local brand assets in `custom_components/posti_tracking/brand/`. |  |
+| `power_insight` | home-assistant/brands#7596 | https://github.com/Hoffmann77/ha-power-insight | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/power_insight/brand/`. |  |
+| `powerocean` | home-assistant/brands#9609 | https://github.com/niltrip/powerocean | Unavailable | Upstream already ships local brand assets in `custom_components/powerocean/brand/`. |  |
+| `powersensor` | home-assistant/brands#8133 | https://github.com/DiUS/homeassistant-powersensor | Active, pushed 2026-10-07 | Upstream already ships local brand assets in `custom_components/powersensor/brand/`. |  |
+| `previous_state_tracker` | home-assistant/brands#7519 | https://github.com/klaptafel/ha-previous-state-tracker | Unavailable | Upstream already ships local brand assets in `custom_components/previous_state_tracker/brand/`. |  |
+| `pura` | home-assistant/brands#4384 | https://github.com/natekspencer/hacs-pura | Active, pushed 2026-10-16 | Upstream already ships local brand assets in `custom_components/pura/brand/`. |  |
+| `qld_fuel` | home-assistant/brands#9390 | https://github.com/spusuf/qld_fuel-hass | Unavailable | Upstream already ships local brand assets in `custom_components/qld_fuel/brand/`. |  |
+| `quiet_solar` | home-assistant/brands#7883 | https://github.com/tmenguy/quiet-solar | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/quiet_solar/brand/`. |  |
+| `raccolta_rifiuti` | home-assistant/brands#7002 | https://github.com/DomoticaFacile/raccolta_rifiuti | Active, pushed 2026-09-10 | Upstream already ships local brand assets in `custom_components/raccolta_rifiuti/brand/`. |  |
+| `ramses_cc` | home-assistant/brands#5118 | https://github.com/zxdavb/ramses_cc | Unavailable | Upstream already ships local brand assets in `custom_components/ramses_cc/brand/`. |  |
+| `rce_pse` | home-assistant/brands#7189 | https://github.com/Lewa-Reka/ha-rce-pse | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/rce_pse/brand/`. |  |
+| `recycle_app` | home-assistant/brands#3843 | https://github.com/olibos/HomeAssistant-RecycleApp | Unavailable | Upstream already ships local brand assets in `custom_components/recycle_app/brand/`. |  |
+| `redsea` | home-assistant/brands#7346 | https://github.com/Elwinmage/ha-reefbeat-component | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/redsea/brand/`. |  |
+| `remeha_modbus` | home-assistant/brands#6908 | https://github.com/houthacker/remeha-modbus | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/remeha_modbus/brand/`. |  |
+| `rfx9600` | home-assistant/brands#5566 | https://github.com/peteS-UK/rfx9600 | Unavailable | Upstream already ships local brand assets in `custom_components/rfx9600/brand/`. |  |
+| `robonect` | home-assistant/brands#4354 | https://github.com/geertmeersman/robonect | Active, pushed 2026-09-30 | Upstream already ships local brand assets in `custom_components/robonect/brand/`. |  |
+| `s7plc` | home-assistant/brands#7869 | https://github.com/xtimmy86x/ha-s7plc | Unavailable | Upstream already ships local brand assets in `custom_components/s7plc/brand/`. |  |
+| `scentair` | home-assistant/brands#8991 | https://github.com/simplytoast1/ScentAirHABridge | Unavailable | Upstream already ships local brand assets in `custom_components/scentair/brand/`. |  |
+| `scrutiny` | home-assistant/brands#7219 | https://github.com/vitals5/ha_scrutiny | Unavailable | Upstream already ships local brand assets in `custom_components/scrutiny/brand/`. |  |
+| `sems` | home-assistant/brands#4399 | https://github.com/darek-margas/goodwe-sems-home-assistant | Active, pushed 2026-10-09 | Upstream already ships local brand assets in `custom_components/sems/brand/`. |  |
+| `sg_bus_arrivals` | home-assistant/brands#7011 | https://github.com/hanwg/sg-bus-arrivals | Active, pushed 2026-05-08 | Upstream already ships local brand assets in `custom_components/sg_bus_arrivals/brand/`. |  |
+| `simbase` | home-assistant/brands#8942 | https://github.com/manjotsc/ha-simbase | Unavailable | Upstream already ships local brand assets in `custom_components/simbase/brand/`. |  |
+| `simple_device_creator` | home-assistant/brands#8973 | https://github.com/PacmanForever/simple_device_creator | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/simple_device_creator/brand/`. |  |
+| `simple_pid_controller` | home-assistant/brands#7052 | https://github.com/bvweerd/simple_pid_controller | Active, pushed 2026-10-09 | Upstream already ships local brand assets in `custom_components/simple_pid_controller/brand/`. |  |
+| `sinapsi_alfa` | home-assistant/brands#5198 | https://github.com/alexdelprete/ha-sinapsi-alfa | Active, pushed 2026-10-02 | Upstream already ships local brand assets in `custom_components/sinapsi_alfa/brand/`. |  |
+| `skylinewebcams` | home-assistant/brands#9255 | https://github.com/timmaurice/skyline-webcams | Unavailable | Upstream already ships local brand assets in `custom_components/skylinewebcams/brand/`. |  |
+| `smart_cover_automation` | home-assistant/brands#8004 | https://github.com/helgeklein/ha-smart-cover-automation | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/smart_cover_automation/brand/`. |  |
+| `smartbox` | home-assistant/brands#6517 | https://github.com/ajtudela/hass-smartbox | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/smartbox/brand/`. |  |
+| `smartmailbox` | home-assistant/brands#9416 | https://github.com/danyial/ha-smart-mailbox | Active, pushed 2026-07-06 | Upstream already ships local brand assets in `custom_components/smartmailbox/brand/`. |  |
+| `smartslydr` | home-assistant/brands#7119 | https://github.com/djlactose/smartslydr | Active, pushed 2026-09-23 | Upstream already ships local brand assets in `custom_components/smartslydr/brand/`. |  |
+| `smarwi` | home-assistant/brands#5371 | https://github.com/jirutka/hass-smarwi | Unavailable | Upstream already ships local brand assets in `custom_components/smarwi/brand/`. |  |
+| `smogtok` | home-assistant/brands#9589 | https://github.com/ptrkoz/ha-smogtok | Unavailable | Upstream already ships local brand assets in `custom_components/smogtok/brand/`. |  |
+| `sncf_trains` | home-assistant/brands#7562 | https://github.com/Master13011/SNCF-API-HA | Active, pushed 2026-10-07 | Upstream already ships local brand assets in `custom_components/sncf_trains/brand/`. |  |
+| `snmp_switch_manager` | home-assistant/brands#8422 | https://github.com/OtisPresley/snmp-switch-manager | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/snmp_switch_manager/brand/`. |  |
+| `sofabaton_x1s` | home-assistant/brands#8401 | https://github.com/m3tac0de/home-assistant-sofabaton-x1s | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/sofabaton_x1s/brand/`. |  |
+| `solarcharger` | home-assistant/brands#8050 | https://github.com/flashg1/SolarCharger | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/solarcharger/brand/`. |  |
+| `solardelta` | home-assistant/brands#8336 | https://github.com/KriVaTri/solardelta | Active, pushed 2026-03-09 | Upstream already ships local brand assets in `custom_components/solardelta/brand/`. |  |
+| `solarmanager` | home-assistant/brands#7723 | https://github.com/Soardiac/ha-solarmanager | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/solarmanager/brand/`. |  |
+| `solarwatt_manager` | home-assistant/brands#9168 | https://github.com/thokaro/solarwatt-manager-homeassistant | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/solarwatt_manager/brand/`. |  |
+| `solax_cloud_api` | home-assistant/brands#8347 | https://github.com/NoUsername10/Solax-Cloud-API-for-Home-assistant | Active, pushed 2026-09-26 | Upstream already ships local brand assets in `custom_components/solax_cloud_api/brand/`. |  |
+| `spock_ems_growatt` | home-assistant/brands#9139 | https://github.com/Spock-p2p/ha-spock_ems_growatt | Active, pushed 2026-06-26 | Upstream already ships local brand assets in `custom_components/spock_ems_growatt/brand/`. |  |
+| `spock_ems_marstek` | home-assistant/brands#8359 | https://github.com/Spock-p2p/ha-spock_ems_marstek | Active, pushed 2026-06-26 | Upstream already ships local brand assets in `custom_components/spock_ems_marstek/brand/`. |  |
+| `spock_ems_sma` | home-assistant/brands#8490 | https://github.com/Spock-p2p/ha-spock_ems_sma | Active, pushed 2026-06-26 | Upstream already ships local brand assets in `custom_components/spock_ems_sma/brand/`. |  |
+| `spotifyplus` | home-assistant/brands#5253 | https://github.com/thlucas1/homeassistantcomponent_spotifyplus | Unavailable | Upstream already ships local brand assets in `custom_components/spotifyplus/brand/`. |  |
+| `sscpoe` | home-assistant/brands#5119 | https://github.com/slydiman/sscpoe | Unavailable | Upstream already ships local brand assets in `custom_components/sscpoe/brand/`. |  |
+| `ssm` | home-assistant/brands#6844 | https://github.com/ebertek/ssm | Active, pushed 2026-10-05 | Upstream already ships local brand assets in `custom_components/ssm/brand/`. |  |
+| `stromkalkulator` | home-assistant/brands#9262 | https://github.com/fredrik-lindseth/Stromkalkulator | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/stromkalkulator/brand/`. |  |
+| `sugar_valley_neopool` | home-assistant/brands#8722 | https://github.com/alexdelprete/ha-sugar-valley-neopool | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/sugar_valley_neopool/brand/`. |  |
+| `supernotify` | home-assistant/brands#8269 | https://github.com/rhizomatics/supernotify | Unavailable | Upstream already ships local brand assets in `custom_components/supernotify/brand/`. |  |
+| `svitlo_yeah` | home-assistant/brands#8297 | https://github.com/ALERTua/ha-svitlo-yeah | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/svitlo_yeah/brand/`. |  |
+| `swatch_time` | home-assistant/brands#5215 | https://github.com/andrewjswan/SwatchTime | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/swatch_time/brand/`. |  |
+| `swisscom_internetbox` | home-assistant/brands#5133 | https://github.com/schmidtfx/swisscom-internetbox-hass | Unavailable | Upstream already ships local brand assets in `custom_components/swisscom_internetbox/brand/`. |  |
+| `switchbot_camera` | home-assistant/brands#7084 | https://github.com/hsakoh/ha-switchbot-kvs-camera | Active, pushed 2026-10-12 | Upstream already ships local brand assets in `custom_components/switchbot_camera/brand/`. |  |
+| `tab5_lvgl` | home-assistant/brands#9515 | https://github.com/GalusPeres/ha-tab5-mqtt-bridge | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/tab5_lvgl/brand/`. |  |
+| `tado_ce` | home-assistant/brands#9271 | https://github.com/hiall-fyi/tado_ce | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/tado_ce/brand/`. |  |
+| `tasmota_mielhvac` | home-assistant/brands#9393 | https://github.com/aldweb/ha-tasmota-mielhvac | Active, pushed 2026-06-22 | Upstream already ships local brand assets in `custom_components/tasmota_mielhvac/brand/`. |  |
+| `temperature_alarm` | home-assistant/brands#9645 | https://github.com/smart-ishhome/temperature_alarm | Unavailable | Upstream already ships local brand assets in `custom_components/temperature_alarm/brand/`. |  |
+| `thermal_comfort` | home-assistant/brands#3001 | https://github.com/dolezsa/thermal_comfort | Active, pushed 2026-03-12 | Upstream already ships local brand assets in `custom_components/thermal_comfort/brand/`. |  |
+| `tibber_local` | home-assistant/brands#4932 | https://github.com/marq24/ha-tibber-pulse-local | Unavailable | Upstream already ships local brand assets in `custom_components/tibber_local/brand/`. |  |
+| `tibber_prices` | home-assistant/brands#8370 | https://github.com/jpawlowski/hass.tibber_prices | Unavailable | Upstream already ships local brand assets in `custom_components/tibber_prices/brand/`. |  |
+| `tinxylocal` | home-assistant/brands#6057 | https://github.com/arevindh/tinxylocal | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/tinxylocal/brand/`. |  |
+| `trinnov_altitude` | home-assistant/brands#8455 | https://github.com/binarylogic/trinnov-altitude-homeassistant | Active, pushed 2026-09-25 | Upstream already ships local brand assets in `custom_components/trinnov_altitude/brand/`. |  |
+| `ttlock` | home-assistant/brands#4260 | https://github.com/jbergler/hass-ttlock | Unavailable | Upstream already ships local brand assets in `custom_components/ttlock/brand/`. |  |
+| `tuya_smart_ir_ac` | home-assistant/brands#5686 | https://github.com/EnzoD86/tuya-smart-ir-ac | Active, pushed 2026-09-13 | Upstream already ships local brand assets in `custom_components/tuya_smart_ir_ac/brand/`. |  |
+| `uconnect` | home-assistant/brands#6499 | https://github.com/hass-uconnect/hass-uconnect | Active, pushed 2026-09-13 | Upstream already ships local brand assets in `custom_components/uconnect/brand/`. |  |
+| `ugreen` | home-assistant/brands#7309 | https://github.com/Tom-Bom-badil/home-assistant_ugreen-nas | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/ugreen/brand/`. |  |
+| `unifi_insights` | home-assistant/brands#6392 | https://github.com/domalab/ha-unifi-insights | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/unifi_insights/brand/`. |  |
+| `unii` | home-assistant/brands#5488 | https://github.com/unii-security/homeassistant-unii | Active, pushed 2026-06-22 | Upstream already ships local brand assets in `custom_components/unii/brand/`. |  |
+| `unraid_management_agent` | home-assistant/brands#8111 | https://github.com/domalab/ha-unraid-management-agent | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/unraid_management_agent/brand/`. |  |
+| `vegvesen_vehicle_lookup` | home-assistant/brands#9546 | https://github.com/esphm/Vegvesen-Vehicle-Lookup | Active, pushed 2026-10-01 | Upstream already ships local brand assets in `custom_components/vegvesen_vehicle_lookup/brand/`. |  |
+| `venice_ai` | home-assistant/brands#9031 | https://github.com/grasponcrypto/venice_ai | Active, pushed 2026-07-10 | Upstream already ships local brand assets in `custom_components/venice_ai/brand/`. |  |
+| `vestaboard` | home-assistant/brands#4445 | https://github.com/natekspencer/hacs-vestaboard | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/vestaboard/brand/`. |  |
+| `violet_pool_controller` | home-assistant/brands#5907 | https://github.com/Xerolux/violet-hass | Active, pushed 2026-10-18 | Upstream already ships local brand assets in `custom_components/violet_pool_controller/brand/`. |  |
+| `virtual_devices` | home-assistant/brands#8534 | https://github.com/ha-china/virtual_devices | Active, pushed 2026-08-11 | Upstream already ships local brand assets in `custom_components/virtual_devices/brand/`. |  |
+| `voice_satellite` | home-assistant/brands#9673 | https://github.com/jxlarrea/voice-satellite-card-integration | Unavailable | Upstream already ships local brand assets in `custom_components/voice_satellite/brand/`. |  |
+| `volcano_hybrid` | home-assistant/brands#6878 | https://github.com/SavageNL/home-assistant-volcano-hybrid | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/volcano_hybrid/brand/`. |  |
+| `volcano_integration` | home-assistant/brands#7175 | https://github.com/Chuffnugget/volcano_integration | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/volcano_integration/brand/`. |  |
+| `vpmobile24` | home-assistant/brands#9520 | https://github.com/Maximilian-Andrew-Kluge/VpMobile24 | Active, pushed 2026-10-17 | Upstream already ships local brand assets in `custom_components/vpmobile24/brand/`. |  |
+| `wanas` | home-assistant/brands#9349 | https://github.com/micpub/homeassistant-wanas | Unavailable | Upstream already ships local brand assets in `custom_components/wanas/brand/`. |  |
+| `wasp_in_a_box` | home-assistant/brands#9454 | https://github.com/andrew-codechimp/HA-Wasp-In-A-Box | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/wasp_in_a_box/brand/`. |  |
+| `waterius` | home-assistant/brands#8897 | https://github.com/alexanderznamensky/waterius | Active, pushed 2026-09-13 | Upstream already ships local brand assets in `custom_components/waterius/brand/`. |  |
+| `weerplaza` | home-assistant/brands#7498 | https://github.com/MarcoGos/weerplaza | Active, pushed 2026-09-19 | Upstream already ships local brand assets in `custom_components/weerplaza/brand/`. |  |
+| `wifi_sensor_tracker` | home-assistant/brands#8012 | https://github.com/5a2v0/HA-WiFi-Sensor-Tracker | Active, pushed 2026-09-10 | Upstream already ships local brand assets in `custom_components/wifi_sensor_tracker/brand/`. |  |
+| `xtend_tuya` | home-assistant/brands#5423 | https://github.com/azerty9971/xtend_tuya | Active, pushed 2026-10-14 | Upstream already ships local brand assets in `custom_components/xtend_tuya/brand/`. |  |
+| `yasno_outages` | home-assistant/brands#5655 | https://github.com/denysdovhan/ha-yasno-outages | Active, pushed 2026-10-01 | Upstream already ships local brand assets in `custom_components/yasno_outages/brand/`. |  |
+| `yidcal` | home-assistant/brands#7207 | https://github.com/hitchin999/yidcal | Active, pushed 2026-10-11 | Upstream already ships local brand assets in `custom_components/yidcal/brand/`. |  |
+| `yoin` | home-assistant/brands#5378 | https://github.com/geertmeersman/yoin | Active, pushed 2026-10-01 | Upstream already ships local brand assets in `custom_components/yoin/brand/`. |  |
+| `youfone` | home-assistant/brands#4292 | https://github.com/geertmeersman/youfone | Active, pushed 2026-10-01 | Upstream already ships local brand assets in `custom_components/youfone/brand/`. |  |
+| `zonneplan_one` | home-assistant/brands#2282 | https://github.com/fsaris/home-assistant-zonneplan-one | Active, pushed 2026-10-13 | Upstream already ships local brand assets in `custom_components/zonneplan_one/brand/`. |  |
+| `ztm_warsaw` | home-assistant/brands#6926 | https://github.com/solarssk/ztm_warsaw | Unavailable | Upstream already ships local brand assets in `custom_components/ztm_warsaw/brand/`. |  |
 
 ## Needs upstream PR
 
 | Domain | Original brands PR | Upstream repository | Upstream state | Reason | Tracking PR |
 | --- | --- | --- | --- | --- | --- |
-| `0711smarthome_fernwartungs_modus` | home-assistant/brands#8250 | https://github.com/0711smarthome/0711smarthome_fernwartungs_modus | Active, pushed 2025-11-10 | Open an upstream PR adding `custom_components/0711smarthome_fernwartungs_modus/brand/`. |  |
-| `2n_intercom` | home-assistant/brands#8883 | https://github.com/genka13/ha-2n-intercom | Active, pushed 2026-01-04 | Open an upstream PR adding `custom_components/2n_intercom/brand/`. |  |
-| `ab_ble_gateway` | home-assistant/brands#5486 | https://github.com/chkuendig/hass-ab_ble_gateway | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/ab_ble_gateway/brand/`. |  |
-| `ab_gateway` | home-assistant/brands#3920 | https://github.com/AprilBrother/component-ab-gateway | Active, pushed 2024-09-26 | Open an upstream PR adding `custom_components/ab_gateway/brand/`. |  |
-| `abc_council_bin_collection` | home-assistant/brands#7050 | https://github.com/jordanhinks/abc_council_bin_collection | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/abc_council_bin_collection/brand/`. |  |
-| `abetterrouteplanner` | home-assistant/brands#8526 | https://github.com/jannis3005/hass-abrp | Active, pushed 2026-09-28 | Open an upstream PR adding `custom_components/abetterrouteplanner/brand/`. |  |
-| `ACInfinity` | home-assistant/brands#4788 | https://github.com/Cavaliers/ha-ACInfinity | Active, pushed 2023-10-31 | Open an upstream PR adding `custom_components/ACInfinity/brand/`. |  |
-| `acit` | home-assistant/brands#9553 | https://github.com/jdu-acit/ACIT_HA_ThermACEC | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/acit/brand/`. |  |
-| `acogo` | home-assistant/brands#9026 | https://github.com/acoGO/HomeAssistant-acoGO | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/acogo/brand/`. |  |
-| `actec` | home-assistant/brands#6767 | https://github.com/AcTECElectronics/ha_actec_home | Active, pushed 2025-06-19 | Open an upstream PR adding `custom_components/actec/brand/`. |  |
-| `actronair_neo` | home-assistant/brands#5818 | https://github.com/domalab/ha-actronair-neo | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/actronair_neo/brand/`. |  |
-| `actualbudget` | home-assistant/brands#6343 | https://github.com/jlvcm/ha-actualbudget | Active, pushed 2026-04-13 | Open an upstream PR adding `custom_components/actualbudget/brand/`. |  |
-| `acwd` | home-assistant/brands#8657 | https://github.com/funkadelic/ha-acwd | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/acwd/brand/`. |  |
-| `adaptive_cover` | home-assistant/brands#5117 | https://github.com/basbruss/adaptive-cover | Active, pushed 2026-08-03 | Open an upstream PR adding `custom_components/adaptive_cover/brand/`. |  |
-| `adaptive_lighting` | home-assistant/brands#2727 | https://github.com/basnijholt/adaptive-lighting | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/adaptive_lighting/brand/`. |  |
-| `adaptive_thermostat` | home-assistant/brands#6768 | https://github.com/Horia73/adaptive_thermostat | Active, pushed 2026-06-24 | Open an upstream PR adding `custom_components/adaptive_thermostat/brand/`. |  |
-| `additional_ca` | home-assistant/brands#4418 | https://github.com/Athozs/hass-additional-ca | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/additional_ca/brand/`. |  |
-| `advanced_snapshot` | home-assistant/brands#6594 | https://github.com/Phil7989/advanced_snapshot | Active, pushed 2026-01-12 | Open an upstream PR adding `custom_components/advanced_snapshot/brand/`. |  |
-| `advanced_switches` | home-assistant/brands#9032 | https://github.com/hoizi89/advanced_switches | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/advanced_switches/brand/`. |  |
-| `advanced_trading_wallet` | home-assistant/brands#5906 | https://github.com/ad-ha/atw | Active, pushed 2025-02-12 | Open an upstream PR adding `custom_components/advanced_trading_wallet/brand/`. |  |
-| `aemo_nem` | home-assistant/brands#5639 | https://github.com/cabberley/HA_AemoNemData | Active, pushed 2026-07-09 | Open an upstream PR adding `custom_components/aemo_nem/brand/`. |  |
-| `affalddk` | home-assistant/brands#5261 | https://github.com/briis/affalddk | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/affalddk/brand/`. |  |
-| `afvalbeheer` | home-assistant/brands#7114 | https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/afvalbeheer/brand/`. |  |
-| `agui_agent` | home-assistant/brands#9041 | https://github.com/contextablemark/home-agui-agent | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/agui_agent/brand/`. |  |
-| `airahome` | home-assistant/brands#8252 | https://github.com/Invy55/Ha-AiraHome | Active, pushed 2026-09-14 | Open an upstream PR adding `custom_components/airahome/brand/`. |  |
-| `aircontrolbase` | home-assistant/brands#9254 | https://github.com/enudler/homeassistant-aircontrol | Active, pushed 2026-01-24 | Open an upstream PR adding `custom_components/aircontrolbase/brand/`. |  |
-| `airmusic` | home-assistant/brands#5671 | https://github.com/DominikWrobel/airmusic | Active, pushed 2026-10-03 | Open an upstream PR adding `custom_components/airmusic/brand/`. |  |
-| `airmx` | home-assistant/brands#4982 | https://github.com/dext0r/airmx | Active, pushed 2024-11-22 | Open an upstream PR adding `custom_components/airmx/brand/`. |  |
-| `airthings_integration` | home-assistant/brands#2269 | https://github.com/braibaud/airthings-integration | Active, pushed 2026-05-21 | Open an upstream PR adding `custom_components/airthings_integration/brand/`. |  |
-| `airtouch` | home-assistant/brands#5050 | https://github.com/TheNoctambulist/hass-airtouch | Active, pushed 2026-08-16 | Open an upstream PR adding `custom_components/airtouch/brand/`. |  |
-| `airtouch2` | home-assistant/brands#5997 | https://github.com/nathanvdh/homeassistant-airtouch2 | Active, pushed 2025-01-14 | Open an upstream PR adding `custom_components/airtouch2/brand/`. |  |
-| `airtouch3` | home-assistant/brands#8701 | https://github.com/bradmatt275/ha-airtouch3 | Active, pushed 2026-07-25 | Open an upstream PR adding `custom_components/airtouch3/brand/`. |  |
-| `airtouch4_advanced` | home-assistant/brands#6699 | https://github.com/doenau/airtouch4 | Active, pushed 2026-09-24 | Open an upstream PR adding `custom_components/airtouch4_advanced/brand/`. |  |
-| `airvpn` | home-assistant/brands#7604 | https://github.com/J-shw/ha-airvpn | Active, pushed 2026-03-01 | Open an upstream PR adding `custom_components/airvpn/brand/`. |  |
-| `airzone_control` | home-assistant/brands#6748 | https://github.com/tecnoyfoto/airzone_control | Active, pushed 2026-09-15 | Open an upstream PR adding `custom_components/airzone_control/brand/`. |  |
-| `airzoneclouddaikin` | home-assistant/brands#8190 | https://github.com/eXPerience83/DKNCloud-HASS | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/airzoneclouddaikin/brand/`. |  |
-| `ajax_uart` | home-assistant/brands#8340 | https://github.com/FScoua/ha-ajax-uart | Active, pushed 2025-11-10 | Open an upstream PR adding `custom_components/ajax_uart/brand/`. |  |
-| `alko` | home-assistant/brands#2708 | https://github.com/jonkristian/alko | Active, pushed 2025-09-10 | Open an upstream PR adding `custom_components/alko/brand/`. |  |
-| `alliant_energy` | home-assistant/brands#6093 | https://github.com/detour1999/ha-alliant-energy | Active, pushed 2024-11-19 | Open an upstream PR adding `custom_components/alliant_energy/brand/`. |  |
-| `allin_io_8` | home-assistant/brands#8501 | https://github.com/CarapaceStore/ALLIN-I-O-8 | Active, pushed 2026-05-12 | Open an upstream PR adding `custom_components/allin_io_8/brand/`. |  |
-| `alltalktts` | home-assistant/brands#5346 | https://github.com/ser/AllTalkTTS | Active, pushed 2024-04-08 | Open an upstream PR adding `custom_components/alltalktts/brand/`. |  |
-| `almatel` | home-assistant/brands#7316 | https://github.com/alexanderznamensky/Almatel | Active, pushed 2026-08-07 | Open an upstream PR adding `custom_components/almatel/brand/`. |  |
-| `alpha_speaker` | home-assistant/brands#9195 | https://github.com/VGCH/alpha-private-speaker-connector | Active, pushed 2026-02-10 | Open an upstream PR adding `custom_components/alpha_speaker/brand/`. |  |
-| `alpicool_ble` | home-assistant/brands#7468 | https://github.com/Gruni22/alpicool_ha_ble | Active, pushed 2026-09-25 | Open an upstream PR adding `custom_components/alpicool_ble/brand/`. |  |
-| `alsavopro` | home-assistant/brands#5051 | https://github.com/goev/AlsavoProHomeAssistantIntegration | Active, pushed 2026-05-17 | Open an upstream PR adding `custom_components/alsavopro/brand/`. |  |
-| `alternative_time` | home-assistant/brands#7709 | https://github.com/Lexorius/alternative_time | Active, pushed 2026-09-26 | Open an upstream PR adding `custom_components/alternative_time/brand/`. |  |
-| `amazon_cloudwatch` | home-assistant/brands#4922 | https://github.com/Mallonbacka/custom-component-cloudwatch | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/amazon_cloudwatch/brand/`. |  |
-| `ambeo_soundbar` | home-assistant/brands#5226 | https://github.com/faizpuru/ha-ambeo_soundbar | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/ambeo_soundbar/brand/`. |  |
-| `amber_express` | home-assistant/brands#9356 | https://github.com/hass-energy/amber-express | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/amber_express/brand/`. |  |
-| `amber_websocket` | home-assistant/brands#8572 | https://github.com/cabberley/AmberWebSocket | Active, pushed 2025-12-02 | Open an upstream PR adding `custom_components/amber_websocket/brand/`. |  |
-| `amberelectric_usages` | home-assistant/brands#6215 | https://github.com/Tmbao/amberelectric-usages | Active, pushed 2026-07-13 | Open an upstream PR adding `custom_components/amberelectric_usages/brand/`. |  |
-| `ambient_music` | home-assistant/brands#7778 | https://github.com/connochio/ambient_music | Active, pushed 2026-04-29 | Open an upstream PR adding `custom_components/ambient_music/brand/`. |  |
-| `ambientika` | home-assistant/brands#6131 | https://github.com/ambientika/HomeAssistant-integration-for-Ambientika | Active, pushed 2026-02-02 | Open an upstream PR adding `custom_components/ambientika/brand/`. |  |
-| `ampere_modbus` | home-assistant/brands#5855 | https://github.com/dboeni/home-assistant-ampere-storage-pro-modbus | Active, pushed 2026-03-10 | Open an upstream PR adding `custom_components/ampere_modbus/brand/`. |  |
-| `amphiro_ble` | home-assistant/brands#5344 | https://github.com/chkuendig/hass-amphiro-ble | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/amphiro_ble/brand/`. |  |
-| `ampvortex` | home-assistant/brands#8734 | https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex | Active, pushed 2026-06-16 | Open an upstream PR adding `custom_components/ampvortex/brand/`. |  |
-| `animated_scenes` | home-assistant/brands#5653 | https://github.com/chazzu/hass-animated-scenes | Active, pushed 2025-12-15 | Open an upstream PR adding `custom_components/animated_scenes/brand/`. |  |
-| `anio` | home-assistant/brands#9238 | https://github.com/hackwell/homeassistant-anio | Active, pushed 2026-09-15 | Open an upstream PR adding `custom_components/anio/brand/`. |  |
-| `anniversary` | home-assistant/brands#2746 | https://github.com/amaximus/anniversary | Active, pushed 2026-09-21 | Open an upstream PR adding `custom_components/anniversary/brand/`. |  |
-| `antistorm` | home-assistant/brands#5195 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Antistorm | Active, pushed 2025-04-05 | Open an upstream PR adding `custom_components/antistorm/brand/`. |  |
-| `anycubic_cloud` | home-assistant/brands#5666 | https://github.com/WaresWichall/hass-anycubic_cloud | Active, pushed 2024-12-01 | Open an upstream PR adding `custom_components/anycubic_cloud/brand/`. |  |
-| `apanova` | home-assistant/brands#6455 | https://github.com/cnecrea/apanova | Active, pushed 2026-03-15 | Open an upstream PR adding `custom_components/apanova/brand/`. |  |
-| `apanova_ro` | home-assistant/brands#7825 | https://github.com/boogytotyo/apanova_ro | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/apanova_ro/brand/`. |  |
-| `apc_modbus` | home-assistant/brands#9300 | https://github.com/aburow/apc-modbus-snmp-ha | Active, pushed 2026-09-12 | Open an upstream PR adding `custom_components/apc_modbus/brand/`. |  |
-| `apc_pdu` | home-assistant/brands#9080 | https://github.com/Tycho-MEC/apc-pdu | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/apc_pdu/brand/`. |  |
-| `apm` | home-assistant/brands#5672 | https://github.com/clarkewing/ha-apm-crewconnect | Active, pushed 2024-11-15 | Open an upstream PR adding `custom_components/apm/brand/`. |  |
-| `appartme` | home-assistant/brands#6181 | https://github.com/Appartme/Appartme-System-HACI | Active, pushed 2026-09-08 | Open an upstream PR adding `custom_components/appartme/brand/`. |  |
-| `apsystems_ecu_proxy` | home-assistant/brands#6026 | https://github.com/HAEdwin/homeassistant-apsystems_ecu_proxy | Active, pushed 2025-08-25 | Open an upstream PR adding `custom_components/apsystems_ecu_proxy/brand/`. |  |
-| `apsystems_ecu_reader` | home-assistant/brands#6516 | https://github.com/HAEdwin/homeassistant-apsystems_ecu_reader | Active, pushed 2026-09-03 | Open an upstream PR adding `custom_components/apsystems_ecu_reader/brand/`. |  |
-| `aqara_bridge` | home-assistant/brands#3730 | https://github.com/meishild/AqaraBridge | Active, pushed 2023-01-05 | Open an upstream PR adding `custom_components/aqara_bridge/brand/`. |  |
-| `aquaariston` | home-assistant/brands#2370 | https://github.com/chomupashchuk/ariston-aqua-remotethermo-home-assistant | Active, pushed 2022-07-13 | Open an upstream PR adding `custom_components/aquaariston/brand/`. |  |
-| `aquael` | home-assistant/brands#6391 | https://github.com/ChoffaH/homeassistant-aquael | Active, pushed 2025-01-17 | Open an upstream PR adding `custom_components/aquael/brand/`. |  |
-| `aquaflower` | home-assistant/brands#6462 | https://github.com/theaquaflower/AquaFlower_HA_Integration | Active, pushed 2025-12-08 | Open an upstream PR adding `custom_components/aquaflower/brand/`. |  |
-| `aquahawk` | home-assistant/brands#4804 | https://github.com/ablyler/home-assistant-aquahawk | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/aquahawk/brand/`. |  |
-| `aquastilla_softener` | home-assistant/brands#6868 | https://github.com/alakdae/AquastillaHA | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/aquastilla_softener/brand/`. |  |
-| `ar_smart_scheduler` | home-assistant/brands#9628 | https://github.com/marsh4200/ar_smart_scheduler | Active, pushed 2026-08-29 | Open an upstream PR adding `custom_components/ar_smart_scheduler/brand/`. |  |
-| `area_label_stat` | home-assistant/brands#7821 | https://github.com/819548945/area_label_stat | Active, pushed 2025-09-16 | Open an upstream PR adding `custom_components/area_label_stat/brand/`. |  |
-| `area_occupancy` | home-assistant/brands#6132 | https://github.com/Hankanman/Area-Occupancy-Detection | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/area_occupancy/brand/`. |  |
-| `argon40` | home-assistant/brands#1720 | https://github.com/Misiu/argon40 | Active, pushed 2026-07-21 | Open an upstream PR adding `custom_components/argon40/brand/`. |  |
-| `aritech_ats` | home-assistant/brands#9006 | https://github.com/sebakerckhof/aritech-ha | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/aritech_ats/brand/`. |  |
-| `arso_potresi` | home-assistant/brands#6613 | https://github.com/andrejs2/arso_potresi | Active, pushed 2026-03-13 | Open an upstream PR adding `custom_components/arso_potresi/brand/`. |  |
-| `artnet_led` | home-assistant/brands#3526 | https://github.com/Breina/ha-artnet-led | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/artnet_led/brand/`. |  |
-| `artsauna_ble` | home-assistant/brands#9082 | https://github.com/Dacid99/artsauna_ble | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/artsauna_ble/brand/`. |  |
-| `aseko_local` | home-assistant/brands#6970 | https://github.com/hopkins-tk/aseko-local | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/aseko_local/brand/`. |  |
-| `asterisk` | home-assistant/brands#3296 | https://github.com/TECH7Fox/asterisk-hass-integration | Active, pushed 2026-04-15 | Open an upstream PR adding `custom_components/asterisk/brand/`. |  |
-| `asterisk_call_status` | home-assistant/brands#4559 | https://github.com/bkbilly/asterisk_call_status | Active, pushed 2024-01-29 | Open an upstream PR adding `custom_components/asterisk_call_status/brand/`. |  |
-| `asusrouter` | home-assistant/brands#3366 | https://github.com/Vaskivskyi/ha-asusrouter | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/asusrouter/brand/`. |  |
-| `atm_milano` | home-assistant/brands#8916 | https://github.com/JanOstrowka/atm-milano | Active, pushed 2026-01-02 | Open an upstream PR adding `custom_components/atm_milano/brand/`. |  |
-| `atmos_energy` | home-assistant/brands#9526 | https://github.com/Valdorama/ha-atmos-energy-sensor | Active, pushed 2026-09-25 | Open an upstream PR adding `custom_components/atmos_energy/brand/`. |  |
-| `atomberg` | home-assistant/brands#5379 | https://github.com/dasshubham762/atomberg-integration | Active, pushed 2026-08-03 | Open an upstream PR adding `custom_components/atomberg/brand/`. |  |
-| `atrea` | home-assistant/brands#3633 | https://github.com/JurajNyiri/HomeAssistant-Atrea | Active, pushed 2026-07-27 | Open an upstream PR adding `custom_components/atrea/brand/`. |  |
-| `atrea_amotion` | home-assistant/brands#5982 | https://github.com/alexelite/atrea_amotion | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/atrea_amotion/brand/`. |  |
-| `attribute_as_sensor` | home-assistant/brands#4916 | https://github.com/gjohansson-ST/attribute_as_sensor | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/attribute_as_sensor/brand/`. |  |
-| `attributes` | home-assistant/brands#2320 | https://github.com/pilotak/homeassistant-attributes | Active, pushed 2026-07-21 | Open an upstream PR adding `custom_components/attributes/brand/`. |  |
-| `auckland_transport` | home-assistant/brands#7027 | https://github.com/SeitzDaniel/auckland_transport | Active, pushed 2026-08-24 | Open an upstream PR adding `custom_components/auckland_transport/brand/`. |  |
-| `audioflow` | home-assistant/brands#4619 | https://github.com/siku2/hass-audioflow | Active, pushed 2026-08-07 | Open an upstream PR adding `custom_components/audioflow/brand/`. |  |
-| `audiopro_linkplay` | home-assistant/brands#8941 | https://github.com/amsound/audiopro_linkplay_hacs | Active, pushed 2026-01-20 | Open an upstream PR adding `custom_components/audiopro_linkplay/brand/`. |  |
-| `august_access_codes` | home-assistant/brands#8823 | https://github.com/iluvdata/august_access_codes | Active, pushed 2026-08-12 | Open an upstream PR adding `custom_components/august_access_codes/brand/`. |  |
-| `aula_easyiq` | home-assistant/brands#7942 | https://github.com/esbenwiberg/easyiq | Active, pushed 2026-06-22 | Open an upstream PR adding `custom_components/aula_easyiq/brand/`. |  |
-| `aus_tfnsw_carparks` | home-assistant/brands#7146 | https://github.com/kcoffau/AUS_TfNSW_carparks | Active, pushed 2025-06-20 | Open an upstream PR adding `custom_components/aus_tfnsw_carparks/brand/`. |  |
-| `auto_areas` | home-assistant/brands#3043 | https://github.com/c-st/auto_areas | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/auto_areas/brand/`. |  |
-| `auto_backup` | home-assistant/brands#2295 | https://github.com/jcwillox/hass-auto-backup | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/auto_backup/brand/`. |  |
-| `auto_utility_meter` | home-assistant/brands#8815 | https://github.com/yunusp01/auto_utility_meter | Active, pushed 2026-01-13 | Open an upstream PR adding `custom_components/auto_utility_meter/brand/`. |  |
-| `autobayt` | home-assistant/brands#8825 | https://github.com/RASBR/home-assistant-autobayt | Active, pushed 2026-01-27 | Open an upstream PR adding `custom_components/autobayt/brand/`. |  |
-| `automate` | home-assistant/brands#2599 | https://github.com/sillyfrog/Automate-Pulse-v2 | Active, pushed 2026-02-12 | Open an upstream PR adding `custom_components/automate/brand/`. |  |
-| `autonomic` | home-assistant/brands#5624 | https://github.com/toscano/hass-autonomic | Active, pushed 2026-08-06 | Open an upstream PR adding `custom_components/autonomic/brand/`. |  |
-| `autopi` | home-assistant/brands#7543 | https://github.com/rknightion/autopi-ha | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/autopi/brand/`. |  |
-| `aux_cloud` | home-assistant/brands#6874 | https://github.com/maeek/ha-aux-cloud | Active, pushed 2026-09-13 | Open an upstream PR adding `custom_components/aux_cloud/brand/`. |  |
-| `ave_dominaplus` | home-assistant/brands#7039 | https://github.com/emmeoerre/ave_dominaplus | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/ave_dominaplus/brand/`. |  |
-| `average` | home-assistant/brands#2302 | https://github.com/Limych/ha-average | Active, pushed 2025-04-21 | Open an upstream PR adding `custom_components/average/brand/`. |  |
-| `aviationweather` | home-assistant/brands#7300 | https://github.com/eduwardpost/aviation-weather | Active, pushed 2026-09-14 | Open an upstream PR adding `custom_components/aviationweather/brand/`. |  |
-| `awox` | home-assistant/brands#2102 | https://github.com/fsaris/home-assistant-awox | Active, pushed 2026-06-14 | Open an upstream PR adding `custom_components/awox/brand/`. |  |
-| `aws_cost` | home-assistant/brands#5700 | https://github.com/diego7marques/ha-aws-cost | Active, pushed 2026-02-02 | Open an upstream PR adding `custom_components/aws_cost/brand/`. |  |
-| `awtrix` | home-assistant/brands#6801 | https://github.com/MiguelAngelLV/ha-awtrix | Active, pushed 2026-04-26 | Open an upstream PR adding `custom_components/awtrix/brand/`. |  |
-| `axpert_inverter` | home-assistant/brands#9068 | https://github.com/ArnyminerZ/ha-axpert-inverter | Active, pushed 2026-02-23 | Open an upstream PR adding `custom_components/axpert_inverter/brand/`. |  |
-| `azan` | home-assistant/brands#9311 | https://github.com/bewinxed/minaret | Active, pushed 2026-04-15 | Open an upstream PR adding `custom_components/azan/brand/`. |  |
-| `azimut_energy` | home-assistant/brands#9069 | https://github.com/azimut-energy/azimut-ha-integration | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/azimut_energy/brand/`. |  |
-| `azure_openai_sdk_conversation` | home-assistant/brands#7877 | https://github.com/FoliniC/azure_openai_sdk_conversation | Active, pushed 2026-01-09 | Open an upstream PR adding `custom_components/azure_openai_sdk_conversation/brand/`. |  |
-| `balena_cloud` | home-assistant/brands#7183 | https://github.com/eseverson/hass-balena | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/balena_cloud/brand/`. |  |
-| `bar228_ble` | home-assistant/brands#5355 | https://github.com/diepeterpan/HAIDTBA228 | Active, pushed 2024-04-08 | Open an upstream PR adding `custom_components/bar228_ble/brand/`. |  |
-| `basestation` | home-assistant/brands#5187 | https://github.com/MineTech13/homeassistant-basestation | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/basestation/brand/`. |  |
-| `basis_smart_panel` | home-assistant/brands#9513 | https://github.com/wearebasis/ha-basis | Active, pushed 2026-03-10 | Open an upstream PR adding `custom_components/basis_smart_panel/brand/`. |  |
-| `battery_monitor` | home-assistant/brands#9334 | https://github.com/DomoticaFacile/battery_monitor | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/battery_monitor/brand/`. |  |
-| `baxi_hybridapp_home` | home-assistant/brands#8066 | https://github.com/Cm-8/baxi_hybridapp_home | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/baxi_hybridapp_home/brand/`. |  |
-| `bayrol` | home-assistant/brands#7139 | https://github.com/0xQuantumHome/bayrol-home-hassistant | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/bayrol/brand/`. |  |
-| `bazarr` | home-assistant/brands#8599 | https://github.com/owenvoke/hass-bazarr | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/bazarr/brand/`. |  |
-| `bcnn` | home-assistant/brands#5523 | https://github.com/Muxee4ka/hass-bcnn | Active, pushed 2026-05-24 | Open an upstream PR adding `custom_components/bcnn/brand/`. |  |
-| `be_alert` | home-assistant/brands#9128 | https://github.com/Spiffo/be_alert | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/be_alert/brand/`. |  |
-| `becker_centralcontrol_has` | home-assistant/brands#6692 | https://github.com/DominikStarke/becker_centralcontrol_has | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/becker_centralcontrol_has/brand/`. |  |
-| `bedrock_server_manager` | home-assistant/brands#7025 | https://github.com/DMedina559/bsm-home-assistant-integration | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/bedrock_server_manager/brand/`. |  |
-| `beem_energy` | home-assistant/brands#7448 | https://github.com/CharlesP44/Beem_Energy | Active, pushed 2026-08-15 | Open an upstream PR adding `custom_components/beem_energy/brand/`. |  |
-| `beer_keg_ha` | home-assistant/brands#8380 | https://github.com/DarkJaeger/beer-keg-ha | Active, pushed 2026-04-24 | Open an upstream PR adding `custom_components/beer_keg_ha/brand/`. |  |
-| `beny_wifi` | home-assistant/brands#6338 | https://github.com/Jarauvi/beny_wifi | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/beny_wifi/brand/`. |  |
-| `beolink` | home-assistant/brands#4807 | https://github.com/djerik/beolink-ha | Active, pushed 2026-02-11 | Open an upstream PR adding `custom_components/beolink/brand/`. |  |
-| `berluf_selen_2` | home-assistant/brands#6097 | https://github.com/3p3v/hass_berluf_selen_2 | Active, pushed 2025-03-20 | Open an upstream PR adding `custom_components/berluf_selen_2/brand/`. |  |
-| `bermuda` | home-assistant/brands#4772 | https://github.com/agittins/bermuda | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/bermuda/brand/`. |  |
-| `besmart_thermostat` | home-assistant/brands#6207 | https://github.com/coder89/ha-besmart | Active, pushed 2026-07-20 | Open an upstream PR adding `custom_components/besmart_thermostat/brand/`. |  |
-| `bestway` | home-assistant/brands#3428 | https://github.com/cdpuk/ha-bestway | Active, pushed 2026-09-06 | Open an upstream PR adding `custom_components/bestway/brand/`. |  |
-| `better_thermostat` | home-assistant/brands#3077 | https://github.com/KartoffelToby/better_thermostat | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/better_thermostat/brand/`. |  |
-| `bettercozylife` | home-assistant/brands#6550 | https://github.com/IIRoan/bettercozylife | Active, pushed 2026-02-06 | Open an upstream PR adding `custom_components/bettercozylife/brand/`. |  |
-| `beward` | home-assistant/brands#2304 | https://github.com/Limych/ha-beward | Active, pushed 2025-04-21 | Open an upstream PR adding `custom_components/beward/brand/`. |  |
-| `bezeq_energy` | home-assistant/brands#6031 | https://github.com/GuyKh/bezeq-energy-custom-component | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/bezeq_energy/brand/`. |  |
-| `bg_electricity_regulated_pricing` | home-assistant/brands#5029 | https://github.com/avataar/bg_electricity_regulated_pricing | Active, pushed 2026-07-01 | Open an upstream PR adding `custom_components/bg_electricity_regulated_pricing/brand/`. |  |
-| `bgg_collection` | home-assistant/brands#7745 | https://github.com/alberto-bottarini/home-assistant-bgg-collection | Active, pushed 2025-08-22 | Open an upstream PR adding `custom_components/bgg_collection/brand/`. |  |
-| `bibliotek_dk` | home-assistant/brands#8754 | https://github.com/TermeHansen/Bibliotek_dk | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/bibliotek_dk/brand/`. |  |
-| `billbuster` | home-assistant/brands#7124 | https://github.com/DominikBrezovsek/bb-hacs | Active, pushed 2025-05-25 | Open an upstream PR adding `custom_components/billbuster/brand/`. |  |
-| `birdfy` | home-assistant/brands#8992 | https://github.com/dakahler/homeassistant-birdfy | Active, pushed 2026-02-01 | Open an upstream PR adding `custom_components/birdfy/brand/`. |  |
-| `bj_led` | home-assistant/brands#5241 | https://github.com/8none1/bj_led | Active, pushed 2024-03-23 | Open an upstream PR adding `custom_components/bj_led/brand/`. |  |
-| `bjsy_water_gas` | home-assistant/brands#5626 | https://github.com/jianyun8023/bjsy_water_gas | Active, pushed 2024-12-22 | Open an upstream PR adding `custom_components/bjsy_water_gas/brand/`. |  |
-| `ble_smartcube` | home-assistant/brands#9567 | https://github.com/jondycz/ble-smartcube | Active, pushed 2026-02-25 | Open an upstream PR adding `custom_components/ble_smartcube/brand/`. |  |
-| `blebox_shutterbox_tilt` | home-assistant/brands#3480 | https://github.com/andrzejchm/blebox_shutterbox_tilt | Active, pushed 2025-06-13 | Open an upstream PR adding `custom_components/blebox_shutterbox_tilt/brand/`. |  |
-| `blinds_controller` | home-assistant/brands#5367 | https://github.com/MatthewOnTour/BUT_blinds_time_control | Active, pushed 2024-04-25 | Open an upstream PR adding `custom_components/blinds_controller/brand/`. |  |
-| `blood_donor` | home-assistant/brands#6647 | https://github.com/B-Hartley/blood_donor | Active, pushed 2025-05-23 | Open an upstream PR adding `custom_components/blood_donor/brand/`. |  |
-| `bloomin8_eink_canvas` | home-assistant/brands#8760 | https://github.com/ARPOBOT-BLOOMIN8/eink_canvas_home_assistant_component | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/bloomin8_eink_canvas/brand/`. |  |
-| `bloomin8_pull` | home-assistant/brands#8979 | https://github.com/fwmone/bloomin8_pull | Active, pushed 2026-09-26 | Open an upstream PR adding `custom_components/bloomin8_pull/brand/`. |  |
-| `blossom_be` | home-assistant/brands#6184 | https://github.com/thomas-svrts/hacs_blossom_energy | Active, pushed 2026-08-14 | Open an upstream PR adding `custom_components/blossom_be/brand/`. |  |
-| `blueair` | home-assistant/brands#2861 | https://github.com/aijayadams/hass-blueair | Active, pushed 2023-05-08 | Open an upstream PR adding `custom_components/blueair/brand/`. |  |
-| `bluebubbles` | home-assistant/brands#7744 | https://github.com/helv-io/ha-bluebubbles | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/bluebubbles/brand/`. |  |
-| `bluesky_feed` | home-assistant/brands#9476 | https://github.com/PersephoneKarnstein/ha-bluesky-feed | Active, pushed 2026-03-11 | Open an upstream PR adding `custom_components/bluesky_feed/brand/`. |  |
-| `bluesound_alt` | home-assistant/brands#5171 | https://github.com/aunefyren/bluesound_alt | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/bluesound_alt/brand/`. |  |
-| `bluetti` | home-assistant/brands#8226 | https://github.com/bluetti-official/bluetti-home-assistant | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/bluetti/brand/`. |  |
-| `bluetti_bt` | home-assistant/brands#4576 | https://github.com/Patrick762/hassio-bluetti-bt | Active, pushed 2026-07-08 | Open an upstream PR adding `custom_components/bluetti_bt/brand/`. |  |
-| `bm6` | home-assistant/brands#6438 | https://github.com/Rafciq/BM6 | Active, pushed 2026-02-11 | Open an upstream PR adding `custom_components/bm6/brand/`. |  |
-| `bodymiscale` | home-assistant/brands#2818 | https://github.com/dckiller51/bodymiscale | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/bodymiscale/brand/`. |  |
-| `bodypetscale` | home-assistant/brands#7021 | https://github.com/dckiller51/bodypetscale | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/bodypetscale/brand/`. |  |
-| `boiler_controller` | home-assistant/brands#9501 | https://github.com/BoilerController/boiler-controller-ha | Active, pushed 2026-05-28 | Open an upstream PR adding `custom_components/boiler_controller/brand/`. |  |
-| `bokat_se` | home-assistant/brands#6663 | https://github.com/andymcloid/bokat_se_hass | Active, pushed 2025-06-06 | Open an upstream PR adding `custom_components/bokat_se/brand/`. |  |
-| `boneco` | home-assistant/brands#6660 | https://github.com/DeKaN/ha-boneco | Active, pushed 2026-03-09 | Open an upstream PR adding `custom_components/boneco/brand/`. |  |
-| `bootstrap-icons` | home-assistant/brands#2658 | https://github.com/scottgearyau/hass-bootstrap-icons | Active, pushed 2021-06-28 | Open an upstream PR adding `custom_components/bootstrap-icons/brand/`. |  |
-| `bopi` | home-assistant/brands#9135 | https://github.com/mderasse/ha-bopi-integration | Active, pushed 2026-01-17 | Open an upstream PR adding `custom_components/bopi/brand/`. |  |
-| `bosch_ebike` | home-assistant/brands#8295 | https://github.com/Phil-Barker/hass-bosch-ebike | Active, pushed 2026-03-14 | Open an upstream PR adding `custom_components/bosch_ebike/brand/`. |  |
-| `bose` | home-assistant/brands#6470 | https://github.com/cavefire/Bose-Homeassistant | Active, pushed 2026-10-10 | Open an upstream PR adding `custom_components/bose/brand/`. |  |
-| `boulderwelt` | home-assistant/brands#5814 | https://github.com/FaserF/ha-boulderwelt | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/boulderwelt/brand/`. |  |
-| `boy_notify_line` | home-assistant/brands#3502 | https://github.com/boyphongsakorn/HA-Line-Notify | Active, pushed 2022-08-13 | Open an upstream PR adding `custom_components/boy_notify_line/brand/`. |  |
-| `bps` | home-assistant/brands#6522 | https://github.com/Hogster/BPS | Active, pushed 2026-08-12 | Open an upstream PR adding `custom_components/bps/brand/`. |  |
-| `bq25895` | home-assistant/brands#6913 | https://github.com/DJTerentjev/bq25895 | Active, pushed 2025-05-19 | Open an upstream PR adding `custom_components/bq25895/brand/`. |  |
-| `bradford_white_connect` | home-assistant/brands#5200 | https://github.com/ablyler/home-assistant-bradford-white-connect | Active, pushed 2026-09-21 | Open an upstream PR adding `custom_components/bradford_white_connect/brand/`. |  |
-| `braiins_pool` | home-assistant/brands#7333 | https://github.com/fischerq/ha-braiins-pool | Active, pushed 2025-06-25 | Open an upstream PR adding `custom_components/braiins_pool/brand/`. |  |
-| `brewcreator` | home-assistant/brands#6262 | https://github.com/bjorncs/ha-brewcreator | Active, pushed 2025-06-24 | Open an upstream PR adding `custom_components/brewcreator/brand/`. |  |
-| `brewfather` | home-assistant/brands#3117 | https://github.com/mvddonk/brewfather | Active, pushed 2026-08-27 | Open an upstream PR adding `custom_components/brewfather/brand/`. |  |
-| `bring_shopping` | home-assistant/brands#8929 | https://github.com/costantinoai/bring-widget-hacs | Active, pushed 2026-07-03 | Open an upstream PR adding `custom_components/bring_shopping/brand/`. |  |
-| `broetje_heating` | home-assistant/brands#9598 | https://github.com/henrywiechert/ha-broetje | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/broetje_heating/brand/`. |  |
-| `bromic_smart_heat_link` | home-assistant/brands#7970 | https://github.com/bharat/homeassistant-bromic-smart-heat-link | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/bromic_smart_heat_link/brand/`. |  |
-| `brother_scanner` | home-assistant/brands#7725 | https://github.com/gabest11/homeassistant-brother_scanner | Active, pushed 2025-09-01 | Open an upstream PR adding `custom_components/brother_scanner/brand/`. |  |
-| `browser_mod` | home-assistant/brands#3298 | https://github.com/thomasloven/hass-browser_mod | Active, pushed 2026-10-07 | Open an upstream PR adding `custom_components/browser_mod/brand/`. |  |
-| `brugmelding` | home-assistant/brands#8798 | https://github.com/svenkopp/brugmelding_HA | Active, pushed 2026-01-06 | Open an upstream PR adding `custom_components/brugmelding/brand/`. |  |
-| `bsh_tides` | home-assistant/brands#6920 | https://github.com/EnlightningMan/ha-bsh_tides | Active, pushed 2026-06-02 | Open an upstream PR adding `custom_components/bsh_tides/brand/`. |  |
-| `bsk_zephyr_lan` | home-assistant/brands#8251 | https://github.com/davideciarmiello/ha-bskzephyr-lan | Active, pushed 2025-10-29 | Open an upstream PR adding `custom_components/bsk_zephyr_lan/brand/`. |  |
-| `bticino_hometouch` | home-assistant/brands#9353 | https://github.com/croll83/ha_bticino_hometouch | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/bticino_hometouch/brand/`. |  |
-| `bticino_intercom` | home-assistant/brands#6911 | https://github.com/k-the-hidden-hero/bticino_intercom | Active, pushed 2026-09-15 | Open an upstream PR adding `custom_components/bticino_intercom/brand/`. |  |
-| `bttf_time_circuits` | home-assistant/brands#8118 | https://github.com/rananna/back-to-the-future-timecircuits | Active, pushed 2025-10-30 | Open an upstream PR adding `custom_components/bttf_time_circuits/brand/`. |  |
-| `budget_manager` | home-assistant/brands#8746 | https://github.com/qlerup/budget-manager-sync | Active, pushed 2026-01-18 | Open an upstream PR adding `custom_components/budget_manager/brand/`. |  |
-| `budgetenvelope` | home-assistant/brands#5148 | https://github.com/mpschr/budgetenvelope-homeassistant | Active, pushed 2024-02-26 | Open an upstream PR adding `custom_components/budgetenvelope/brand/`. |  |
-| `bureau_of_meteorology` | home-assistant/brands#1983 | https://github.com/bremor/bureau_of_meteorology | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/bureau_of_meteorology/brand/`. |  |
-| `burze_dzis_net` | home-assistant/brands#4539 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net | Active, pushed 2025-04-05 | Open an upstream PR adding `custom_components/burze_dzis_net/brand/`. |  |
-| `butt` | home-assistant/brands#5920 | https://github.com/dboeni/home-assistant-butt | Active, pushed 2026-04-22 | Open an upstream PR adding `custom_components/butt/brand/`. |  |
-| `bwee_home` | home-assistant/brands#6813 | https://github.com/bweetech/ha_bwee_home | Active, pushed 2025-03-27 | Open an upstream PR adding `custom_components/bwee_home/brand/`. |  |
-| `bwt_cosmy` | home-assistant/brands#7691 | https://github.com/Hyrla/integration_bwt_cosmy_ha | Active, pushed 2025-08-16 | Open an upstream PR adding `custom_components/bwt_cosmy/brand/`. |  |
-| `bwt_perla` | home-assistant/brands#5027 | https://github.com/dkarv/hacs-bwt-perla | Active, pushed 2026-09-27 | Open an upstream PR adding `custom_components/bwt_perla/brand/`. |  |
-| `byd_hvs` | home-assistant/brands#6087 | https://github.com/bbr111/byd_hvs | Active, pushed 2026-07-15 | Open an upstream PR adding `custom_components/byd_hvs/brand/`. |  |
-| `byd_vehicle` | home-assistant/brands#9530 | https://github.com/jkaberg/hass-byd-vehicle | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/byd_vehicle/brand/`. |  |
-| `c2_pm5` | home-assistant/brands#8810 | https://github.com/doug-hoffman/ha-c2_pm5 | Active, pushed 2026-01-06 | Open an upstream PR adding `custom_components/c2_pm5/brand/`. |  |
-| `camp_chef` | home-assistant/brands#8968 | https://github.com/doggkruse/ha-campchef | Active, pushed 2026-03-24 | Open an upstream PR adding `custom_components/camp_chef/brand/`. |  |
-| `cardiffwaste` | home-assistant/brands#3100 | https://github.com/TomBrien/cardiffwaste-ha | Active, pushed 2026-06-23 | Open an upstream PR adding `custom_components/cardiffwaste/brand/`. |  |
-| `carousel` | home-assistant/brands#5463 | https://github.com/kgn3400/carousel | Active, pushed 2025-06-25 | Open an upstream PR adding `custom_components/carousel/brand/`. |  |
-| `casambi_mqtt` | home-assistant/brands#6650 | https://github.com/peterklijn/casambi-mqtt | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/casambi_mqtt/brand/`. |  |
-| `cat_scale` | home-assistant/brands#7569 | https://github.com/djbios/home-assistant-cat-scale | Active, pushed 2026-05-05 | Open an upstream PR adding `custom_components/cat_scale/brand/`. |  |
-| `catlink` | home-assistant/brands#5801 | https://github.com/alkalixin/catlink | Active, pushed 2025-08-13 | Open an upstream PR adding `custom_components/catlink/brand/`. |  |
-| `cbr_currency` | home-assistant/brands#7107 | https://github.com/alexanderznamensky/CBR-currency | Active, pushed 2025-05-17 | Open an upstream PR adding `custom_components/cbr_currency/brand/`. |  |
-| `ccei_tild` | home-assistant/brands#4878 | https://github.com/brenard/ccei-tild-custom-component | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/ccei_tild/brand/`. |  |
-| `ccl` | home-assistant/brands#5817 | https://github.com/CCL-Electronics-Ltd/ccl | Active, pushed 2026-09-13 | Open an upstream PR adding `custom_components/ccl/brand/`. |  |
-| `cebl` | home-assistant/brands#5546 | https://github.com/ViceBooster/HA-CEBL | Active, pushed 2026-05-20 | Open an upstream PR adding `custom_components/cebl/brand/`. |  |
-| `cecotec_conga` | home-assistant/brands#3527 | https://github.com/alemuro/ha-cecotec-conga | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/cecotec_conga/brand/`. |  |
-| `celcat_calendar` | home-assistant/brands#6653 | https://github.com/etiennec78/ha-celcat | Active, pushed 2026-04-06 | Open an upstream PR adding `custom_components/celcat_calendar/brand/`. |  |
-| `centralino` | home-assistant/brands#9465 | https://github.com/ago19800/centralino | Active, pushed 2026-03-05 | Open an upstream PR adding `custom_components/centralino/brand/`. |  |
-| `chameleon` | home-assistant/brands#8638 | https://github.com/MKSG-MugunthKumar/ha-chameleon | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/chameleon/brand/`. |  |
-| `chargecloud` | home-assistant/brands#4414 | https://github.com/functionpointer/home-assistant-chargecloud-integration | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/chargecloud/brand/`. |  |
-| `cheapest_energy_windows` | home-assistant/brands#8230 | https://github.com/cheapest-energy-windows/cheapest_energy_windows | Active, pushed 2025-12-30 | Open an upstream PR adding `custom_components/cheapest_energy_windows/brand/`. |  |
-| `checkwatt` | home-assistant/brands#5014 | https://github.com/faanskit/ha-checkwatt | Active, pushed 2026-09-30 | Open an upstream PR adding `custom_components/checkwatt/brand/`. |  |
-| `chefkoch_ha` | home-assistant/brands#5815 | https://github.com/FaserF/ha-chefkoch | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/chefkoch_ha/brand/`. |  |
-| `chihiros` | home-assistant/brands#5451 | https://github.com/TheMicDiet/chihiros-led-control | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/chihiros/brand/`. |  |
-| `china_southern_power_grid_stat` | home-assistant/brands#3855 | https://github.com/CubicPill/china_southern_power_grid_stat | Active, pushed 2024-09-18 | Open an upstream PR adding `custom_components/china_southern_power_grid_stat/brand/`. |  |
-| `china_telecom` | home-assistant/brands#7383 | https://github.com/hlhk2017/ChinaTelecomMonitor-Homeassistant-Integration | Active, pushed 2026-09-22 | Open an upstream PR adding `custom_components/china_telecom/brand/`. |  |
-| `chinese_calendar` | home-assistant/brands#7795 | https://github.com/knoop7/ha_laohuangli | Active, pushed 2026-02-16 | Open an upstream PR adding `custom_components/chinese_calendar/brand/`. |  |
-| `chinese_poetry` | home-assistant/brands#7630 | https://github.com/xiaoshi930/chinese_poetry | Active, pushed 2025-08-15 | Open an upstream PR adding `custom_components/chinese_poetry/brand/`. |  |
-| `chitubox_printer` | home-assistant/brands#6480 | https://github.com/bushvin/hass_chitubox_printer | Active, pushed 2026-08-27 | Open an upstream PR adding `custom_components/chitubox_printer/brand/`. |  |
-| `chmu` | home-assistant/brands#8484 | https://github.com/lipelix/home-assistant-chmu-weather | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/chmu/brand/`. |  |
-| `chorecast` | home-assistant/brands#7816 | https://github.com/KenWeTech/Chorecast | Active, pushed 2025-09-26 | Open an upstream PR adding `custom_components/chorecast/brand/`. |  |
-| `chroma` | home-assistant/brands#3652 | https://github.com/Vaskivskyi/ha-chroma | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/chroma/brand/`. |  |
-| `chuango_alarm` | home-assistant/brands#9288 | https://github.com/NemoN/ha-chuango-ov300 | Active, pushed 2026-03-06 | Open an upstream PR adding `custom_components/chuango_alarm/brand/`. |  |
-| `chuck_control` | home-assistant/brands#5309 | https://github.com/TeepCo/chuck-control | Active, pushed 2025-09-22 | Open an upstream PR adding `custom_components/chuck_control/brand/`. |  |
-| `chuguan_home` | home-assistant/brands#8808 | https://github.com/wang-chuanhui/chuguan_home | Active, pushed 2026-07-27 | Open an upstream PR adding `custom_components/chuguan_home/brand/`. |  |
-| `cimonitor` | home-assistant/brands#6312 | https://github.com/eXistenZNL/HomeAssistant-CIMonitor | Active, pushed 2025-01-17 | Open an upstream PR adding `custom_components/cimonitor/brand/`. |  |
-| `circadian_lighting` | home-assistant/brands#8182 | https://github.com/claytonjn/hass-circadian_lighting | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/circadian_lighting/brand/`. |  |
-| `circular` | home-assistant/brands#6051 | https://github.com/GUILEB/integration_circular | Active, pushed 2025-12-07 | Open an upstream PR adding `custom_components/circular/brand/`. |  |
-| `citizen` | home-assistant/brands#9477 | https://github.com/PersephoneKarnstein/ha-citizen-incidents | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/citizen/brand/`. |  |
-| `citymind_water_meter` | home-assistant/brands#5613 | https://github.com/maorcc/citymind_water_meter | Active, pushed 2026-07-14 | Open an upstream PR adding `custom_components/citymind_water_meter/brand/`. |  |
-| `cjmonitor` | home-assistant/brands#4461 | https://github.com/clydebarrow/ha-cjmonitor | Active, pushed 2024-06-06 | Open an upstream PR adding `custom_components/cjmonitor/brand/`. |  |
-| `clash_royale` | home-assistant/brands#8142 | https://github.com/HenkieThee/clash_royale | Active, pushed 2025-10-17 | Open an upstream PR adding `custom_components/clash_royale/brand/`. |  |
-| `clickpi_garage_door` | home-assistant/brands#6646 | https://github.com/ChrisTracy/clickpi_garage_door | Active, pushed 2025-09-01 | Open an upstream PR adding `custom_components/clickpi_garage_door/brand/`. |  |
-| `clock_bh` | home-assistant/brands#9287 | https://github.com/iret33/ha-clock-bh | Active, pushed 2026-01-27 | Open an upstream PR adding `custom_components/clock_bh/brand/`. |  |
-| `clockify` | home-assistant/brands#7828 | https://github.com/BlythMeister/Clockify-HA | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/clockify/brand/`. |  |
-| `cloud_gps` | home-assistant/brands#6441 | https://github.com/dscao/cloud_gps | Active, pushed 2026-05-09 | Open an upstream PR adding `custom_components/cloud_gps/brand/`. |  |
-| `cloudflare_speed_test` | home-assistant/brands#6682 | https://github.com/DigitallyRefined/ha-cloudflare-speed-test | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/cloudflare_speed_test/brand/`. |  |
-| `cloudflare_tunnel_monitor` | home-assistant/brands#4754 | https://github.com/deadbeef3137/ha-cloudflare-tunnel-monitor | Active, pushed 2026-03-03 | Open an upstream PR adding `custom_components/cloudflare_tunnel_monitor/brand/`. |  |
-| `clouding` | home-assistant/brands#9524 | https://github.com/bastgau/ha-clouding | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/clouding/brand/`. |  |
-| `cloudlibrary` | home-assistant/brands#4993 | https://github.com/geertmeersman/cloudlibrary | Active, pushed 2026-08-18 | Open an upstream PR adding `custom_components/cloudlibrary/brand/`. |  |
-| `cloudstash` | home-assistant/brands#9614 | https://github.com/derolli1976/HomeassistantCloudStash | Active, pushed 2026-07-30 | Open an upstream PR adding `custom_components/cloudstash/brand/`. |  |
-| `cmg_waste_collection` | home-assistant/brands#8246 | https://github.com/ArturZurawski/hacs_cmg_waste_collection | Active, pushed 2025-11-20 | Open an upstream PR adding `custom_components/cmg_waste_collection/brand/`. |  |
-| `color_notify` | home-assistant/brands#7127 | https://github.com/cobryan05/ha-color-notify | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/color_notify/brand/`. |  |
-| `combined_energy` | home-assistant/brands#5398 | https://github.com/evilmarty/combined_energy | Active, pushed 2026-10-02 | Open an upstream PR adding `custom_components/combined_energy/brand/`. |  |
-| `combined_notifications` | home-assistant/brands#9346 | https://github.com/Pjarbit/home-assistant-combined-notification-integration | Active, pushed 2026-09-01 | Open an upstream PR adding `custom_components/combined_notifications/brand/`. |  |
-| `combustion` | home-assistant/brands#4959 | https://github.com/legrego/homeassistant-combustion | Active, pushed 2025-12-08 | Open an upstream PR adding `custom_components/combustion/brand/`. |  |
-| `comelit_intercom` | home-assistant/brands#7566 | https://github.com/nicolas-fricke/ha-component-comelit-intercom | Active, pushed 2025-09-10 | Open an upstream PR adding `custom_components/comelit_intercom/brand/`. |  |
-| `compal_wifi` | home-assistant/brands#2297 | https://github.com/frimtec/hass-compal-wifi | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/compal_wifi/brand/`. |  |
-| `companion_media_player` | home-assistant/brands#9656 | https://github.com/echocat/ha-companion-media-player | Active, pushed 2026-08-12 | Open an upstream PR adding `custom_components/companion_media_player/brand/`. |  |
-| `composite` | home-assistant/brands#4147 | https://github.com/pnbruckner/ha-composite-tracker | Active, pushed 2026-06-04 | Open an upstream PR adding `custom_components/composite/brand/`. |  |
-| `computherm_b` | home-assistant/brands#6529 | https://github.com/zadoli/ha-computherm-b | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/computherm_b/brand/`. |  |
-| `comwatt` | home-assistant/brands#4859 | https://github.com/MateoGreil/homeassistant-comwatt | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/comwatt/brand/`. |  |
-| `connectsense` | home-assistant/brands#8632 | https://github.com/connectsense/homeassistant.custom | Active, pushed 2025-12-08 | Open an upstream PR adding `custom_components/connectsense/brand/`. |  |
-| `containercleaning` | home-assistant/brands#7721 | https://github.com/PatrickSt1991/ha-afvalcontainer-cleaning | Active, pushed 2026-10-02 | Open an upstream PR adding `custom_components/containercleaning/brand/`. |  |
-| `control4_mediaplayer` | home-assistant/brands#7956 | https://github.com/OtisPresley/control4-mediaplayer | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/control4_mediaplayer/brand/`. |  |
-| `control_my_spa` | home-assistant/brands#7152 | https://github.com/haresik/Hares-ControlMySpa | Active, pushed 2026-09-30 | Open an upstream PR adding `custom_components/control_my_spa/brand/`. |  |
-| `controllable` | home-assistant/brands#8757 | https://github.com/caplaz/home-assistant-controllable | Active, pushed 2026-01-08 | Open an upstream PR adding `custom_components/controllable/brand/`. |  |
-| `cool_open_integration` | home-assistant/brands#3673 | https://github.com/ShayGus/cool-open-integration | Active, pushed 2026-08-25 | Open an upstream PR adding `custom_components/cool_open_integration/brand/`. |  |
-| `copenhagen_trackers` | home-assistant/brands#6321 | https://github.com/Lerbaek/hass-copenhagen-trackers | Active, pushed 2026-02-11 | Open an upstream PR adding `custom_components/copenhagen_trackers/brand/`. |  |
-| `cosa` | home-assistant/brands#8585 | https://github.com/ahamitd/cosa-homeassistant | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/cosa/brand/`. |  |
-| `cosori_kettle_ble` | home-assistant/brands#9228 | https://github.com/rygwdn/ha-cosori-kettle | Active, pushed 2026-05-17 | Open an upstream PR adding `custom_components/cosori_kettle_ble/brand/`. |  |
-| `cover_time_based` | home-assistant/brands#4741 | https://github.com/Sese-Schneider/ha-cover-time-based | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/cover_time_based/brand/`. |  |
-| `cowboy` | home-assistant/brands#5034 | https://github.com/elsbrock/cowboy-ha | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/cowboy/brand/`. |  |
-| `crafty_controller` | home-assistant/brands#5691 | https://github.com/Makhuta/homeassistant-crafty_controller | Active, pushed 2024-09-15 | Open an upstream PR adding `custom_components/crafty_controller/brand/`. |  |
-| `creality_box_control` | home-assistant/brands#6029 | https://github.com/pcartwright81/creality_box_control | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/creality_box_control/brand/`. |  |
-| `crescontrol` | home-assistant/brands#5881 | https://github.com/OpenGrow-Box/crescontrol | Active, pushed 2026-06-22 | Open an upstream PR adding `custom_components/crescontrol/brand/`. |  |
-| `cronicle` | home-assistant/brands#6708 | https://github.com/aropop/home-assistant-cronicle | Active, pushed 2025-03-11 | Open an upstream PR adding `custom_components/cronicle/brand/`. |  |
-| `cronostar` | home-assistant/brands#8994 | https://github.com/FoliniC/CronoStar | Active, pushed 2026-05-17 | Open an upstream PR adding `custom_components/cronostar/brand/`. |  |
-| `crowdsec` | home-assistant/brands#8917 | https://github.com/brott8/ha-crowdsec | Active, pushed 2026-09-15 | Open an upstream PR adding `custom_components/crowdsec/brand/`. |  |
-| `crunch_o_meter` | home-assistant/brands#2100 | https://github.com/GuyLewin/home-assistant-crunch-o-meter | Active, pushed 2025-06-21 | Open an upstream PR adding `custom_components/crunch_o_meter/brand/`. |  |
-| `cryptoinfo_advanced` | home-assistant/brands#4326 | https://github.com/TheHolyRoger/hass-cryptoinfo | Active, pushed 2024-04-11 | Open an upstream PR adding `custom_components/cryptoinfo_advanced/brand/`. |  |
-| `cslab` | home-assistant/brands#5782 | https://github.com/andrzej79/csLights-hass-integration | Active, pushed 2025-12-08 | Open an upstream PR adding `custom_components/cslab/brand/`. |  |
-| `csu` | home-assistant/brands#5654 | https://github.com/HartD92/ha-cos-utilities | Active, pushed 2024-10-15 | Open an upstream PR adding `custom_components/csu/brand/`. |  |
-| `ctek_nanogrid_air` | home-assistant/brands#8782 | https://github.com/FreshJonte/CTEK-Nanogrid-Air | Active, pushed 2026-09-29 | Open an upstream PR adding `custom_components/ctek_nanogrid_air/brand/`. |  |
-| `cubecoders` | home-assistant/brands#6571 | https://github.com/Samywamy10/ha-cubecoders-amp | Active, pushed 2025-02-17 | Open an upstream PR adding `custom_components/cubecoders/brand/`. |  |
-| `cumtd_bus` | home-assistant/brands#9207 | https://github.com/crankynetman/ha-cumtd | Active, pushed 2026-04-21 | Open an upstream PR adding `custom_components/cumtd_bus/brand/`. |  |
-| `custom_alarmdecoder` | home-assistant/brands#7455 | https://github.com/SantiagoSotoC/ha_custom_components | Active, pushed 2026-07-07 | Open an upstream PR adding `custom_components/custom_alarmdecoder/brand/`. |  |
-| `custom_ambilight` | home-assistant/brands#5349 | https://github.com/aegjoyce/custom-ambilight | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/custom_ambilight/brand/`. |  |
-| `custom_areas` | home-assistant/brands#7892 | https://github.com/DefinitelyADev/custom-areas-integration | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/custom_areas/brand/`. |  |
-| `custom_templates` | home-assistant/brands#4344 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Custom-Templates | Active, pushed 2026-05-03 | Open an upstream PR adding `custom_components/custom_templates/brand/`. |  |
-| `custstats` | home-assistant/brands#4337 | https://github.com/hekmon/ha-custstats | Active, pushed 2025-12-21 | Open an upstream PR adding `custom_components/custstats/brand/`. |  |
-| `cyberpower_modbus` | home-assistant/brands#9302 | https://github.com/aburow/cyberpower-modbus-ha | Active, pushed 2026-07-07 | Open an upstream PR adding `custom_components/cyberpower_modbus/brand/`. |  |
-| `cyclepay` | home-assistant/brands#3477 | https://github.com/elahd/ha-cyclepay | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/cyclepay/brand/`. |  |
-| `cyltek_gateway` | home-assistant/brands#4459 | https://github.com/CYL-Mark/home-assistant-cyltek_gateway | Active, pushed 2023-06-21 | Open an upstream PR adding `custom_components/cyltek_gateway/brand/`. |  |
-| `czsvatek_sensor` | home-assistant/brands#5803 | https://github.com/LochyCZ/HomeAssistantCZSvatek | Active, pushed 2026-08-10 | Open an upstream PR adding `custom_components/czsvatek_sensor/brand/`. |  |
-| `dabpumps` | home-assistant/brands#4972 | https://github.com/ankohanse/hass-dab-pumps | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/dabpumps/brand/`. |  |
-| `dae` | home-assistant/brands#5449 | https://github.com/ScottG489/ha-dae | Active, pushed 2026-03-31 | Open an upstream PR adding `custom_components/dae/brand/`. |  |
-| `daikin_br` | home-assistant/brands#6625 | https://github.com/daikin-br/ha-custom-integration | Active, pushed 2025-07-06 | Open an upstream PR adding `custom_components/daikin_br/brand/`. |  |
-| `daikin_ha_ekrhh_modbus` | home-assistant/brands#8095 | https://github.com/gerione/daikin-ha-ekrhh-modbus | Active, pushed 2026-10-07 | Open an upstream PR adding `custom_components/daikin_ha_ekrhh_modbus/brand/`. |  |
-| `daikinskyport` | home-assistant/brands#4677 | https://github.com/apetrycki/daikinskyport | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/daikinskyport/brand/`. |  |
-| `daily_fingerpori` | home-assistant/brands#8415 | https://github.com/Aasikki/daily-fingerpori | Active, pushed 2025-11-14 | Open an upstream PR adding `custom_components/daily_fingerpori/brand/`. |  |
-| `dali2_iot` | home-assistant/brands#7711 | https://github.com/spuky/lunatone-dali-integration | Active, pushed 2025-10-04 | Open an upstream PR adding `custom_components/dali2_iot/brand/`. |  |
-| `dali_center` | home-assistant/brands#7414 | https://github.com/maginawin/ha-dali-center | Active, pushed 2026-04-07 | Open an upstream PR adding `custom_components/dali_center/brand/`. |  |
-| `danalock_cloud` | home-assistant/brands#7010 | https://github.com/furth3st/ha-danalock-cloud | Active, pushed 2025-07-01 | Open an upstream PR adding `custom_components/danalock_cloud/brand/`. |  |
-| `danawa_shopping` | home-assistant/brands#4971 | https://github.com/oukene/danawa_shopping | Active, pushed 2025-12-16 | Open an upstream PR adding `custom_components/danawa_shopping/brand/`. |  |
-| `danfoss_ally` | home-assistant/brands#2118 | https://github.com/MTrab/danfoss_ally | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/danfoss_ally/brand/`. |  |
-| `dash480` | home-assistant/brands#7950 | https://github.com/dsackr/dash480 | Active, pushed 2026-07-30 | Open an upstream PR adding `custom_components/dash480/brand/`. |  |
-| `dash_bouncer` | home-assistant/brands#9132 | https://github.com/hfehrmann/hass-dash-bouncer | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/dash_bouncer/brand/`. |  |
-| `dash_cast` | home-assistant/brands#8896 | https://github.com/AlexxIT/DashCast | Active, pushed 2024-12-08 | Open an upstream PR adding `custom_components/dash_cast/brand/`. |  |
-| `dataplicity` | home-assistant/brands#2492 | https://github.com/AlexxIT/Dataplicity | Active, pushed 2026-09-28 | Open an upstream PR adding `custom_components/dataplicity/brand/`. |  |
-| `ddns` | home-assistant/brands#6397 | https://github.com/weiangongsi/ddns | Active, pushed 2025-08-12 | Open an upstream PR adding `custom_components/ddns/brand/`. |  |
-| `defa_power` | home-assistant/brands#6038 | https://github.com/Bebbssos/ha-defa-power | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/defa_power/brand/`. |  |
-| `default_config_exclude` | home-assistant/brands#6192 | https://github.com/arturpragacz/hass-cc-default-config-exclude | Active, pushed 2025-02-24 | Open an upstream PR adding `custom_components/default_config_exclude/brand/`. |  |
-| `degree_days` | home-assistant/brands#5064 | https://github.com/Ernst79/degree-days | Active, pushed 2026-08-14 | Open an upstream PR adding `custom_components/degree_days/brand/`. |  |
-| `delete` | home-assistant/brands#2354 | https://github.com/chomupashchuk/delete-file-home-assistant | Active, pushed 2023-01-09 | Open an upstream PR adding `custom_components/delete/brand/`. |  |
-| `delonghi_dehumidifier_api` | home-assistant/brands#6608 | https://github.com/rtfpessoa/homeassistant-delonghi-dehumidifier | Active, pushed 2025-02-21 | Open an upstream PR adding `custom_components/delonghi_dehumidifier_api/brand/`. |  |
-| `denon_avr_3805` | home-assistant/brands#8053 | https://github.com/grotan1/denon-avr-3805 | Active, pushed 2026-08-16 | Open an upstream PR adding `custom_components/denon_avr_3805/brand/`. |  |
-| `denon_video_select` | home-assistant/brands#5974 | https://github.com/jzucker2/denon-video-select | Active, pushed 2026-02-03 | Open an upstream PR adding `custom_components/denon_video_select/brand/`. |  |
-| `desec_io` | home-assistant/brands#7800 | https://github.com/J-CMartin/hass-deSEC | Active, pushed 2025-09-02 | Open an upstream PR adding `custom_components/desec_io/brand/`. |  |
-| `dess_monitor` | home-assistant/brands#7115 | https://github.com/Antoxa1081/home-assistant-dess-monitor | Active, pushed 2026-05-29 | Open an upstream PR adding `custom_components/dess_monitor/brand/`. |  |
-| `dessmonitor` | home-assistant/brands#7769 | https://github.com/andreas-glaser/ha-dessmonitor | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/dessmonitor/brand/`. |  |
-| `device_tools` | home-assistant/brands#5436 | https://github.com/eulemitkeule/device-tools | Active, pushed 2026-09-25 | Open an upstream PR adding `custom_components/device_tools/brand/`. |  |
-| `devtools` | home-assistant/brands#6322 | https://github.com/bendikrb/ha-devtools | Active, pushed 2025-02-26 | Open an upstream PR adding `custom_components/devtools/brand/`. |  |
-| `dew_point_calculator` | home-assistant/brands#9203 | https://github.com/iret33/ha-dew-point-calculator | Active, pushed 2026-01-27 | Open an upstream PR adding `custom_components/dew_point_calculator/brand/`. |  |
-| `dewpoint` | home-assistant/brands#8171 | https://github.com/andrewjswan/home-assistant-dewpoint | Active, pushed 2025-10-14 | Open an upstream PR adding `custom_components/dewpoint/brand/`. |  |
-| `dewpoint_calculator` | home-assistant/brands#8978 | https://github.com/sebastian-software/ha-dewpoint-calculator | Active, pushed 2026-09-27 | Open an upstream PR adding `custom_components/dewpoint_calculator/brand/`. |  |
-| `deye_cloud` | home-assistant/brands#9667 | https://github.com/brettmeyerowitz/deye_cloud | Active, pushed 2026-02-16 | Open an upstream PR adding `custom_components/deye_cloud/brand/`. |  |
-| `dieliga` | home-assistant/brands#6604 | https://github.com/FaserF/ha-dieliga | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/dieliga/brand/`. |  |
-| `diematic_3_c230_eco` | home-assistant/brands#3818 | https://github.com/IgnacioHR/de-dietrich-c230-ha | Active, pushed 2024-11-22 | Open an upstream PR adding `custom_components/diematic_3_c230_eco/brand/`. |  |
-| `diesel_heater_ble` | home-assistant/brands#9343 | https://github.com/MJIADEV/Diesel_Heater_BLE | Active, pushed 2026-02-09 | Open an upstream PR adding `custom_components/diesel_heater_ble/brand/`. |  |
-| `digital_pendulum` | home-assistant/brands#9341 | https://github.com/Dregi56/digital_pendulum | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/digital_pendulum/brand/`. |  |
-| `digitransit` | home-assistant/brands#5706 | https://github.com/Mallonbacka/custom-component-digitransit | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/digitransit/brand/`. |  |
-| `dimo` | home-assistant/brands#6127 | https://github.com/ardevd/ha-dimo | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/dimo/brand/`. |  |
-| `dingtalk_notify` | home-assistant/brands#8176 | https://github.com/938134/dingtalk_notify | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/dingtalk_notify/brand/`. |  |
-| `disable_external_login` | home-assistant/brands#9342 | https://github.com/raivisdejus/ha-disable-external-login | Active, pushed 2026-01-31 | Open an upstream PR adding `custom_components/disable_external_login/brand/`. |  |
-| `discogs_enhanced` | home-assistant/brands#8732 | https://github.com/andreasc1/homeassistant-discogs-enhanced | Active, pushed 2026-09-06 | Open an upstream PR adding `custom_components/discogs_enhanced/brand/`. |  |
-| `discogs_sync` | home-assistant/brands#7785 | https://github.com/iamjoshk/discogs_sync | Active, pushed 2026-07-06 | Open an upstream PR adding `custom_components/discogs_sync/brand/`. |  |
-| `discord_game` | home-assistant/brands#5380 | https://github.com/LordBoos/discord_game | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/discord_game/brand/`. |  |
-| `display_tools` | home-assistant/brands#8233 | https://github.com/alaltitov/homeassistant-display-tools | Active, pushed 2026-10-03 | Open an upstream PR adding `custom_components/display_tools/brand/`. |  |
-| `divera247` | home-assistant/brands#6531 | https://github.com/Loony2392/ha_hacs_divera_247 | Active, pushed 2026-09-19 | Open an upstream PR adding `custom_components/divera247/brand/`. |  |
-| `divoom` | home-assistant/brands#5337 | https://github.com/d03n3rfr1tz3/hass-divoom | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/divoom/brand/`. |  |
-| `divoom_pixoo` | home-assistant/brands#4887 | https://github.com/gickowtf/pixoo-homeassistant | Active, pushed 2026-09-30 | Open an upstream PR adding `custom_components/divoom_pixoo/brand/`. |  |
-| `divoom_pixoo64` | home-assistant/brands#7249 | https://github.com/KoenDierckx/divoom_pixoo64 | Active, pushed 2025-06-16 | Open an upstream PR adding `custom_components/divoom_pixoo64/brand/`. |  |
-| `divus_dplus` | home-assistant/brands#8680 | https://github.com/florianraffl/divus_dplus | Active, pushed 2026-07-20 | Open an upstream PR adding `custom_components/divus_dplus/brand/`. |  |
-| `dlink_presence` | home-assistant/brands#1863 | https://github.com/ayavilevich/homeassistant-dlink-presence | Active, pushed 2021-08-09 | Open an upstream PR adding `custom_components/dlink_presence/brand/`. |  |
-| `docker_status` | home-assistant/brands#5467 | https://github.com/kgn3400/docker_status | Active, pushed 2025-11-28 | Open an upstream PR adding `custom_components/docker_status/brand/`. |  |
-| `dolby_cp750` | home-assistant/brands#6254 | https://github.com/donfrensis/Dolby-CP750-HA | Active, pushed 2024-12-20 | Open an upstream PR adding `custom_components/dolby_cp750/brand/`. |  |
-| `dolphin` | home-assistant/brands#3634 | https://github.com/0xAlon/dolphin | Active, pushed 2026-06-08 | Open an upstream PR adding `custom_components/dolphin/brand/`. |  |
-| `domika` | home-assistant/brands#5789 | https://github.com/DevPocket/domika-ha-integration | Active, pushed 2024-09-18 | Open an upstream PR adding `custom_components/domika/brand/`. |  |
-| `domintell` | home-assistant/brands#6828 | https://github.com/Domintell/hacs_domintell | Active, pushed 2026-09-22 | Open an upstream PR adding `custom_components/domintell/brand/`. |  |
-| `domintell_ecopilot` | home-assistant/brands#8229 | https://github.com/Domintell/ha_domintell_ecopilot | Active, pushed 2026-02-09 | Open an upstream PR adding `custom_components/domintell_ecopilot/brand/`. |  |
-| `domonap` | home-assistant/brands#6428 | https://github.com/svmironov/domonap_intercom | Active, pushed 2026-09-17 | Open an upstream PR adding `custom_components/domonap/brand/`. |  |
-| `donetick` | home-assistant/brands#6154 | https://github.com/donetick/donetick-hass-integration | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/donetick/brand/`. |  |
-| `dorsalwatch` | home-assistant/brands#9104 | https://github.com/sh00t2kill/ha-dorsalwatch | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/dorsalwatch/brand/`. |  |
-| `dreame_mower` | home-assistant/brands#7878 | https://github.com/antondaubert/dreame-mower | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/dreame_mower/brand/`. |  |
-| `drinkaware` | home-assistant/brands#6921 | https://github.com/B-Hartley/drinkaware | Active, pushed 2025-04-23 | Open an upstream PR adding `custom_components/drinkaware/brand/`. |  |
-| `dropboxbackup` | home-assistant/brands#7079 | https://github.com/jasonwragg/HA-Dropbox-Backup | Active, pushed 2026-04-01 | Open an upstream PR adding `custom_components/dropboxbackup/brand/`. |  |
-| `drugstore_stock` | home-assistant/brands#7351 | https://github.com/BigPiloto/ha-drugstore-stock | Active, pushed 2025-07-02 | Open an upstream PR adding `custom_components/drugstore_stock/brand/`. |  |
-| `ducobox` | home-assistant/brands#8795 | https://github.com/Pauwlus/ha-ducobox-energy-comfort | Active, pushed 2026-06-21 | Open an upstream PR adding `custom_components/ducobox/brand/`. |  |
-| `duet3d` | home-assistant/brands#4368 | https://github.com/Lyr3x/hass-Duet3D | Active, pushed 2026-04-04 | Open an upstream PR adding `custom_components/duet3d/brand/`. |  |
-| `dummy_tracker` | home-assistant/brands#7066 | https://github.com/zubir2k/homeassistant-dummytracker | Active, pushed 2025-05-20 | Open an upstream PR adding `custom_components/dummy_tracker/brand/`. |  |
-| `duosida_ev` | home-assistant/brands#8510 | https://github.com/americodias/duosida-ha | Active, pushed 2025-11-21 | Open an upstream PR adding `custom_components/duosida_ev/brand/`. |  |
-| `duplicati` | home-assistant/brands#5745 | https://github.com/txxa/hass-duplicati | Active, pushed 2026-01-26 | Open an upstream PR adding `custom_components/duplicati/brand/`. |  |
-| `duux` | home-assistant/brands#8188 | https://github.com/SSmale/Duux-Home-Assistant | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/duux/brand/`. |  |
-| `duwi_home` | home-assistant/brands#7172 | https://github.com/duwi2024/ha_duwi_home | Active, pushed 2026-10-10 | Open an upstream PR adding `custom_components/duwi_home/brand/`. |  |
-| `dvla` | home-assistant/brands#4079 | https://github.com/jampez77/DVLA-Vehicle-Enquiry-Service | Active, pushed 2026-10-07 | Open an upstream PR adding `custom_components/dvla/brand/`. |  |
-| `dwd` | home-assistant/brands#2622 | https://github.com/hg1337/homeassistant-dwd | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/dwd/brand/`. |  |
-| `dwd_precipitation` | home-assistant/brands#7484 | https://github.com/Hoffmann77/ha-dwd-precipitation | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/dwd_precipitation/brand/`. |  |
-| `dyndns_manager` | home-assistant/brands#7707 | https://github.com/Q14siX/home-assistant-dyndns-manager | Active, pushed 2025-08-19 | Open an upstream PR adding `custom_components/dyndns_manager/brand/`. |  |
-| `e3dc` | home-assistant/brands#9209 | https://github.com/JohannLegler/e3dc-homeassistant | Active, pushed 2026-01-19 | Open an upstream PR adding `custom_components/e3dc/brand/`. |  |
-| `e_redes_smart_metering_plus` | home-assistant/brands#7641 | https://github.com/MiguelTVMS/e-redes-smart-metering-plus-hass | Active, pushed 2026-09-04 | Open an upstream PR adding `custom_components/e_redes_smart_metering_plus/brand/`. |  |
-| `easee` | home-assistant/brands#1932 | https://github.com/fondberg/easee_hass | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/easee/brand/`. |  |
-| `easy_pv` | home-assistant/brands#7342 | https://github.com/BigBoot/ha-easy-pv | Active, pushed 2026-02-03 | Open an upstream PR adding `custom_components/easy_pv/brand/`. |  |
-| `easyathome` | home-assistant/brands#9495 | https://github.com/chmielowiec/hass-easyathome | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/easyathome/brand/`. |  |
-| `easylog_cloud` | home-assistant/brands#7428 | https://github.com/Cadabena/ha-easylog-cloud | Active, pushed 2026-09-05 | Open an upstream PR adding `custom_components/easylog_cloud/brand/`. |  |
-| `eberspaecher` | home-assistant/brands#9535 | https://github.com/JPTK04/eberspaecher-ha | Active, pushed 2026-02-11 | Open an upstream PR adding `custom_components/eberspaecher/brand/`. |  |
-| `ebloc_ro` | home-assistant/brands#8020 | https://github.com/boogytotyo/ebloc_ro | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/ebloc_ro/brand/`. |  |
-| `echorobotics` | home-assistant/brands#4423 | https://github.com/functionpointer/home-assistant-echorobotics-integration | Active, pushed 2026-09-25 | Open an upstream PR adding `custom_components/echorobotics/brand/`. |  |
-| `ecocompteur` | home-assistant/brands#5943 | https://github.com/AlexandreFournier/ha-ecocompteur | Active, pushed 2026-05-15 | Open an upstream PR adding `custom_components/ecocompteur/brand/`. |  |
-| `ecodevices` | home-assistant/brands#2203 | https://github.com/Aohzan/ecodevices | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/ecodevices/brand/`. |  |
-| `ecole_directe` | home-assistant/brands#5281 | https://github.com/hacf-fr/hass-ecoledirecte | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/ecole_directe/brand/`. |  |
-| `econest` | home-assistant/brands#6352 | https://github.com/econest-energy/econest | Active, pushed 2025-01-20 | Open an upstream PR adding `custom_components/econest/brand/`. |  |
-| `econext` | home-assistant/brands#9458 | https://github.com/LeeNuss/econext | Active, pushed 2026-06-04 | Open an upstream PR adding `custom_components/econext/brand/`. |  |
-| `ecopower_dynamic_prices` | home-assistant/brands#9040 | https://github.com/eliaslecomte/ecopower-dynamic-prices | Active, pushed 2026-07-28 | Open an upstream PR adding `custom_components/ecopower_dynamic_prices/brand/`. |  |
-| `ecovacs_cn` | home-assistant/brands#8806 | https://github.com/hoangminh1109/ecovacs_cn | Active, pushed 2026-03-27 | Open an upstream PR adding `custom_components/ecovacs_cn/brand/`. |  |
-| `ecovent_v2` | home-assistant/brands#4150 | https://github.com/gody01/ecovent_v2 | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/ecovent_v2/brand/`. |  |
-| `ecovolter` | home-assistant/brands#7591 | https://github.com/samuelg0rd0n/ha-ecovolter-integration | Active, pushed 2026-07-31 | Open an upstream PR adding `custom_components/ecovolter/brand/`. |  |
-| `ecowitt_iot` | home-assistant/brands#6082 | https://github.com/Bwooce/ecowitt_iot | Active, pushed 2025-11-05 | Open an upstream PR adding `custom_components/ecowitt_iot/brand/`. |  |
-| `edesur_argentina` | home-assistant/brands#8802 | https://github.com/catastrophicode/ha-ar-edesur | Active, pushed 2025-12-30 | Open an upstream PR adding `custom_components/edesur_argentina/brand/`. |  |
-| `edge_tts` | home-assistant/brands#3452 | https://github.com/hasscc/hass-edge-tts | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/edge_tts/brand/`. |  |
-| `edge_tts_proxy` | home-assistant/brands#6194 | https://github.com/netcookies/Edge-TTS-Proxy | Active, pushed 2025-01-02 | Open an upstream PR adding `custom_components/edge_tts_proxy/brand/`. |  |
-| `eedomus` | home-assistant/brands#9038 | https://github.com/Dan4Jer/hass-eedomus | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/eedomus/brand/`. |  |
-| `eetlijst` | home-assistant/brands#4334 | https://github.com/Slalamander/Home-Assistant-Eetlijst | Active, pushed 2024-02-21 | Open an upstream PR adding `custom_components/eetlijst/brand/`. |  |
-| `eeve_mower_willow` | home-assistant/brands#4688 | https://github.com/flame4ever/eeve_mower_willow | Active, pushed 2026-09-07 | Open an upstream PR adding `custom_components/eeve_mower_willow/brand/`. |  |
-| `eeveemobility` | home-assistant/brands#4837 | https://github.com/geertmeersman/eeveemobility | Active, pushed 2026-08-18 | Open an upstream PR adding `custom_components/eeveemobility/brand/`. |  |
-| `ef_ble` | home-assistant/brands#5918 | https://github.com/rabits/ha-ef-ble | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/ef_ble/brand/`. |  |
-| `effektguard` | home-assistant/brands#8216 | https://github.com/enoch85/EffektGuard | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/effektguard/brand/`. |  |
-| `eg4_inverter_modbus` | home-assistant/brands#8655 | https://github.com/poldim/EG4-Inverter-Modbus | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/eg4_inverter_modbus/brand/`. |  |
-| `eg4_web_monitor` | home-assistant/brands#7893 | https://github.com/joyfulhouse/eg4_web_monitor | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/eg4_web_monitor/brand/`. |  |
-| `egddistribuce` | home-assistant/brands#4743 | https://github.com/Antrac1t/HomeAssistant-EGDdistribuce | Active, pushed 2026-04-09 | Open an upstream PR adding `custom_components/egddistribuce/brand/`. |  |
-| `egi` | home-assistant/brands#6925 | https://github.com/EarthGoodness/egi_vrf | Active, pushed 2025-10-14 | Open an upstream PR adding `custom_components/egi/brand/`. |  |
-| `eia_hourly_demand` | home-assistant/brands#4232 | https://github.com/hokiebrian/eia_hourly_demand | Active, pushed 2025-10-30 | Open an upstream PR adding `custom_components/eia_hourly_demand/brand/`. |  |
-| `einskomma5grad` | home-assistant/brands#6116 | https://github.com/BirknerAlex/hacs_1komma5grad | Active, pushed 2026-10-02 | Open an upstream PR adding `custom_components/einskomma5grad/brand/`. |  |
-| `eldes_alarm` | home-assistant/brands#3102 | https://github.com/augustas2/eldes | Active, pushed 2026-01-03 | Open an upstream PR adding `custom_components/eldes_alarm/brand/`. |  |
-| `electric_ireland_insights` | home-assistant/brands#6453 | https://github.com/barreeeiroo/Home-Assistant-Electric-Ireland | Active, pushed 2026-06-14 | Open an upstream PR adding `custom_components/electric_ireland_insights/brand/`. |  |
-| `elegoo_printer` | home-assistant/brands#6597 | https://github.com/danielcherubini/elegoo-homeassistant | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/elegoo_printer/brand/`. |  |
-| `elehant` | home-assistant/brands#6108 | https://github.com/dudanov/hassio-elehant | Active, pushed 2026-02-09 | Open an upstream PR adding `custom_components/elehant/brand/`. |  |
-| `elektrarna` | home-assistant/brands#9836 | https://github.com/RadekSip/homeassistant-elektrarna | Active, pushed 2026-02-18 | Open an upstream PR adding `custom_components/elektrarna/brand/`. |  |
-| `elektro_network_tariff` | home-assistant/brands#5998 | https://github.com/frlequ/home-assistant-network-tariff | Active, pushed 2024-11-06 | Open an upstream PR adding `custom_components/elektro_network_tariff/brand/`. |  |
-| `elektronny_gorod` | home-assistant/brands#4976 | https://github.com/gentslava/elektronny-gorod | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/elektronny_gorod/brand/`. |  |
-| `elero` | home-assistant/brands#8085 | https://github.com/W00D00/home-assistant-elero | Active, pushed 2025-07-23 | Open an upstream PR adding `custom_components/elero/brand/`. |  |
-| `eleven_energy` | home-assistant/brands#6923 | https://github.com/iPeel/HA-Eleven-Energy | Active, pushed 2025-11-12 | Open an upstream PR adding `custom_components/eleven_energy/brand/`. |  |
-| `elk_bledob` | home-assistant/brands#5240 | https://github.com/8none1/elk-bledob | Active, pushed 2026-05-23 | Open an upstream PR adding `custom_components/elk_bledob/brand/`. |  |
-| `elkbledom` | home-assistant/brands#3445 | https://github.com/dave-code-ruiz/elkbledom-ha | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/elkbledom/brand/`. |  |
-| `elkbledom_fastlink` | home-assistant/brands#8241 | https://github.com/Satimaro/elkbledom-fastlink | Active, pushed 2025-12-14 | Open an upstream PR adding `custom_components/elkbledom_fastlink/brand/`. |  |
-| `elro_connects_realtime` | home-assistant/brands#7664 | https://github.com/dib0/ha-elro-connects-realtime | Active, pushed 2026-09-05 | Open an upstream PR adding `custom_components/elro_connects_realtime/brand/`. |  |
-| `eltako` | home-assistant/brands#4408 | https://github.com/grimmpp/home-assistant-eltako | Active, pushed 2026-08-28 | Open an upstream PR adding `custom_components/eltako/brand/`. |  |
-| `em6` | home-assistant/brands#4900 | https://github.com/codyc1515/ha-em6 | Active, pushed 2025-08-22 | Open an upstream PR adding `custom_components/em6/brand/`. |  |
-| `emaux_spv150` | home-assistant/brands#6897 | https://github.com/0jety0/emaux_spv150 | Active, pushed 2026-08-07 | Open an upstream PR adding `custom_components/emaux_spv150/brand/`. |  |
-| `ember_mug` | home-assistant/brands#4140 | https://github.com/sopelj/hass-ember-mug-component | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/ember_mug/brand/`. |  |
-| `emby_modern` | home-assistant/brands#8640 | https://github.com/sambarlick/emby | Active, pushed 2025-12-10 | Open an upstream PR adding `custom_components/emby_modern/brand/`. |  |
-| `emlid` | home-assistant/brands#9563 | https://github.com/bscholer/home-assistant-emlid | Active, pushed 2026-02-13 | Open an upstream PR adding `custom_components/emlid/brand/`. |  |
-| `emonio` | home-assistant/brands#5687 | https://github.com/Emonio/hacs-emonio-p3 | Active, pushed 2026-03-19 | Open an upstream PR adding `custom_components/emonio/brand/`. |  |
-| `emontx_config` | home-assistant/brands#9429 | https://github.com/FredM67/ha-emon-config | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/emontx_config/brand/`. |  |
-| `enbw_chargestations` | home-assistant/brands#5528 | https://github.com/mKenfenheuer/enbw_chargestations | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/enbw_chargestations/brand/`. |  |
-| `energa_awarie` | home-assistant/brands#8086 | https://github.com/chauek/energa_awarie | Active, pushed 2025-10-06 | Open an upstream PR adding `custom_components/energa_awarie/brand/`. |  |
-| `energa_mobile` | home-assistant/brands#8819 | https://github.com/ergo5/hass-energa-my-meter-api | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/energa_mobile/brand/`. |  |
-| `energie_impuls` | home-assistant/brands#7326 | https://github.com/doenke/ha-energie-impuls | Active, pushed 2026-05-12 | Open an upstream PR adding `custom_components/energie_impuls/brand/`. |  |
-| `energosbyt_plus` | home-assistant/brands#2729 | https://github.com/alryaz/hass-energosbyt-plus | Active, pushed 2023-07-08 | Open an upstream PR adding `custom_components/energosbyt_plus/brand/`. |  |
-| `energy_hub_poland` | home-assistant/brands#9179 | https://github.com/AllonGit/energy_hub_poland | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/energy_hub_poland/brand/`. |  |
-| `energy_management` | home-assistant/brands#8244 | https://github.com/davidrapan/ha-energy | Active, pushed 2026-10-07 | Open an upstream PR adding `custom_components/energy_management/brand/`. |  |
-| `energy_tracker` | home-assistant/brands#9217 | https://github.com/energy-tracker/home-assistant-energy-tracker | Active, pushed 2026-09-30 | Open an upstream PR adding `custom_components/energy_tracker/brand/`. |  |
-| `energycalc` | home-assistant/brands#8191 | https://github.com/zacs/ha-energycalc | Active, pushed 2026-08-17 | Open an upstream PR adding `custom_components/energycalc/brand/`. |  |
-| `energylive` | home-assistant/brands#6434 | https://github.com/berwinter/ha-energylive | Active, pushed 2025-11-05 | Open an upstream PR adding `custom_components/energylive/brand/`. |  |
-| `energytariff` | home-assistant/brands#4096 | https://github.com/epaulsen/energytariff | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/energytariff/brand/`. |  |
-| `energyzero_gql_sensor` | home-assistant/brands#5496 | https://github.com/Sikerdebaard/energyzero-all-in-gasprice | Active, pushed 2024-05-24 | Open an upstream PR adding `custom_components/energyzero_gql_sensor/brand/`. |  |
-| `engie_ro` | home-assistant/brands#7773 | https://github.com/boogytotyo/engie_ro | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/engie_ro/brand/`. |  |
-| `enode` | home-assistant/brands#7059 | https://github.com/evilmarty/enode | Active, pushed 2026-08-15 | Open an upstream PR adding `custom_components/enode/brand/`. |  |
-| `enovates` | home-assistant/brands#9054 | https://github.com/enovates/home-assistant-enovates | Active, pushed 2026-04-22 | Open an upstream PR adding `custom_components/enovates/brand/`. |  |
-| `enpal_webparser` | home-assistant/brands#7023 | https://github.com/derolli1976/enpal | Active, pushed 2026-09-27 | Open an upstream PR adding `custom_components/enpal_webparser/brand/`. |  |
-| `enpal_website` | home-assistant/brands#6892 | https://github.com/T3rr0rS0ck3/home-assistant-enpal-website | Active, pushed 2025-06-20 | Open an upstream PR adding `custom_components/enpal_website/brand/`. |  |
-| `enphase_battery` | home-assistant/brands#8262 | https://github.com/foXaCe/enphase-battery | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/enphase_battery/brand/`. |  |
-| `enphase_gateway` | home-assistant/brands#4511 | https://github.com/Hoffmann77/home_assistant_enphase_gateway | Active, pushed 2025-11-24 | Open an upstream PR adding `custom_components/enphase_gateway/brand/`. |  |
-| `entity_tz` | home-assistant/brands#4977 | https://github.com/pnbruckner/ha-entity-tz | Active, pushed 2025-10-23 | Open an upstream PR adding `custom_components/entity_tz/brand/`. |  |
-| `entsoe` | home-assistant/brands#3715 | https://github.com/JaccoR/hass-entso-e | Active, pushed 2026-06-22 | Open an upstream PR adding `custom_components/entsoe/brand/`. |  |
-| `envertech_local` | home-assistant/brands#7882 | https://github.com/Kaiserdragon2/Envertech_local | Active, pushed 2025-11-25 | Open an upstream PR adding `custom_components/envertech_local/brand/`. |  |
-| `environment_variable` | home-assistant/brands#5812 | https://github.com/Athozs/hass-environment-variable | Active, pushed 2026-07-24 | Open an upstream PR adding `custom_components/environment_variable/brand/`. |  |
-| `eot_home` | home-assistant/brands#9412 | https://github.com/ElectroceanTech/HomeAssistant | Active, pushed 2026-04-13 | Open an upstream PR adding `custom_components/eot_home/brand/`. |  |
-| `epa_uvindex` | home-assistant/brands#4400 | https://github.com/davidn/epa_uvindex | Active, pushed 2024-05-10 | Open an upstream PR adding `custom_components/epa_uvindex/brand/`. |  |
-| `epb` | home-assistant/brands#6709 | https://github.com/asachs01/ha-epb | Active, pushed 2026-07-23 | Open an upstream PR adding `custom_components/epb/brand/`. |  |
-| `epex_spot` | home-assistant/brands#3962 | https://github.com/mampfes/hacs_epex_spot | Active, pushed 2026-06-24 | Open an upstream PR adding `custom_components/epex_spot/brand/`. |  |
-| `eplucon` | home-assistant/brands#5799 | https://github.com/koenhendriks/ha-eplucon | Active, pushed 2026-09-12 | Open an upstream PR adding `custom_components/eplucon/brand/`. |  |
-| `epson_projector_link` | home-assistant/brands#3761 | https://github.com/amosyuen/ha-epson-projector-link | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/epson_projector_link/brand/`. |  |
-| `equation_ha` | home-assistant/brands#9221 | https://github.com/Nacho2001903/equation-heaters-ha | Active, pushed 2026-01-22 | Open an upstream PR adding `custom_components/equation_ha/brand/`. |  |
-| `ergomotion` | home-assistant/brands#4737 | https://github.com/AlexxIT/Ergomotion | Active, pushed 2024-12-06 | Open an upstream PR adding `custom_components/ergomotion/brand/`. |  |
-| `esa_nask` | home-assistant/brands#3983 | https://github.com/Mr-Groch/HA-ESA-NASK-Air-Quality | Active, pushed 2025-03-24 | Open an upstream PR adding `custom_components/esa_nask/brand/`. |  |
-| `eso` | home-assistant/brands#6784 | https://github.com/algirdasc/hass-eso | Active, pushed 2026-08-30 | Open an upstream PR adding `custom_components/eso/brand/`. |  |
-| `esplus` | home-assistant/brands#7979 | https://github.com/g470258/hass-esplus | Active, pushed 2026-02-05 | Open an upstream PR adding `custom_components/esplus/brand/`. |  |
-| `espuino` | home-assistant/brands#7274 | https://github.com/DexXxter007/ESPuino_HA_Integration | Active, pushed 2026-03-25 | Open an upstream PR adding `custom_components/espuino/brand/`. |  |
-| `estrannaise` | home-assistant/brands#9478 | https://github.com/PersephoneKarnstein/ha-estrannaise | Active, pushed 2026-08-18 | Open an upstream PR adding `custom_components/estrannaise/brand/`. |  |
-| `estudna` | home-assistant/brands#3469 | https://github.com/nijel/hass-estudna | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/estudna/brand/`. |  |
-| `esy_sunhome` | home-assistant/brands#7696 | https://github.com/branko-lazarevic/esysunhome | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/esy_sunhome/brand/`. |  |
-| `etatherm_modbus` | home-assistant/brands#6545 | https://github.com/PatrikTrestik/homeassistant_etatherm_modbus | Active, pushed 2026-08-30 | Open an upstream PR adding `custom_components/etatherm_modbus/brand/`. |  |
-| `etekcitybp_ble` | home-assistant/brands#7531 | https://github.com/EdLeckert/ha_etekcity_blood_pressure_monitor | Active, pushed 2026-08-08 | Open an upstream PR adding `custom_components/etekcitybp_ble/brand/`. |  |
-| `euros_os` | home-assistant/brands#8519 | https://github.com/McKoPcIu/EurosOS | Active, pushed 2026-01-24 | Open an upstream PR adding `custom_components/euros_os/brand/`. |  |
-| `euskalmet` | home-assistant/brands#8702 | https://github.com/Arbide/euskalmet-hassio | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/euskalmet/brand/`. |  |
-| `ev_load_balancing` | home-assistant/brands#6189 | https://github.com/dala318/ev_load_balancing | Active, pushed 2025-01-14 | Open an upstream PR adding `custom_components/ev_load_balancing/brand/`. |  |
-| `ev_optimizer` | home-assistant/brands#9338 | https://github.com/Tiimber/ev_optimizer | Active, pushed 2026-09-18 | Open an upstream PR adding `custom_components/ev_optimizer/brand/`. |  |
-| `ev_smart_charger` | home-assistant/brands#8358 | https://github.com/antbald/ha-ev-smart-charger | Active, pushed 2026-09-28 | Open an upstream PR adding `custom_components/ev_smart_charger/brand/`. |  |
-| `evcnet` | home-assistant/brands#8245 | https://github.com/Platzii/homeassistant-evcnet | Active, pushed 2026-02-18 | Open an upstream PR adding `custom_components/evcnet/brand/`. |  |
-| `evduty` | home-assistant/brands#5194 | https://github.com/happydev-ca/evduty-home-assistant | Active, pushed 2026-05-23 | Open an upstream PR adding `custom_components/evduty/brand/`. |  |
-| `eventsensor` | home-assistant/brands#1576 | https://github.com/azogue/eventsensor | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/eventsensor/brand/`. |  |
-| `eversolar_pmu` | home-assistant/brands#9298 | https://github.com/aburow/eversolar-pmu-ha | Active, pushed 2026-02-16 | Open an upstream PR adding `custom_components/eversolar_pmu/brand/`. |  |
-| `evnex` | home-assistant/brands#3649 | https://github.com/hardbyte/ha-evnex | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/evnex/brand/`. |  |
-| `evocarshare` | home-assistant/brands#6351 | https://github.com/jazzz/ha-evocarshare | Active, pushed 2025-05-15 | Open an upstream PR adding `custom_components/evocarshare/brand/`. |  |
-| `evse_charger` | home-assistant/brands#9602 | https://github.com/DmytryS/ha-evse-charger | Active, pushed 2026-02-15 | Open an upstream PR adding `custom_components/evse_charger/brand/`. |  |
-| `evse_load_balancer` | home-assistant/brands#7174 | https://github.com/dirkgroenen/hass-evse-load-balancer | Active, pushed 2026-09-23 | Open an upstream PR adding `custom_components/evse_load_balancer/brand/`. |  |
-| `evsemaster` | home-assistant/brands#9280 | https://github.com/RafaelSchridi/evsemaster-homeassistant | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/evsemaster/brand/`. |  |
-| `ex_habridge` | home-assistant/brands#7454 | https://github.com/SenMorgan/EX-HABridge | Active, pushed 2026-08-01 | Open an upstream PR adding `custom_components/ex_habridge/brand/`. |  |
-| `exaviz` | home-assistant/brands#9484 | https://github.com/exavizco/ha-poe-plugin | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/exaviz/brand/`. |  |
-| `exchange_calendar` | home-assistant/brands#9554 | https://github.com/bohemtucsok/homeassistant-exchange-calendar | Active, pushed 2026-09-24 | Open an upstream PR adding `custom_components/exchange_calendar/brand/`. |  |
-| `exciting_information` | home-assistant/brands#9354 | https://github.com/404GamerNotFound/ha-exciting-information | Active, pushed 2026-02-01 | Open an upstream PR adding `custom_components/exciting_information/brand/`. |  |
-| `exo_pool` | home-assistant/brands#7864 | https://github.com/benjycov/exo_pool | Active, pushed 2026-04-27 | Open an upstream PR adding `custom_components/exo_pool/brand/`. |  |
-| `extron` | home-assistant/brands#5793 | https://github.com/NitorCreations/ha-extron | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/extron/brand/`. |  |
-| `eyeonsaur` | home-assistant/brands#6542 | https://github.com/cekage/eyeonsaur-ha | Active, pushed 2025-03-03 | Open an upstream PR adding `custom_components/eyeonsaur/brand/`. |  |
-| `ezviz_hp7` | home-assistant/brands#8417 | https://github.com/Bobsilvio/ezviz_hp7 | Active, pushed 2026-10-10 | Open an upstream PR adding `custom_components/ezviz_hp7/brand/`. |  |
-| `facebook_messenger` | home-assistant/brands#3660 | https://github.com/emes30/facebook_messenger | Active, pushed 2022-09-26 | Open an upstream PR adding `custom_components/facebook_messenger/brand/`. |  |
-| `family_bell` | home-assistant/brands#8619 | https://github.com/brewmarsh/family-bell | Active, pushed 2026-07-20 | Open an upstream PR adding `custom_components/family_bell/brand/`. |  |
-| `feelfit` | home-assistant/brands#7899 | https://github.com/Sanji78/feelfit | Active, pushed 2026-10-03 | Open an upstream PR adding `custom_components/feelfit/brand/`. |  |
-| `fellow` | home-assistant/brands#6402 | https://github.com/NewsGuyTor/FellowAiden-HomeAssistant | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/fellow/brand/`. |  |
-| `fellow_stagg` | home-assistant/brands#9370 | https://github.com/bramboe/stagg-ekg-plus-ha | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/fellow_stagg/brand/`. |  |
-| `fellow_stagg_ekg_pro` | home-assistant/brands#8863 | https://github.com/cermakjn/ha-fellow-stagg-ekg-pro | Active, pushed 2026-01-20 | Open an upstream PR adding `custom_components/fellow_stagg_ekg_pro/brand/`. |  |
-| `fermax_duoxme` | home-assistant/brands#7379 | https://github.com/edualm/ha-fermax-duoxme | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/fermax_duoxme/brand/`. |  |
-| `ferro_ai_companion` | home-assistant/brands#7246 | https://github.com/jonasbkarlsson/ferro_ai_companion | Active, pushed 2025-12-15 | Open an upstream PR adding `custom_components/ferro_ai_companion/brand/`. |  |
-| `ferroamp` | home-assistant/brands#2377 | https://github.com/henricm/ha-ferroamp | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/ferroamp/brand/`. |  |
-| `fetch_latest_file` | home-assistant/brands#8204 | https://github.com/ScottESanDiego/Fetch-Latest-File | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/fetch_latest_file/brand/`. |  |
-| `ffes_sauna` | home-assistant/brands#8326 | https://github.com/LeszekWroblowski/ffes_sauna__modbus_home_assistant | Active, pushed 2026-03-20 | Open an upstream PR adding `custom_components/ffes_sauna/brand/`. |  |
-| `fglair_heatpump_controller` | home-assistant/brands#5972 | https://github.com/bigmoby/fglair_for_homeassistant | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/fglair_heatpump_controller/brand/`. |  |
-| `fiftyfive` | home-assistant/brands#9089 | https://github.com/Crazy-Duck/home-assistant-fiftyfive | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/fiftyfive/brand/`. |  |
-| `file_plusplus` | home-assistant/brands#5928 | https://github.com/benjamin-dcs/File-plusplus | Active, pushed 2025-12-19 | Open an upstream PR adding `custom_components/file_plusplus/brand/`. |  |
-| `fill_pdf_form` | home-assistant/brands#6424 | https://github.com/duvalale/fill-pdf-form | Active, pushed 2025-02-19 | Open an upstream PR adding `custom_components/fill_pdf_form/brand/`. |  |
-| `filter_tracker` | home-assistant/brands#8459 | https://github.com/bhaggs/ha-filter-tracker | Active, pushed 2026-09-22 | Open an upstream PR adding `custom_components/filter_tracker/brand/`. |  |
-| `fiobank_sensor` | home-assistant/brands#5900 | https://github.com/LochyCZ/HomeAssistantFiobank | Active, pushed 2024-08-29 | Open an upstream PR adding `custom_components/fiobank_sensor/brand/`. |  |
-| `fireboard` | home-assistant/brands#7046 | https://github.com/dvd604/fireboard-homeassistant | Active, pushed 2025-05-09 | Open an upstream PR adding `custom_components/fireboard/brand/`. |  |
-| `firefly_cloud` | home-assistant/brands#8080 | https://github.com/matt-richardson/home-assistant-firefly-cloud | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/firefly_cloud/brand/`. |  |
-| `fishing_assistant` | home-assistant/brands#6916 | https://github.com/bairnhard/fishing_assistant | Active, pushed 2026-02-21 | Open an upstream PR adding `custom_components/fishing_assistant/brand/`. |  |
-| `flamerite` | home-assistant/brands#8951 | https://github.com/achilleasa/flamerite_ha | Active, pushed 2026-01-14 | Open an upstream PR adding `custom_components/flamerite/brand/`. |  |
-| `flashbird` | home-assistant/brands#6358 | https://github.com/gorfo66/flashbird-homeassistant | Active, pushed 2026-04-25 | Open an upstream PR adding `custom_components/flashbird/brand/`. |  |
-| `flashforge_adventurer_5` | home-assistant/brands#7265 | https://github.com/kruzhkov/hass-flashforge-adventurer-5 | Active, pushed 2025-06-13 | Open an upstream PR adding `custom_components/flashforge_adventurer_5/brand/`. |  |
-| `flatastic` | home-assistant/brands#7430 | https://github.com/avidoni/hass-flatastic | Active, pushed 2025-11-27 | Open an upstream PR adding `custom_components/flatastic/brand/`. |  |
-| `flavor_of_the_day` | home-assistant/brands#8030 | https://github.com/abhichandra21/ha-flavoroftheday | Active, pushed 2025-10-02 | Open an upstream PR adding `custom_components/flavor_of_the_day/brand/`. |  |
-| `flexmeasures_hacs` | home-assistant/brands#4880 | https://github.com/FlexMeasures/flexmeasures-hacs | Active, pushed 2026-09-16 | Open an upstream PR adding `custom_components/flexmeasures_hacs/brand/`. |  |
-| `flexopus` | home-assistant/brands#4776 | https://github.com/flexopus/flexopus-hass-sensor | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/flexopus/brand/`. |  |
-| `flightradar24` | home-assistant/brands#4913 | https://github.com/AlexandrErohin/home-assistant-flightradar24 | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/flightradar24/brand/`. |  |
-| `flipper_bridge` | home-assistant/brands#9244 | https://github.com/markszabo/home-assistant-flipper-bridge | Active, pushed 2026-01-23 | Open an upstream PR adding `custom_components/flipper_bridge/brand/`. |  |
-| `flipper_rc` | home-assistant/brands#7123 | https://github.com/ClusterM/flipper_rc | Active, pushed 2026-08-16 | Open an upstream PR adding `custom_components/flipper_rc/brand/`. |  |
-| `flowerhub` | home-assistant/brands#8759 | https://github.com/MichaelPihlblad/flowerhub_homeassistant_integration | Active, pushed 2026-07-16 | Open an upstream PR adding `custom_components/flowerhub/brand/`. |  |
-| `fluvius` | home-assistant/brands#8547 | https://github.com/sander110419/Fluvius-home-assistant | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/fluvius/brand/`. |  |
-| `fn_nas` | home-assistant/brands#7330 | https://github.com/anxms/fn_nas | Active, pushed 2025-07-28 | Open an upstream PR adding `custom_components/fn_nas/brand/`. |  |
-| `fnos` | home-assistant/brands#8672 | https://github.com/Timandes/fnos-home-assistant | Active, pushed 2026-07-15 | Open an upstream PR adding `custom_components/fnos/brand/`. |  |
-| `foldingathomecontrol` | home-assistant/brands#1594 | https://github.com/eifinger/hass-foldingathomecontrol | Active, pushed 2024-11-26 | Open an upstream PR adding `custom_components/foldingathomecontrol/brand/`. |  |
-| `foobar2000` | home-assistant/brands#6548 | https://github.com/talmuth/ha_foobar2k | Active, pushed 2025-02-12 | Open an upstream PR adding `custom_components/foobar2000/brand/`. |  |
-| `foodsharing` | home-assistant/brands#3471 | https://github.com/FaserF/ha-foodsharing | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/foodsharing/brand/`. |  |
-| `foxess_api` | home-assistant/brands#5145 | https://github.com/SoftXperience/home-assistant-foxess-api | Active, pushed 2024-03-04 | Open an upstream PR adding `custom_components/foxess_api/brand/`. |  |
-| `frankenergy` | home-assistant/brands#5759 | https://github.com/brunsy/ha-frankenergy | Active, pushed 2025-07-29 | Open an upstream PR adding `custom_components/frankenergy/brand/`. |  |
-| `frapol_econet300_heat_recovery` | home-assistant/brands#7872 | https://github.com/pworoniecki/frapol-ecoNET-300-Home-Assistant-Integration | Active, pushed 2025-09-15 | Open an upstream PR adding `custom_components/frapol_econet300_heat_recovery/brand/`. |  |
-| `free_sleep` | home-assistant/brands#8497 | https://github.com/Mrtenz/hass-free-sleep | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/free_sleep/brand/`. |  |
-| `freebox_connect` | home-assistant/brands#8148 | https://github.com/foXaCe/Freebox-connect | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/freebox_connect/brand/`. |  |
-| `freebox_home` | home-assistant/brands#6363 | https://github.com/gvigroux/freebox_home | Active, pushed 2025-01-25 | Open an upstream PR adding `custom_components/freebox_home/brand/`. |  |
-| `frisquet_connect` | home-assistant/brands#5047 | https://github.com/TheGui01/Frisquet-connect-for-home-assistant | Active, pushed 2026-03-15 | Open an upstream PR adding `custom_components/frisquet_connect/brand/`. |  |
-| `fritzbox_callmonitor_raw` | home-assistant/brands#9310 | https://github.com/Sanji78/fritzbox_callmonitor_raw | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/fritzbox_callmonitor_raw/brand/`. |  |
-| `frixos` | home-assistant/brands#8858 | https://github.com/ArtLogicIKE/frixos-ha-integration | Active, pushed 2026-07-23 | Open an upstream PR adding `custom_components/frixos/brand/`. |  |
-| `froeling_connect` | home-assistant/brands#5600 | https://github.com/d3nergy/froeling_connect | Active, pushed 2024-08-08 | Open an upstream PR adding `custom_components/froeling_connect/brand/`. |  |
-| `froeling_s3200_modbus` | home-assistant/brands#8061 | https://github.com/Toxo666/ha_froeling_modbus | Active, pushed 2026-09-14 | Open an upstream PR adding `custom_components/froeling_s3200_modbus/brand/`. |  |
-| `frontend_translations` | home-assistant/brands#6841 | https://github.com/alaltitov/hacs-frontend-translations | Active, pushed 2025-05-18 | Open an upstream PR adding `custom_components/frontend_translations/brand/`. |  |
-| `fsk_armme` | home-assistant/brands#8187 | https://github.com/RenierM26/fsk_armme | Active, pushed 2025-11-21 | Open an upstream PR adding `custom_components/fsk_armme/brand/`. |  |
-| `fsolar_modbus` | home-assistant/brands#8535 | https://github.com/comcowo/fsolar_modbus | Active, pushed 2026-04-09 | Open an upstream PR adding `custom_components/fsolar_modbus/brand/`. |  |
-| `ftms` | home-assistant/brands#5557 | https://github.com/dudanov/hassio-ftms | Active, pushed 2025-03-01 | Open an upstream PR adding `custom_components/ftms/brand/`. |  |
-| `fujitsu_airstage` | home-assistant/brands#4603 | https://github.com/danielkaldheim/ha_airstage | Active, pushed 2026-09-14 | Open an upstream PR adding `custom_components/fujitsu_airstage/brand/`. |  |
-| `fullup` | home-assistant/brands#6226 | https://github.com/zedissime/ha-fullup | Active, pushed 2024-12-16 | Open an upstream PR adding `custom_components/fullup/brand/`. |  |
-| `furbulous` | home-assistant/brands#8331 | https://github.com/FabienBounoir/furbulous-litterbox-home-assistant | Active, pushed 2025-11-08 | Open an upstream PR adding `custom_components/furbulous/brand/`. |  |
-| `g4smobility` | home-assistant/brands#6145 | https://github.com/bkbilly/G4S-Mobility | Active, pushed 2025-06-07 | Open an upstream PR adding `custom_components/g4smobility/brand/`. |  |
-| `ga_autoexpose` | home-assistant/brands#8928 | https://github.com/pvries86/hass-ga-autoexpose | Active, pushed 2026-08-18 | Open an upstream PR adding `custom_components/ga_autoexpose/brand/`. |  |
-| `gaggiuino` | home-assistant/brands#6633 | https://github.com/ALERTua/hass-gaggiuino | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/gaggiuino/brand/`. |  |
-| `gama_300_dlms_meter_reader` | home-assistant/brands#4317 | https://github.com/astraliens/home-assistant-gama-300-dlms-meter | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/gama_300_dlms_meter_reader/brand/`. |  |
-| `gamewire` | home-assistant/brands#5665 | https://github.com/actstorms/ha-gamewire | Active, pushed 2024-07-15 | Open an upstream PR adding `custom_components/gamewire/brand/`. |  |
-| `garmin_mapshare` | home-assistant/brands#4634 | https://github.com/BHSPitMonkey/homeassistant-garmin-mapshare | Active, pushed 2025-06-28 | Open an upstream PR adding `custom_components/garmin_mapshare/brand/`. |  |
-| `garnet` | home-assistant/brands#7075 | https://github.com/danTapps/garnet | Active, pushed 2026-02-17 | Open an upstream PR adding `custom_components/garnet/brand/`. |  |
-| `garnet_home_assistant` | home-assistant/brands#7228 | https://github.com/claudio-pires/garnet-home-assistant | Active, pushed 2026-06-07 | Open an upstream PR adding `custom_components/garnet_home_assistant/brand/`. |  |
-| `gas_station_spain` | home-assistant/brands#4451 | https://github.com/MiguelAngelLV/gas_station_spain | Active, pushed 2026-04-04 | Open an upstream PR adding `custom_components/gas_station_spain/brand/`. |  |
-| `ge_spot` | home-assistant/brands#6902 | https://github.com/enoch85/ge-spot | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/ge_spot/brand/`. |  |
-| `geappliances` | home-assistant/brands#7546 | https://github.com/geappliances/hacs-integration | Active, pushed 2026-09-22 | Open an upstream PR adding `custom_components/geappliances/brand/`. |  |
-| `geberit_aquaclean` | home-assistant/brands#7763 | https://github.com/avassdal/ha-geberit-aquaclean | Active, pushed 2025-09-04 | Open an upstream PR adding `custom_components/geberit_aquaclean/brand/`. |  |
-| `geek_magic` | home-assistant/brands#9245 | https://github.com/aydarik/hass-geekmagic | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/geek_magic/brand/`. |  |
-| `geizhals_integration` | home-assistant/brands#7527 | https://github.com/CommanderRedYT/homeassistant-geizhals-integration | Active, pushed 2025-12-01 | Open an upstream PR adding `custom_components/geizhals_integration/brand/`. |  |
-| `generac` | home-assistant/brands#4601 | https://github.com/bentekkie/ha-generac | Active, pushed 2025-03-31 | Open an upstream PR adding `custom_components/generac/brand/`. |  |
-| `generic_water_heater` | home-assistant/brands#3343 | https://github.com/dgomes/ha_generic_water_heater | Active, pushed 2026-03-21 | Open an upstream PR adding `custom_components/generic_water_heater/brand/`. |  |
-| `geod_balance` | home-assistant/brands#7474 | https://github.com/rPonuganti/geod-balance-homeassistant | Active, pushed 2025-07-16 | Open an upstream PR adding `custom_components/geod_balance/brand/`. |  |
-| `geolocator` | home-assistant/brands#7012 | https://github.com/SmartyVan/hass-geolocator | Active, pushed 2025-06-01 | Open an upstream PR adding `custom_components/geolocator/brand/`. |  |
-| `ghostfolio` | home-assistant/brands#7955 | https://github.com/MichelFR/ha_ghostfolio | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/ghostfolio/brand/`. |  |
-| `gif` | home-assistant/brands#7839 | https://github.com/helv-io/ha-gif | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/gif/brand/`. |  |
-| `gismeteo` | home-assistant/brands#2311 | https://github.com/Limych/ha-gismeteo | Active, pushed 2024-12-23 | Open an upstream PR adding `custom_components/gismeteo/brand/`. |  |
-| `givenergy_local` | home-assistant/brands#3318 | https://github.com/cdpuk/givenergy-local | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/givenergy_local/brand/`. |  |
-| `glance_clock` | home-assistant/brands#8372 | https://github.com/PorlyBe/glance_clock_ha | Active, pushed 2025-11-13 | Open an upstream PR adding `custom_components/glance_clock/brand/`. |  |
-| `glkvm` | home-assistant/brands#9211 | https://github.com/Scalegj/glkvm-homeassistant-integration | Active, pushed 2026-01-20 | Open an upstream PR adding `custom_components/glkvm/brand/`. |  |
-| `glowdreaming` | home-assistant/brands#6685 | https://github.com/domness/ha_glowdreaming | Active, pushed 2026-04-07 | Open an upstream PR adding `custom_components/glowdreaming/brand/`. |  |
-| `glue_lock` | home-assistant/brands#7749 | https://github.com/aniiik/glue_lock_hass | Active, pushed 2025-10-27 | Open an upstream PR adding `custom_components/glue_lock/brand/`. |  |
-| `gne_pv_monitoring` | home-assistant/brands#4066 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-GNE-PV-Monitoring | Active, pushed 2025-04-05 | Open an upstream PR adding `custom_components/gne_pv_monitoring/brand/`. |  |
-| `gobzigh` | home-assistant/brands#7766 | https://github.com/RASBR/home-assistant-gobzigh | Active, pushed 2026-05-14 | Open an upstream PR adding `custom_components/gobzigh/brand/`. |  |
-| `godaikin` | home-assistant/brands#8385 | https://github.com/doubleukay/godaikin-ha | Active, pushed 2025-11-15 | Open an upstream PR adding `custom_components/godaikin/brand/`. |  |
-| `gofanco_prophecy` | home-assistant/brands#6158 | https://github.com/gloriousdisaster/Home-Assistant-HDMI-PRO-Matrix | Active, pushed 2026-04-24 | Open an upstream PR adding `custom_components/gofanco_prophecy/brand/`. |  |
-| `gofullhanger` | home-assistant/brands#6919 | https://github.com/bobbyleu/gofullhanger | Active, pushed 2026-05-09 | Open an upstream PR adding `custom_components/gofullhanger/brand/`. |  |
-| `gonzales` | home-assistant/brands#9413 | https://github.com/akustikrausch/gonzales-ha | Active, pushed 2026-06-11 | Open an upstream PR adding `custom_components/gonzales/brand/`. |  |
-| `google_aqi` | home-assistant/brands#6755 | https://github.com/bairnhard/home-assistant-google-aqi | Active, pushed 2026-02-21 | Open an upstream PR adding `custom_components/google_aqi/brand/`. |  |
-| `google_drive_file_manager` | home-assistant/brands#9216 | https://github.com/wisse-smit/ha_google_drive_file_manager | Active, pushed 2025-10-22 | Open an upstream PR adding `custom_components/google_drive_file_manager/brand/`. |  |
-| `google_pollen` | home-assistant/brands#9261 | https://github.com/robbybarnes/google_pollen | Active, pushed 2026-10-07 | Open an upstream PR adding `custom_components/google_pollen/brand/`. |  |
-| `google_vertex_ai_conversation` | home-assistant/brands#5368 | https://github.com/caraar12345/home-assistant-google-vertex-ai-conversation | Active, pushed 2024-04-13 | Open an upstream PR adding `custom_components/google_vertex_ai_conversation/brand/`. |  |
-| `googlefindmy` | home-assistant/brands#7907 | https://github.com/BSkando/GoogleFindMy-HA | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/googlefindmy/brand/`. |  |
-| `govee` | home-assistant/brands#2374 | https://github.com/LaggAt/hacs-govee | Active, pushed 2026-04-28 | Open an upstream PR adding `custom_components/govee/brand/`. |  |
-| `govee_cloud` | home-assistant/brands#6964 | https://github.com/DnAp/ha-govee-cloud | Active, pushed 2026-05-20 | Open an upstream PR adding `custom_components/govee_cloud/brand/`. |  |
-| `goveelife` | home-assistant/brands#9452 | https://github.com/disforw/goveelife | Active, pushed 2026-09-08 | Open an upstream PR adding `custom_components/goveelife/brand/`. |  |
-| `govje_parking` | home-assistant/brands#9188 | https://github.com/Migz93/ha-govje_parking | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/govje_parking/brand/`. |  |
-| `govje_weather` | home-assistant/brands#9187 | https://github.com/Migz93/ha-govje_weather | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/govje_weather/brand/`. |  |
-| `gpio` | home-assistant/brands#5123 | https://github.com/jlinford/ha-gpio | Active, pushed 2024-03-31 | Open an upstream PR adding `custom_components/gpio/brand/`. |  |
-| `gpodder` | home-assistant/brands#1737 | https://github.com/custom-components/gpodder | Active, pushed 2021-06-05 | Open an upstream PR adding `custom_components/gpodder/brand/`. |  |
-| `gpslive` | home-assistant/brands#8574 | https://github.com/BenWolstencroft/home-assistant-gpslive-integration | Active, pushed 2025-11-28 | Open an upstream PR adding `custom_components/gpslive/brand/`. |  |
-| `gree_central` | home-assistant/brands#9434 | https://github.com/cyanogenic/Ha-GreeCentralClimate | Active, pushed 2026-02-06 | Open an upstream PR adding `custom_components/gree_central/brand/`. |  |
-| `greenhess` | home-assistant/brands#7863 | https://github.com/greenhess/adap1meter | Active, pushed 2026-01-27 | Open an upstream PR adding `custom_components/greenhess/brand/`. |  |
-| `greenworks` | home-assistant/brands#7506 | https://github.com/Boes24/GreenWorks-HA | Active, pushed 2025-08-16 | Open an upstream PR adding `custom_components/greenworks/brand/`. |  |
-| `grill_buddy` | home-assistant/brands#5489 | https://github.com/jeroenterheerdt/grillbuddy | Active, pushed 2025-07-14 | Open an upstream PR adding `custom_components/grill_buddy/brand/`. |  |
-| `grohe_smarthome` | home-assistant/brands#6305 | https://github.com/Flo-Schilli/ha-grohe_smarthome | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/grohe_smarthome/brand/`. |  |
-| `grott` | home-assistant/brands#4342 | https://github.com/muppet3000/homeassistant-grott | Active, pushed 2026-04-14 | Open an upstream PR adding `custom_components/grott/brand/`. |  |
-| `growatt_modbus` | home-assistant/brands#8076 | https://github.com/0xAHA/Growatt_ModbusTCP | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/growatt_modbus/brand/`. |  |
-| `growatt_thor` | home-assistant/brands#8963 | https://github.com/bobbesnl/growatt_thor | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/growatt_thor/brand/`. |  |
-| `gruenbeck_cloud` | home-assistant/brands#5126 | https://github.com/p0l0/hagruenbeck_cloud | Active, pushed 2025-11-24 | Open an upstream PR adding `custom_components/gruenbeck_cloud/brand/`. |  |
-| `gyverlamp` | home-assistant/brands#2491 | https://github.com/AlexxIT/GyverLamp | Active, pushed 2024-12-08 | Open an upstream PR adding `custom_components/gyverlamp/brand/`. |  |
-| `ha_blueair` | home-assistant/brands#3363 | https://github.com/dahlb/ha_blueair | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/ha_blueair/brand/`. |  |
-| `ha_bm2monitor` | home-assistant/brands#7004 | https://github.com/andystewart999/ha_bm2monitor | Active, pushed 2026-09-04 | Open an upstream PR adding `custom_components/ha_bm2monitor/brand/`. |  |
-| `ha_creality_ws` | home-assistant/brands#8124 | https://github.com/3dg1luk43/ha_creality_ws | Active, pushed 2026-10-08 | Open an upstream PR adding `custom_components/ha_creality_ws/brand/`. |  |
-| `ha_ddp2wled` | home-assistant/brands#8867 | https://github.com/iamjoshk/ha_ddp2wled | Active, pushed 2026-02-16 | Open an upstream PR adding `custom_components/ha_ddp2wled/brand/`. |  |
-| `ha_departures` | home-assistant/brands#6183 | https://github.com/alex-jung/ha-departures | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/ha_departures/brand/`. |  |
-| `ha_ecowitt_iot` | home-assistant/brands#8851 | https://github.com/Ecowitt/ha-ecowitt-iot | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/ha_ecowitt_iot/brand/`. |  |
-| `ha_gtt` | home-assistant/brands#8690 | https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT | Active, pushed 2026-01-13 | Open an upstream PR adding `custom_components/ha_gtt/brand/`. |  |
-| `ha_guest_mode` | home-assistant/brands#6107 | https://github.com/Darkdragon14/ha-guest-mode | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/ha_guest_mode/brand/`. |  |
-| `ha_kassalapp` | home-assistant/brands#5186 | https://github.com/bendikrb/ha-kassalapp | Active, pushed 2024-12-04 | Open an upstream PR adding `custom_components/ha_kassalapp/brand/`. |  |
-| `ha_keenetic` | home-assistant/brands#6584 | https://github.com/akinin/ha_keenetic | Active, pushed 2026-09-21 | Open an upstream PR adding `custom_components/ha_keenetic/brand/`. |  |
-| `ha_kumo_ws` | home-assistant/brands#8804 | https://github.com/EnumC/ha_kumo_ws | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/ha_kumo_ws/brand/`. |  |
-| `ha_light_controller` | home-assistant/brands#9263 | https://github.com/L3DigitalNet/HA-Light-Controller | Active, pushed 2026-06-25 | Open an upstream PR adding `custom_components/ha_light_controller/brand/`. |  |
-| `ha_link2home` | home-assistant/brands#5094 | https://github.com/ReneNulschDE/ha_link2home | Active, pushed 2025-08-01 | Open an upstream PR adding `custom_components/ha_link2home/brand/`. |  |
-| `ha_media_bridge` | home-assistant/brands#9361 | https://github.com/mwenghi/ha-media-bridge | Active, pushed 2026-02-03 | Open an upstream PR adding `custom_components/ha_media_bridge/brand/`. |  |
-| `ha_mystop` | home-assistant/brands#8594 | https://github.com/MapGuy11/ha-myStop | Active, pushed 2026-03-09 | Open an upstream PR adding `custom_components/ha_mystop/brand/`. |  |
-| `ha_oekofen` | home-assistant/brands#4301 | https://github.com/ckarrie/homeassistant-oekofen | Active, pushed 2023-11-03 | Open an upstream PR adding `custom_components/ha_oekofen/brand/`. |  |
-| `ha_opcua_discovery` | home-assistant/brands#7841 | https://github.com/guanaco0403/Home-Assistant-Opcua-Discovery | Active, pushed 2026-06-03 | Open an upstream PR adding `custom_components/ha_opcua_discovery/brand/`. |  |
-| `ha_politikontroller` | home-assistant/brands#6160 | https://github.com/bendikrb/ha-politikontroller | Active, pushed 2025-05-29 | Open an upstream PR adding `custom_components/ha_politikontroller/brand/`. |  |
-| `ha_scheduler` | home-assistant/brands#8711 | https://github.com/Smiley73/ha-scheduler | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/ha_scheduler/brand/`. |  |
-| `ha_sunforecast_plus` | home-assistant/brands#6905 | https://github.com/chourmovs/ha-sunforecast-plus | Active, pushed 2026-04-11 | Open an upstream PR adding `custom_components/ha_sunforecast_plus/brand/`. |  |
-| `ha_tedee_lock` | home-assistant/brands#3505 | https://github.com/andrzejchm/ha_tedee_lock | Active, pushed 2023-03-03 | Open an upstream PR adding `custom_components/ha_tedee_lock/brand/`. |  |
-| `ha_tracker` | home-assistant/brands#6494 | https://github.com/vgcouso/ha-tracker | Active, pushed 2026-10-10 | Open an upstream PR adding `custom_components/ha_tracker/brand/`. |  |
-| `ha_transportnsw` | home-assistant/brands#5885 | https://github.com/andystewart999/ha_transportnsw | Active, pushed 2026-09-18 | Open an upstream PR adding `custom_components/ha_transportnsw/brand/`. |  |
-| `ha_unavailable_devices_report` | home-assistant/brands#9449 | https://github.com/VilniusTechnology/ha-unavailable-devices-report | Active, pushed 2026-03-05 | Open an upstream PR adding `custom_components/ha_unavailable_devices_report/brand/`. |  |
-| `ha_users` | home-assistant/brands#8967 | https://github.com/lukegackle/Home-Assistant-User-Info-Integration | Active, pushed 2026-02-21 | Open an upstream PR adding `custom_components/ha_users/brand/`. |  |
-| `ha_usms` | home-assistant/brands#6918 | https://github.com/azsaurr/ha_usms | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/ha_usms/brand/`. |  |
-| `ha_vacation` | home-assistant/brands#6726 | https://github.com/touero/HaVacation | Active, pushed 2026-07-03 | Open an upstream PR adding `custom_components/ha_vacation/brand/`. |  |
-| `ha_wordplay` | home-assistant/brands#7692 | https://github.com/CBDesignS/ha-wordplay | Active, pushed 2026-01-05 | Open an upstream PR adding `custom_components/ha_wordplay/brand/`. |  |
-| `hacs-minerstat` | home-assistant/brands#1684 | https://github.com/gilsonmandalogo/hacs-minerstat | Active, pushed 2022-01-11 | Open an upstream PR adding `custom_components/hacs-minerstat/brand/`. |  |
-| `haeo` | home-assistant/brands#8450 | https://github.com/hass-energy/haeo | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/haeo/brand/`. |  |
-| `hafele_connect_mesh` | home-assistant/brands#5504 | https://github.com/guillaumeseur/hafele_connect_mesh | Active, pushed 2025-01-22 | Open an upstream PR adding `custom_components/hafele_connect_mesh/brand/`. |  |
-| `hafo` | home-assistant/brands#8807 | https://github.com/hass-energy/hafo | Active, pushed 2026-04-14 | Open an upstream PR adding `custom_components/hafo/brand/`. |  |
-| `haier_evo` | home-assistant/brands#5465 | https://github.com/and7ey/haier_evo | Active, pushed 2026-05-15 | Open an upstream PR adding `custom_components/haier_evo/brand/`. |  |
-| `hailin` | home-assistant/brands#7675 | https://github.com/alkalixin/Hailin-Climate | Active, pushed 2026-03-24 | Open an upstream PR adding `custom_components/hailin/brand/`. |  |
-| `hakboard` | home-assistant/brands#8606 | https://github.com/aktive/hakboard | Active, pushed 2025-12-02 | Open an upstream PR adding `custom_components/hakboard/brand/`. |  |
-| `ham_radio_propagation` | home-assistant/brands#4218 | https://github.com/emics/ham_radio_propagation | Active, pushed 2025-07-08 | Open an upstream PR adding `custom_components/ham_radio_propagation/brand/`. |  |
-| `handballnet` | home-assistant/brands#7142 | https://github.com/miggi92/hass-handball.net | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/handballnet/brand/`. |  |
-| `harvest_right` | home-assistant/brands#9490 | https://github.com/itsdrewmiller/ha-harvest-right | Active, pushed 2026-09-08 | Open an upstream PR adding `custom_components/harvest_right/brand/`. |  |
-| `harvest_time_tracker` | home-assistant/brands#4465 | https://github.com/BottlecapDave/HomeAssistant-HarvestTimeTracker | Active, pushed 2026-02-09 | Open an upstream PR adding `custom_components/harvest_time_tracker/brand/`. |  |
-| `harvia_sauna` | home-assistant/brands#9630 | https://github.com/brettmeyerowitz/ha-harvia-xenio-wifi | Active, pushed 2026-08-08 | Open an upstream PR adding `custom_components/harvia_sauna/brand/`. |  |
-| `haseiq` | home-assistant/brands#6080 | https://github.com/Xsez/haseiq | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/haseiq/brand/`. |  |
-| `hass_agent` | home-assistant/brands#3712 | https://github.com/LAB02-Research/HASS.Agent-Integration | Active, pushed 2024-05-09 | Open an upstream PR adding `custom_components/hass_agent/brand/`. |  |
-| `hass_agent_notifier` | home-assistant/brands#2961 | https://github.com/LAB02-Research/HASS.Agent-Notifier | Active, pushed 2022-11-17 | Open an upstream PR adding `custom_components/hass_agent_notifier/brand/`. |  |
-| `hass_claude_usage` | home-assistant/brands#9491 | https://github.com/trickv/hass-claude-usage | Active, pushed 2026-08-28 | Open an upstream PR adding `custom_components/hass_claude_usage/brand/`. |  |
-| `hass_ensto_ble` | home-assistant/brands#6656 | https://github.com/ExMacro/hass_ensto_ble | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/hass_ensto_ble/brand/`. |  |
-| `hass_gira_iot_api` | home-assistant/brands#8200 | https://github.com/MadOne/hass_gira_iot_api | Active, pushed 2026-01-04 | Open an upstream PR adding `custom_components/hass_gira_iot_api/brand/`. |  |
-| `hass_meteolux` | home-assistant/brands#7580 | https://github.com/sim0nx/hass_meteolux | Active, pushed 2026-05-17 | Open an upstream PR adding `custom_components/hass_meteolux/brand/`. |  |
-| `hass_pontos` | home-assistant/brands#5421 | https://github.com/sangvikh/hass-pontos | Active, pushed 2026-07-16 | Open an upstream PR adding `custom_components/hass_pontos/brand/`. |  |
-| `hass_vivreco_pac` | home-assistant/brands#7425 | https://github.com/fab5741/hass-vivreco-pac | Active, pushed 2026-03-21 | Open an upstream PR adding `custom_components/hass_vivreco_pac/brand/`. |  |
-| `hass_web_proxy` | home-assistant/brands#6070 | https://github.com/dermotduffy/hass-web-proxy-integration | Active, pushed 2026-02-02 | Open an upstream PR adding `custom_components/hass_web_proxy/brand/`. |  |
-| `hassarr` | home-assistant/brands#6268 | https://github.com/TegridyTate/Hassarr | Active, pushed 2024-12-26 | Open an upstream PR adding `custom_components/hassarr/brand/`. |  |
-| `hastrom_flex` | home-assistant/brands#9235 | https://github.com/f2daz/ha-integration_hastrom_flex | Active, pushed 2026-09-17 | Open an upstream PR adding `custom_components/hastrom_flex/brand/`. |  |
-| `hausbus` | home-assistant/brands#7758 | https://github.com/hausbus/integration_hausbus | Active, pushed 2026-05-30 | Open an upstream PR adding `custom_components/hausbus/brand/`. |  |
-| `hav_og_vind` | home-assistant/brands#9545 | https://github.com/Howard0000/home-assistant-hav-og-vind | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/hav_og_vind/brand/`. |  |
-| `hdc` | home-assistant/brands#4570 | https://github.com/caraar12345/hass-hdc-bin-collection | Active, pushed 2026-03-02 | Open an upstream PR adding `custom_components/hdc/brand/`. |  |
-| `hdg_boiler` | home-assistant/brands#8812 | https://github.com/banter240/hdg_bavaria_homeassistant | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/hdg_boiler/brand/`. |  |
-| `healthchecksio` | home-assistant/brands#4764 | https://github.com/custom-components/healthchecksio | Active, pushed 2026-07-29 | Open an upstream PR adding `custom_components/healthchecksio/brand/`. |  |
-| `healthsync_ha` | home-assistant/brands#8610 | https://github.com/InfoSecured/healthsync-ha | Active, pushed 2026-03-19 | Open an upstream PR adding `custom_components/healthsync_ha/brand/`. |  |
-| `heat_pump_pilot` | home-assistant/brands#8848 | https://github.com/andox/heat-pump-pilot | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/heat_pump_pilot/brand/`. |  |
-| `heatapp_local` | home-assistant/brands#4379 | https://github.com/sfstar/hass-heatapp_local | Active, pushed 2023-06-09 | Open an upstream PR adding `custom_components/heatapp_local/brand/`. |  |
-| `heatmiser_edge` | home-assistant/brands#7777 | https://github.com/sftgunner/heatmiseredge-integration | Active, pushed 2026-09-03 | Open an upstream PR adding `custom_components/heatmiser_edge/brand/`. |  |
-| `heatmiserneo` | home-assistant/brands#1998 | https://github.com/MindrustUK/Heatmiser-for-home-assistant | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/heatmiserneo/brand/`. |  |
-| `heizoel24mex` | home-assistant/brands#5621 | https://github.com/MartinStoffel/heizoel24mex | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/heizoel24mex/brand/`. |  |
-| `heizungs_pull` | home-assistant/brands#9572 | https://github.com/manny0808/Heizungs-pull | Active, pushed 2026-02-17 | Open an upstream PR adding `custom_components/heizungs_pull/brand/`. |  |
-| `hekr` | home-assistant/brands#1678 | https://github.com/alryaz/hass-hekr-component | Active, pushed 2025-07-15 | Open an upstream PR adding `custom_components/hekr/brand/`. |  |
-| `helen_energy` | home-assistant/brands#7915 | https://github.com/carohauta/oma-helen-ha-integration | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/helen_energy/brand/`. |  |
-| `helium_solana` | home-assistant/brands#4340 | https://github.com/enes-oerdek/Home-Assistant-Helium-Integration | Active, pushed 2025-01-05 | Open an upstream PR adding `custom_components/helium_solana/brand/`. |  |
-| `hella_onyx` | home-assistant/brands#2257 | https://github.com/muhlba91/onyx-homeassistant-integration | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/hella_onyx/brand/`. |  |
-| `herohealth` | home-assistant/brands#9522 | https://github.com/dakahler/ha_herohealth | Active, pushed 2026-02-11 | Open an upstream PR adding `custom_components/herohealth/brand/`. |  |
-| `herospeed_xvr` | home-assistant/brands#6040 | https://github.com/DominikWrobel/herospeed_xvr | Active, pushed 2026-09-05 | Open an upstream PR adding `custom_components/herospeed_xvr/brand/`. |  |
-| `hetzner` | home-assistant/brands#9332 | https://github.com/Dixet/homeassistant_hetzner | Active, pushed 2026-07-21 | Open an upstream PR adding `custom_components/hetzner/brand/`. |  |
-| `hevy` | home-assistant/brands#6735 | https://github.com/hudsonbrendon/HA-hevy | Active, pushed 2026-07-20 | Open an upstream PR adding `custom_components/hevy/brand/`. |  |
-| `heytech` | home-assistant/brands#6120 | https://github.com/ansgarschulte/heytech-homeassistant-integration | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/heytech/brand/`. |  |
-| `hgsmart` | home-assistant/brands#9347 | https://github.com/Serjlee/hacs_hgsmart-pet-feeder | Active, pushed 2026-09-14 | Open an upstream PR adding `custom_components/hgsmart/brand/`. |  |
-| `hid_usbrelay` | home-assistant/brands#8520 | https://github.com/arnoudkooi/ha-hid-usbrelay | Active, pushed 2025-11-24 | Open an upstream PR adding `custom_components/hid_usbrelay/brand/`. |  |
-| `higoal` | home-assistant/brands#6830 | https://github.com/Minitour/ha-higoal | Active, pushed 2026-08-25 | Open an upstream PR adding `custom_components/higoal/brand/`. |  |
-| `hilighting_ble` | home-assistant/brands#5308 | https://github.com/8none1/hilighting_homeassistant | Active, pushed 2025-01-01 | Open an upstream PR adding `custom_components/hilighting_ble/brand/`. |  |
-| `hisense` | home-assistant/brands#5588 | https://github.com/manymuch/HisenseHA | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/hisense/brand/`. |  |
-| `hisense_ac_plugin` | home-assistant/brands#7422 | https://github.com/Connectlife-LLC/HomeAssistantPlugin | Active, pushed 2025-07-03 | Open an upstream PR adding `custom_components/hisense_ac_plugin/brand/`. |  |
-| `hive_local_thermostat` | home-assistant/brands#5360 | https://github.com/andrew-codechimp/HA-Hive-Local-Thermostat | Active, pushed 2026-03-26 | Open an upstream PR adding `custom_components/hive_local_thermostat/brand/`. |  |
-| `hivi_speaker` | home-assistant/brands#9004 | https://github.com/swansmart/hivi_speaker | Active, pushed 2026-02-09 | Open an upstream PR adding `custom_components/hivi_speaker/brand/`. |  |
-| `hk_air_quality` | home-assistant/brands#5606 | https://github.com/yangqian/hass-hk_air_quality | Active, pushed 2026-06-21 | Open an upstream PR adding `custom_components/hk_air_quality/brand/`. |  |
-| `holfuy` | home-assistant/brands#7016 | https://github.com/haavardj/ha-holfuy | Active, pushed 2025-05-17 | Open an upstream PR adding `custom_components/holfuy/brand/`. |  |
-| `home_agent` | home-assistant/brands#8567 | https://github.com/aradlein/hass-agent-llm | Active, pushed 2026-05-11 | Open an upstream PR adding `custom_components/home_agent/brand/`. |  |
-| `home_generative_agent` | home-assistant/brands#7497 | https://github.com/goruck/home-generative-agent | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/home_generative_agent/brand/`. |  |
-| `home_infopoint` | home-assistant/brands#9470 | https://github.com/ToperGamesYT/home-infopoint | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/home_infopoint/brand/`. |  |
-| `home_inventory` | home-assistant/brands#8243 | https://github.com/SnipsC0/Home-Inventory | Active, pushed 2026-03-20 | Open an upstream PR adding `custom_components/home_inventory/brand/`. |  |
-| `home_maintenance` | home-assistant/brands#7178 | https://github.com/TJPoorman/home_maintenance | Active, pushed 2026-02-03 | Open an upstream PR adding `custom_components/home_maintenance/brand/`. |  |
-| `home_performance` | home-assistant/brands#8766 | https://github.com/Hugofromfrance/home_performance | Active, pushed 2026-06-12 | Open an upstream PR adding `custom_components/home_performance/brand/`. |  |
-| `home_project_ledger` | home-assistant/brands#9377 | https://github.com/FredrikElliot/home-project-ledger | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/home_project_ledger/brand/`. |  |
-| `homeclaw` | home-assistant/brands#9517 | https://github.com/Thioby/homeclaw-agent | Active, pushed 2026-09-01 | Open an upstream PR adding `custom_components/homeclaw/brand/`. |  |
-| `homeconnect_ws` | home-assistant/brands#6707 | https://github.com/chris-mc1/homeconnect_local_hass | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/homeconnect_ws/brand/`. |  |
-| `homely` | home-assistant/brands#8110 | https://github.com/bjafl/homely-ha | Active, pushed 2026-07-06 | Open an upstream PR adding `custom_components/homely/brand/`. |  |
-| `homevolt_local` | home-assistant/brands#8681 | https://github.com/JohNan/homeassistant-homevolt-local | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/homevolt_local/brand/`. |  |
-| `homewerks_smart_fan` | home-assistant/brands#9243 | https://github.com/RayHollister/homewerks-smart-fan-integration | Active, pushed 2026-05-17 | Open an upstream PR adding `custom_components/homewerks_smart_fan/brand/`. |  |
-| `homewhiz` | home-assistant/brands#3655 | https://github.com/rowysock/home-assistant-HomeWhiz | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/homewhiz/brand/`. |  |
-| `homgar` | home-assistant/brands#9633 | https://github.com/brettmeyerowitz/homeassistant-homgar | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/homgar/brand/`. |  |
-| `hon` | home-assistant/brands#4196 | https://github.com/Andre0512/hon | Active, pushed 2024-08-15 | Open an upstream PR adding `custom_components/hon/brand/`. |  |
-| `honghui_climate` | home-assistant/brands#6776 | https://github.com/zhheo/ha_honghui_climate | Active, pushed 2026-04-27 | Open an upstream PR adding `custom_components/honghui_climate/brand/`. |  |
-| `hottoh` | home-assistant/brands#4889 | https://github.com/benlbrm/ha-hottoh-component | Active, pushed 2026-06-23 | Open an upstream PR adding `custom_components/hottoh/brand/`. |  |
-| `hs_command_listener` | home-assistant/brands#7180 | https://github.com/alexbk66/hs_command_listener2 | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/hs_command_listener/brand/`. |  |
-| `htd` | home-assistant/brands#6333 | https://github.com/hikirsch/htd-home-assistant | Active, pushed 2026-02-15 | Open an upstream PR adding `custom_components/htd/brand/`. |  |
-| `http_garage_toggle` | home-assistant/brands#7697 | https://github.com/DoWenzl94/http_garage_toggle | Active, pushed 2025-08-16 | Open an upstream PR adding `custom_components/http_garage_toggle/brand/`. |  |
-| `hubc2000pp` | home-assistant/brands#4205 | https://github.com/Regressor/hass-hubc2000pp | Active, pushed 2026-09-21 | Open an upstream PR adding `custom_components/hubc2000pp/brand/`. |  |
-| `huerizon` | home-assistant/brands#8309 | https://github.com/Avasond/Huerizon | Active, pushed 2025-11-02 | Open an upstream PR adding `custom_components/huerizon/brand/`. |  |
-| `huffbox` | home-assistant/brands#5679 | https://github.com/AlienCatTech/ha-huffbox | Active, pushed 2025-01-25 | Open an upstream PR adding `custom_components/huffbox/brand/`. |  |
-| `huggingchat_conversation` | home-assistant/brands#5088 | https://github.com/PhoenixR49/hass-huggingchat-conversation | Active, pushed 2025-04-30 | Open an upstream PR adding `custom_components/huggingchat_conversation/brand/`. |  |
-| `hummingbot` | home-assistant/brands#4388 | https://github.com/TheHolyRoger/hass-hummingbot | Active, pushed 2023-05-21 | Open an upstream PR adding `custom_components/hummingbot/brand/`. |  |
-| `hunter_wifi` | home-assistant/brands#9631 | https://github.com/DmytryS/ha-hunter-wifi | Active, pushed 2026-05-01 | Open an upstream PR adding `custom_components/hunter_wifi/brand/`. |  |
-| `hvac_group` | home-assistant/brands#4796 | https://github.com/tetele/hvac_group | Active, pushed 2025-06-20 | Open an upstream PR adding `custom_components/hvac_group/brand/`. |  |
-| `hydrolix_history` | home-assistant/brands#9518 | https://github.com/dsztykman/hydrolix_home_assistant | Active, pushed 2026-02-10 | Open an upstream PR adding `custom_components/hydrolix_history/brand/`. |  |
-| `hydropeak` | home-assistant/brands#6329 | https://github.com/Beat-YT/hydropeak-ha | Active, pushed 2026-06-16 | Open an upstream PR adding `custom_components/hydropeak/brand/`. |  |
-| `hydroqc` | home-assistant/brands#8621 | https://github.com/hydroqc/hydroqc-ha | Active, pushed 2026-09-19 | Open an upstream PR adding `custom_components/hydroqc/brand/`. |  |
-| `hyperbase` | home-assistant/brands#7760 | https://github.com/eclipseron/homeassistant-hyperbase | Active, pushed 2025-09-30 | Open an upstream PR adding `custom_components/hyperbase/brand/`. |  |
-| `hyperliquid` | home-assistant/brands#9316 | https://github.com/beMoD/homeassistant-hyperliquid | Active, pushed 2026-10-16 | Open an upstream PR adding `custom_components/hyperliquid/brand/`. |  |
-| `hyperspace_lighting` | home-assistant/brands#7018 | https://github.com/ToddAlvord/hyperspace-homeassistant | Active, pushed 2026-09-12 | Open an upstream PR adding `custom_components/hyperspace_lighting/brand/`. |  |
-| `i_regul_heatpump` | home-assistant/brands#5347 | https://github.com/RedPaladin/i_regul_heatpump | Active, pushed 2025-09-30 | Open an upstream PR adding `custom_components/i_regul_heatpump/brand/`. |  |
-| `ialarm_controller` | home-assistant/brands#5973 | https://github.com/bigmoby/ialarm_controller | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/ialarm_controller/brand/`. |  |
-| `ialarm_mk2` | home-assistant/brands#6035 | https://github.com/mistermax80/ialarm_mk2 | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/ialarm_mk2/brand/`. |  |
-| `iaquk` | home-assistant/brands#2312 | https://github.com/Limych/ha-iaquk | Active, pushed 2025-01-04 | Open an upstream PR adding `custom_components/iaquk/brand/`. |  |
-| `ica` | home-assistant/brands#6632 | https://github.com/LazyTarget/ha-ica-todo | Active, pushed 2026-09-03 | Open an upstream PR adding `custom_components/ica/brand/`. |  |
-| `ideal_led` | home-assistant/brands#5031 | https://github.com/8none1/idealLED | Active, pushed 2026-07-10 | Open an upstream PR adding `custom_components/ideal_led/brand/`. |  |
-| `idiamant` | home-assistant/brands#3211 | https://github.com/clementprevot/home-assistant-idiamant | Active, pushed 2023-03-03 | Open an upstream PR adding `custom_components/idiamant/brand/`. |  |
-| `idm_hpweb` | home-assistant/brands#9425 | https://github.com/AndyNew2/hacs-idm-hpweb | Active, pushed 2026-08-03 | Open an upstream PR adding `custom_components/idm_hpweb/brand/`. |  |
-| `ihomma_sml` | home-assistant/brands#6578 | https://github.com/gawindx/iHomma-SML | Active, pushed 2025-03-04 | Open an upstream PR adding `custom_components/ihomma_sml/brand/`. |  |
-| `ikuai` | home-assistant/brands#4018 | https://github.com/dscao/ikuai | Active, pushed 2026-02-16 | Open an upstream PR adding `custom_components/ikuai/brand/`. |  |
-| `imgw_pib_monitor` | home-assistant/brands#9539 | https://github.com/abnvle/ha-imgw-pib-monitor | Active, pushed 2026-05-06 | Open an upstream PR adding `custom_components/imgw_pib_monitor/brand/`. |  |
-| `immersive_home` | home-assistant/brands#5477 | https://github.com/Nitwel/Immersive-Home | Active, pushed 2025-01-28 | Open an upstream PR adding `custom_components/immersive_home/brand/`. |  |
-| `imou_cam_ptz` | home-assistant/brands#8805 | https://github.com/hoangminh1109/imou_cam_ptz | Active, pushed 2026-01-10 | Open an upstream PR adding `custom_components/imou_cam_ptz/brand/`. |  |
-| `impc_energy` | home-assistant/brands#4235 | https://github.com/NiaoBlush/impc_energy | Active, pushed 2026-06-24 | Open an upstream PR adding `custom_components/impc_energy/brand/`. |  |
-| `ims_envista` | home-assistant/brands#5896 | https://github.com/guyKh/ims-envista-custom-component | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/ims_envista/brand/`. |  |
-| `ina219_ups_hat` | home-assistant/brands#4799 | https://github.com/odya/hacs-ina219-ups-hat | Active, pushed 2024-11-12 | Open an upstream PR adding `custom_components/ina219_ups_hat/brand/`. |  |
-| `indigo_springs` | home-assistant/brands#6838 | https://github.com/bhackworth/hass-indigo-springs | Active, pushed 2025-05-10 | Open an upstream PR adding `custom_components/indigo_springs/brand/`. |  |
-| `influxdb_query_api` | home-assistant/brands#8325 | https://github.com/Riscue/ha-influxdb-query-api | Active, pushed 2025-11-17 | Open an upstream PR adding `custom_components/influxdb_query_api/brand/`. |  |
-| `infometric` | home-assistant/brands#7423 | https://github.com/AndersMarkoff/homeassistant-infometric | Active, pushed 2025-07-09 | Open an upstream PR adding `custom_components/infometric/brand/`. |  |
-| `ingv_centro_nazionale_terremoti` | home-assistant/brands#1978 | https://github.com/caiosweet/Home-Assistant-custom-components-INGV | Active, pushed 2026-06-19 | Open an upstream PR adding `custom_components/ingv_centro_nazionale_terremoti/brand/`. |  |
-| `inim_cloud` | home-assistant/brands#7323 | https://github.com/lacherogwu/ha-inim_cloud | Active, pushed 2025-06-23 | Open an upstream PR adding `custom_components/inim_cloud/brand/`. |  |
-| `inmet_weather` | home-assistant/brands#8224 | https://github.com/zanaca/ha-inmet-weather | Active, pushed 2025-12-04 | Open an upstream PR adding `custom_components/inmet_weather/brand/`. |  |
-| `innova` | home-assistant/brands#3416 | https://github.com/danielrivard/homeassistant-innova | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/innova/brand/`. |  |
-| `inpost_air` | home-assistant/brands#5407 | https://github.com/CyberDeer/InPost-Air | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/inpost_air/brand/`. |  |
-| `input_stats` | home-assistant/brands#5499 | https://github.com/MiguelAngelLV/ha-input-stats | Active, pushed 2024-11-13 | Open an upstream PR adding `custom_components/input_stats/brand/`. |  |
-| `insnrg_chlorinator` | home-assistant/brands#6025 | https://github.com/Mattat01/ha-insnrg-chlorinator | Active, pushed 2026-07-02 | Open an upstream PR adding `custom_components/insnrg_chlorinator/brand/`. |  |
-| `inspire_home_automation` | home-assistant/brands#9482 | https://github.com/Smart-Home-Shop/ha-inspire-integration | Active, pushed 2026-02-08 | Open an upstream PR adding `custom_components/inspire_home_automation/brand/`. |  |
-| `insta_follower` | home-assistant/brands#6210 | https://github.com/xamrex/Hacs_Insta_follower | Active, pushed 2025-02-14 | Open an upstream PR adding `custom_components/insta_follower/brand/`. |  |
-| `intelbras_alarm` | home-assistant/brands#7489 | https://github.com/tarikbc/ha-intelbras-alarm | Active, pushed 2026-08-12 | Open an upstream PR adding `custom_components/intelbras_alarm/brand/`. |  |
-| `intelligent_heating_pilot` | home-assistant/brands#9289 | https://github.com/RastaChaum/Intelligent-Heating-Pilot | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/intelligent_heating_pilot/brand/`. |  |
-| `inteno` | home-assistant/brands#7582 | https://github.com/nielstron/inteno_hass | Active, pushed 2026-02-03 | Open an upstream PR adding `custom_components/inteno/brand/`. |  |
-| `interpolation` | home-assistant/brands#9278 | https://github.com/JoshuaLampert/homeassistant-interpolation | Active, pushed 2026-07-17 | Open an upstream PR adding `custom_components/interpolation/brand/`. |  |
-| `intersvyaz` | home-assistant/brands#6439 | https://github.com/hoolea/intersvyaz_hass | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/intersvyaz/brand/`. |  |
-| `intesishome_local` | home-assistant/brands#6083 | https://github.com/donfrensis/HA-IntesisHome-Local | Active, pushed 2024-11-13 | Open an upstream PR adding `custom_components/intesishome_local/brand/`. |  |
-| `intex_spa` | home-assistant/brands#3550 | https://github.com/mathieu-mp/homeassistant-intex-spa | Active, pushed 2026-02-13 | Open an upstream PR adding `custom_components/intex_spa/brand/`. |  |
-| `intre_smart_home_control` | home-assistant/brands#7716 | https://github.com/xmhfw/Intre_Smart_Home_Control | Active, pushed 2025-12-04 | Open an upstream PR adding `custom_components/intre_smart_home_control/brand/`. |  |
-| `invader_tracker` | home-assistant/brands#9284 | https://github.com/Trolent/HA-Invader-Tracker | Active, pushed 2026-06-06 | Open an upstream PR adding `custom_components/invader_tracker/brand/`. |  |
-| `inverter_controller` | home-assistant/brands#8868 | https://github.com/MarcelWepper/Inverter-Controller-HACS | Active, pushed 2026-03-18 | Open an upstream PR adding `custom_components/inverter_controller/brand/`. |  |
-| `inverter_xpert_king` | home-assistant/brands#4318 | https://github.com/astraliens/home-assistant-inverter-xpert-king | Active, pushed 2026-08-29 | Open an upstream PR adding `custom_components/inverter_xpert_king/brand/`. |  |
-| `investing_portfolio` | home-assistant/brands#8852 | https://github.com/T-leco/investing_portfolio | Active, pushed 2025-12-24 | Open an upstream PR adding `custom_components/investing_portfolio/brand/`. |  |
-| `iohouse_climate` | home-assistant/brands#6787 | https://github.com/insound/iohouse_climate | Active, pushed 2026-09-02 | Open an upstream PR adding `custom_components/iohouse_climate/brand/`. |  |
-| `iolite` | home-assistant/brands#4123 | https://github.com/inverse/home-assistant-iolite-component | Active, pushed 2026-02-08 | Open an upstream PR adding `custom_components/iolite/brand/`. |  |
-| `iopool` | home-assistant/brands#7037 | https://github.com/mguyard/hass-iopool | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/iopool/brand/`. |  |
-| `ipcom` | home-assistant/brands#9118 | https://github.com/J-Delsinne/AnB_Rimex-HomeAnyWhere-HA-Integration | Active, pushed 2026-02-08 | Open an upstream PR adding `custom_components/ipcom/brand/`. |  |
-| `ipixel_color` | home-assistant/brands#8683 | https://github.com/cagcoach/ha-ipixel-color | Active, pushed 2025-12-16 | Open an upstream PR adding `custom_components/ipixel_color/brand/`. |  |
-| `ipmi` | home-assistant/brands#4512 | https://github.com/ateodorescu/home-assistant-ipmi | Active, pushed 2026-09-15 | Open an upstream PR adding `custom_components/ipmi/brand/`. |  |
-| `ipv64` | home-assistant/brands#4492 | https://github.com/Ludy87/ipv64 | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/ipv64/brand/`. |  |
-| `ir_light` | home-assistant/brands#8769 | https://github.com/Infinitte/HA-IR-Light | Active, pushed 2026-02-06 | Open an upstream PR adding `custom_components/ir_light/brand/`. |  |
-| `iracing` | home-assistant/brands#4855 | https://github.com/cazeaux/ha-iracing | Active, pushed 2025-12-13 | Open an upstream PR adding `custom_components/iracing/brand/`. |  |
-| `irsap_ha` | home-assistant/brands#6039 | https://github.com/hexCut/irsap-ha | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/irsap_ha/brand/`. |  |
-| `irtrans` | home-assistant/brands#4107 | https://github.com/schwarzenbergf/irtrans | Active, pushed 2026-07-20 | Open an upstream PR adding `custom_components/irtrans/brand/`. |  |
-| `ista_calista` | home-assistant/brands#6893 | https://github.com/herruzo99/ista-calista | Active, pushed 2026-04-02 | Open an upstream PR adding `custom_components/ista_calista/brand/`. |  |
-| `ista_online` | home-assistant/brands#7567 | https://github.com/JeppeLeth/hass-ista-online | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/ista_online/brand/`. |  |
-| `istoreos` | home-assistant/brands#8355 | https://github.com/SJMTIII/istoreos | Active, pushed 2025-11-05 | Open an upstream PR adding `custom_components/istoreos/brand/`. |  |
-| `itchio` | home-assistant/brands#6085 | https://github.com/Hermesiss/itchio_homeassistant | Active, pushed 2025-05-26 | Open an upstream PR adding `custom_components/itchio/brand/`. |  |
-| `ivent` | home-assistant/brands#7366 | https://github.com/cbuctok/ha-ivent | Active, pushed 2025-06-14 | Open an upstream PR adding `custom_components/ivent/brand/`. |  |
-| `ivideon` | home-assistant/brands#8959 | https://github.com/alexanderznamensky/ivideon | Active, pushed 2026-05-13 | Open an upstream PR adding `custom_components/ivideon/brand/`. |  |
-| `ixfield` | home-assistant/brands#7726 | https://github.com/samsk/ixfield-cloud | Active, pushed 2025-10-06 | Open an upstream PR adding `custom_components/ixfield/brand/`. |  |
-| `jebao_aqua` | home-assistant/brands#5132 | https://github.com/chrisc123/jebao_aqua-homeassistant | Active, pushed 2026-08-29 | Open an upstream PR adding `custom_components/jebao_aqua/brand/`. |  |
-| `jet2` | home-assistant/brands#5764 | https://github.com/jampez77/Jet2 | Active, pushed 2026-09-01 | Open an upstream PR adding `custom_components/jet2/brand/`. |  |
-| `jira_filters` | home-assistant/brands#8125 | https://github.com/dotelpenguin/ha-integration-jirafilters | Active, pushed 2025-10-27 | Open an upstream PR adding `custom_components/jira_filters/brand/`. |  |
-| `jokes` | home-assistant/brands#3859 | https://github.com/LaggAt/hacs-jokes | Active, pushed 2025-01-07 | Open an upstream PR adding `custom_components/jokes/brand/`. |  |
-| `jq300` | home-assistant/brands#2313 | https://github.com/Limych/ha-jq300 | Active, pushed 2023-03-08 | Open an upstream PR adding `custom_components/jq300/brand/`. |  |
-| `jriver` | home-assistant/brands#5071 | https://github.com/3ll3d00d/jriver_homeassistant | Active, pushed 2025-10-03 | Open an upstream PR adding `custom_components/jriver/brand/`. |  |
-| `judo_rest_api` | home-assistant/brands#6236 | https://github.com/OStrama/judo_rest_api | Active, pushed 2025-08-31 | Open an upstream PR adding `custom_components/judo_rest_api/brand/`. |  |
-| `jura` | home-assistant/brands#4661 | https://github.com/AlexxIT/Jura | Active, pushed 2026-10-01 | Open an upstream PR adding `custom_components/jura/brand/`. |  |
-| `kadermanager` | home-assistant/brands#5550 | https://github.com/FaserF/ha-kadermanager | Active, pushed 2026-10-11 | Open an upstream PR adding `custom_components/kadermanager/brand/`. |  |
-| `kamstrup_403` | home-assistant/brands#2787 | https://github.com/golles/ha-kamstrup_403 | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/kamstrup_403/brand/`. |  |
-| `kasa_ke100_min` | home-assistant/brands#8265 | https://github.com/MTTPoll/Kasa-KE-100-min | Active, pushed 2025-10-29 | Open an upstream PR adding `custom_components/kasa_ke100_min/brand/`. |  |
-| `kat_bulgaria` | home-assistant/brands#4487 | https://github.com/Nedevski/hacs_kat_bulgaria | Active, pushed 2026-05-10 | Open an upstream PR adding `custom_components/kat_bulgaria/brand/`. |  |
-| `keemple` | home-assistant/brands#7408 | https://github.com/DawidPietrykowski/keemple-ha | Active, pushed 2026-03-18 | Open an upstream PR adding `custom_components/keemple/brand/`. |  |
-| `keenetic_router_pro` | home-assistant/brands#9392 | https://github.com/cataseven/Keenetic-Router-Pro | Active, pushed 2026-10-10 | Open an upstream PR adding `custom_components/keenetic_router_pro/brand/`. |  |
-| `kenter` | home-assistant/brands#7934 | https://github.com/filmgarage/ha-kenter | Active, pushed 2026-03-24 | Open an upstream PR adding `custom_components/kenter/brand/`. |  |
-| `kevo_plus` | home-assistant/brands#3977 | https://github.com/dcmeglio/home-assistant-kevo | Active, pushed 2023-02-20 | Open an upstream PR adding `custom_components/kevo_plus/brand/`. |  |
-| `kia_connect` | home-assistant/brands#3346 | https://github.com/PimDoos/kia_connect | Active, pushed 2024-07-06 | Open an upstream PR adding `custom_components/kia_connect/brand/`. |  |
-| `kia_uvo` | home-assistant/brands#2894 | https://github.com/fuatakgun/kia_uvo | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/kia_uvo/brand/`. |  |
-| `kidde_homesafe` | home-assistant/brands#7133 | https://github.com/snell-evan-itt/Kidde-HomeSafe | Active, pushed 2026-08-17 | Open an upstream PR adding `custom_components/kidde_homesafe/brand/`. |  |
-| `kilight` | home-assistant/brands#6832 | https://github.com/ErraticTech/kilight-hass | Active, pushed 2026-01-26 | Open an upstream PR adding `custom_components/kilight/brand/`. |  |
-| `king_smith` | home-assistant/brands#4851 | https://github.com/indiefan/king_smith | Active, pushed 2024-08-20 | Open an upstream PR adding `custom_components/king_smith/brand/`. |  |
-| `kingsmith_walkingpad` | home-assistant/brands#7677 | https://github.com/UrbanTechIO/KingSmith-WalkingPad | Active, pushed 2026-06-16 | Open an upstream PR adding `custom_components/kingsmith_walkingpad/brand/`. |  |
-| `kippy` | home-assistant/brands#7861 | https://github.com/ThomasHFWright/kippy-homeassistant-hacs | Active, pushed 2026-09-21 | Open an upstream PR adding `custom_components/kippy/brand/`. |  |
-| `kitchenowl` | home-assistant/brands#6311 | https://github.com/TomBursch/kitchenowl-ha | Active, pushed 2026-04-03 | Open an upstream PR adding `custom_components/kitchenowl/brand/`. |  |
-| `knmi` | home-assistant/brands#2661 | https://github.com/golles/ha-knmi | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/knmi/brand/`. |  |
-| `kobold_vr7` | home-assistant/brands#6144 | https://github.com/jmzg93/koboldHAIntegration | Active, pushed 2026-06-07 | Open an upstream PR adding `custom_components/kobold_vr7/brand/`. |  |
-| `kocom_energy` | home-assistant/brands#6353 | https://github.com/angkk2u/kocom_energy | Active, pushed 2025-01-18 | Open an upstream PR adding `custom_components/kocom_energy/brand/`. |  |
-| `kodi_helpers` | home-assistant/brands#7673 | https://github.com/Bitte-ein-Git/ha_kodi_helpers | Active, pushed 2026-02-24 | Open an upstream PR adding `custom_components/kodi_helpers/brand/`. |  |
-| `kodi_recently_added` | home-assistant/brands#1871 | https://github.com/boralyl/kodi-recently-added | Active, pushed 2026-09-10 | Open an upstream PR adding `custom_components/kodi_recently_added/brand/`. |  |
-| `komfovent` | home-assistant/brands#6778 | https://github.com/lnagel/hass-komfovent | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/komfovent/brand/`. |  |
-| `komfovent_c5` | home-assistant/brands#4614 | https://github.com/siku2/hass-komfovent-c5 | Active, pushed 2026-08-06 | Open an upstream PR adding `custom_components/komfovent_c5/brand/`. |  |
-| `komodo` | home-assistant/brands#9581 | https://github.com/dkarv/ha-komodo | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/komodo/brand/`. |  |
-| `kopia_webhook` | home-assistant/brands#8427 | https://github.com/SpaceFrags/kopia_webhook | Active, pushed 2026-02-02 | Open an upstream PR adding `custom_components/kopia_webhook/brand/`. |  |
-| `kroger` | home-assistant/brands#9590 | https://github.com/fortepc/kroger-ha-integration | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/kroger/brand/`. |  |
-| `kronoterm` | home-assistant/brands#6359 | https://github.com/Favio25/Kronoterm-homeassistant | Active, pushed 2026-08-05 | Open an upstream PR adding `custom_components/kronoterm/brand/`. |  |
-| `kumo` | home-assistant/brands#1619 | https://github.com/dlarrick/hass-kumo | Active, pushed 2026-10-04 | Open an upstream PR adding `custom_components/kumo/brand/`. |  |
-| `kvv_departure_monitor` | home-assistant/brands#7844 | https://github.com/drlaplace/KVV_Departure_Monitor | Active, pushed 2026-01-27 | Open an upstream PR adding `custom_components/kvv_departure_monitor/brand/`. |  |
-| `kwh_to_won_general` | home-assistant/brands#5480 | https://github.com/dugurs/kwh_to_won_general | Active, pushed 2024-11-17 | Open an upstream PR adding `custom_components/kwh_to_won_general/brand/`. |  |
-| `kwikset` | home-assistant/brands#3364 | https://github.com/explosivo22/kwikset-ha | Active, pushed 2026-04-28 | Open an upstream PR adding `custom_components/kwikset/brand/`. |  |
-| `lacrosse_alerts` | home-assistant/brands#8009 | https://github.com/craigbye/home-assistant-lacrosse-alerts | Active, pushed 2026-01-18 | Open an upstream PR adding `custom_components/lacrosse_alerts/brand/`. |  |
-| `laifen_ble` | home-assistant/brands#6460 | https://github.com/UrbanTechIO/Laifen | Active, pushed 2026-09-02 | Open an upstream PR adding `custom_components/laifen_ble/brand/`. |  |
-| `lambda_heat_pumps` | home-assistant/brands#7298 | https://github.com/GuidoJeuken-6512/lambda_wp_hacs | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/lambda_heat_pumps/brand/`. |  |
-| `lambda_heatpump` | home-assistant/brands#6883 | https://github.com/route662/Lambda-Heatpump | Active, pushed 2025-10-07 | Open an upstream PR adding `custom_components/lambda_heatpump/brand/`. |  |
-| `lampie` | home-assistant/brands#7446 | https://github.com/wbyoung/lampie | Active, pushed 2026-09-08 | Open an upstream PR adding `custom_components/lampie/brand/`. |  |
-| `ld2410` | home-assistant/brands#7806 | https://github.com/Megarushing/ha-ld2410 | Active, pushed 2026-10-06 | Open an upstream PR adding `custom_components/ld2410/brand/`. |  |
-| `led_matrix_zmq` | home-assistant/brands#6153 | https://github.com/Knifa/led-matrix-zmq-hass | Active, pushed 2026-07-12 | Open an upstream PR adding `custom_components/led_matrix_zmq/brand/`. |  |
-| `ledble_ledlamp` | home-assistant/brands#5320 | https://github.com/8none1/ledble-ledlamp | Active, pushed 2026-09-02 | Open an upstream PR adding `custom_components/ledble_ledlamp/brand/`. |  |
-| `ledfx` | home-assistant/brands#3408 | https://github.com/dmamontov/hass-ledfx | Active, pushed 2023-07-15 | Open an upstream PR adding `custom_components/ledfx/brand/`. |  |
-| `leitir` | home-assistant/brands#9227 | https://github.com/axelpaul/leitir-ha | Active, pushed 2026-02-12 | Open an upstream PR adding `custom_components/leitir/brand/`. |  |
-| `lennoxs30` | home-assistant/brands#3866 | https://github.com/PeteRager/lennoxs30 | Active, pushed 2026-08-13 | Open an upstream PR adding `custom_components/lennoxs30/brand/`. |  |
-| `leo_ntp` | home-assistant/brands#4406 | https://github.com/CumpsD/home-assistant-leo-ntp | Active, pushed 2024-11-11 | Open an upstream PR adding `custom_components/leo_ntp/brand/`. |  |
-| `lepro_led` | home-assistant/brands#7787 | https://github.com/Sanji78/lepro_led | Active, pushed 2026-05-14 | Open an upstream PR adding `custom_components/lepro_led/brand/`. |  |
-| `leslies_pool` | home-assistant/brands#5551 | https://github.com/connorgallopo/leslies-pool | Active, pushed 2026-05-12 | Open an upstream PR adding `custom_components/leslies_pool/brand/`. |  |
-| `lexman_ble` | home-assistant/brands#6288 | https://github.com/davidsmfreire/lexman-ble | Active, pushed 2026-03-29 | Open an upstream PR adding `custom_components/lexman_ble/brand/`. |  |
-| `lg_ess` | home-assistant/brands#7394 | https://github.com/dkarv/ha-lg-ess | Active, pushed 2026-06-05 | Open an upstream PR adding `custom_components/lg_ess/brand/`. |  |
-| `lg_tv_serial` | home-assistant/brands#7143 | https://github.com/mvdwetering/lg_tv_serial | Active, pushed 2026-05-15 | Open an upstream PR adding `custom_components/lg_tv_serial/brand/`. |  |
-| `libratone_zipp` | home-assistant/brands#2642 | https://github.com/Chouffy/home_assistant_libratone_zipp | Active, pushed 2025-10-08 | Open an upstream PR adding `custom_components/libratone_zipp/brand/`. |  |
-| `lifegear_hrv` | home-assistant/brands#8907 | https://github.com/3uperduck/lifegear_hrv | Active, pushed 2026-04-19 | Open an upstream PR adding `custom_components/lifegear_hrv/brand/`. |  |
-| `light_sync_group` | home-assistant/brands#5446 | https://github.com/avishorp/sync_group | Active, pushed 2024-06-09 | Open an upstream PR adding `custom_components/light_sync_group/brand/`. |  |
-| `lightener` | home-assistant/brands#4255 | https://github.com/fredck/lightener | Active, pushed 2025-10-21 | Open an upstream PR adding `custom_components/lightener/brand/`. |  |
-| `lighting_zone` | home-assistant/brands#6766 | https://github.com/rickmoonex/hass-lighting-zone | Active, pushed 2026-01-26 | Open an upstream PR adding `custom_components/lighting_zone/brand/`. |  |
-| `lights_app` | home-assistant/brands#6212 | https://github.com/JurajNyiri/HomeAssistant-Lights-App | Active, pushed 2025-12-08 | Open an upstream PR adding `custom_components/lights_app/brand/`. |  |
-| `lightware_lw2` | home-assistant/brands#6909 | https://github.com/intermediateengineering/homeassistant-lightware-lw2 | Active, pushed 2025-04-16 | Open an upstream PR adding `custom_components/lightware_lw2/brand/`. |  |
-| `lightwave2` | home-assistant/brands#1566 | https://github.com/bigbadblunt/homeassistant-lightwave2 | Active, pushed 2025-10-22 | Open an upstream PR adding `custom_components/lightwave2/brand/`. |  |
-| `lightwave_smart` | home-assistant/brands#4909 | https://github.com/LightwaveSmartHome/homeassistant-lightwave-smart | Active, pushed 2026-01-03 | Open an upstream PR adding `custom_components/lightwave_smart/brand/`. |  |
-| `line_notify` | home-assistant/brands#4497 | https://github.com/nao-pon/HA-Line-Notify | Active, pushed 2025-12-18 | Open an upstream PR adding `custom_components/line_notify/brand/`. |  |
-| `linkstation` | home-assistant/brands#6202 | https://github.com/iKaew/hass-linkstation-addon | Active, pushed 2024-12-11 | Open an upstream PR adding `custom_components/linkstation/brand/`. |  |
-| `linkytic` | home-assistant/brands#3989 | https://github.com/hekmon/lixeeticdin | Active, pushed 2026-09-12 | Open an upstream PR adding `custom_components/linkytic/brand/`. |  |
-| `linus_dashboard` | home-assistant/brands#6156 | https://github.com/Thank-you-Linus/Linus-Dashboard | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/linus_dashboard/brand/`. |  |
-| `lionel_controller` | home-assistant/brands#8881 | https://github.com/iamjoshk/lionel_controller | Active, pushed 2026-01-16 | Open an upstream PR adding `custom_components/lionel_controller/brand/`. |  |
-| `listenbrainz` | home-assistant/brands#5112 | https://github.com/Weissnix4711/hass-listenbrainz | Active, pushed 2026-10-05 | Open an upstream PR adding `custom_components/listenbrainz/brand/`. |  |
-| `listonic` | home-assistant/brands#7858 | https://github.com/Sanji78/listonic | Active, pushed 2025-10-16 | Open an upstream PR adding `custom_components/listonic/brand/`. |  |
-| `litime_bms_ble` | home-assistant/brands#9636 | https://github.com/rubenmuehlhans/litime-ble-hacs | Active, pushed 2026-02-15 | Open an upstream PR adding `custom_components/litime_bms_ble/brand/`. |  |
-| `livoltek` | home-assistant/brands#5279 | https://github.com/adamlonsdale/hass-livoltek | Active, pushed 2026-06-29 | Open an upstream PR adding `custom_components/livoltek/brand/`. |  |
-| `llmvision` | home-assistant/brands#5689 | https://github.com/valentinfrlch/ha-gpt4vision | Active, pushed 2026-09-17 | Open an upstream PR adding `custom_components/llmvision/brand/`. |  |
-| `local_daikin` | home-assistant/brands#7111 | https://github.com/Apoc182/local_daikin | Active, pushed 2026-02-22 | Open an upstream PR adding `custom_components/local_daikin/brand/`. |  |
-| `local_fcsp` | home-assistant/brands#7393 | https://github.com/aminorjourney/local-fcsp | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/local_fcsp/brand/`. |  |
-| `local_photos` | home-assistant/brands#9183 | https://github.com/Migz93/ha-local_photos | Active, pushed 2026-10-02 | Open an upstream PR adding `custom_components/local_photos/brand/`. |  |
-| `localtuya_rc` | home-assistant/brands#6196 | https://github.com/ClusterM/localtuya_rc | Active, pushed 2026-10-09 | Open an upstream PR adding `custom_components/localtuya_rc/brand/`. |  |
-| `localvolts` | home-assistant/brands#7772 | https://github.com/gurrier/localvolts | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/localvolts/brand/`. |  |
-| `lockly` | home-assistant/brands#9218 | https://github.com/bharat/homeassistant-lockly | Active, pushed 2026-10-15 | Open an upstream PR adding `custom_components/lockly/brand/`. |  |
-| `loggamera` | home-assistant/brands#7203 | https://github.com/svante-jacobsen/loggamera-home-assistant | Active, pushed 2026-03-16 | Open an upstream PR adding `custom_components/loggamera/brand/`. |  |
-| `loki` | home-assistant/brands#8454 | https://github.com/dafal/loki-logger-homeassistant | Active, pushed 2025-08-17 | Open an upstream PR adding `custom_components/loki/brand/`. |  |
-| `lpubelts_ha` | home-assistant/brands#8785 | https://github.com/SasPes/lpubelts_ha | Active, pushed 2026-01-19 | Open an upstream PR adding `custom_components/lpubelts_ha/brand/`. |  |
-| `lrt_wallbox` | home-assistant/brands#7624 | https://github.com/Upgreydd/lrt_wallbox_hacs | Active, pushed 2026-06-15 | Open an upstream PR adding `custom_components/lrt_wallbox/brand/`. |  |
-| `luas` | home-assistant/brands#6442 | https://github.com/lutzky/hass-luas | Active, pushed 2026-10-02 | Open an upstream PR adding `custom_components/luas/brand/`. |  |
-| `lubelogger` | home-assistant/brands#8777 | https://github.com/hollowpnt92/lubelogger-ha | Active, pushed 2026-01-05 | Open an upstream PR adding `custom_components/lubelogger/brand/`. |  |
-| `lutron_lip` | home-assistant/brands#7603 | https://github.com/rzulian/lutron_lip | Active, pushed 2026-10-13 | Open an upstream PR adding `custom_components/lutron_lip/brand/`. |  |
-| `luxor` | home-assistant/brands#2819 | https://github.com/dcramer/hass-luxor | Active, pushed 2026-01-12 | Open an upstream PR adding `custom_components/luxor/brand/`. |  |
-| `luxtronik2` | home-assistant/brands#4662 | https://github.com/BenPru/luxtronik | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/luxtronik2/brand/`. |  |
-| `lvgl_pages` | home-assistant/brands#6765 | https://github.com/dala318/lvgl_pages | Active, pushed 2025-04-08 | Open an upstream PR adding `custom_components/lvgl_pages/brand/`. |  |
-| `lxp_modbus` | home-assistant/brands#7487 | https://github.com/ant0nkr/luxpower-modbus-hacs | Active, pushed 2026-10-14 | Open an upstream PR adding `custom_components/lxp_modbus/brand/`. |  |
-| `lyrion_cli` | home-assistant/brands#6781 | https://github.com/peteS-UK/lyrion_cli | Active, pushed 2026-01-22 | Open an upstream PR adding `custom_components/lyrion_cli/brand/`. |  |
-| `lytko` | home-assistant/brands#6503 | https://github.com/ANARHIST1984/SmartClimat | Active, pushed 2025-02-05 | Open an upstream PR adding `custom_components/lytko/brand/`. |  |
-| `maalerportal` | home-assistant/brands#5303 | https://github.com/maalerportal/maalerportal | Active, pushed 2026-09-04 | Open an upstream PR adding `custom_components/maalerportal/brand/`. |  |
-| `macs` | home-assistant/brands#8878 | https://github.com/glyndavidson/MACS | Active, pushed 2026-01-23 | Open an upstream PR adding `custom_components/macs/brand/`. |  |
-| `maestro_mcz` | home-assistant/brands#4095 | https://github.com/Crisicus/maestro_mcz | Active, pushed 2026-05-13 | Open an upstream PR adding `custom_components/maestro_mcz/brand/`. |  |
-| `magicswitchbot` | home-assistant/brands#2340 | https://github.com/ec-blaster/magicswitchbot-homeassistant | Active, pushed 2022-10-08 | Open an upstream PR adding `custom_components/magicswitchbot/brand/`. |  |
-| `magiline_imagix` | home-assistant/brands#8203 | https://github.com/iioel/magiline-imagix-homeassistant | Active, pushed 2026-01-24 | Open an upstream PR adding `custom_components/magiline_imagix/brand/`. |  |
-| `magiqtouch` | home-assistant/brands#3951 | https://github.com/andrewleech/ha_magiqtouch | Active, pushed 2026-04-15 | Open an upstream PR adding `custom_components/magiqtouch/brand/`. |  |
-| `maicows` | home-assistant/brands#9229 | https://github.com/isaya07/ha-maicows | Active, pushed 2026-08-24 | Open an upstream PR adding `custom_components/maicows/brand/`. |  |
-| `mailcow_ha_custom` | home-assistant/brands#6630 | https://github.com/Master13011/Mailcow-HA | Active, pushed 2026-09-01 | Open an upstream PR adding `custom_components/mailcow_ha_custom/brand/`. |  |
-| `maint` | home-assistant/brands#8555 | https://github.com/chrisdoherty4/maint | Active, pushed 2026-02-23 | Open an upstream PR adding `custom_components/maint/brand/`. |  |
-| `maintenance_supporter` | home-assistant/brands#9499 | https://github.com/iluebbe/maintenance_supporter | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/maintenance_supporter/brand/`. |  |
-| `malaysia_weather` | home-assistant/brands#6314 | https://github.com/zubir2k/homeassistant-malaysiaweather | Active, pushed 2026-04-21 | Open an upstream PR adding `custom_components/malaysia_weather/brand/`. |  |
-| `mammotion` | home-assistant/brands#5507 | https://github.com/mikey0000/HA-Luba | Active, pushed 2026-10-17 | Open an upstream PR adding `custom_components/mammotion/brand/`. |  |
-| `mantova_ambiente` | home-assistant/brands#8029 | https://github.com/Nerkyator/pyMantovaAmbiente | Active, pushed 2025-10-01 | Open an upstream PR adding `custom_components/mantova_ambiente/brand/`. |  |
-| `marees_france` | home-assistant/brands#6938 | https://github.com/KipK/marees_france | Active, pushed 2026-07-16 | Open an upstream PR adding `custom_components/marees_france/brand/`. |  |
-| `marstek_cloud` | home-assistant/brands#7895 | https://github.com/DoctaShizzle/marstek_cloud | Active, pushed 2026-03-04 | Open an upstream PR adding `custom_components/marstek_cloud/brand/`. |  |
-| `marstek_ct` | home-assistant/brands#7507 | https://github.com/d-shmt/hass_marstek-smart-meter | Active, pushed 2025-08-04 | Open an upstream PR adding `custom_components/marstek_ct/brand/`. |  |
-| `marstek_local_api` | home-assistant/brands#8145 | https://github.com/DoctaShizzle/marstek_local_api | Active, pushed 2026-03-04 | Open an upstream PR adding `custom_components/marstek_local_api/brand/`. |  |
-| `marstek_modbus` | home-assistant/brands#7464 | https://github.com/ViperRNMC/marstek_venus_modbus | Active, pushed 2026-08-31 | Open an upstream PR adding `custom_components/marstek_modbus/brand/`. |  |
-| `marstek_venus_energy_manager` | home-assistant/brands#9555 | https://github.com/ffunes/Marstek-Venus-Energy-Manager | Active, pushed 2026-07-14 | Open an upstream PR adding `custom_components/marstek_venus_energy_manager/brand/`. |  |
-| `mass_queue` | home-assistant/brands#7560 | https://github.com/droans/mass_queue | Active, pushed 2026-09-08 | Open an upstream PR adding `custom_components/mass_queue/brand/`. |  |
-| `matomo` | home-assistant/brands#9505 | https://github.com/abnvle/ha-matomo | Active, pushed 2026-02-14 | Open an upstream PR adding `custom_components/matomo/brand/`. |  |
-| `matriocontrol` | home-assistant/brands#7852 | https://github.com/FeatherKing/ha-matriocontrol | Active, pushed 2026-09-12 | Open an upstream PR adding `custom_components/matriocontrol/brand/`. |  |
-| `matter_binding_helper` | home-assistant/brands#8602 | https://github.com/cedricziel/ha-matter-binding-helper | Active, pushed 2026-10-18 | Open an upstream PR adding `custom_components/matter_binding_helper/brand/`. |  |
-| `matter_time_sync` | home-assistant/brands#8936 | https://github.com/Loweack/Matter-Time-Sync | Active, pushed 2026-06-24 | Open an upstream PR adding `custom_components/matter_time_sync/brand/`. |  |
-| `maxstorage_ultimate` | home-assistant/brands#5208 | https://github.com/geeks-r-us/maxstorage_ultimate | Active, pushed 2024-08-29 | Open an upstream PR adding `custom_components/maxstorage_ultimate/brand/`. |  |
-| `mbtalive` | home-assistant/brands#6456 | https://github.com/chiabre/MBTALive | Active, pushed 2026-06-24 | Open an upstream PR adding `custom_components/mbtalive/brand/`. |  |
-| `mcp2221` | home-assistant/brands#5107 | https://github.com/pilotak/homeassistant-mcp2221 | Active, pushed 2026-06-22 | Open an upstream PR adding `custom_components/mcp2221/brand/`. |  |
-| `mcp23017` | home-assistant/brands#3217 | https://github.com/jpcornil-git/HA-mcp23017 | Active, pushed 2026-07-05 | Open an upstream PR adding `custom_components/mcp23017/brand/`. |  |
-| `mcp_server_http_transport` | home-assistant/brands#8129 | https://github.com/ganhammar/hass-mcp-server | Active, pushed 2026-10-12 | Open an upstream PR adding `custom_components/mcp_server_http_transport/brand/`. |  |
-| `mdadm_state` | home-assistant/brands#2587 | https://github.com/LorenzoVasi/HA_mdadm | Active, pushed 2024-09-16 | Open an upstream PR adding `custom_components/mdadm_state/brand/`. |  |
-| `media_index` | home-assistant/brands#8333 | https://github.com/markaggar/ha-media-index | Active, pushed 2026-07-29 | Open an upstream PR adding `custom_components/media_index/brand/`. |  |
-| `medisanabp_ble` | home-assistant/brands#5288 | https://github.com/bkbilly/medisanabp_ble | Active, pushed 2026-09-27 | Open an upstream PR adding `custom_components/medisanabp_ble/brand/`. |  |
+| `0711smarthome_fernwartungs_modus` | home-assistant/brands#8250 | https://github.com/0711smarthome/0711smarthome_fernwartungs_modus | Active, pushed 2025-11-10 | Upstream PR opened. | 0711smarthome/0711smarthome_fernwartungs_modus#1 |
+| `2n_intercom` | home-assistant/brands#8883 | https://github.com/genka13/ha-2n-intercom | Active, pushed 2026-01-04 | Upstream PR opened. | genka13/ha-2n-intercom#2 |
+| `ab_ble_gateway` | home-assistant/brands#5486 | https://github.com/chkuendig/hass-ab_ble_gateway | Active, pushed 2026-01-14 | Upstream PR opened. | chkuendig/hass-ab_ble_gateway#7 |
+| `ACInfinity` | home-assistant/brands#4788 | https://github.com/Cavaliers/ha-ACInfinity | Active, pushed 2023-10-31 | Upstream PR opened. | Cavaliers/ha-ACInfinity#1 |
+| `acit` | home-assistant/brands#9553 | https://github.com/jdu-acit/ACIT_HA_ThermACEC | Active, pushed 2026-09-10 | Upstream PR opened. | jdu-acit/ACIT_HA_Integration#8 |
+| `acogo` | home-assistant/brands#9026 | https://github.com/acoGO/HomeAssistant-acoGO | Active, pushed 2026-01-14 | Upstream PR opened. | acoGO/HomeAssistant-acoGo#1 |
+| `actualbudget` | home-assistant/brands#6343 | https://github.com/jlvcm/ha-actualbudget | Active, pushed 2026-04-13 | Upstream PR opened. | jlvcm/ha-actualbudget#64 |
+| `adaptive_cover` | home-assistant/brands#5117 | https://github.com/basbruss/adaptive-cover | Active, pushed 2026-08-03 | Upstream PR opened. | basbruss/adaptive-cover#508 |
+| `adaptive_thermostat` | home-assistant/brands#6768 | https://github.com/Horia73/adaptive_thermostat | Active, pushed 2026-06-24 | Upstream PR opened. | Horia73/adaptive_thermostat#7 |
+| `additional_ca` | home-assistant/brands#4418 | https://github.com/Athozs/hass-additional-ca | Active, pushed 2026-10-17 | Upstream PR opened. | Athozs/hass-additional-ca#39 |
+| `advanced_switches` | home-assistant/brands#9032 | https://github.com/hoizi89/advanced_switches | Active, pushed 2026-10-12 | Upstream PR opened. | hoizi89/advanced_switches#6 |
+| `advanced_trading_wallet` | home-assistant/brands#5906 | https://github.com/ad-ha/atw | Active, pushed 2025-02-12 | Upstream PR opened. | ad-ha/atw#12 |
+| `aemo_nem` | home-assistant/brands#5639 | https://github.com/cabberley/HA_AemoNemData | Active, pushed 2026-07-09 | Upstream PR opened. | cabberley/HA_AemoNemData#25 |
+| `aircontrolbase` | home-assistant/brands#9254 | https://github.com/enudler/homeassistant-aircontrol | Active, pushed 2026-01-24 | Upstream PR opened. | enudler/homeassistant-aircontrol#4 |
+| `airmusic` | home-assistant/brands#5671 | https://github.com/DominikWrobel/airmusic | Active, pushed 2026-10-03 | Upstream PR opened. | DominikWrobel/airmusic#11 |
+| `airmx` | home-assistant/brands#4982 | https://github.com/dext0r/airmx | Active, pushed 2024-11-22 | Upstream PR opened. | dext0r/airmx#14 |
+| `airthings_integration` | home-assistant/brands#2269 | https://github.com/braibaud/airthings-integration | Active, pushed 2026-05-21 | Upstream PR opened. | braibaud/airthings_integration#342 |
+| `airtouch` | home-assistant/brands#5050 | https://github.com/TheNoctambulist/hass-airtouch | Active, pushed 2026-08-16 | Upstream PR opened. | TheNoctambulist/hass-airtouch#51 |
+| `airtouch3` | home-assistant/brands#8701 | https://github.com/bradmatt275/ha-airtouch3 | Active, pushed 2026-07-25 | Upstream PR opened. | bradmatt275/ha-airtouch3#1 |
+| `airvpn` | home-assistant/brands#7604 | https://github.com/J-shw/ha-airvpn | Active, pushed 2026-03-01 | Upstream PR opened. | J-shw/ha-airvpn#24 |
+| `airzone_control` | home-assistant/brands#6748 | https://github.com/tecnoyfoto/airzone_control | Active, pushed 2026-09-15 | Upstream PR opened. | tecnoyfoto/airzone_control#9 |
+| `airzoneclouddaikin` | home-assistant/brands#8190 | https://github.com/eXPerience83/DKNCloud-HASS | Active, pushed 2026-10-11 | Upstream PR opened. | eXPerience83/DKNCloud-HASS#108 |
+| `ajax_uart` | home-assistant/brands#8340 | https://github.com/FScoua/ha-ajax-uart | Active, pushed 2025-11-10 | Upstream PR opened. | FScoua/ha-ajax-uart#4 |
+| `alko` | home-assistant/brands#2708 | https://github.com/jonkristian/alko | Active, pushed 2025-09-10 | Upstream PR opened. | jonkristian/alko#60 |
+| `alliant_energy` | home-assistant/brands#6093 | https://github.com/detour1999/ha-alliant-energy | Active, pushed 2024-11-19 | Upstream PR opened. | detour1999/ha-alliant-energy#7 |
+| `allin_io_8` | home-assistant/brands#8501 | https://github.com/CarapaceStore/ALLIN-I-O-8 | Active, pushed 2026-05-12 | Upstream PR opened. | CarapaceStore/ALLIN-I-O-8#4 |
+| `alltalktts` | home-assistant/brands#5346 | https://github.com/ser/AllTalkTTS | Active, pushed 2024-04-08 | Upstream PR opened. | ser/AllTalkTTS#1 |
+| `almatel` | home-assistant/brands#7316 | https://github.com/alexanderznamensky/Almatel | Active, pushed 2026-08-07 | Upstream PR opened. | alexanderznamensky/Almatel#1 |
+| `alpha_speaker` | home-assistant/brands#9195 | https://github.com/VGCH/alpha-private-speaker-connector | Active, pushed 2026-02-10 | Upstream PR opened. | VGCH/alpha-private-speaker-connector#1 |
+| `alpicool_ble` | home-assistant/brands#7468 | https://github.com/Gruni22/alpicool_ha_ble | Active, pushed 2026-09-25 | Upstream PR opened. | Gruni22/alpicool_ha_ble#39 |
+| `alsavopro` | home-assistant/brands#5051 | https://github.com/goev/AlsavoProHomeAssistantIntegration | Active, pushed 2026-05-17 | Upstream PR opened. | goev/AlsavoProHomeAssistantIntegration#25 |
+| `alternative_time` | home-assistant/brands#7709 | https://github.com/Lexorius/alternative_time | Active, pushed 2026-09-26 | Upstream PR opened. | Lexorius/alternative_time#3 |
+| `amber_websocket` | home-assistant/brands#8572 | https://github.com/cabberley/AmberWebSocket | Active, pushed 2025-12-02 | Upstream PR opened. | cabberley/AmberWebSocket#2 |
+| `ambientika` | home-assistant/brands#6131 | https://github.com/ambientika/HomeAssistant-integration-for-Ambientika | Active, pushed 2026-02-02 | Upstream PR opened. | ambientika/HomeAssistant-integration-for-Ambientika#137 |
+| `ampere_modbus` | home-assistant/brands#5855 | https://github.com/dboeni/home-assistant-ampere-storage-pro-modbus | Active, pushed 2026-03-10 | Upstream PR opened. | dboeni/home-assistant-ampere-storage-pro-modbus#26 |
+| `amphiro_ble` | home-assistant/brands#5344 | https://github.com/chkuendig/hass-amphiro-ble | Active, pushed 2026-01-14 | Upstream PR opened. | chkuendig/hass-amphiro-ble#17 |
+| `ampvortex` | home-assistant/brands#8734 | https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex | Active, pushed 2026-06-16 | Upstream PR opened. | AmpVortex/Home-Assistant-Integration-for-AmpVortex#2 |
+| `animated_scenes` | home-assistant/brands#5653 | https://github.com/chazzu/hass-animated-scenes | Active, pushed 2025-12-15 | Upstream PR opened. | chazzu/hass-animated-scenes#76 |
+| `anio` | home-assistant/brands#9238 | https://github.com/hackwell/homeassistant-anio | Active, pushed 2026-09-15 | Upstream PR opened. | hackwell/homeassistant-anio#12 |
+| `antistorm` | home-assistant/brands#5195 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Antistorm | Active, pushed 2025-04-05 | Upstream PR opened. | PiotrMachowski/Home-Assistant-custom-components-Antistorm#23 |
+| `anycubic_cloud` | home-assistant/brands#5666 | https://github.com/WaresWichall/hass-anycubic_cloud | Active, pushed 2024-12-01 | Upstream PR opened. | WaresWichall/hass-anycubic_cloud#70 |
+| `apanova` | home-assistant/brands#6455 | https://github.com/cnecrea/apanova | Active, pushed 2026-03-15 | Upstream PR opened. | cnecrea/apanova#1 |
+| `apanova_ro` | home-assistant/brands#7825 | https://github.com/boogytotyo/apanova_ro | Active, pushed 2026-10-18 | Upstream PR opened. | boogytotyo/apanova_ro#10 |
+| `apc_modbus` | home-assistant/brands#9300 | https://github.com/aburow/apc-modbus-snmp-ha | Active, pushed 2026-09-12 | Upstream PR opened. | aburow/apc-modbus-snmp-ha#21 |
+| `apc_pdu` | home-assistant/brands#9080 | https://github.com/Tycho-MEC/apc-pdu | Active, pushed 2026-10-08 | Upstream PR opened. | Tycho-MEC/apc-pdu#11 |
+| `apm` | home-assistant/brands#5672 | https://github.com/clarkewing/ha-apm-crewconnect | Active, pushed 2024-11-15 | Upstream PR opened. | clarkewing/ha-apm-crewconnect#2 |
+| `appartme` | home-assistant/brands#6181 | https://github.com/Appartme/Appartme-System-HACI | Active, pushed 2026-09-08 | Upstream PR opened. | Appartme/Appartme-System-HACI#15 |
+| `aqara_bridge` | home-assistant/brands#3730 | https://github.com/meishild/AqaraBridge | Active, pushed 2023-01-05 | Upstream PR opened. | meishild/AqaraBridge#17 |
+| `aquaariston` | home-assistant/brands#2370 | https://github.com/chomupashchuk/ariston-aqua-remotethermo-home-assistant | Active, pushed 2022-07-13 | Upstream PR opened. | chomupashchuk/ariston-aqua-remotethermo-home-assistant#39 |
+| `aquael` | home-assistant/brands#6391 | https://github.com/ChoffaH/homeassistant-aquael | Active, pushed 2025-01-17 | Upstream PR opened. | ChoffaH/homeassistant-aquael#1 |
+| `aquaflower` | home-assistant/brands#6462 | https://github.com/theaquaflower/AquaFlower_HA_Integration | Active, pushed 2025-12-08 | Upstream PR opened. | Oasis-Enterprise/AquaFlower_HA_Integration#1 |
+| `aquahawk` | home-assistant/brands#4804 | https://github.com/ablyler/home-assistant-aquahawk | Active, pushed 2026-10-01 | Upstream PR opened. | ablyler/home-assistant-aquahawk#86 |
+| `aquastilla_softener` | home-assistant/brands#6868 | https://github.com/alakdae/AquastillaHA | Active, pushed 2026-10-12 | Upstream PR opened. | alakdae/AquastillaHA#2 |
+| `ar_smart_scheduler` | home-assistant/brands#9628 | https://github.com/marsh4200/ar_smart_scheduler | Active, pushed 2026-08-29 | Upstream PR opened. | marsh4200/ar_smart_scheduler#1 |
+| `area_label_stat` | home-assistant/brands#7821 | https://github.com/819548945/area_label_stat | Active, pushed 2025-09-16 | Upstream PR opened. | 819548945/area_label_stat#1 |
+| `area_occupancy` | home-assistant/brands#6132 | https://github.com/Hankanman/Area-Occupancy-Detection | Active, pushed 2026-10-06 | Upstream PR opened. | Hankanman/Area-Occupancy-Detection#617 |
+| `argon40` | home-assistant/brands#1720 | https://github.com/Misiu/argon40 | Active, pushed 2026-07-21 | Upstream PR opened. | Misiu/argon40#109 |
+| `aritech_ats` | home-assistant/brands#9006 | https://github.com/sebakerckhof/aritech-ha | Active, pushed 2026-10-09 | Upstream PR opened. | sebakerckhof/aritech-ha#34 |
+| `artnet_led` | home-assistant/brands#3526 | https://github.com/Breina/ha-artnet-led | Active, pushed 2026-10-16 | Upstream PR opened. | Breina/ha-artnet-led#131 |
+| `artsauna_ble` | home-assistant/brands#9082 | https://github.com/Dacid99/artsauna_ble | Active, pushed 2026-10-06 | Upstream already ships `custom_components/artsauna_ble/brand/`. Candidate for removal from this repository. |  |
+| `aseko_local` | home-assistant/brands#6970 | https://github.com/hopkins-tk/aseko-local | Active, pushed 2026-10-13 | Upstream PR opened. | hopkins-tk/home-assistant-aseko-local#176 |
+| `atm_milano` | home-assistant/brands#8916 | https://github.com/JanOstrowka/atm-milano | Active, pushed 2026-01-02 | Upstream PR opened. | JanOstrowka/atm-milano#1 |
+| `atomberg` | home-assistant/brands#5379 | https://github.com/dasshubham762/atomberg-integration | Active, pushed 2026-08-03 | Upstream PR opened. | dasshubham762/atomberg-integration#80 |
+| `atrea_amotion` | home-assistant/brands#5982 | https://github.com/alexelite/atrea_amotion | Active, pushed 2026-10-17 | Upstream PR opened. | alexelite/atrea_amotion#8 |
+| `auckland_transport` | home-assistant/brands#7027 | https://github.com/SeitzDaniel/auckland_transport | Active, pushed 2026-08-24 | Upstream PR opened. | SeitzDaniel/auckland_transport#9 |
+| `audiopro_linkplay` | home-assistant/brands#8941 | https://github.com/amsound/audiopro_linkplay_hacs | Active, pushed 2026-01-20 | Upstream PR opened. | amsound/audiopro_linkplay_hacs#7 |
+| `august_access_codes` | home-assistant/brands#8823 | https://github.com/iluvdata/august_access_codes | Active, pushed 2026-08-12 | Upstream PR opened. | iluvdata/august_access_codes#6 |
+| `aula_easyiq` | home-assistant/brands#7942 | https://github.com/esbenwiberg/easyiq | Active, pushed 2026-06-22 | Upstream PR opened. | esbenwiberg/easyiq#11 |
+| `aus_tfnsw_carparks` | home-assistant/brands#7146 | https://github.com/kcoffau/AUS_TfNSW_carparks | Active, pushed 2025-06-20 | Upstream PR opened. | kcoffau/AUS_TfNSW_carparks#2 |
+| `auto_areas` | home-assistant/brands#3043 | https://github.com/c-st/auto_areas | Active, pushed 2026-09-10 | Upstream PR opened. | c-st/auto_areas#243 |
+| `auto_backup` | home-assistant/brands#2295 | https://github.com/jcwillox/hass-auto-backup | Active, pushed 2026-10-13 | Upstream PR opened. | jcwillox/hass-auto-backup#233 |
+| `auto_utility_meter` | home-assistant/brands#8815 | https://github.com/yunusp01/auto_utility_meter | Active, pushed 2026-01-13 | Upstream PR opened. | yunusp01/auto_utility_meter#7 |
+| `autobayt` | home-assistant/brands#8825 | https://github.com/RASBR/home-assistant-autobayt | Active, pushed 2026-01-27 | Upstream PR opened. | RASBR/home-assistant-autobayt#1 |
+| `automate` | home-assistant/brands#2599 | https://github.com/sillyfrog/Automate-Pulse-v2 | Active, pushed 2026-02-12 | Upstream PR opened. | sillyfrog/Automate-Pulse-v2#50 |
+| `autonomic` | home-assistant/brands#5624 | https://github.com/toscano/hass-autonomic | Active, pushed 2026-08-06 | Upstream PR opened. | toscano/hass-autonomic#10 |
+| `average` | home-assistant/brands#2302 | https://github.com/Limych/ha-average | Active, pushed 2025-04-21 | Upstream PR opened. | Limych/ha-average#271 |
+| `aws_cost` | home-assistant/brands#5700 | https://github.com/diego7marques/ha-aws-cost | Active, pushed 2026-02-02 | Upstream PR opened. | diego7marques/ha-aws-cost#85 |
+| `axpert_inverter` | home-assistant/brands#9068 | https://github.com/ArnyminerZ/ha-axpert-inverter | Active, pushed 2026-02-23 | Upstream PR opened. | ArnyminerZ/ha-axpert-inverter#7 |
+| `azan` | home-assistant/brands#9311 | https://github.com/bewinxed/minaret | Active, pushed 2026-04-15 | Upstream PR opened. | Bewinxed/minaret#2 |
+| `azimut_energy` | home-assistant/brands#9069 | https://github.com/azimut-energy/azimut-ha-integration | Active, pushed 2026-10-08 | Upstream PR opened. | azimut-energy/azimut-ha-integration#37 |
+| `azure_openai_sdk_conversation` | home-assistant/brands#7877 | https://github.com/FoliniC/azure_openai_sdk_conversation | Active, pushed 2026-01-09 | Upstream PR opened. | FoliniC/azure_openai_sdk_conversation#9 |
+| `balena_cloud` | home-assistant/brands#7183 | https://github.com/eseverson/hass-balena | Active, pushed 2026-10-17 | Upstream PR opened. | eseverson/hass-balena#1 |
+| `bar228_ble` | home-assistant/brands#5355 | https://github.com/diepeterpan/HAIDTBA228 | Active, pushed 2024-04-08 | Upstream PR opened. | diepeterpan/HAIDTBA228#1 |
+| `basis_smart_panel` | home-assistant/brands#9513 | https://github.com/wearebasis/ha-basis | Active, pushed 2026-03-10 | Upstream PR opened. | wearebasis/ha-basis#3 |
+| `baxi_hybridapp_home` | home-assistant/brands#8066 | https://github.com/Cm-8/baxi_hybridapp_home | Active, pushed 2026-10-06 | Upstream PR opened. | Cm-8/baxi_hybridapp_home#24 |
+| `bayrol` | home-assistant/brands#7139 | https://github.com/0xQuantumHome/bayrol-home-hassistant | Active, pushed 2026-10-15 | Upstream PR opened. | 0xQuantumHome/bayrol-home-hassistant#58 |
+| `bazarr` | home-assistant/brands#8599 | https://github.com/owenvoke/hass-bazarr | Active, pushed 2026-10-18 | Upstream PR opened. | owenvoke/hass-bazarr#11 |
+| `be_alert` | home-assistant/brands#9128 | https://github.com/Spiffo/be_alert | Active, pushed 2026-01-14 | Upstream PR opened. | Spiffo/be_alert#3 |
+| `beem_energy` | home-assistant/brands#7448 | https://github.com/CharlesP44/Beem_Energy | Active, pushed 2026-08-15 | Upstream PR opened. | CharlesP44/Beem_Energy#94 |
+| `beer_keg_ha` | home-assistant/brands#8380 | https://github.com/DarkJaeger/beer-keg-ha | Active, pushed 2026-04-24 | Upstream PR opened. | DarkJaeger/beer_keg_ha#4 |
+| `beny_wifi` | home-assistant/brands#6338 | https://github.com/Jarauvi/beny_wifi | Active, pushed 2026-10-12 | Upstream PR opened. | Jarauvi/beny_wifi#42 |
+| `beolink` | home-assistant/brands#4807 | https://github.com/djerik/beolink-ha | Active, pushed 2026-02-11 | Upstream PR opened. | djerik/beolink-ha#10 |
+| `berluf_selen_2` | home-assistant/brands#6097 | https://github.com/3p3v/hass_berluf_selen_2 | Active, pushed 2025-03-20 | Upstream PR opened. | 3p3v/berluf_selen_2#28 |
+| `bermuda` | home-assistant/brands#4772 | https://github.com/agittins/bermuda | Active, pushed 2026-10-14 | Upstream PR opened. | agittins/bermuda#878 |
+| `besmart_thermostat` | home-assistant/brands#6207 | https://github.com/coder89/ha-besmart | Active, pushed 2026-07-20 | Upstream PR opened. | coder89/ha-besmart#7 |
+| `bestway` | home-assistant/brands#3428 | https://github.com/cdpuk/ha-bestway | Active, pushed 2026-09-06 | Upstream PR opened. | cdpuk/ha-bestway#184 |
+| `better_thermostat` | home-assistant/brands#3077 | https://github.com/KartoffelToby/better_thermostat | Active, pushed 2026-10-17 | Upstream PR opened. | KartoffelToby/better_thermostat#2769 |
+| `beward` | home-assistant/brands#2304 | https://github.com/Limych/ha-beward | Active, pushed 2025-04-21 | Upstream PR opened. | Limych/ha-beward#92 |
+| `bg_electricity_regulated_pricing` | home-assistant/brands#5029 | https://github.com/avataar/bg_electricity_regulated_pricing | Active, pushed 2026-07-01 | Upstream PR opened. | avataar/bg_electricity_regulated_pricing#14 |
+| `bgg_collection` | home-assistant/brands#7745 | https://github.com/alberto-bottarini/home-assistant-bgg-collection | Active, pushed 2025-08-22 | Upstream PR opened. | alberto-bottarini/home-assistant-bgg-collection#1 |
+| `billbuster` | home-assistant/brands#7124 | https://github.com/DominikBrezovsek/bb-hacs | Active, pushed 2025-05-25 | Upstream PR opened. | DominikBrezovsek/bb-hacs#1 |
+| `birdfy` | home-assistant/brands#8992 | https://github.com/dakahler/homeassistant-birdfy | Active, pushed 2026-02-01 | Upstream PR opened. | dakahler/homeassistant-birdfy#11 |
+| `ble_smartcube` | home-assistant/brands#9567 | https://github.com/jondycz/ble-smartcube | Active, pushed 2026-02-25 | Upstream PR opened. | jondycz/ble-smartcube#2 |
+| `blinds_controller` | home-assistant/brands#5367 | https://github.com/MatthewOnTour/BUT_blinds_time_control | Active, pushed 2024-04-25 | Upstream PR opened. | MatthewOnTour/BUT_blinds_time_control#14 |
+| `blood_donor` | home-assistant/brands#6647 | https://github.com/B-Hartley/blood_donor | Active, pushed 2025-05-23 | Upstream PR opened. | B-Hartley/blood_donor#4 |
+| `bloomin8_eink_canvas` | home-assistant/brands#8760 | https://github.com/ARPOBOT-BLOOMIN8/eink_canvas_home_assistant_component | Active, pushed 2026-10-13 | Upstream PR opened. | ARPOBOT-BLOOMIN8/eink_canvas_home_assistant_component#28 |
+| `blossom_be` | home-assistant/brands#6184 | https://github.com/thomas-svrts/hacs_blossom_energy | Active, pushed 2026-08-14 | Upstream PR opened. | thomas-svrts/blossom_be#9 |
+| `blueair` | home-assistant/brands#2861 | https://github.com/aijayadams/hass-blueair | Active, pushed 2023-05-08 | Upstream PR opened. | aijayadams/hass-blueair#34 |
+| `bluesky_feed` | home-assistant/brands#9476 | https://github.com/PersephoneKarnstein/ha-bluesky-feed | Active, pushed 2026-03-11 | Upstream PR opened. | PersephoneKarnstein/ha-bluesky-feed#2 |
+| `bluetti` | home-assistant/brands#8226 | https://github.com/bluetti-official/bluetti-home-assistant | Active, pushed 2026-10-13 | Upstream PR opened. | bluetti-official/bluetti-home-assistant#191 |
+| `bluetti_bt` | home-assistant/brands#4576 | https://github.com/Patrick762/hassio-bluetti-bt | Active, pushed 2026-07-08 | Upstream PR opened. | Patrick762/hassio-bluetti-bt#265 |
+| `bm6` | home-assistant/brands#6438 | https://github.com/Rafciq/BM6 | Active, pushed 2026-02-11 | Upstream PR opened. | Rafciq/BM6#46 |
+| `boiler_controller` | home-assistant/brands#9501 | https://github.com/BoilerController/boiler-controller-ha | Active, pushed 2026-05-28 | Upstream PR opened. | BoilerController/boiler-controller-ha#9 |
+| `bokat_se` | home-assistant/brands#6663 | https://github.com/andymcloid/bokat_se_hass | Active, pushed 2025-06-06 | Upstream PR opened. | andymcloid/bokat_se_hass#1 |
+| `bootstrap-icons` | home-assistant/brands#2658 | https://github.com/scottgearyau/hass-bootstrap-icons | Active, pushed 2021-06-28 | Upstream PR opened. | scottdotau/hass-bootstrap-icons#1 |
+| `bopi` | home-assistant/brands#9135 | https://github.com/mderasse/ha-bopi-integration | Active, pushed 2026-01-17 | Upstream PR opened. | mderasse/ha-bopi-integration#2 |
+| `bosch_ebike` | home-assistant/brands#8295 | https://github.com/Phil-Barker/hass-bosch-ebike | Active, pushed 2026-03-14 | Upstream PR opened. | Phil-Barker/hass-bosch-ebike#27 |
+| `bose` | home-assistant/brands#6470 | https://github.com/cavefire/Bose-Homeassistant | Active, pushed 2026-10-10 | Upstream PR opened. | cavefire/Bose-Homeassistant#122 |
+| `boulderwelt` | home-assistant/brands#5814 | https://github.com/FaserF/ha-boulderwelt | Active, pushed 2026-10-16 | Upstream PR opened. | FaserF/ha-boulderwelt#36 |
+| `boy_notify_line` | home-assistant/brands#3502 | https://github.com/boyphongsakorn/HA-Line-Notify | Active, pushed 2022-08-13 | Upstream PR opened. | boyphongsakorn/HA-Line-Notify#1 |
+| `bps` | home-assistant/brands#6522 | https://github.com/Hogster/BPS | Active, pushed 2026-08-12 | Upstream PR opened. | Hogster/BPS#41 |
+| `bq25895` | home-assistant/brands#6913 | https://github.com/DJTerentjev/bq25895 | Active, pushed 2025-05-19 | Upstream PR opened. | DJTerentjev/bq25895#1 |
+| `bradford_white_connect` | home-assistant/brands#5200 | https://github.com/ablyler/home-assistant-bradford-white-connect | Active, pushed 2026-09-21 | Upstream PR opened. | ablyler/home-assistant-bradford-white-connect#81 |
+| `braiins_pool` | home-assistant/brands#7333 | https://github.com/fischerq/ha-braiins-pool | Active, pushed 2025-06-25 | Upstream PR opened. | fischerq/ha-braiins-pool#15 |
+| `brewfather` | home-assistant/brands#3117 | https://github.com/mvddonk/brewfather | Active, pushed 2026-08-27 | Upstream PR opened. | MvdDonk/brewfather#72 |
+| `brother_scanner` | home-assistant/brands#7725 | https://github.com/gabest11/homeassistant-brother_scanner | Active, pushed 2025-09-01 | Upstream PR opened. | gabest11/homeassistant-brother_scanner#1 |
+| `brugmelding` | home-assistant/brands#8798 | https://github.com/svenkopp/brugmelding_HA | Active, pushed 2026-01-06 | Upstream PR opened. | svenkopp/brugmelding_HA#5 |
+| `bsh_tides` | home-assistant/brands#6920 | https://github.com/EnlightningMan/ha-bsh_tides | Active, pushed 2026-06-02 | Upstream PR opened. | EnlightningMan/ha-bsh_tides#8 |
+| `bsk_zephyr_lan` | home-assistant/brands#8251 | https://github.com/davideciarmiello/ha-bskzephyr-lan | Active, pushed 2025-10-29 | Upstream PR opened. | davideciarmiello/ha-bskzephyr-lan#3 |
+| `bticino_hometouch` | home-assistant/brands#9353 | https://github.com/croll83/ha_bticino_hometouch | Active, pushed 2026-10-13 | Upstream PR opened. | croll83/ha_bticino_hometouch#1 |
+| `bticino_intercom` | home-assistant/brands#6911 | https://github.com/k-the-hidden-hero/bticino_intercom | Active, pushed 2026-09-15 | Upstream PR opened. | k-the-hidden-hero/bticino_intercom#97 |
+| `bttf_time_circuits` | home-assistant/brands#8118 | https://github.com/rananna/back-to-the-future-timecircuits | Active, pushed 2025-10-30 | Upstream PR opened. | rananna/back-to-the-future-timecircuits#1161 |
+| `budget_manager` | home-assistant/brands#8746 | https://github.com/qlerup/budget-manager-sync | Active, pushed 2026-01-18 | Upstream PR opened. | qlerup/budget-manager-sync#1 |
+| `budgetenvelope` | home-assistant/brands#5148 | https://github.com/mpschr/budgetenvelope-homeassistant | Active, pushed 2024-02-26 | Upstream PR opened. | mpschr/budgetenvelope-homeassistant#1 |
+| `burze_dzis_net` | home-assistant/brands#4539 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net | Active, pushed 2025-04-05 | Upstream PR opened. | PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net#37 |
+| `butt` | home-assistant/brands#5920 | https://github.com/dboeni/home-assistant-butt | Active, pushed 2026-04-22 | Upstream PR opened. | dboeni/home-assistant-butt#1 |
+| `bwee_home` | home-assistant/brands#6813 | https://github.com/bweetech/ha_bwee_home | Active, pushed 2025-03-27 | Upstream PR opened. | bweetech/ha_bwee_home#1 |
+| `bwt_cosmy` | home-assistant/brands#7691 | https://github.com/Hyrla/integration_bwt_cosmy_ha | Active, pushed 2025-08-16 | Upstream PR opened. | Hyrla/integration_bwt_cosmy_ha#1 |
+| `byd_hvs` | home-assistant/brands#6087 | https://github.com/bbr111/byd_hvs | Active, pushed 2026-07-15 | Upstream PR opened. | bbr111/byd_hvs#39 |
+| `c2_pm5` | home-assistant/brands#8810 | https://github.com/doug-hoffman/ha-c2_pm5 | Active, pushed 2026-01-06 | Upstream PR opened. | doug-hoffman/ha-c2_pm5#2 |
+| `camp_chef` | home-assistant/brands#8968 | https://github.com/doggkruse/ha-campchef | Active, pushed 2026-03-24 | Upstream PR opened. | doggkruse/ha-campchef#3 |
+| `carousel` | home-assistant/brands#5463 | https://github.com/kgn3400/carousel | Active, pushed 2025-06-25 | Upstream PR opened. | kgn3400/carousel#3 |
+| `casambi_mqtt` | home-assistant/brands#6650 | https://github.com/peterklijn/casambi-mqtt | Active, pushed 2026-10-12 | Upstream PR opened. | peterklijn/casambi-mqtt#79 |
+| `cat_scale` | home-assistant/brands#7569 | https://github.com/djbios/home-assistant-cat-scale | Active, pushed 2026-05-05 | Upstream PR opened. | djbios/home-assistant-cat-scale#34 |
+| `catlink` | home-assistant/brands#5801 | https://github.com/alkalixin/catlink | Active, pushed 2025-08-13 | Upstream PR opened. | alkalixin/catlink#1 |
+| `cbr_currency` | home-assistant/brands#7107 | https://github.com/alexanderznamensky/CBR-currency | Active, pushed 2025-05-17 | Upstream PR opened. | alexanderznamensky/CBR-currency#1 |
+| `ccl` | home-assistant/brands#5817 | https://github.com/CCL-Electronics-Ltd/ccl | Active, pushed 2026-09-13 | Upstream PR opened. | CCL-Electronics-Ltd/ccl#20 |
+| `cebl` | home-assistant/brands#5546 | https://github.com/ViceBooster/HA-CEBL | Active, pushed 2026-05-20 | Upstream PR opened. | vicebooster/HA-CEBL#1 |
+| `cecotec_conga` | home-assistant/brands#3527 | https://github.com/alemuro/ha-cecotec-conga | Active, pushed 2026-10-11 | Upstream PR opened. | alemuro/ha-cecotec-conga#55 |
+| `centralino` | home-assistant/brands#9465 | https://github.com/ago19800/centralino | Active, pushed 2026-03-05 | Upstream PR opened. | ago19800/centralino#1 |
+| `chargecloud` | home-assistant/brands#4414 | https://github.com/functionpointer/home-assistant-chargecloud-integration | Active, pushed 2026-10-08 | Upstream PR opened. | functionpointer/home-assistant-chargecloud-integration#15 |
+| `cheapest_energy_windows` | home-assistant/brands#8230 | https://github.com/cheapest-energy-windows/cheapest_energy_windows | Active, pushed 2025-12-30 | Upstream PR opened. | cheapest-energy-windows/cheapest_energy_windows#19 |
+| `checkwatt` | home-assistant/brands#5014 | https://github.com/faanskit/ha-checkwatt | Active, pushed 2026-09-30 | Upstream PR opened. | faanskit/ha-checkwatt#97 |
+| `chefkoch_ha` | home-assistant/brands#5815 | https://github.com/FaserF/ha-chefkoch | Active, pushed 2026-10-11 | Upstream PR opened. | FaserF/ha-chefkoch#40 |
+| `chihiros` | home-assistant/brands#5451 | https://github.com/TheMicDiet/chihiros-led-control | Active, pushed 2026-10-17 | Upstream PR opened. | TheMicDiet/chihiros-led-control#137 |
+| `china_southern_power_grid_stat` | home-assistant/brands#3855 | https://github.com/CubicPill/china_southern_power_grid_stat | Active, pushed 2024-09-18 | Upstream PR opened. | CubicPill/china_southern_power_grid_stat#55 |
+| `china_telecom` | home-assistant/brands#7383 | https://github.com/hlhk2017/ChinaTelecomMonitor-Homeassistant-Integration | Active, pushed 2026-09-22 | Upstream PR opened. | hlhk2017/ChinaTelecomMonitor-Homeassistant-Integration#16 |
+| `chinese_poetry` | home-assistant/brands#7630 | https://github.com/xiaoshi930/chinese_poetry | Active, pushed 2025-08-15 | Upstream PR opened. | xiaoshi930/chinese_poetry#1 |
+| `chorecast` | home-assistant/brands#7816 | https://github.com/KenWeTech/Chorecast | Active, pushed 2025-09-26 | Upstream PR opened. | KenWeTech/Chorecast#3 |
+| `chuango_alarm` | home-assistant/brands#9288 | https://github.com/NemoN/ha-chuango-ov300 | Active, pushed 2026-03-06 | Upstream PR opened. | NemoN/ha-chuango-ov300#4 |
+| `chuck_control` | home-assistant/brands#5309 | https://github.com/TeepCo/chuck-control | Active, pushed 2025-09-22 | Upstream PR opened. | TeepCo/chuck_control#3 |
+| `chuguan_home` | home-assistant/brands#8808 | https://github.com/wang-chuanhui/chuguan_home | Active, pushed 2026-07-27 | Upstream PR opened. | wang-chuanhui/chuguan_home#1 |
+| `cimonitor` | home-assistant/brands#6312 | https://github.com/eXistenZNL/HomeAssistant-CIMonitor | Active, pushed 2025-01-17 | Upstream PR opened. | eXistenZNL/HomeAssistant-CIMonitor#2 |
+| `circadian_lighting` | home-assistant/brands#8182 | https://github.com/claytonjn/hass-circadian_lighting | Active, pushed 2026-10-15 | Not opened. The existing fork frenck/hass-circadian_lighting is stale (2020), so GitHub rejects the push without the `workflow` scope. Needs `gh auth refresh -s workflow` or a fork sync, then retry. |  |
+| `circular` | home-assistant/brands#6051 | https://github.com/GUILEB/integration_circular | Active, pushed 2025-12-07 | Upstream PR opened. | GUILEB/integration_circular#18 |
+| `citizen` | home-assistant/brands#9477 | https://github.com/PersephoneKarnstein/ha-citizen-incidents | Active, pushed 2026-02-14 | Upstream PR opened. | PersephoneKarnstein/ha-citizen-incidents#1 |
+| `citymind_water_meter` | home-assistant/brands#5613 | https://github.com/maorcc/citymind_water_meter | Active, pushed 2026-07-14 | Upstream PR opened. | maorcc/citymind_water_meter#91 |
+| `cjmonitor` | home-assistant/brands#4461 | https://github.com/clydebarrow/ha-cjmonitor | Active, pushed 2024-06-06 | Upstream PR opened. | clydebarrow/ha-cjmonitor#1 |
+| `clash_royale` | home-assistant/brands#8142 | https://github.com/HenkieThee/clash_royale | Active, pushed 2025-10-17 | Upstream PR opened. | HenkieThee/clash_royale#3 |
+| `clickpi_garage_door` | home-assistant/brands#6646 | https://github.com/ChrisTracy/clickpi_garage_door | Active, pushed 2025-09-01 | Upstream PR opened. | ChrisTracy/clickpi_garage_door#1 |
+| `clock_bh` | home-assistant/brands#9287 | https://github.com/iret33/ha-clock-bh | Active, pushed 2026-01-27 | Upstream PR opened. | iret33/ha-clock-bh#1 |
+| `clockify` | home-assistant/brands#7828 | https://github.com/BlythMeister/Clockify-HA | Active, pushed 2026-10-14 | Upstream PR opened. | BlythMeister/Clockify-HA#3 |
+| `cloud_gps` | home-assistant/brands#6441 | https://github.com/dscao/cloud_gps | Active, pushed 2026-05-09 | Upstream PR opened. | dscao/cloud_gps#39 |
+| `cloudflare_speed_test` | home-assistant/brands#6682 | https://github.com/DigitallyRefined/ha-cloudflare-speed-test | Active, pushed 2026-10-18 | Upstream PR opened. | DigitallyRefined/ha-cloudflare-speed-test#127 |
+| `cloudflare_tunnel_monitor` | home-assistant/brands#4754 | https://github.com/deadbeef3137/ha-cloudflare-tunnel-monitor | Active, pushed 2026-03-03 | Upstream PR opened. | deadbeef3137/ha-cloudflare-tunnel-monitor#35 |
+| `clouding` | home-assistant/brands#9524 | https://github.com/bastgau/ha-clouding | Active, pushed 2026-10-18 | Upstream PR opened. | bastgau/ha-clouding#48 |
+| `cloudstash` | home-assistant/brands#9614 | https://github.com/derolli1976/HomeassistantCloudStash | Active, pushed 2026-07-30 | Upstream PR opened. | derolli1976/HomeassistantCloudStash#7 |
+| `cmg_waste_collection` | home-assistant/brands#8246 | https://github.com/ArturZurawski/hacs_cmg_waste_collection | Active, pushed 2025-11-20 | Upstream PR opened. | ArturZurawski/cmg_waste_collection#3 |
+| `combined_energy` | home-assistant/brands#5398 | https://github.com/evilmarty/combined_energy | Active, pushed 2026-10-02 | Upstream PR opened. | evilmarty/combined_energy#70 |
+| `combined_notifications` | home-assistant/brands#9346 | https://github.com/Pjarbit/home-assistant-combined-notification-integration | Active, pushed 2026-09-01 | Upstream PR opened. | Pjarbit/home-assistant-combined-notification-integration#26 |
+| `combustion` | home-assistant/brands#4959 | https://github.com/legrego/homeassistant-combustion | Active, pushed 2025-12-08 | Upstream PR opened. | legrego/homeassistant-combustion#114 |
+| `comelit_intercom` | home-assistant/brands#7566 | https://github.com/nicolas-fricke/ha-component-comelit-intercom | Active, pushed 2025-09-10 | Upstream PR opened. | nicolas-fricke/ha-component-comelit-intercom#16 |
+| `composite` | home-assistant/brands#4147 | https://github.com/pnbruckner/ha-composite-tracker | Active, pushed 2026-06-04 | Upstream PR opened. | pnbruckner/ha-composite-tracker#114 |
+| `computherm_b` | home-assistant/brands#6529 | https://github.com/zadoli/ha-computherm-b | Active, pushed 2026-10-12 | Upstream PR opened. | zadoli/ha-computherm-b#9 |
+| `connectsense` | home-assistant/brands#8632 | https://github.com/connectsense/homeassistant.custom | Active, pushed 2025-12-08 | Upstream PR opened. | connectsense/homeassistant.custom#1 |
+| `containercleaning` | home-assistant/brands#7721 | https://github.com/PatrickSt1991/ha-afvalcontainer-cleaning | Active, pushed 2026-10-02 | Upstream PR opened. | PatrickSt1991/ha-afvalcontainer-cleaning#33 |
+| `controllable` | home-assistant/brands#8757 | https://github.com/caplaz/home-assistant-controllable | Active, pushed 2026-01-08 | Upstream PR opened. | caplaz/home-assistant-controllable#1 |
+| `cool_open_integration` | home-assistant/brands#3673 | https://github.com/ShayGus/cool-open-integration | Active, pushed 2026-08-25 | Upstream PR opened. | ShayGus/cool-open-integration#24 |
+| `copenhagen_trackers` | home-assistant/brands#6321 | https://github.com/Lerbaek/hass-copenhagen-trackers | Active, pushed 2026-02-11 | Upstream PR opened. | Lerbaek/hass-copenhagen-trackers#8 |
+| `cosa` | home-assistant/brands#8585 | https://github.com/ahamitd/cosa-homeassistant | Active, pushed 2026-10-12 | Upstream PR opened. | ahamitd/cosa-homeassistant#6 |
+| `cosori_kettle_ble` | home-assistant/brands#9228 | https://github.com/rygwdn/ha-cosori-kettle | Active, pushed 2026-05-17 | Upstream PR opened. | rygwdn/ha-cosori-kettle#15 |
+| `cover_time_based` | home-assistant/brands#4741 | https://github.com/Sese-Schneider/ha-cover-time-based | Active, pushed 2026-10-15 | Upstream PR opened. | Sese-Schneider/ha-cover-time-based#321 |
+| `cowboy` | home-assistant/brands#5034 | https://github.com/elsbrock/cowboy-ha | Active, pushed 2026-10-18 | Upstream PR opened. | elsbrock/cowboy-ha#144 |
+| `crafty_controller` | home-assistant/brands#5691 | https://github.com/Makhuta/homeassistant-crafty_controller | Active, pushed 2024-09-15 | Upstream PR opened. | Makhuta/homeassistant-crafty_controller#1 |
+| `crescontrol` | home-assistant/brands#5881 | https://github.com/OpenGrow-Box/crescontrol | Active, pushed 2026-06-22 | Upstream PR opened. | OpenGrow-Box/crescontrol#1 |
+| `cronicle` | home-assistant/brands#6708 | https://github.com/aropop/home-assistant-cronicle | Active, pushed 2025-03-11 | Upstream PR opened. | aropop/home-assistant-cronicle#2 |
+| `cronostar` | home-assistant/brands#8994 | https://github.com/FoliniC/CronoStar | Active, pushed 2026-05-17 | Upstream PR opened. | FoliniC/CronoStar#1 |
+| `crowdsec` | home-assistant/brands#8917 | https://github.com/brott8/ha-crowdsec | Active, pushed 2026-09-15 | Upstream PR opened. | brott8/ha-crowdsec#9 |
+| `crunch_o_meter` | home-assistant/brands#2100 | https://github.com/GuyLewin/home-assistant-crunch-o-meter | Active, pushed 2025-06-21 | Upstream PR opened. | GuyLewin/home-assistant-crunch-o-meter#6 |
+| `cryptoinfo_advanced` | home-assistant/brands#4326 | https://github.com/TheHolyRoger/hass-cryptoinfo | Active, pushed 2024-04-11 | Upstream PR opened. | TheHolyRoger/hass-cryptoinfo#18 |
+| `cslab` | home-assistant/brands#5782 | https://github.com/andrzej79/csLights-hass-integration | Active, pushed 2025-12-08 | Upstream PR opened. | andrzej79/csLights-hass-integration#1 |
+| `csu` | home-assistant/brands#5654 | https://github.com/HartD92/ha-cos-utilities | Active, pushed 2024-10-15 | Upstream PR opened. | HartD92/ha-cos-utilities#72 |
+| `cubecoders` | home-assistant/brands#6571 | https://github.com/Samywamy10/ha-cubecoders-amp | Active, pushed 2025-02-17 | Upstream PR opened. | Samywamy10/ha-cubecoders-amp#5 |
+| `cumtd_bus` | home-assistant/brands#9207 | https://github.com/crankynetman/ha-cumtd | Active, pushed 2026-04-21 | Upstream PR opened. | crankynetmaam/ha-cumtd#35 |
+| `custom_alarmdecoder` | home-assistant/brands#7455 | https://github.com/SantiagoSotoC/ha_custom_components | Active, pushed 2026-07-07 | Upstream PR opened. | SantiagoSotoC/ha_custom_components#1 |
+| `custom_areas` | home-assistant/brands#7892 | https://github.com/DefinitelyADev/custom-areas-integration | Active, pushed 2026-10-05 | Upstream PR opened. | DefinitelyADev/custom-areas-integration#90 |
+| `custom_templates` | home-assistant/brands#4344 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-Custom-Templates | Active, pushed 2026-05-03 | Upstream PR opened. | PiotrMachowski/Home-Assistant-custom-components-Custom-Templates#37 |
+| `custstats` | home-assistant/brands#4337 | https://github.com/hekmon/ha-custstats | Active, pushed 2025-12-21 | Upstream PR opened. | hekmon/ha-custstats#4 |
+| `cyberpower_modbus` | home-assistant/brands#9302 | https://github.com/aburow/cyberpower-modbus-ha | Active, pushed 2026-07-07 | Upstream PR opened. | aburow/cyberpower-modbus-ha#5 |
+| `cyclepay` | home-assistant/brands#3477 | https://github.com/elahd/ha-cyclepay | Active, pushed 2026-10-12 | Upstream PR opened. | elahd/ha-cyclepay#27 |
+| `cyltek_gateway` | home-assistant/brands#4459 | https://github.com/CYL-Mark/home-assistant-cyltek_gateway | Active, pushed 2023-06-21 | Upstream PR opened. | CYL-Mark/home-assistant-cyltek_gateway#1 |
+| `czsvatek_sensor` | home-assistant/brands#5803 | https://github.com/LochyCZ/HomeAssistantCZSvatek | Active, pushed 2026-08-10 | Upstream PR opened. | LochyCZ/HomeAssistantCZSvatek#2 |
+| `dae` | home-assistant/brands#5449 | https://github.com/ScottG489/ha-dae | Active, pushed 2026-03-31 | Upstream PR opened. | ScottG489/ha-dae#6 |
+| `daikin_br` | home-assistant/brands#6625 | https://github.com/daikin-br/ha-custom-integration | Active, pushed 2025-07-06 | Upstream PR opened. | daikin-br/ha-custom-integration#12 |
+| `daikin_ha_ekrhh_modbus` | home-assistant/brands#8095 | https://github.com/gerione/daikin-ha-ekrhh-modbus | Active, pushed 2026-10-07 | Upstream PR opened. | gerione/daikin-ha-ekrhh-modbus#37 |
+| `daily_fingerpori` | home-assistant/brands#8415 | https://github.com/Aasikki/daily-fingerpori | Active, pushed 2025-11-14 | Upstream PR opened. | Aasikki/daily-fingerpori#15 |
+| `dali2_iot` | home-assistant/brands#7711 | https://github.com/spuky/lunatone-dali-integration | Active, pushed 2025-10-04 | Upstream PR opened. | spuky/lunatone-dali-integration#5 |
+| `dali_center` | home-assistant/brands#7414 | https://github.com/maginawin/ha-dali-center | Active, pushed 2026-04-07 | Upstream PR opened. | maginawin/ha-dali-center#83 |
+| `danawa_shopping` | home-assistant/brands#4971 | https://github.com/oukene/danawa_shopping | Active, pushed 2025-12-16 | Upstream PR opened. | oukene/danawa_shopping#1 |
+| `dash480` | home-assistant/brands#7950 | https://github.com/dsackr/dash480 | Active, pushed 2026-07-30 | Upstream PR opened. | dsackr/dash480#1 |
+| `dash_bouncer` | home-assistant/brands#9132 | https://github.com/hfehrmann/hass-dash-bouncer | Active, pushed 2026-10-09 | Upstream PR opened. | hfehrmann/hass-dash-bouncer#18 |
+| `dash_cast` | home-assistant/brands#8896 | https://github.com/AlexxIT/DashCast | Active, pushed 2024-12-08 | Upstream PR opened. | AlexxIT/DashCast#34 |
+| `dataplicity` | home-assistant/brands#2492 | https://github.com/AlexxIT/Dataplicity | Active, pushed 2026-09-28 | Upstream PR opened. | AlexxIT/Dataplicity#58 |
+| `ddns` | home-assistant/brands#6397 | https://github.com/weiangongsi/ddns | Active, pushed 2025-08-12 | Upstream PR opened. | dcssn/ddns#7 |
+| `default_config_exclude` | home-assistant/brands#6192 | https://github.com/arturpragacz/hass-cc-default-config-exclude | Active, pushed 2025-02-24 | Upstream PR opened. | arturpragacz/hass-cc-default-config-exclude#4 |
+| `delete` | home-assistant/brands#2354 | https://github.com/chomupashchuk/delete-file-home-assistant | Active, pushed 2023-01-09 | Upstream PR opened. | chomupashchuk/delete-file-home-assistant#34 |
+| `delonghi_dehumidifier_api` | home-assistant/brands#6608 | https://github.com/rtfpessoa/homeassistant-delonghi-dehumidifier | Active, pushed 2025-02-21 | Upstream PR opened. | rtfpessoa/homeassistant-delonghi-dehumidifier#6 |
+| `denon_avr_3805` | home-assistant/brands#8053 | https://github.com/grotan1/denon-avr-3805 | Active, pushed 2026-08-16 | Upstream PR opened. | grotan1/denon-avr-3805#12 |
+| `denon_video_select` | home-assistant/brands#5974 | https://github.com/jzucker2/denon-video-select | Active, pushed 2026-02-03 | Upstream PR opened. | jzucker2/denon-video-select#174 |
+| `desec_io` | home-assistant/brands#7800 | https://github.com/J-CMartin/hass-deSEC | Active, pushed 2025-09-02 | Upstream PR opened. | J-CMartin/hass-deSEC#1 |
+| `dessmonitor` | home-assistant/brands#7769 | https://github.com/andreas-glaser/ha-dessmonitor | Active, pushed 2026-10-13 | Upstream PR opened. | andreas-glaser/ha-dessmonitor#51 |
+| `devtools` | home-assistant/brands#6322 | https://github.com/bendikrb/ha-devtools | Active, pushed 2025-02-26 | Upstream PR opened. | bendikrb/ha-devtools#6 |
+| `dew_point_calculator` | home-assistant/brands#9203 | https://github.com/iret33/ha-dew-point-calculator | Active, pushed 2026-01-27 | Upstream PR opened. | iret33/ha-dew-point-calculator#1 |
+| `dewpoint_calculator` | home-assistant/brands#8978 | https://github.com/sebastian-software/ha-dewpoint-calculator | Active, pushed 2026-09-27 | Upstream PR opened. | sebastian-software/ha-dewpoint-calculator#13 |
+| `dieliga` | home-assistant/brands#6604 | https://github.com/FaserF/ha-dieliga | Active, pushed 2026-10-11 | Upstream PR opened. | FaserF/ha-dieliga#34 |
+| `diesel_heater_ble` | home-assistant/brands#9343 | https://github.com/MJIADEV/Diesel_Heater_BLE | Active, pushed 2026-02-09 | Upstream PR opened. | MJIADEV/Diesel_Heater_BLE#1 |
+| `digital_pendulum` | home-assistant/brands#9341 | https://github.com/Dregi56/digital_pendulum | Active, pushed 2026-10-06 | Upstream PR opened. | Dregi56/digital_pendulum#42 |
+| `digitransit` | home-assistant/brands#5706 | https://github.com/Mallonbacka/custom-component-digitransit | Active, pushed 2026-10-13 | Upstream PR opened. | Mallonbacka/custom-component-digitransit#229 |
+| `dimo` | home-assistant/brands#6127 | https://github.com/ardevd/ha-dimo | Active, pushed 2026-10-17 | Upstream PR opened. | ardevd/ha-dimo#272 |
+| `dingtalk_notify` | home-assistant/brands#8176 | https://github.com/938134/dingtalk_notify | Active, pushed 2026-10-11 | Upstream PR opened. | 938134/dingtalk_notify#1 |
+| `disable_external_login` | home-assistant/brands#9342 | https://github.com/raivisdejus/ha-disable-external-login | Active, pushed 2026-01-31 | Upstream PR opened. | raivisdejus/ha-disable-external-login#1 |
+| `discogs_enhanced` | home-assistant/brands#8732 | https://github.com/andreasc1/homeassistant-discogs-enhanced | Active, pushed 2026-09-06 | Upstream PR opened. | andreasc1/homeassistant-discogs-enhanced#4 |
+| `discogs_sync` | home-assistant/brands#7785 | https://github.com/iamjoshk/discogs_sync | Active, pushed 2026-07-06 | Upstream PR opened. | iamjoshk/discogs_sync#6 |
+| `divoom_pixoo64` | home-assistant/brands#7249 | https://github.com/KoenDierckx/divoom_pixoo64 | Active, pushed 2025-06-16 | Upstream PR opened. | KoenDierckx/divoom_pixoo64#2 |
+| `divus_dplus` | home-assistant/brands#8680 | https://github.com/florianraffl/divus_dplus | Active, pushed 2026-07-20 | Upstream PR opened. | florianraffl/divus_dplus#58 |
+| `dlink_presence` | home-assistant/brands#1863 | https://github.com/ayavilevich/homeassistant-dlink-presence | Active, pushed 2021-08-09 | Upstream PR opened. | ayavilevich/homeassistant-dlink-presence#5 |
+| `docker_status` | home-assistant/brands#5467 | https://github.com/kgn3400/docker_status | Active, pushed 2025-11-28 | Upstream PR opened. | kgn3400/docker_status#6 |
+| `dolby_cp750` | home-assistant/brands#6254 | https://github.com/donfrensis/Dolby-CP750-HA | Active, pushed 2024-12-20 | Upstream PR opened. | donfrensis/Dolby-CP750-HA#1 |
+| `dolphin` | home-assistant/brands#3634 | https://github.com/0xAlon/dolphin | Active, pushed 2026-06-08 | Upstream PR opened. | 0xAlon/dolphin#22 |
+| `domika` | home-assistant/brands#5789 | https://github.com/DevPocket/domika-ha-integration | Active, pushed 2024-09-18 | Upstream PR opened. | DevPocket/domika-ha-integration#1 |
+| `donetick` | home-assistant/brands#6154 | https://github.com/donetick/donetick-hass-integration | Active, pushed 2026-10-14 | Upstream PR opened. | donetick/donetick-hass-integration#73 |
+| `dorsalwatch` | home-assistant/brands#9104 | https://github.com/sh00t2kill/ha-dorsalwatch | Active, pushed 2026-01-14 | Upstream PR opened. | sh00t2kill/ha-dorsalwatch#1 |
+| `drugstore_stock` | home-assistant/brands#7351 | https://github.com/BigPiloto/ha-drugstore-stock | Active, pushed 2025-07-02 | Upstream PR opened. | BigPiloto/ha-drugstore-stock#4 |
+| `ducobox` | home-assistant/brands#8795 | https://github.com/Pauwlus/ha-ducobox-energy-comfort | Active, pushed 2026-06-21 | Upstream PR opened. | Pauwlus/ha-ducobox-energy-comfort#3 |
+| `duet3d` | home-assistant/brands#4368 | https://github.com/Lyr3x/hass-Duet3D | Active, pushed 2026-04-04 | Upstream PR opened. | Lyr3x/hass-Duet3D#34 |
+| `duosida_ev` | home-assistant/brands#8510 | https://github.com/americodias/duosida-ha | Active, pushed 2025-11-21 | Upstream PR opened. | americodias/duosida-ha#2 |
+| `duplicati` | home-assistant/brands#5745 | https://github.com/txxa/hass-duplicati | Active, pushed 2026-01-26 | Upstream PR opened. | txxa/hass-duplicati#128 |
+| `duux` | home-assistant/brands#8188 | https://github.com/SSmale/Duux-Home-Assistant | Active, pushed 2026-10-09 | Upstream PR opened. | SSmale/Duux-Home-Assistant#139 |
+| `duwi_home` | home-assistant/brands#7172 | https://github.com/duwi2024/ha_duwi_home | Active, pushed 2026-10-10 | Upstream PR opened. | duwi2024/ha_duwi_home#2 |
+| `dwd` | home-assistant/brands#2622 | https://github.com/hg1337/homeassistant-dwd | Active, pushed 2026-10-04 | Upstream PR opened. | hg1337/homeassistant-dwd#56 |
+| `dyndns_manager` | home-assistant/brands#7707 | https://github.com/Q14siX/home-assistant-dyndns-manager | Active, pushed 2025-08-19 | Upstream PR opened. | Q14siX/home-assistant-dyndns-manager#1 |
+| `e3dc` | home-assistant/brands#9209 | https://github.com/JohannLegler/e3dc-homeassistant | Active, pushed 2026-01-19 | Upstream PR opened. | JohannLegler/e3dc-homeassistant#1 |
+| `e_redes_smart_metering_plus` | home-assistant/brands#7641 | https://github.com/MiguelTVMS/e-redes-smart-metering-plus-hass | Active, pushed 2026-09-04 | Upstream PR opened. | MiguelTVMS/e-redes-smart-metering-plus-hass#17 |
+| `easee` | home-assistant/brands#1932 | https://github.com/fondberg/easee_hass | Active, pushed 2026-10-18 | Upstream PR opened. | nordicopen/easee_hass#712 |
+| `easy_pv` | home-assistant/brands#7342 | https://github.com/BigBoot/ha-easy-pv | Active, pushed 2026-02-03 | Upstream PR opened. | BigBoot/ha-easy-pv#50 |
+| `easylog_cloud` | home-assistant/brands#7428 | https://github.com/Cadabena/ha-easylog-cloud | Active, pushed 2026-09-05 | Upstream PR opened. | Cadabena/ha-easylog-cloud#98 |
+| `eberspaecher` | home-assistant/brands#9535 | https://github.com/JPTK04/eberspaecher-ha | Active, pushed 2026-02-11 | Upstream PR opened. | JPTK04/eberspaecher-ha#1 |
+| `ebloc_ro` | home-assistant/brands#8020 | https://github.com/boogytotyo/ebloc_ro | Active, pushed 2026-10-18 | Upstream PR opened. | boogytotyo/ebloc_ro#6 |
+| `echorobotics` | home-assistant/brands#4423 | https://github.com/functionpointer/home-assistant-echorobotics-integration | Active, pushed 2026-09-25 | Upstream PR opened. | functionpointer/home-assistant-echorobotics-integration#2 |
+| `econest` | home-assistant/brands#6352 | https://github.com/econest-energy/econest | Active, pushed 2025-01-20 | Upstream PR opened. | econest-energy/econest#1 |
+| `econext` | home-assistant/brands#9458 | https://github.com/LeeNuss/econext | Active, pushed 2026-06-04 | Upstream PR opened. | LeeNuss/econext#25 |
+| `ecopower_dynamic_prices` | home-assistant/brands#9040 | https://github.com/eliaslecomte/ecopower-dynamic-prices | Active, pushed 2026-07-28 | Upstream PR opened. | eliaslecomte/ecopower-dynamic-prices#1 |
+| `ecovacs_cn` | home-assistant/brands#8806 | https://github.com/hoangminh1109/ecovacs_cn | Active, pushed 2026-03-27 | Upstream PR opened. | hoangminh1109/ecovacs_cn#2 |
+| `ecovolter` | home-assistant/brands#7591 | https://github.com/samuelg0rd0n/ha-ecovolter-integration | Active, pushed 2026-07-31 | Upstream PR opened. | samuelg0rd0n/ha-ecovolter-integration#8 |
+| `ecowitt_iot` | home-assistant/brands#6082 | https://github.com/Bwooce/ecowitt_iot | Active, pushed 2025-11-05 | Upstream PR opened. | Bwooce/ecowitt_iot#21 |
+| `edesur_argentina` | home-assistant/brands#8802 | https://github.com/catastrophicode/ha-ar-edesur | Active, pushed 2025-12-30 | Upstream PR opened. | catastrophicode/ha-ar-edesur#5 |
+| `edge_tts_proxy` | home-assistant/brands#6194 | https://github.com/netcookies/Edge-TTS-Proxy | Active, pushed 2025-01-02 | Upstream PR opened. | netcookies/Edge-TTS-Proxy#1 |
+| `eedomus` | home-assistant/brands#9038 | https://github.com/Dan4Jer/hass-eedomus | Active, pushed 2026-10-15 | Upstream PR opened. | Dan4Jer/hass-eedomus#133 |
+| `eetlijst` | home-assistant/brands#4334 | https://github.com/Slalamander/Home-Assistant-Eetlijst | Active, pushed 2024-02-21 | Upstream PR opened. | Slalamander/Home-Assistant-Eetlijst#4 |
+| `eeve_mower_willow` | home-assistant/brands#4688 | https://github.com/flame4ever/eeve_mower_willow | Active, pushed 2026-09-07 | Upstream PR opened. | flame4ever/eeve_mower_willow#29 |
+| `eg4_inverter_modbus` | home-assistant/brands#8655 | https://github.com/poldim/EG4-Inverter-Modbus | Active, pushed 2026-10-01 | Upstream PR opened. | poldim/EG4-Inverter-Modbus#10 |
+| `egi` | home-assistant/brands#6925 | https://github.com/EarthGoodness/egi_vrf | Active, pushed 2025-10-14 | Upstream PR opened. | EarthGoodness/egi#1 |
+| `eia_hourly_demand` | home-assistant/brands#4232 | https://github.com/hokiebrian/eia_hourly_demand | Active, pushed 2025-10-30 | Upstream PR opened. | hokiebrian/eia_hourly_demand#4 |
+| `eldes_alarm` | home-assistant/brands#3102 | https://github.com/augustas2/eldes | Active, pushed 2026-01-03 | Upstream PR opened. | augustas2/eldes#58 |
+| `electric_ireland_insights` | home-assistant/brands#6453 | https://github.com/barreeeiroo/Home-Assistant-Electric-Ireland | Active, pushed 2026-06-14 | Upstream PR opened. | barreeeiroo/Home-Assistant-Electric-Ireland#25 |
+| `elehant` | home-assistant/brands#6108 | https://github.com/dudanov/hassio-elehant | Active, pushed 2026-02-09 | Upstream PR opened. | dudanov/hassio-elehant#3 |
+| `elektrarna` | home-assistant/brands#9836 | https://github.com/RadekSip/homeassistant-elektrarna | Active, pushed 2026-02-18 | Upstream PR opened. | RadekSip/homeassistant-elektrarna#1 |
+| `elektro_network_tariff` | home-assistant/brands#5998 | https://github.com/frlequ/home-assistant-network-tariff | Active, pushed 2024-11-06 | Upstream PR opened. | frlequ/home-assistant-network-tariff#23 |
+| `elektronny_gorod` | home-assistant/brands#4976 | https://github.com/gentslava/elektronny-gorod | Active, pushed 2026-10-05 | Not opened. The upstream `.gitignore` ignores `*.png`, so the assets need a forced add. Needs a decision. |  |
+| `eleven_energy` | home-assistant/brands#6923 | https://github.com/iPeel/HA-Eleven-Energy | Active, pushed 2025-11-12 | Upstream PR opened. | iPeel/HA-Eleven-Energy#4 |
+| `elkbledom_fastlink` | home-assistant/brands#8241 | https://github.com/Satimaro/elkbledom-fastlink | Active, pushed 2025-12-14 | Not opened. The upstream repo is a fork in the same network as elkbledom, so the only fork is frenck/elkbledom and GitHub rejects the push without the `workflow` scope. Needs `gh auth refresh -s workflow`, then retry. |  |
+| `elro_connects_realtime` | home-assistant/brands#7664 | https://github.com/dib0/ha-elro-connects-realtime | Active, pushed 2026-09-05 | Upstream PR opened. | dib0/ha-elro-connects-realtime#7 |
+| `eltako` | home-assistant/brands#4408 | https://github.com/grimmpp/home-assistant-eltako | Active, pushed 2026-08-28 | Upstream PR opened. | grimmpp/home-assistant-eltako#227 |
+| `em6` | home-assistant/brands#4900 | https://github.com/codyc1515/ha-em6 | Active, pushed 2025-08-22 | Upstream PR opened. | codyc1515/ha-em6#12 |
+| `emaux_spv150` | home-assistant/brands#6897 | https://github.com/0jety0/emaux_spv150 | Active, pushed 2026-08-07 | Upstream PR opened. | 0jety0/emaux_spv150#5 |
+| `emby_modern` | home-assistant/brands#8640 | https://github.com/sambarlick/emby | Active, pushed 2025-12-10 | Upstream PR opened. | sambarlick/emby#2 |
+| `emlid` | home-assistant/brands#9563 | https://github.com/bscholer/home-assistant-emlid | Active, pushed 2026-02-13 | Upstream PR opened. | bscholer/home-assistant-emlid#1 |
+| `emonio` | home-assistant/brands#5687 | https://github.com/Emonio/hacs-emonio-p3 | Active, pushed 2026-03-19 | Upstream PR opened. | Emonio/emonio-ha#1 |
+| `emontx_config` | home-assistant/brands#9429 | https://github.com/FredM67/ha-emon-config | Active, pushed 2026-10-14 | Upstream PR opened. | FredM67/ha-emon-config#29 |
+| `enbw_chargestations` | home-assistant/brands#5528 | https://github.com/mKenfenheuer/enbw_chargestations | Active, pushed 2026-10-12 | Upstream PR opened. | mKenfenheuer/enbw_chargestations#32 |
+| `energa_awarie` | home-assistant/brands#8086 | https://github.com/chauek/energa_awarie | Active, pushed 2025-10-06 | Upstream PR opened. | chauek/energa_awarie#1 |
+| `energie_impuls` | home-assistant/brands#7326 | https://github.com/doenke/ha-energie-impuls | Active, pushed 2026-05-12 | Upstream PR opened. | doenke/ha-energie-impuls#35 |
+| `energosbyt_plus` | home-assistant/brands#2729 | https://github.com/alryaz/hass-energosbyt-plus | Active, pushed 2023-07-08 | Upstream PR opened. | alryaz/hass-energosbyt-plus#12 |
+| `energy_hub_poland` | home-assistant/brands#9179 | https://github.com/AllonGit/energy_hub_poland | Active, pushed 2026-10-04 | Upstream PR opened. | AllonGit/energy_hub_poland#56 |
+| `energy_management` | home-assistant/brands#8244 | https://github.com/davidrapan/ha-energy | Active, pushed 2026-10-07 | Upstream PR opened. | davidrapan/ha-energy#2 |
+| `energycalc` | home-assistant/brands#8191 | https://github.com/zacs/ha-energycalc | Active, pushed 2026-08-17 | Upstream PR opened. | zacs/ha-energycalc#6 |
+| `energylive` | home-assistant/brands#6434 | https://github.com/berwinter/ha-energylive | Active, pushed 2025-11-05 | Upstream PR opened. | berwinter/ha-energylive#2 |
+| `energytariff` | home-assistant/brands#4096 | https://github.com/epaulsen/energytariff | Active, pushed 2026-10-01 | Upstream PR opened. | epaulsen/energytariff#54 |
+| `energyzero_gql_sensor` | home-assistant/brands#5496 | https://github.com/Sikerdebaard/energyzero-all-in-gasprice | Active, pushed 2024-05-24 | Upstream PR opened. | Sikerdebaard/energyzero-all-in-gasprice#1 |
+| `engie_ro` | home-assistant/brands#7773 | https://github.com/boogytotyo/engie_ro | Active, pushed 2026-10-18 | Upstream PR opened. | boogytotyo/engie_ro#42 |
+| `enode` | home-assistant/brands#7059 | https://github.com/evilmarty/enode | Active, pushed 2026-08-15 | Upstream PR opened. | evilmarty/enode#33 |
+| `enovates` | home-assistant/brands#9054 | https://github.com/enovates/home-assistant-enovates | Active, pushed 2026-04-22 | Upstream PR opened. | enovates/home-assistant-enovates#34 |
+| `enpal_website` | home-assistant/brands#6892 | https://github.com/T3rr0rS0ck3/home-assistant-enpal-website | Active, pushed 2025-06-20 | Upstream PR opened. | T3rr0rS0ck3/home-assistant-enpal-website#1 |
+| `enphase_gateway` | home-assistant/brands#4511 | https://github.com/Hoffmann77/home_assistant_enphase_gateway | Active, pushed 2025-11-24 | Upstream PR opened. | Hoffmann77/home_assistant_enphase_gateway#35 |
+| `entity_tz` | home-assistant/brands#4977 | https://github.com/pnbruckner/ha-entity-tz | Active, pushed 2025-10-23 | Upstream PR opened. | pnbruckner/ha-entity-tz#19 |
+| `entsoe` | home-assistant/brands#3715 | https://github.com/JaccoR/hass-entso-e | Active, pushed 2026-06-22 | Upstream PR opened. | JaccoR/hass-entso-e#332 |
+| `envertech_local` | home-assistant/brands#7882 | https://github.com/Kaiserdragon2/Envertech_local | Active, pushed 2025-11-25 | Upstream PR opened. | Kaiserdragon2/Envertech_local#4 |
+| `environment_variable` | home-assistant/brands#5812 | https://github.com/Athozs/hass-environment-variable | Active, pushed 2026-07-24 | Upstream PR opened. | Athozs/hass-environment-variable#1 |
+| `eot_home` | home-assistant/brands#9412 | https://github.com/ElectroceanTech/HomeAssistant | Active, pushed 2026-04-13 | Upstream PR opened. | ElectroceanTech/HomeAssistant#9 |
+| `epb` | home-assistant/brands#6709 | https://github.com/asachs01/ha-epb | Active, pushed 2026-07-23 | Upstream PR opened. | asachs01/ha-epb#6 |
+| `epex_spot` | home-assistant/brands#3962 | https://github.com/mampfes/hacs_epex_spot | Active, pushed 2026-06-24 | Upstream PR opened. | mampfes/ha_epex_spot#327 |
+| `epson_projector_link` | home-assistant/brands#3761 | https://github.com/amosyuen/ha-epson-projector-link | Active, pushed 2026-10-16 | Upstream PR opened. | amosyuen/ha-epson-projector-link#315 |
+| `equation_ha` | home-assistant/brands#9221 | https://github.com/Nacho2001903/equation-heaters-ha | Active, pushed 2026-01-22 | Upstream PR opened. | Nacho2001903/equation-heaters-ha#1 |
+| `ergomotion` | home-assistant/brands#4737 | https://github.com/AlexxIT/Ergomotion | Active, pushed 2024-12-06 | Upstream PR opened. | AlexxIT/Ergomotion#14 |
+| `esa_nask` | home-assistant/brands#3983 | https://github.com/Mr-Groch/HA-ESA-NASK-Air-Quality | Active, pushed 2025-03-24 | Upstream PR opened. | Mr-Groch/HA-ESA-NASK-Air-Quality#9 |
+| `esplus` | home-assistant/brands#7979 | https://github.com/g470258/hass-esplus | Active, pushed 2026-02-05 | Upstream PR opened. | g470258/hass-esplus#13 |
+| `espuino` | home-assistant/brands#7274 | https://github.com/DexXxter007/ESPuino_HA_Integration | Active, pushed 2026-03-25 | Upstream PR opened. | DexXxter007/ESPuino_HA_Integration#4 |
+| `estrannaise` | home-assistant/brands#9478 | https://github.com/PersephoneKarnstein/ha-estrannaise | Active, pushed 2026-08-18 | Upstream PR opened. | PersephoneKarnstein/ha-estrannaise#2 |
+| `estudna` | home-assistant/brands#3469 | https://github.com/nijel/hass-estudna | Active, pushed 2026-10-17 | Upstream PR opened. | nijel/hass-estudna#195 |
+| `esy_sunhome` | home-assistant/brands#7696 | https://github.com/branko-lazarevic/esysunhome | Active, pushed 2026-10-14 | Upstream PR opened. | branko-lazarevic/esysunhome#29 |
+| `etatherm_modbus` | home-assistant/brands#6545 | https://github.com/PatrikTrestik/homeassistant_etatherm_modbus | Active, pushed 2026-08-30 | Upstream PR opened. | PatrikTrestik/homeassistant_etatherm_modbus#10 |
+| `etekcitybp_ble` | home-assistant/brands#7531 | https://github.com/EdLeckert/ha_etekcity_blood_pressure_monitor | Active, pushed 2026-08-08 | Upstream PR opened. | EdLeckert/ha_etekcity_blood_pressure_monitor#5 |
+| `euros_os` | home-assistant/brands#8519 | https://github.com/McKoPcIu/EurosOS | Active, pushed 2026-01-24 | Upstream PR opened. | McKoPcIu/EurosOS#2 |
+| `euskalmet` | home-assistant/brands#8702 | https://github.com/Arbide/euskalmet-hassio | Active, pushed 2026-10-08 | Upstream PR opened. | Arbide/euskalmet-hassio#4 |
+| `ev_load_balancing` | home-assistant/brands#6189 | https://github.com/dala318/ev_load_balancing | Active, pushed 2025-01-14 | Upstream PR opened. | dala318/ev_load_balancing#21 |
+| `ev_optimizer` | home-assistant/brands#9338 | https://github.com/Tiimber/ev_optimizer | Active, pushed 2026-09-18 | Upstream PR opened. | Tiimber/ev_optimizer#1 |
+| `ev_smart_charger` | home-assistant/brands#8358 | https://github.com/antbald/ha-ev-smart-charger | Active, pushed 2026-09-28 | Upstream PR opened. | antbald/ha-ev-smart-charger#64 |
+| `evcnet` | home-assistant/brands#8245 | https://github.com/Platzii/homeassistant-evcnet | Active, pushed 2026-02-18 | Upstream PR opened. | Platzii/homeassistant-evcnet#44 |
+| `evduty` | home-assistant/brands#5194 | https://github.com/happydev-ca/evduty-home-assistant | Active, pushed 2026-05-23 | Upstream PR opened. | happydev-ca/evduty-home-assistant#7 |
+| `eventsensor` | home-assistant/brands#1576 | https://github.com/azogue/eventsensor | Active, pushed 2026-10-05 | Upstream PR opened. | azogue/eventsensor#78 |
+| `eversolar_pmu` | home-assistant/brands#9298 | https://github.com/aburow/eversolar-pmu-ha | Active, pushed 2026-02-16 | Upstream PR opened. | aburow/eversolar-pmu-ha#1 |
+| `evnex` | home-assistant/brands#3649 | https://github.com/hardbyte/ha-evnex | Active, pushed 2026-10-04 | Upstream PR opened. | hardbyte/ha-evnex#117 |
+| `evocarshare` | home-assistant/brands#6351 | https://github.com/jazzz/ha-evocarshare | Active, pushed 2025-05-15 | Upstream PR opened. | jazzz/ha-evocarshare#12 |
+| `evse_charger` | home-assistant/brands#9602 | https://github.com/DmytryS/ha-evse-charger | Active, pushed 2026-02-15 | Upstream PR opened. | DmytryS/ha-evse-charger#2 |
+| `exaviz` | home-assistant/brands#9484 | https://github.com/exavizco/ha-poe-plugin | Active, pushed 2026-10-16 | Upstream PR opened. | exavizco/ha-poe-plugin#26 |
+| `exchange_calendar` | home-assistant/brands#9554 | https://github.com/bohemtucsok/homeassistant-exchange-calendar | Active, pushed 2026-09-24 | Upstream PR opened. | bohemtucsok/homeassistant-exchange-calendar#17 |
+| `exciting_information` | home-assistant/brands#9354 | https://github.com/404GamerNotFound/ha-exciting-information | Active, pushed 2026-02-01 | Upstream PR opened. | 404GamerNotFound/ha-exciting-information#19 |
+| `exo_pool` | home-assistant/brands#7864 | https://github.com/benjycov/exo_pool | Active, pushed 2026-04-27 | Upstream PR opened. | benjycov/exo_pool#27 |
+| `extron` | home-assistant/brands#5793 | https://github.com/NitorCreations/ha-extron | Active, pushed 2026-10-11 | Upstream PR opened. | NitorCreations/ha-extron#37 |
+| `eyeonsaur` | home-assistant/brands#6542 | https://github.com/cekage/eyeonsaur-ha | Active, pushed 2025-03-03 | Upstream PR opened. | cekage/eyeonsaur-ha#18 |
+| `ezviz_hp7` | home-assistant/brands#8417 | https://github.com/Bobsilvio/ezviz_hp7 | Active, pushed 2026-10-10 | Upstream PR opened. | Bobsilvio/ezviz_hp7#79 |
+| `facebook_messenger` | home-assistant/brands#3660 | https://github.com/emes30/facebook_messenger | Active, pushed 2022-09-26 | Upstream PR opened. | emes30/facebook_messenger#10 |
+| `family_bell` | home-assistant/brands#8619 | https://github.com/brewmarsh/family-bell | Active, pushed 2026-07-20 | Upstream PR opened. | brewmarsh/family-bell#105 |
+| `feelfit` | home-assistant/brands#7899 | https://github.com/Sanji78/feelfit | Active, pushed 2026-10-03 | Upstream PR opened. | Sanji78/feelfit#6 |
+| `fellow` | home-assistant/brands#6402 | https://github.com/NewsGuyTor/FellowAiden-HomeAssistant | Active, pushed 2026-10-05 | Not opened. The upstream PR template requires an "AI models used" disclosure. Needs a decision. |  |
+| `fellow_stagg` | home-assistant/brands#9370 | https://github.com/bramboe/stagg-ekg-plus-ha | Active, pushed 2026-10-15 | Upstream PR opened. | bramboe/stagg-ekg-plus-ha#10 |
+| `fellow_stagg_ekg_pro` | home-assistant/brands#8863 | https://github.com/cermakjn/ha-fellow-stagg-ekg-pro | Active, pushed 2026-01-20 | Upstream PR opened. | cermakjn/ha-fellow-stagg-ekg-pro#4 |
+| `fermax_duoxme` | home-assistant/brands#7379 | https://github.com/edualm/ha-fermax-duoxme | Active, pushed 2026-10-12 | Upstream PR opened. | edualm/ha-fermax-duoxme#8 |
+| `ferro_ai_companion` | home-assistant/brands#7246 | https://github.com/jonasbkarlsson/ferro_ai_companion | Active, pushed 2025-12-15 | Upstream PR opened. | jonasbkarlsson/ferro_ai_companion#48 |
+| `fetch_latest_file` | home-assistant/brands#8204 | https://github.com/ScottESanDiego/Fetch-Latest-File | Active, pushed 2026-10-13 | Upstream PR opened. | ScottESanDiego/Fetch-Latest-File#3 |
+| `ffes_sauna` | home-assistant/brands#8326 | https://github.com/LeszekWroblowski/ffes_sauna__modbus_home_assistant | Active, pushed 2026-03-20 | Upstream PR opened. | LeszekWroblowski/ffes_sauna__modbus_home_assistant#4 |
+| `fglair_heatpump_controller` | home-assistant/brands#5972 | https://github.com/bigmoby/fglair_for_homeassistant | Active, pushed 2026-10-09 | Upstream PR opened. | bigmoby/fglair_for_homeassistant#354 |
+| `fiftyfive` | home-assistant/brands#9089 | https://github.com/Crazy-Duck/home-assistant-fiftyfive | Active, pushed 2026-10-16 | Upstream PR opened. | Crazy-Duck/home-assistant-fiftyfive#107 |
+| `fill_pdf_form` | home-assistant/brands#6424 | https://github.com/duvalale/fill-pdf-form | Active, pushed 2025-02-19 | Upstream PR opened. | duvalale/fill-pdf-form#1 |
+| `fiobank_sensor` | home-assistant/brands#5900 | https://github.com/LochyCZ/HomeAssistantFiobank | Active, pushed 2024-08-29 | Upstream PR opened. | LochyCZ/HomeAssistantFiobank#1 |
+| `fireboard` | home-assistant/brands#7046 | https://github.com/dvd604/fireboard-homeassistant | Active, pushed 2025-05-09 | Upstream PR opened. | dvd604/fireboard-homeassistant#1 |
+| `firefly_cloud` | home-assistant/brands#8080 | https://github.com/matt-richardson/home-assistant-firefly-cloud | Active, pushed 2026-10-11 | Upstream PR opened. | matt-richardson/home-assistant-firefly-cloud#40 |
+| `fishing_assistant` | home-assistant/brands#6916 | https://github.com/bairnhard/fishing_assistant | Active, pushed 2026-02-21 | Upstream PR opened. | bairnhard/fishing_assistant#8 |
+| `flamerite` | home-assistant/brands#8951 | https://github.com/achilleasa/flamerite_ha | Active, pushed 2026-01-14 | Upstream PR opened. | achilleasa/flamerite_ha#6 |
+| `flashforge_adventurer_5` | home-assistant/brands#7265 | https://github.com/kruzhkov/hass-flashforge-adventurer-5 | Active, pushed 2025-06-13 | Upstream PR opened. | kruzhkov/hass-flashforge-adventurer-5#15 |
+| `flatastic` | home-assistant/brands#7430 | https://github.com/avidoni/hass-flatastic | Active, pushed 2025-11-27 | Upstream PR opened. | avidoni/hass-flatastic#3 |
+| `flavor_of_the_day` | home-assistant/brands#8030 | https://github.com/abhichandra21/ha-flavoroftheday | Active, pushed 2025-10-02 | Upstream PR opened. | abhichandra21/ha-flavoroftheday#1 |
+| `flexmeasures_hacs` | home-assistant/brands#4880 | https://github.com/FlexMeasures/flexmeasures-hacs | Active, pushed 2026-09-16 | Upstream PR opened. | FlexMeasures/flexmeasures-ha-integration#32 |
+| `flexopus` | home-assistant/brands#4776 | https://github.com/flexopus/flexopus-hass-sensor | Active, pushed 2026-10-17 | Upstream PR opened. | flexopus/flexopus-hass-sensor#17 |
+| `flipper_bridge` | home-assistant/brands#9244 | https://github.com/markszabo/home-assistant-flipper-bridge | Active, pushed 2026-01-23 | Upstream PR opened. | markszabo/home-assistant-flipper-bridge#2 |
+| `flipper_rc` | home-assistant/brands#7123 | https://github.com/ClusterM/flipper_rc | Active, pushed 2026-08-16 | Upstream PR opened. | ClusterM/flipper_rc#14 |
+| `flowerhub` | home-assistant/brands#8759 | https://github.com/MichaelPihlblad/flowerhub_homeassistant_integration | Active, pushed 2026-07-16 | Upstream PR opened. | MichaelPihlblad/flowerhub_homeassistant_integration#16 |
+| `fluvius` | home-assistant/brands#8547 | https://github.com/sander110419/Fluvius-home-assistant | Active, pushed 2026-10-05 | Upstream PR opened. | sander110419/Fluvius-home-assistant#29 |
+| `fn_nas` | home-assistant/brands#7330 | https://github.com/anxms/fn_nas | Active, pushed 2025-07-28 | Upstream PR opened. | anxms/fn_nas#22 |
+| `foldingathomecontrol` | home-assistant/brands#1594 | https://github.com/eifinger/hass-foldingathomecontrol | Active, pushed 2024-11-26 | Upstream PR opened. | eifinger/hass-foldingathomecontrol#460 |
+| `foobar2000` | home-assistant/brands#6548 | https://github.com/talmuth/ha_foobar2k | Active, pushed 2025-02-12 | Upstream PR opened. | talmuth/ha_foobar2k#1 |
+| `foodsharing` | home-assistant/brands#3471 | https://github.com/FaserF/ha-foodsharing | Active, pushed 2026-10-14 | Upstream PR opened. | FaserF/ha-foodsharing#37 |
+| `foxess_api` | home-assistant/brands#5145 | https://github.com/SoftXperience/home-assistant-foxess-api | Active, pushed 2024-03-04 | Upstream PR opened. | SoftXperience/home-assistant-foxess-api#9 |
+| `frapol_econet300_heat_recovery` | home-assistant/brands#7872 | https://github.com/pworoniecki/frapol-ecoNET-300-Home-Assistant-Integration | Active, pushed 2025-09-15 | Upstream PR opened. | pworoniecki/frapol-ecoNET-300-Home-Assistant-Integration#1 |
+| `free_sleep` | home-assistant/brands#8497 | https://github.com/Mrtenz/hass-free-sleep | Active, pushed 2026-10-12 | Upstream PR opened. | Mrtenz/hass-free-sleep#139 |
+| `freebox_home` | home-assistant/brands#6363 | https://github.com/gvigroux/freebox_home | Active, pushed 2025-01-25 | Upstream PR opened. | gvigroux/freebox_home#31 |
+| `fritzbox_callmonitor_raw` | home-assistant/brands#9310 | https://github.com/Sanji78/fritzbox_callmonitor_raw | Active, pushed 2026-02-14 | Upstream PR opened. | Sanji78/fritzbox_callmonitor_raw#3 |
+| `frixos` | home-assistant/brands#8858 | https://github.com/ArtLogicIKE/frixos-ha-integration | Active, pushed 2026-07-23 | Upstream PR opened. | ArtLogicIKE/frixos-ha-integration#4 |
+| `froeling_connect` | home-assistant/brands#5600 | https://github.com/d3nergy/froeling_connect | Active, pushed 2024-08-08 | Upstream PR opened. | d3nergy/froeling_connect#1 |
+| `froeling_s3200_modbus` | home-assistant/brands#8061 | https://github.com/Toxo666/ha_froeling_modbus | Active, pushed 2026-09-14 | Upstream PR opened. | sbstn-0x2a/ha_froeling_modbus#1 |
+| `fsk_armme` | home-assistant/brands#8187 | https://github.com/RenierM26/fsk_armme | Active, pushed 2025-11-21 | Upstream PR opened. | RenierM26/fsk_armme#3 |
+| `fsolar_modbus` | home-assistant/brands#8535 | https://github.com/comcowo/fsolar_modbus | Active, pushed 2026-04-09 | Upstream PR opened. | comcowo/fsolar_modbus#29 |
+| `ftms` | home-assistant/brands#5557 | https://github.com/dudanov/hassio-ftms | Active, pushed 2025-03-01 | Upstream PR opened. | dudanov/hassio-ftms#60 |
+| `fujitsu_airstage` | home-assistant/brands#4603 | https://github.com/danielkaldheim/ha_airstage | Active, pushed 2026-09-14 | Upstream PR opened. | danielkaldheim/ha_airstage#128 |
+| `fullup` | home-assistant/brands#6226 | https://github.com/zedissime/ha-fullup | Active, pushed 2024-12-16 | Upstream PR opened. | zedissime/ha-fullup#4 |
+| `furbulous` | home-assistant/brands#8331 | https://github.com/FabienBounoir/furbulous-litterbox-home-assistant | Active, pushed 2025-11-08 | Upstream PR opened. | FabienBounoir/furbulous-litterbox-home-assistant#2 |
+| `ga_autoexpose` | home-assistant/brands#8928 | https://github.com/pvries86/hass-ga-autoexpose | Active, pushed 2026-08-18 | Upstream PR opened. | pvries86/hass-ga-autoexpose#1 |
+| `gama_300_dlms_meter_reader` | home-assistant/brands#4317 | https://github.com/astraliens/home-assistant-gama-300-dlms-meter | Active, pushed 2026-10-08 | Upstream PR opened. | astraliens/home-assistant-gama-300-dlms-meter#2 |
+| `gamewire` | home-assistant/brands#5665 | https://github.com/actstorms/ha-gamewire | Active, pushed 2024-07-15 | Upstream PR opened. | actstorms/ha-gamewire#1 |
+| `garmin_mapshare` | home-assistant/brands#4634 | https://github.com/BHSPitMonkey/homeassistant-garmin-mapshare | Active, pushed 2025-06-28 | Upstream PR opened. | BHSPitMonkey/homeassistant-garmin-mapshare#12 |
+| `garnet` | home-assistant/brands#7075 | https://github.com/danTapps/garnet | Active, pushed 2026-02-17 | Upstream PR opened. | danTapps/garnet#9 |
+| `garnet_home_assistant` | home-assistant/brands#7228 | https://github.com/claudio-pires/garnet-home-assistant | Active, pushed 2026-06-07 | Upstream PR opened. | claudio-pires/garnet_home_assistant#11 |
+| `geappliances` | home-assistant/brands#7546 | https://github.com/geappliances/hacs-integration | Active, pushed 2026-09-22 | Upstream PR opened. | geappliances/geappliances-integration#43 |
+| `geberit_aquaclean` | home-assistant/brands#7763 | https://github.com/avassdal/ha-geberit-aquaclean | Active, pushed 2025-09-04 | Upstream PR opened. | FacePlant101/ha-geberit-aquaclean#1 |
+| `geizhals_integration` | home-assistant/brands#7527 | https://github.com/CommanderRedYT/homeassistant-geizhals-integration | Active, pushed 2025-12-01 | Upstream PR opened. | CommanderRedYT/homeassistant-geizhals-integration#26 |
+| `generac` | home-assistant/brands#4601 | https://github.com/bentekkie/ha-generac | Active, pushed 2025-03-31 | Upstream PR opened. | bentekkie/ha-generac#142 |
+| `geod_balance` | home-assistant/brands#7474 | https://github.com/rPonuganti/geod-balance-homeassistant | Active, pushed 2025-07-16 | Upstream PR opened. | rPonuganti/geod-balance-homeassistant#1 |
+| `ghostfolio` | home-assistant/brands#7955 | https://github.com/MichelFR/ha_ghostfolio | Active, pushed 2026-10-16 | Upstream PR opened. | MichelFR/ha_ghostfolio#5 |
+| `gismeteo` | home-assistant/brands#2311 | https://github.com/Limych/ha-gismeteo | Active, pushed 2024-12-23 | Upstream PR opened. | Limych/ha-gismeteo#235 |
+| `givenergy_local` | home-assistant/brands#3318 | https://github.com/cdpuk/givenergy-local | Active, pushed 2026-09-10 | Upstream PR opened. | cdpuk/givenergy-local#166 |
+| `glance_clock` | home-assistant/brands#8372 | https://github.com/PorlyBe/glance_clock_ha | Active, pushed 2025-11-13 | Upstream PR opened. | PorlyBe/glance_clock_ha#14 |
+| `glkvm` | home-assistant/brands#9211 | https://github.com/Scalegj/glkvm-homeassistant-integration | Active, pushed 2026-01-20 | Upstream PR opened. | Scalegj/glkvm-homeassistant-integration#1 |
+| `glue_lock` | home-assistant/brands#7749 | https://github.com/aniiik/glue_lock_hass | Active, pushed 2025-10-27 | Upstream PR opened. | aniiik/glue_lock_hass#15 |
+| `gne_pv_monitoring` | home-assistant/brands#4066 | https://github.com/PiotrMachowski/Home-Assistant-custom-components-GNE-PV-Monitoring | Active, pushed 2025-04-05 | Upstream PR opened. | PiotrMachowski/Home-Assistant-custom-components-GNE-PV-Monitoring#11 |
+| `gobzigh` | home-assistant/brands#7766 | https://github.com/RASBR/home-assistant-gobzigh | Active, pushed 2026-05-14 | Upstream PR opened. | RASBR/home-assistant-gobzigh#1 |
+| `godaikin` | home-assistant/brands#8385 | https://github.com/doubleukay/godaikin-ha | Active, pushed 2025-11-15 | Upstream PR opened. | doubleukay/godaikin-ha#13 |
+| `gofanco_prophecy` | home-assistant/brands#6158 | https://github.com/gloriousdisaster/Home-Assistant-HDMI-PRO-Matrix | Active, pushed 2026-04-24 | Upstream PR opened. | gloriousdisaster/Home-Assistant-HDMI-PRO-Matrix#1 |
+| `gofullhanger` | home-assistant/brands#6919 | https://github.com/bobbyleu/gofullhanger | Active, pushed 2026-05-09 | Upstream PR opened. | bobbyleu/gofullhanger#1 |
+| `gonzales` | home-assistant/brands#9413 | https://github.com/akustikrausch/gonzales-ha | Active, pushed 2026-06-11 | Upstream PR opened. | akustikrausch/gonzales-ha#1 |
+| `google_aqi` | home-assistant/brands#6755 | https://github.com/bairnhard/home-assistant-google-aqi | Active, pushed 2026-02-21 | Upstream PR opened. | bairnhard/home-assistant-google-aqi#8 |
+| `google_drive_file_manager` | home-assistant/brands#9216 | https://github.com/wisse-smit/ha_google_drive_file_manager | Active, pushed 2025-10-22 | Upstream PR opened. | wisse-smit/ha_google_drive_file_manager#21 |
+| `google_pollen` | home-assistant/brands#9261 | https://github.com/robbybarnes/google_pollen | Active, pushed 2026-10-07 | Upstream PR opened. | robbybarnes/google_pollen#5 |
+| `googlefindmy` | home-assistant/brands#7907 | https://github.com/BSkando/GoogleFindMy-HA | Active, pushed 2026-10-17 | Upstream PR opened. | BSkando/GoogleFindMy-HA#231 |
+| `govee` | home-assistant/brands#2374 | https://github.com/LaggAt/hacs-govee | Active, pushed 2026-04-28 | Upstream PR opened. | LaggAt/hacs-govee#292 |
+| `govee_cloud` | home-assistant/brands#6964 | https://github.com/DnAp/ha-govee-cloud | Active, pushed 2026-05-20 | Upstream PR opened. | DnAp/ha-govee-cloud#1 |
+| `govje_parking` | home-assistant/brands#9188 | https://github.com/Migz93/ha-govje_parking | Active, pushed 2026-10-15 | Not opened. The upstream PR template requires AI assistance and human review disclosures. Needs a decision. |  |
+| `govje_weather` | home-assistant/brands#9187 | https://github.com/Migz93/ha-govje_weather | Active, pushed 2026-10-13 | Not opened. The upstream PR template requires AI assistance and human review disclosures. Needs a decision. |  |
+| `gpio` | home-assistant/brands#5123 | https://github.com/jlinford/ha-gpio | Active, pushed 2024-03-31 | Upstream PR opened. | jlinford/ha-gpio#5 |
+| `gpodder` | home-assistant/brands#1737 | https://github.com/custom-components/gpodder | Active, pushed 2021-06-05 | Upstream PR opened. | custom-components/gpodder#26 |
+| `gpslive` | home-assistant/brands#8574 | https://github.com/BenWolstencroft/home-assistant-gpslive-integration | Active, pushed 2025-11-28 | Upstream PR opened. | BenWolstencroft/home-assistant-gpslive-integration#1 |
+| `gree_central` | home-assistant/brands#9434 | https://github.com/cyanogenic/Ha-GreeCentralClimate | Active, pushed 2026-02-06 | Upstream PR opened. | cyanogenic/Ha-GreeCentralClimate#3 |
+| `greenhess` | home-assistant/brands#7863 | https://github.com/greenhess/adap1meter | Active, pushed 2026-01-27 | Upstream PR opened. | greenhess/adap1meter#10 |
+| `greenworks` | home-assistant/brands#7506 | https://github.com/Boes24/GreenWorks-HA | Active, pushed 2025-08-16 | Upstream PR opened. | Boes24/GreenWorks-HA#4 |
+| `grill_buddy` | home-assistant/brands#5489 | https://github.com/jeroenterheerdt/grillbuddy | Active, pushed 2025-07-14 | Upstream PR opened. | jeroenterheerdt/grillbuddy#16 |
+| `grohe_smarthome` | home-assistant/brands#6305 | https://github.com/Flo-Schilli/ha-grohe_smarthome | Active, pushed 2026-10-14 | Upstream PR opened. | Flo-Schilli/ha-grohe_smarthome#117 |
+| `grott` | home-assistant/brands#4342 | https://github.com/muppet3000/homeassistant-grott | Active, pushed 2026-04-14 | Upstream PR opened. | muppet3000/homeassistant-grott#124 |
+| `growatt_thor` | home-assistant/brands#8963 | https://github.com/bobbesnl/growatt_thor | Active, pushed 2026-10-17 | Upstream PR opened. | bobbesnl/growatt_thor#61 |
+| `gruenbeck_cloud` | home-assistant/brands#5126 | https://github.com/p0l0/hagruenbeck_cloud | Active, pushed 2025-11-24 | Upstream PR opened. | p0l0/hagruenbeck_cloud#276 |
+| `gyverlamp` | home-assistant/brands#2491 | https://github.com/AlexxIT/GyverLamp | Active, pushed 2024-12-08 | Upstream PR opened. | AlexxIT/GyverLamp#22 |
+| `ha_bm2monitor` | home-assistant/brands#7004 | https://github.com/andystewart999/ha_bm2monitor | Active, pushed 2026-09-04 | Upstream PR opened. | andystewart999/ha_bm2monitor#7 |
+| `ha_creality_ws` | home-assistant/brands#8124 | https://github.com/3dg1luk43/ha_creality_ws | Active, pushed 2026-10-08 | Not opened. The upstream PR template says to open an issue first and wait for the `accepted` label, and closes PRs without one. |  |
+| `ha_ddp2wled` | home-assistant/brands#8867 | https://github.com/iamjoshk/ha_ddp2wled | Active, pushed 2026-02-16 | Upstream PR opened. | iamjoshk/ha_ddp2wled#3 |
+| `ha_departures` | home-assistant/brands#6183 | https://github.com/alex-jung/ha-departures | Active, pushed 2026-10-14 | Upstream PR opened. | alex-jung/ha-departures#239 |
+| `ha_ecowitt_iot` | home-assistant/brands#8851 | https://github.com/Ecowitt/ha-ecowitt-iot | Active, pushed 2026-09-10 | Upstream PR opened. | Ecowitt/ha-ecowitt-iot#97 |
+| `ha_gtt` | home-assistant/brands#8690 | https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT | Active, pushed 2026-01-13 | Upstream PR opened. | aesoftsolutions/Home-Assistant-custom-components-GTT#1 |
+| `ha_kassalapp` | home-assistant/brands#5186 | https://github.com/bendikrb/ha-kassalapp | Active, pushed 2024-12-04 | Upstream PR opened. | bendikrb/ha-kassalapp#1 |
+| `ha_keenetic` | home-assistant/brands#6584 | https://github.com/akinin/ha_keenetic | Active, pushed 2026-09-21 | Upstream PR opened. | akinin/ha_keenetic#28 |
+| `ha_kumo_ws` | home-assistant/brands#8804 | https://github.com/EnumC/ha_kumo_ws | Active, pushed 2026-10-04 | Upstream PR opened. | EnumC/ha_kumo_ws#2 |
+| `ha_light_controller` | home-assistant/brands#9263 | https://github.com/L3DigitalNet/HA-Light-Controller | Active, pushed 2026-06-25 | Upstream PR opened. | L3DigitalNet/ha-light-controller#21 |
+| `ha_media_bridge` | home-assistant/brands#9361 | https://github.com/mwenghi/ha-media-bridge | Active, pushed 2026-02-03 | Upstream PR opened. | mwenghi/ha-media-bridge#1 |
+| `ha_mystop` | home-assistant/brands#8594 | https://github.com/MapGuy11/ha-myStop | Active, pushed 2026-03-09 | Upstream PR opened. | MapGuy11/ha-myStop#2 |
+| `ha_oekofen` | home-assistant/brands#4301 | https://github.com/ckarrie/homeassistant-oekofen | Active, pushed 2023-11-03 | Upstream PR opened. | ckarrie/homeassistant-oekofen#16 |
+| `ha_opcua_discovery` | home-assistant/brands#7841 | https://github.com/guanaco0403/Home-Assistant-Opcua-Discovery | Active, pushed 2026-06-03 | Upstream PR opened. | guanaco0403/Home-Assistant-Opcua-Discovery#7 |
+| `ha_politikontroller` | home-assistant/brands#6160 | https://github.com/bendikrb/ha-politikontroller | Active, pushed 2025-05-29 | Upstream PR opened. | bendikrb/ha-politikontroller#2 |
+| `ha_scheduler` | home-assistant/brands#8711 | https://github.com/Smiley73/ha-scheduler | Active, pushed 2026-10-15 | Upstream PR opened. | Smiley73/ha-scheduler#113 |
+| `ha_sunforecast_plus` | home-assistant/brands#6905 | https://github.com/chourmovs/ha-sunforecast-plus | Active, pushed 2026-04-11 | Upstream PR opened. | chourmovs/ha-sunforecast-plus#44 |
+| `ha_tedee_lock` | home-assistant/brands#3505 | https://github.com/andrzejchm/ha_tedee_lock | Active, pushed 2023-03-03 | Upstream PR opened. | andrzejchm/ha_tedee_lock#187 |
+| `ha_tracker` | home-assistant/brands#6494 | https://github.com/vgcouso/ha-tracker | Active, pushed 2026-10-10 | Upstream PR opened. | vgcouso/ha-tracker#44 |
+| `ha_transportnsw` | home-assistant/brands#5885 | https://github.com/andystewart999/ha_transportnsw | Active, pushed 2026-09-18 | Upstream PR opened. | andystewart999/ha_transportnsw#51 |
+| `ha_unavailable_devices_report` | home-assistant/brands#9449 | https://github.com/VilniusTechnology/ha-unavailable-devices-report | Active, pushed 2026-03-05 | Upstream PR opened. | VilniusTechnology/ha-unavailable-devices-report#8 |
+| `ha_users` | home-assistant/brands#8967 | https://github.com/lukegackle/Home-Assistant-User-Info-Integration | Active, pushed 2026-02-21 | Upstream PR opened. | lukegackle/Home-Assistant-User-Info-Integration#1 |
+| `ha_usms` | home-assistant/brands#6918 | https://github.com/azsaurr/ha_usms | Active, pushed 2026-10-13 | Upstream PR opened. | azsaurr/ha_usms#81 |
+| `ha_vacation` | home-assistant/brands#6726 | https://github.com/touero/HaVacation | Active, pushed 2026-07-03 | Upstream PR opened. | touero/HaVacation#28 |
+| `ha_wordplay` | home-assistant/brands#7692 | https://github.com/CBDesignS/ha-wordplay | Active, pushed 2026-01-05 | Upstream PR opened. | CBDesignS/ha-wordplay#5 |
+| `hacs-minerstat` | home-assistant/brands#1684 | https://github.com/gilsonmandalogo/hacs-minerstat | Active, pushed 2022-01-11 | Upstream PR opened. | gilsonmandalogo/hacs-minerstat#11 |
+| `hafele_connect_mesh` | home-assistant/brands#5504 | https://github.com/guillaumeseur/hafele_connect_mesh | Active, pushed 2025-01-22 | Upstream PR opened. | guillaumeseur/hafele_connect_mesh#6 |
+| `hafo` | home-assistant/brands#8807 | https://github.com/hass-energy/hafo | Active, pushed 2026-04-14 | Upstream PR opened. | hass-energy/hafo#35 |
+| `haier_evo` | home-assistant/brands#5465 | https://github.com/and7ey/haier_evo | Active, pushed 2026-05-15 | Upstream PR opened. | and7ey/haier_evo#104 |
+| `hakboard` | home-assistant/brands#8606 | https://github.com/aktive/hakboard | Active, pushed 2025-12-02 | Upstream PR opened. | aktive/hakboard#2 |
+| `ham_radio_propagation` | home-assistant/brands#4218 | https://github.com/emics/ham_radio_propagation | Active, pushed 2025-07-08 | Upstream PR opened. | emics/ham_radio_propagation#47 |
+| `handballnet` | home-assistant/brands#7142 | https://github.com/miggi92/hass-handball.net | Active, pushed 2026-10-17 | Upstream PR opened. | miggi92/hass-handball.net#89 |
+| `harvest_right` | home-assistant/brands#9490 | https://github.com/itsdrewmiller/ha-harvest-right | Active, pushed 2026-09-08 | Upstream PR opened. | itsdrewmiller/ha-harvest-right#5 |
+| `harvest_time_tracker` | home-assistant/brands#4465 | https://github.com/BottlecapDave/HomeAssistant-HarvestTimeTracker | Active, pushed 2026-02-09 | Upstream PR opened. | BottlecapDave/HomeAssistant-HarvestTimeTracker#18 |
+| `harvia_sauna` | home-assistant/brands#9630 | https://github.com/brettmeyerowitz/ha-harvia-xenio-wifi | Active, pushed 2026-08-08 | Upstream PR opened. | brettmeyerowitz/ha-harvia-xenio-wifi#2 |
+| `haseiq` | home-assistant/brands#6080 | https://github.com/Xsez/haseiq | Active, pushed 2026-10-17 | Upstream PR opened. | Xsez/haseiq#3 |
+| `hass_agent` | home-assistant/brands#3712 | https://github.com/LAB02-Research/HASS.Agent-Integration | Active, pushed 2024-05-09 | Upstream PR opened. | LAB02-Research/HASS.Agent-Integration#68 |
+| `hass_agent_notifier` | home-assistant/brands#2961 | https://github.com/LAB02-Research/HASS.Agent-Notifier | Active, pushed 2022-11-17 | Upstream PR opened. | LAB02-Research/HASS.Agent-Notifier#32 |
+| `hass_claude_usage` | home-assistant/brands#9491 | https://github.com/trickv/hass-claude-usage | Active, pushed 2026-08-28 | Upstream PR opened. | trickv/hass-claude-usage#18 |
+| `hass_ensto_ble` | home-assistant/brands#6656 | https://github.com/ExMacro/hass_ensto_ble | Active, pushed 2026-10-09 | Upstream PR opened. | ExMacro/hass_ensto_ble#36 |
+| `hass_gira_iot_api` | home-assistant/brands#8200 | https://github.com/MadOne/hass_gira_iot_api | Active, pushed 2026-01-04 | Upstream PR opened. | MadOne/hass_gira_iot_api#9 |
+| `hass_meteolux` | home-assistant/brands#7580 | https://github.com/sim0nx/hass_meteolux | Active, pushed 2026-05-17 | Upstream PR opened. | sim0nx/hass_meteolux#1 |
+| `hassarr` | home-assistant/brands#6268 | https://github.com/TegridyTate/Hassarr | Active, pushed 2024-12-26 | Upstream PR opened. | TegridyTate/Hassarr#18 |
+| `hastrom_flex` | home-assistant/brands#9235 | https://github.com/f2daz/ha-integration_hastrom_flex | Active, pushed 2026-09-17 | Upstream PR opened. | f2daz/ha-integration_hastrom_flex#1 |
+| `hausbus` | home-assistant/brands#7758 | https://github.com/hausbus/integration_hausbus | Active, pushed 2026-05-30 | Upstream PR opened. | hausbus/integration_hausbus#3 |
+| `hdg_boiler` | home-assistant/brands#8812 | https://github.com/banter240/hdg_bavaria_homeassistant | Active, pushed 2026-10-18 | Upstream PR opened. | banter240/hdg_bavaria_homeassistant#67 |
+| `healthsync_ha` | home-assistant/brands#8610 | https://github.com/InfoSecured/healthsync-ha | Active, pushed 2026-03-19 | Upstream PR opened. | WeaveHubHQ/healthsync-ha#4 |
+| `heat_pump_pilot` | home-assistant/brands#8848 | https://github.com/andox/heat-pump-pilot | Active, pushed 2026-10-06 | Upstream PR opened. | andox/heat-pump-pilot#1 |
+| `heatapp_local` | home-assistant/brands#4379 | https://github.com/sfstar/hass-heatapp_local | Active, pushed 2023-06-09 | Upstream PR opened. | sfstar/hass-heatapp_local#8 |
+| `heizoel24mex` | home-assistant/brands#5621 | https://github.com/MartinStoffel/heizoel24mex | Active, pushed 2026-10-17 | Upstream PR opened. | MartinStoffel/heizoel24mex#15 |
+| `heizungs_pull` | home-assistant/brands#9572 | https://github.com/manny0808/Heizungs-pull | Active, pushed 2026-02-17 | Upstream PR opened. | manny0808/Heizungs-pull#1 |
+| `hekr` | home-assistant/brands#1678 | https://github.com/alryaz/hass-hekr-component | Active, pushed 2025-07-15 | Upstream PR opened. | alryaz/hass-hekr-component#33 |
+| `helen_energy` | home-assistant/brands#7915 | https://github.com/carohauta/oma-helen-ha-integration | Active, pushed 2026-10-01 | Upstream PR opened. | carohauta/oma-helen-ha-integration#45 |
+| `helium_solana` | home-assistant/brands#4340 | https://github.com/enes-oerdek/Home-Assistant-Helium-Integration | Active, pushed 2025-01-05 | Upstream PR opened. | enes-oerdek/Home-Assistant-Helium-Integration#24 |
+| `hella_onyx` | home-assistant/brands#2257 | https://github.com/muhlba91/onyx-homeassistant-integration | Active, pushed 2026-10-17 | Upstream PR opened. | muhlba91/onyx-homeassistant-integration#696 |
+| `herohealth` | home-assistant/brands#9522 | https://github.com/dakahler/ha_herohealth | Active, pushed 2026-02-11 | Upstream PR opened. | dakahler/ha_herohealth#1 |
+| `herospeed_xvr` | home-assistant/brands#6040 | https://github.com/DominikWrobel/herospeed_xvr | Active, pushed 2026-09-05 | Upstream PR opened. | DominikWrobel/herospeed_xvr#1 |
+| `hetzner` | home-assistant/brands#9332 | https://github.com/Dixet/homeassistant_hetzner | Active, pushed 2026-07-21 | Upstream PR opened. | Dixet/homeassistant_hetzner#9 |
+| `hevy` | home-assistant/brands#6735 | https://github.com/hudsonbrendon/HA-hevy | Active, pushed 2026-07-20 | Upstream PR opened. | hudsonbrendon/HA-hevy#99 |
+| `hgsmart` | home-assistant/brands#9347 | https://github.com/Serjlee/hacs_hgsmart-pet-feeder | Active, pushed 2026-09-14 | Upstream PR opened. | Serjlee/HA_hgsmart-pet-feeder#12 |
+| `hid_usbrelay` | home-assistant/brands#8520 | https://github.com/arnoudkooi/ha-hid-usbrelay | Active, pushed 2025-11-24 | Upstream PR opened. | arnoudkooi/ha-hid-usbrelay#1 |
+| `hisense` | home-assistant/brands#5588 | https://github.com/manymuch/HisenseHA | Active, pushed 2026-10-11 | Upstream PR opened. | manymuch/HisenseHA#32 |
+| `hisense_ac_plugin` | home-assistant/brands#7422 | https://github.com/Connectlife-LLC/HomeAssistantPlugin | Active, pushed 2025-07-03 | Upstream PR opened. | Connectlife-LLC/HomeAssistantPlugin#47 |
+| `hive_local_thermostat` | home-assistant/brands#5360 | https://github.com/andrew-codechimp/HA-Hive-Local-Thermostat | Active, pushed 2026-03-26 | Not opened. Pull requests are disabled on the upstream repository. |  |
+| `hivi_speaker` | home-assistant/brands#9004 | https://github.com/swansmart/hivi_speaker | Active, pushed 2026-02-09 | Upstream PR opened. | swansmart/hivi_speaker#1 |
+| `hk_air_quality` | home-assistant/brands#5606 | https://github.com/yangqian/hass-hk_air_quality | Active, pushed 2026-06-21 | Upstream PR opened. | yangqian/hass-hk_air_quality#1 |
+| `holfuy` | home-assistant/brands#7016 | https://github.com/haavardj/ha-holfuy | Active, pushed 2025-05-17 | Upstream PR opened. | haavardj/ha-holfuy#1 |
+| `home_agent` | home-assistant/brands#8567 | https://github.com/aradlein/hass-agent-llm | Active, pushed 2026-05-11 | Upstream PR opened. | aradlein/hass-agent-llm#53 |
+| `home_infopoint` | home-assistant/brands#9470 | https://github.com/ToperGamesYT/home-infopoint | Active, pushed 2026-02-14 | Upstream PR opened. | ToperGamesYT/home-infopoint#1 |
+| `home_inventory` | home-assistant/brands#8243 | https://github.com/SnipsC0/Home-Inventory | Active, pushed 2026-03-20 | Upstream PR opened. | SnipsC0/Home-Inventory#7 |
+| `home_maintenance` | home-assistant/brands#7178 | https://github.com/TJPoorman/home_maintenance | Active, pushed 2026-02-03 | Upstream PR opened. | TJPoorman/home_maintenance#123 |
+| `home_performance` | home-assistant/brands#8766 | https://github.com/Hugofromfrance/home_performance | Active, pushed 2026-06-12 | Upstream PR opened. | Hugofromfrance/home_performance#86 |
+| `homeclaw` | home-assistant/brands#9517 | https://github.com/Thioby/homeclaw-agent | Active, pushed 2026-09-01 | Upstream PR opened. | Thioby/homeclaw-agent#8 |
+| `homeconnect_ws` | home-assistant/brands#6707 | https://github.com/chris-mc1/homeconnect_local_hass | Active, pushed 2026-10-18 | Upstream PR opened. | chris-mc1/homeconnect_local_hass#538 |
+| `homely` | home-assistant/brands#8110 | https://github.com/bjafl/homely-ha | Active, pushed 2026-07-06 | Upstream PR opened. | bjafl/homely-ha#5 |
+| `homevolt_local` | home-assistant/brands#8681 | https://github.com/JohNan/homeassistant-homevolt-local | Active, pushed 2026-10-14 | Upstream PR opened. | JohNan/homeassistant-homevolt-local#127 |
+| `homewerks_smart_fan` | home-assistant/brands#9243 | https://github.com/RayHollister/homewerks-smart-fan-integration | Active, pushed 2026-05-17 | Upstream PR opened. | RayHollister/homewerks-smart-fan-integration#7 |
+| `hon` | home-assistant/brands#4196 | https://github.com/Andre0512/hon | Active, pushed 2024-08-15 | Upstream PR opened. | Andre0512/hon#332 |
+| `honghui_climate` | home-assistant/brands#6776 | https://github.com/zhheo/ha_honghui_climate | Active, pushed 2026-04-27 | Upstream PR opened. | zhheo/ha_honghui_climate#9 |
+| `hottoh` | home-assistant/brands#4889 | https://github.com/benlbrm/ha-hottoh-component | Active, pushed 2026-06-23 | Upstream PR opened. | benlbrm/ha-hottoh-component#29 |
+| `hs_command_listener` | home-assistant/brands#7180 | https://github.com/alexbk66/hs_command_listener2 | Active, pushed 2026-10-13 | Upstream PR opened. | alexbk66/hs_command_listener2#2 |
+| `htd` | home-assistant/brands#6333 | https://github.com/hikirsch/htd-home-assistant | Active, pushed 2026-02-15 | Upstream PR opened. | hikirsch/htd-home-assistant#45 |
+| `http_garage_toggle` | home-assistant/brands#7697 | https://github.com/DoWenzl94/http_garage_toggle | Active, pushed 2025-08-16 | Upstream PR opened. | DoWenzl94/http_garage_toggle#1 |
+| `hubc2000pp` | home-assistant/brands#4205 | https://github.com/Regressor/hass-hubc2000pp | Active, pushed 2026-09-21 | Upstream PR opened. | Regressor/hass-hubc2000pp#7 |
+| `huerizon` | home-assistant/brands#8309 | https://github.com/Avasond/Huerizon | Active, pushed 2025-11-02 | Upstream PR opened. | Avasond/Huerizon#1 |
+| `huffbox` | home-assistant/brands#5679 | https://github.com/AlienCatTech/ha-huffbox | Active, pushed 2025-01-25 | Upstream PR opened. | AlienCatTech/ha-huffbox#2 |
+| `huggingchat_conversation` | home-assistant/brands#5088 | https://github.com/PhoenixR49/hass-huggingchat-conversation | Active, pushed 2025-04-30 | Upstream PR opened. | PhoenixR49/hass-huggingchat-conversation#27 |
+| `hummingbot` | home-assistant/brands#4388 | https://github.com/TheHolyRoger/hass-hummingbot | Active, pushed 2023-05-21 | Upstream PR opened. | TheHolyRoger/hass-hummingbot#1 |
+| `hunter_wifi` | home-assistant/brands#9631 | https://github.com/DmytryS/ha-hunter-wifi | Active, pushed 2026-05-01 | Upstream PR opened. | DmytryS/ha-hunter-wifi#10 |
+| `hvac_group` | home-assistant/brands#4796 | https://github.com/tetele/hvac_group | Active, pushed 2025-06-20 | Upstream PR opened. | tetele/hvac_group#125 |
+| `hydrolix_history` | home-assistant/brands#9518 | https://github.com/dsztykman/hydrolix_home_assistant | Active, pushed 2026-02-10 | Upstream PR opened. | dsztykman/hydrolix_home_assistant#1 |
+| `hydropeak` | home-assistant/brands#6329 | https://github.com/Beat-YT/hydropeak-ha | Active, pushed 2026-06-16 | Upstream PR opened. | Beat-YT/hydropeak-ha#21 |
+| `hydroqc` | home-assistant/brands#8621 | https://github.com/hydroqc/hydroqc-ha | Active, pushed 2026-09-19 | Upstream PR opened. | hydroqc/hydroqc-ha#146 |
+| `hyperbase` | home-assistant/brands#7760 | https://github.com/eclipseron/homeassistant-hyperbase | Active, pushed 2025-09-30 | Upstream PR opened. | eclipseron/homeassistant-hyperbase#23 |
+| `hyperliquid` | home-assistant/brands#9316 | https://github.com/beMoD/homeassistant-hyperliquid | Active, pushed 2026-10-16 | Upstream PR opened. | beMoD/homeassistant-hyperliquid#1 |
+| `i_regul_heatpump` | home-assistant/brands#5347 | https://github.com/RedPaladin/i_regul_heatpump | Active, pushed 2025-09-30 | Upstream PR opened. | RedPaladin/i_regul_heatpump#1 |
+| `iaquk` | home-assistant/brands#2312 | https://github.com/Limych/ha-iaquk | Active, pushed 2025-01-04 | Upstream PR opened. | Limych/ha-iaquk#177 |
+| `ica` | home-assistant/brands#6632 | https://github.com/LazyTarget/ha-ica-todo | Active, pushed 2026-09-03 | Upstream PR opened. | lazytarget/ha-ica-todo#41 |
+| `idiamant` | home-assistant/brands#3211 | https://github.com/clementprevot/home-assistant-idiamant | Active, pushed 2023-03-03 | Upstream PR opened. | clementprevot/home-assistant-idiamant#208 |
+| `idm_hpweb` | home-assistant/brands#9425 | https://github.com/AndyNew2/hacs-idm-hpweb | Active, pushed 2026-08-03 | Upstream PR opened. | AndyNew2/hacs-idm-hpweb#13 |
+| `ihomma_sml` | home-assistant/brands#6578 | https://github.com/gawindx/iHomma-SML | Active, pushed 2025-03-04 | Upstream PR opened. | gawindx/iHomma-SML#1 |
+| `ikuai` | home-assistant/brands#4018 | https://github.com/dscao/ikuai | Active, pushed 2026-02-16 | Upstream PR opened. | dscao/ikuai#38 |
+| `imgw_pib_monitor` | home-assistant/brands#9539 | https://github.com/abnvle/ha-imgw-pib-monitor | Active, pushed 2026-05-06 | Upstream PR opened. | abnvle/ha-imgw-pib-monitor#13 |
+| `immersive_home` | home-assistant/brands#5477 | https://github.com/Nitwel/Immersive-Home | Active, pushed 2025-01-28 | Upstream PR opened. | Nitwel/Immersive-Home#193 |
+| `imou_cam_ptz` | home-assistant/brands#8805 | https://github.com/hoangminh1109/imou_cam_ptz | Active, pushed 2026-01-10 | Upstream PR opened. | hoangminh1109/imou_cam_ptz#1 |
+| `impc_energy` | home-assistant/brands#4235 | https://github.com/NiaoBlush/impc_energy | Active, pushed 2026-06-24 | Upstream PR opened. | NiaoBlush/impc_energy#9 |
+| `ims_envista` | home-assistant/brands#5896 | https://github.com/guyKh/ims-envista-custom-component | Active, pushed 2026-10-13 | Upstream PR opened. | GuyKh/ims-envista-custom-component#115 |
+| `ina219_ups_hat` | home-assistant/brands#4799 | https://github.com/odya/hacs-ina219-ups-hat | Active, pushed 2024-11-12 | Upstream PR opened. | odya/hass-ina219-ups-hat#42 |
+| `indigo_springs` | home-assistant/brands#6838 | https://github.com/bhackworth/hass-indigo-springs | Active, pushed 2025-05-10 | Upstream PR opened. | bhackworth/hass-indigo-springs#2 |
+| `influxdb_query_api` | home-assistant/brands#8325 | https://github.com/Riscue/ha-influxdb-query-api | Active, pushed 2025-11-17 | Upstream PR opened. | Riscue/ha-influxdb-query-api#1 |
+| `infometric` | home-assistant/brands#7423 | https://github.com/AndersMarkoff/homeassistant-infometric | Active, pushed 2025-07-09 | Upstream PR opened. | AndersMarkoff/homeassistant-infometric#1 |
+| `ingv_centro_nazionale_terremoti` | home-assistant/brands#1978 | https://github.com/caiosweet/Home-Assistant-custom-components-INGV | Active, pushed 2026-06-19 | Upstream PR opened. | caiosweet/Home-Assistant-custom-components-INGV#43 |
+| `inim_cloud` | home-assistant/brands#7323 | https://github.com/lacherogwu/ha-inim_cloud | Active, pushed 2025-06-23 | Upstream PR opened. | lacherogwu/ha-inim_cloud#2 |
+| `inmet_weather` | home-assistant/brands#8224 | https://github.com/zanaca/ha-inmet-weather | Active, pushed 2025-12-04 | Upstream PR opened. | zanaca/ha-inmet-weather#18 |
+| `innova` | home-assistant/brands#3416 | https://github.com/danielrivard/homeassistant-innova | Active, pushed 2026-10-14 | Upstream PR opened. | danielrivard/homeassistant-innova#337 |
+| `input_stats` | home-assistant/brands#5499 | https://github.com/MiguelAngelLV/ha-input-stats | Active, pushed 2024-11-13 | Upstream PR opened. | miguelangellv/ha-input-stats#7 |
+| `inspire_home_automation` | home-assistant/brands#9482 | https://github.com/Smart-Home-Shop/ha-inspire-integration | Active, pushed 2026-02-08 | Upstream PR opened. | Smart-Home-Shop/ha-inspire-integration#1 |
+| `intelbras_alarm` | home-assistant/brands#7489 | https://github.com/tarikbc/ha-intelbras-alarm | Active, pushed 2026-08-12 | Upstream PR opened. | tarikbc/ha-intelbras-alarm#5 |
+| `intelligent_heating_pilot` | home-assistant/brands#9289 | https://github.com/RastaChaum/Intelligent-Heating-Pilot | Active, pushed 2026-10-13 | Upstream PR opened. | RastaChaum/Intelligent-Heating-Pilot#154 |
+| `intersvyaz` | home-assistant/brands#6439 | https://github.com/hoolea/intersvyaz_hass | Active, pushed 2026-10-15 | Upstream PR opened. | hoolea/intersvyaz_hass#11 |
+| `intesishome_local` | home-assistant/brands#6083 | https://github.com/donfrensis/HA-IntesisHome-Local | Active, pushed 2024-11-13 | Upstream PR opened. | donfrensis/HA-IntesisHome-Local#3 |
+| `intex_spa` | home-assistant/brands#3550 | https://github.com/mathieu-mp/homeassistant-intex-spa | Active, pushed 2026-02-13 | Upstream PR opened. | mathieu-mp/homeassistant-intex-spa#157 |
+| `intre_smart_home_control` | home-assistant/brands#7716 | https://github.com/xmhfw/Intre_Smart_Home_Control | Active, pushed 2025-12-04 | Upstream PR opened. | xmhfw/Intre_Smart_Home_Control#5 |
+| `invader_tracker` | home-assistant/brands#9284 | https://github.com/Trolent/HA-Invader-Tracker | Active, pushed 2026-06-06 | Upstream PR opened. | Timothee-Rolland/HA-Invader-Tracker#1 |
+| `inverter_controller` | home-assistant/brands#8868 | https://github.com/MarcelWepper/Inverter-Controller-HACS | Active, pushed 2026-03-18 | Upstream PR opened. | MarcelWepper/Inverter-Controller#2 |
+| `inverter_xpert_king` | home-assistant/brands#4318 | https://github.com/astraliens/home-assistant-inverter-xpert-king | Active, pushed 2026-08-29 | Upstream PR opened. | astraliens/home-assistant-inverter-xpert-king#4 |
+| `investing_portfolio` | home-assistant/brands#8852 | https://github.com/T-leco/investing_portfolio | Active, pushed 2025-12-24 | Upstream PR opened. | T-leco/investing_portfolio#1 |
+| `iopool` | home-assistant/brands#7037 | https://github.com/mguyard/hass-iopool | Active, pushed 2026-10-12 | Upstream PR opened. | mguyard/hass-iopool#126 |
+| `ipcom` | home-assistant/brands#9118 | https://github.com/J-Delsinne/AnB_Rimex-HomeAnyWhere-HA-Integration | Active, pushed 2026-02-08 | Upstream PR opened. | J-Delsinne/AnB_Rimex-HomeAnyWhere-HA-Integration#16 |
+| `ipixel_color` | home-assistant/brands#8683 | https://github.com/cagcoach/ha-ipixel-color | Active, pushed 2025-12-16 | Upstream PR opened. | cagcoach/ha-ipixel-color#47 |
+| `ipmi` | home-assistant/brands#4512 | https://github.com/ateodorescu/home-assistant-ipmi | Active, pushed 2026-09-15 | Upstream PR opened. | ateodorescu/home-assistant-ipmi#93 |
+| `ipv64` | home-assistant/brands#4492 | https://github.com/Ludy87/ipv64 | Active, pushed 2026-10-17 | Upstream PR opened. | Ludy87/ipv64#473 |
+| `ir_light` | home-assistant/brands#8769 | https://github.com/Infinitte/HA-IR-Light | Active, pushed 2026-02-06 | Upstream PR opened. | Infinitte/HA-IR-Light#4 |
+| `iracing` | home-assistant/brands#4855 | https://github.com/cazeaux/ha-iracing | Active, pushed 2025-12-13 | Upstream PR opened. | cazeaux/ha-iracing#28 |
+| `irsap_ha` | home-assistant/brands#6039 | https://github.com/hexCut/irsap-ha | Active, pushed 2026-10-17 | Not opened. The upstream PR template says to open PRs against `dev`, so the branch has to be based on `dev`, not the default branch. |  |
+| `ista_calista` | home-assistant/brands#6893 | https://github.com/herruzo99/ista-calista | Active, pushed 2026-04-02 | Upstream PR opened. | herruzo99/ista-calista#2 |
+| `ista_online` | home-assistant/brands#7567 | https://github.com/JeppeLeth/hass-ista-online | Active, pushed 2026-10-12 | Upstream PR opened. | JeppeLeth/hass-ista-online#2 |
+| `istoreos` | home-assistant/brands#8355 | https://github.com/SJMTIII/istoreos | Active, pushed 2025-11-05 | Upstream PR opened. | SJMTIII/istoreos#2 |
+| `itchio` | home-assistant/brands#6085 | https://github.com/Hermesiss/itchio_homeassistant | Active, pushed 2025-05-26 | Upstream PR opened. | Hermesiss/itchio_homeassistant#3 |
+| `ivent` | home-assistant/brands#7366 | https://github.com/cbuctok/ha-ivent | Active, pushed 2025-06-14 | Upstream PR opened. | cbuctok/ha-ivent#2 |
+| `ivideon` | home-assistant/brands#8959 | https://github.com/alexanderznamensky/ivideon | Active, pushed 2026-05-13 | Upstream PR opened. | alexanderznamensky/Ivideon#1 |
+| `ixfield` | home-assistant/brands#7726 | https://github.com/samsk/ixfield-cloud | Active, pushed 2025-10-06 | Upstream PR opened. | samsk/ixfield-cloud#4 |
+| `jet2` | home-assistant/brands#5764 | https://github.com/jampez77/Jet2 | Active, pushed 2026-09-01 | Upstream PR opened. | jampez77/Jet2#7 |
+| `jira_filters` | home-assistant/brands#8125 | https://github.com/dotelpenguin/ha-integration-jirafilters | Active, pushed 2025-10-27 | Upstream PR opened. | dotelpenguin/ha-integration-jirafilters#11 |
+| `jokes` | home-assistant/brands#3859 | https://github.com/LaggAt/hacs-jokes | Active, pushed 2025-01-07 | Upstream PR opened. | LaggAt/ha-jokes#18 |
+| `jq300` | home-assistant/brands#2313 | https://github.com/Limych/ha-jq300 | Active, pushed 2023-03-08 | Upstream PR opened. | Limych/ha-jq300#139 |
+| `jriver` | home-assistant/brands#5071 | https://github.com/3ll3d00d/jriver_homeassistant | Active, pushed 2025-10-03 | Upstream PR opened. | 3ll3d00d/jriver_homeassistant#29 |
+| `judo_rest_api` | home-assistant/brands#6236 | https://github.com/OStrama/judo_rest_api | Active, pushed 2025-08-31 | Upstream PR opened. | OStrama/judo_rest_api#48 |
+| `jura` | home-assistant/brands#4661 | https://github.com/AlexxIT/Jura | Active, pushed 2026-10-01 | Upstream PR opened. | AlexxIT/Jura#75 |
+| `kadermanager` | home-assistant/brands#5550 | https://github.com/FaserF/ha-kadermanager | Active, pushed 2026-10-11 | Upstream PR opened. | FaserF/ha-kadermanager#42 |
+| `kasa_ke100_min` | home-assistant/brands#8265 | https://github.com/MTTPoll/Kasa-KE-100-min | Active, pushed 2025-10-29 | Upstream PR opened. | MTTPoll/Kasa-KE-100-min#1 |
+| `kat_bulgaria` | home-assistant/brands#4487 | https://github.com/Nedevski/hacs_kat_bulgaria | Active, pushed 2026-05-10 | Upstream PR opened. | nedevski/hass_kat_bulgaria#33 |
+| `keemple` | home-assistant/brands#7408 | https://github.com/DawidPietrykowski/keemple-ha | Active, pushed 2026-03-18 | Upstream PR opened. | DawidPietrykowski/keemple-ha#2 |
+| `kenter` | home-assistant/brands#7934 | https://github.com/filmgarage/ha-kenter | Active, pushed 2026-03-24 | Upstream PR opened. | filmgarage/ha-kenter#2 |
+| `kevo_plus` | home-assistant/brands#3977 | https://github.com/dcmeglio/home-assistant-kevo | Active, pushed 2023-02-20 | Upstream PR opened. | dcmeglio/home-assistant-kevo#4 |
+| `kia_uvo` | home-assistant/brands#2894 | https://github.com/fuatakgun/kia_uvo | Active, pushed 2026-10-18 | Upstream PR opened. | Hyundai-Kia-Connect/kia_uvo#1976 |
+| `kidde_homesafe` | home-assistant/brands#7133 | https://github.com/snell-evan-itt/Kidde-HomeSafe | Active, pushed 2026-08-17 | Upstream PR opened. | snell-evan-itt/Kidde-HomeSafe#24 |
+| `kilight` | home-assistant/brands#6832 | https://github.com/ErraticTech/kilight-hass | Active, pushed 2026-01-26 | Upstream PR opened. | ErraticTech/kilight-hass#74 |
+| `king_smith` | home-assistant/brands#4851 | https://github.com/indiefan/king_smith | Active, pushed 2024-08-20 | Upstream PR opened. | indiefan/king_smith#59 |
+| `kingsmith_walkingpad` | home-assistant/brands#7677 | https://github.com/UrbanTechIO/KingSmith-WalkingPad | Active, pushed 2026-06-16 | Upstream PR opened. | UrbanTechIO/KingSmith-WalkingPad#5 |
+| `kippy` | home-assistant/brands#7861 | https://github.com/ThomasHFWright/kippy-homeassistant-hacs | Active, pushed 2026-09-21 | Upstream PR opened. | ThomasHFWright/kippy-homeassistant#182 |
+| `kitchenowl` | home-assistant/brands#6311 | https://github.com/TomBursch/kitchenowl-ha | Active, pushed 2026-04-03 | Upstream PR opened. | TomBursch/kitchenowl-ha#9 |
+| `knmi` | home-assistant/brands#2661 | https://github.com/golles/ha-knmi | Active, pushed 2026-10-18 | Not opened. The existing fork frenck/ha-knmi is 29 commits behind with workflow changes, so GitHub rejects the push without the `workflow` scope. Needs `gh auth refresh -s workflow`, then retry. |  |
+| `kobold_vr7` | home-assistant/brands#6144 | https://github.com/jmzg93/koboldHAIntegration | Active, pushed 2026-06-07 | Upstream PR opened. | jmzg93/koboldVR7Integration#29 |
+| `kocom_energy` | home-assistant/brands#6353 | https://github.com/angkk2u/kocom_energy | Active, pushed 2025-01-18 | Upstream PR opened. | angkk2u/kocom_energy#2 |
+| `kodi_helpers` | home-assistant/brands#7673 | https://github.com/Bitte-ein-Git/ha_kodi_helpers | Active, pushed 2026-02-24 | Upstream PR opened. | Bitte-ein-Git/ha_kodi_helpers#5 |
+| `komfovent` | home-assistant/brands#6778 | https://github.com/lnagel/hass-komfovent | Active, pushed 2026-10-18 | Upstream PR opened. | lnagel/hass-komfovent#252 |
+| `komodo` | home-assistant/brands#9581 | https://github.com/dkarv/ha-komodo | Active, pushed 2026-10-12 | Upstream PR opened. | dkarv/ha-komodo#58 |
+| `kopia_webhook` | home-assistant/brands#8427 | https://github.com/SpaceFrags/kopia_webhook | Active, pushed 2026-02-02 | Upstream PR opened. | SpaceFrags/kopia_webhook#2 |
+| `kroger` | home-assistant/brands#9590 | https://github.com/fortepc/kroger-ha-integration | Active, pushed 2026-02-14 | Upstream PR opened. | fortepc/kroger-ha-integration#1 |
+| `kronoterm` | home-assistant/brands#6359 | https://github.com/Favio25/Kronoterm-homeassistant | Active, pushed 2026-08-05 | Upstream PR opened. | Favio25/Kronoterm-homeassistant#65 |
+| `kumo` | home-assistant/brands#1619 | https://github.com/dlarrick/hass-kumo | Active, pushed 2026-10-04 | Upstream PR opened. | dlarrick/hass-kumo#235 |
+| `kvv_departure_monitor` | home-assistant/brands#7844 | https://github.com/drlaplace/KVV_Departure_Monitor | Active, pushed 2026-01-27 | Upstream PR opened. | drlaplace/KVV_Departure_Monitor#3 |
+| `kwh_to_won_general` | home-assistant/brands#5480 | https://github.com/dugurs/kwh_to_won_general | Active, pushed 2024-11-17 | Upstream PR opened. | dugurs/kwh_to_won_general#1 |
+| `kwikset` | home-assistant/brands#3364 | https://github.com/explosivo22/kwikset-ha | Active, pushed 2026-04-28 | Upstream PR opened. | explosivo22/kwikset-ha#130 |
+| `lacrosse_alerts` | home-assistant/brands#8009 | https://github.com/craigbye/home-assistant-lacrosse-alerts | Active, pushed 2026-01-18 | Upstream PR opened. | craigbye/home-assistant-lacrosse-alerts#7 |
+| `laifen_ble` | home-assistant/brands#6460 | https://github.com/UrbanTechIO/Laifen | Active, pushed 2026-09-02 | Upstream PR opened. | UrbanTechIO/Laifen#13 |
+| `lambda_heat_pumps` | home-assistant/brands#7298 | https://github.com/GuidoJeuken-6512/lambda_wp_hacs | Active, pushed 2026-10-18 | Not opened. The upstream `.gitignore` ignores the brand images, so they need a forced add. Needs a decision. |  |
+| `lambda_heatpump` | home-assistant/brands#6883 | https://github.com/route662/Lambda-Heatpump | Active, pushed 2025-10-07 | Upstream PR opened. | route662/Lambda-Heatpump#26 |
+| `lampie` | home-assistant/brands#7446 | https://github.com/wbyoung/lampie | Active, pushed 2026-09-08 | Upstream PR opened. | wbyoung/lampie#39 |
+| `ld2410` | home-assistant/brands#7806 | https://github.com/Megarushing/ha-ld2410 | Active, pushed 2026-10-06 | Upstream PR opened. | Megarushing/ha-ld2410#105 |
+| `led_matrix_zmq` | home-assistant/brands#6153 | https://github.com/Knifa/led-matrix-zmq-hass | Active, pushed 2026-07-12 | Upstream PR opened. | Knifa/led-matrix-zmq-hass#1 |
+| `ledfx` | home-assistant/brands#3408 | https://github.com/dmamontov/hass-ledfx | Active, pushed 2023-07-15 | Upstream PR opened. | dmamontov/hass-ledfx#29 |
+| `leitir` | home-assistant/brands#9227 | https://github.com/axelpaul/leitir-ha | Active, pushed 2026-02-12 | Upstream PR opened. | axelpaul/leitir-ha#2 |
+| `lennoxs30` | home-assistant/brands#3866 | https://github.com/PeteRager/lennoxs30 | Active, pushed 2026-08-13 | Upstream PR opened. | PeteRager/lennoxs30#437 |
+| `lepro_led` | home-assistant/brands#7787 | https://github.com/Sanji78/lepro_led | Active, pushed 2026-05-14 | Upstream PR opened. | Sanji78/lepro_led#31 |
+| `lexman_ble` | home-assistant/brands#6288 | https://github.com/davidsmfreire/lexman-ble | Active, pushed 2026-03-29 | Upstream PR opened. | davidsmfreire/lexman-ble#56 |
+| `lg_ess` | home-assistant/brands#7394 | https://github.com/dkarv/ha-lg-ess | Active, pushed 2026-06-05 | Upstream PR opened. | dkarv/ha-lg-ess#35 |
+| `lg_tv_serial` | home-assistant/brands#7143 | https://github.com/mvdwetering/lg_tv_serial | Active, pushed 2026-05-15 | Upstream PR opened. | mvdwetering/lg_tv_serial#18 |
+| `libratone_zipp` | home-assistant/brands#2642 | https://github.com/Chouffy/home_assistant_libratone_zipp | Active, pushed 2025-10-08 | Upstream PR opened. | Chouffy/home_assistant_libratone_zipp#9 |
+| `lifegear_hrv` | home-assistant/brands#8907 | https://github.com/3uperduck/lifegear_hrv | Active, pushed 2026-04-19 | Upstream PR opened. | 3uperduck/lifegear_hrv#1 |
+| `light_sync_group` | home-assistant/brands#5446 | https://github.com/avishorp/sync_group | Active, pushed 2024-06-09 | Upstream PR opened. | avishorp/sync_group#2 |
+| `lightener` | home-assistant/brands#4255 | https://github.com/fredck/lightener | Active, pushed 2025-10-21 | Upstream PR opened. | fredck/lightener#153 |
+| `lighting_zone` | home-assistant/brands#6766 | https://github.com/rickmoonex/hass-lighting-zone | Active, pushed 2026-01-26 | Upstream PR opened. | rickmoonex/hass-lighting-zone#55 |
+| `lightware_lw2` | home-assistant/brands#6909 | https://github.com/intermediateengineering/homeassistant-lightware-lw2 | Active, pushed 2025-04-16 | Upstream PR opened. | intermediateengineering/homeassistant-lightware-lw2#1 |
+| `lightwave2` | home-assistant/brands#1566 | https://github.com/bigbadblunt/homeassistant-lightwave2 | Active, pushed 2025-10-22 | Upstream PR opened. | ikb42/homeassistant-lightwave2#131 |
+| `lightwave_smart` | home-assistant/brands#4909 | https://github.com/LightwaveSmartHome/homeassistant-lightwave-smart | Active, pushed 2026-01-03 | Not opened. The upstream repo is a fork in the same network as lightwave2, so the only fork is frenck/homeassistant-lightwave2 and GitHub rejects the push without the `workflow` scope. Needs `gh auth refresh -s workflow`, then retry. |  |
+| `line_notify` | home-assistant/brands#4497 | https://github.com/nao-pon/HA-Line-Notify | Active, pushed 2025-12-18 | Upstream PR opened. | nao-pon/HA-Line-Notify#1 |
+| `linkstation` | home-assistant/brands#6202 | https://github.com/iKaew/hass-linkstation-addon | Active, pushed 2024-12-11 | Upstream PR opened. | iKaew/hass-linkstation-addon#10 |
+| `linkytic` | home-assistant/brands#3989 | https://github.com/hekmon/lixeeticdin | Active, pushed 2026-09-12 | Upstream PR opened. | hekmon/linkytic#77 |
+| `linus_dashboard` | home-assistant/brands#6156 | https://github.com/Thank-you-Linus/Linus-Dashboard | Active, pushed 2026-10-15 | Upstream PR opened. | Thank-you-Linus/Linus-Dashboard#231 |
+| `lionel_controller` | home-assistant/brands#8881 | https://github.com/iamjoshk/lionel_controller | Active, pushed 2026-01-16 | Upstream PR opened. | iamjoshk/lionel_controller#10 |
+| `listonic` | home-assistant/brands#7858 | https://github.com/Sanji78/listonic | Active, pushed 2025-10-16 | Upstream PR opened. | Sanji78/listonic#6 |
+| `litime_bms_ble` | home-assistant/brands#9636 | https://github.com/rubenmuehlhans/litime-ble-hacs | Active, pushed 2026-02-15 | Upstream PR opened. | rubenmuehlhans/litime-ble-hacs#1 |
+| `livoltek` | home-assistant/brands#5279 | https://github.com/adamlonsdale/hass-livoltek | Active, pushed 2026-06-29 | Upstream PR opened. | adamlonsdale/hass-livoltek#128 |
+| `llmvision` | home-assistant/brands#5689 | https://github.com/valentinfrlch/ha-gpt4vision | Active, pushed 2026-09-17 | Upstream PR opened. | valentinfrlch/ha-llmvision#748 |
+| `local_daikin` | home-assistant/brands#7111 | https://github.com/Apoc182/local_daikin | Active, pushed 2026-02-22 | Upstream PR opened. | Apoc182/local_daikin#59 |
+| `local_fcsp` | home-assistant/brands#7393 | https://github.com/aminorjourney/local-fcsp | Active, pushed 2026-10-14 | Upstream PR opened. | aminorjourney/local-fcsp#9 |
+| `local_photos` | home-assistant/brands#9183 | https://github.com/Migz93/ha-local_photos | Active, pushed 2026-10-02 | Not opened. The upstream PR template requires AI assistance and human review disclosures. Needs a decision. |  |
+| `localtuya_rc` | home-assistant/brands#6196 | https://github.com/ClusterM/localtuya_rc | Active, pushed 2026-10-09 | Upstream PR opened. | ClusterM/localtuya_rc#50 |
+| `loggamera` | home-assistant/brands#7203 | https://github.com/svante-jacobsen/loggamera-home-assistant | Active, pushed 2026-03-16 | Upstream PR opened. | svante-jacobsen/loggamera-home-assistant#4 |
+| `loki` | home-assistant/brands#8454 | https://github.com/dafal/loki-logger-homeassistant | Active, pushed 2025-08-17 | Upstream PR opened. | dafal/loki-logger-homeassistant#1 |
+| `lpubelts_ha` | home-assistant/brands#8785 | https://github.com/SasPes/lpubelts_ha | Active, pushed 2026-01-19 | Upstream PR opened. | SasPes/lpubelts_ha#1 |
+| `lrt_wallbox` | home-assistant/brands#7624 | https://github.com/Upgreydd/lrt_wallbox_hacs | Active, pushed 2026-06-15 | Upstream PR opened. | upgreydd/lrt_wallbox_hacs#4 |
+| `lubelogger` | home-assistant/brands#8777 | https://github.com/hollowpnt92/lubelogger-ha | Active, pushed 2026-01-05 | Upstream PR opened. | hollowpnt92/lubelogger-ha#9 |
+| `lutron_lip` | home-assistant/brands#7603 | https://github.com/rzulian/lutron_lip | Active, pushed 2026-10-13 | Upstream PR opened. | rzulian/lutron_lip#79 |
+| `luxor` | home-assistant/brands#2819 | https://github.com/dcramer/hass-luxor | Active, pushed 2026-01-12 | Upstream PR opened. | dcramer/hass-luxor#23 |
+| `luxtronik2` | home-assistant/brands#4662 | https://github.com/BenPru/luxtronik | Active, pushed 2026-10-18 | Not opened. The upstream PR template says to delete its "Upgrade notes" section, which is copied into release notes. Needs a decision. |  |
+| `lvgl_pages` | home-assistant/brands#6765 | https://github.com/dala318/lvgl_pages | Active, pushed 2025-04-08 | Upstream PR opened. | dala318/lvgl_pages#1 |
+| `lxp_modbus` | home-assistant/brands#7487 | https://github.com/ant0nkr/luxpower-modbus-hacs | Active, pushed 2026-10-14 | Upstream PR opened. | ant0nkr/luxpower-ha-integration#179 |
+| `lytko` | home-assistant/brands#6503 | https://github.com/ANARHIST1984/SmartClimat | Active, pushed 2025-02-05 | Upstream PR opened. | ANARHIST1984/SmartClimat#1 |
+| `maalerportal` | home-assistant/brands#5303 | https://github.com/maalerportal/maalerportal | Active, pushed 2026-09-04 | Upstream PR opened. | maalerportal/maalerportal#15 |
+| `macs` | home-assistant/brands#8878 | https://github.com/glyndavidson/MACS | Active, pushed 2026-01-23 | Upstream PR opened. | glyndavidson/MACS#15 |
+| `magicswitchbot` | home-assistant/brands#2340 | https://github.com/ec-blaster/magicswitchbot-homeassistant | Active, pushed 2022-10-08 | Upstream PR opened. | ec-blaster/magicswitchbot-homeassistant#15 |
+| `magiline_imagix` | home-assistant/brands#8203 | https://github.com/iioel/magiline-imagix-homeassistant | Active, pushed 2026-01-24 | Upstream PR opened. | iioel/magiline-imagix-homeassistant#6 |
+| `magiqtouch` | home-assistant/brands#3951 | https://github.com/andrewleech/ha_magiqtouch | Active, pushed 2026-04-15 | Upstream PR opened. | andrewleech/ha_magiqtouch#51 |
+| `maicows` | home-assistant/brands#9229 | https://github.com/isaya07/ha-maicows | Active, pushed 2026-08-24 | Upstream PR opened. | isaya07/ha-maicows#60 |
+| `maint` | home-assistant/brands#8555 | https://github.com/chrisdoherty4/maint | Active, pushed 2026-02-23 | Upstream PR opened. | chrisdoherty4/maint#42 |
+| `mantova_ambiente` | home-assistant/brands#8029 | https://github.com/Nerkyator/pyMantovaAmbiente | Active, pushed 2025-10-01 | Upstream PR opened. | Nerkyator/pyMantovaAmbiente#1 |
+| `marees_france` | home-assistant/brands#6938 | https://github.com/KipK/marees_france | Active, pushed 2026-07-16 | Upstream PR opened. | KipK/marees_france#12 |
+| `marstek_cloud` | home-assistant/brands#7895 | https://github.com/DoctaShizzle/marstek_cloud | Active, pushed 2026-03-04 | Upstream PR opened. | DoctaShizzle/marstek_cloud#24 |
+| `marstek_ct` | home-assistant/brands#7507 | https://github.com/d-shmt/hass_marstek-smart-meter | Active, pushed 2025-08-04 | Upstream PR opened. | d-shmt/hass_marstek-smart-meter#32 |
+| `marstek_local_api` | home-assistant/brands#8145 | https://github.com/DoctaShizzle/marstek_local_api | Active, pushed 2026-03-04 | Upstream PR opened. | DoctaShizzle/marstek_local_api#3 |
+| `marstek_modbus` | home-assistant/brands#7464 | https://github.com/ViperRNMC/marstek_venus_modbus | Active, pushed 2026-08-31 | Not opened. The upstream `.gitignore` ignores the brand images, so they need a forced add. Needs a decision. |  |
+| `marstek_venus_energy_manager` | home-assistant/brands#9555 | https://github.com/ffunes/Marstek-Venus-Energy-Manager | Active, pushed 2026-07-14 | Upstream PR opened. | ffunes/Marstek-Venus-Energy-Manager#465 |
+| `matomo` | home-assistant/brands#9505 | https://github.com/abnvle/ha-matomo | Active, pushed 2026-02-14 | Upstream PR opened. | abnvle/ha-matomo#3 |
+| `matriocontrol` | home-assistant/brands#7852 | https://github.com/FeatherKing/ha-matriocontrol | Active, pushed 2026-09-12 | Upstream PR opened. | FeatherKing/ha-matriocontrol#13 |
+| `matter_binding_helper` | home-assistant/brands#8602 | https://github.com/cedricziel/ha-matter-binding-helper | Active, pushed 2026-10-18 | Upstream PR opened. | cedricziel/ha-matter-binding-helper#461 |
+| `matter_time_sync` | home-assistant/brands#8936 | https://github.com/Loweack/Matter-Time-Sync | Active, pushed 2026-06-24 | Upstream PR opened. | Loweack/Matter-Time-Sync#64 |
+| `maxstorage_ultimate` | home-assistant/brands#5208 | https://github.com/geeks-r-us/maxstorage_ultimate | Active, pushed 2024-08-29 | Upstream PR opened. | geeks-r-us/maxstorage_ultimate#14 |
+| `mbtalive` | home-assistant/brands#6456 | https://github.com/chiabre/MBTALive | Active, pushed 2026-06-24 | Upstream PR opened. | chiabre/MBTALive#39 |
+| `mcp_server_http_transport` | home-assistant/brands#8129 | https://github.com/ganhammar/hass-mcp-server | Active, pushed 2026-10-12 | Upstream PR opened. | ganhammar/hass-mcp-server#104 |
+| `mdadm_state` | home-assistant/brands#2587 | https://github.com/LorenzoVasi/HA_mdadm | Active, pushed 2024-09-16 | Upstream PR opened. | LorenzoVasi/HA_mdadm#9 |
+| `media_index` | home-assistant/brands#8333 | https://github.com/markaggar/ha-media-index | Active, pushed 2026-07-29 | Upstream PR opened. | markaggar/ha-media-index#37 |
+| `medisanabp_ble` | home-assistant/brands#5288 | https://github.com/bkbilly/medisanabp_ble | Active, pushed 2026-09-27 | Upstream PR opened. | bkbilly/medisanabp_ble#18 |
 
 ## Needs source repo lookup
 
@@ -2113,7 +2287,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `acwd_water_usage` | home-assistant/brands#5005 | https://github.com/parvez/acwd_water_usage | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `adaptive_climate` | home-assistant/brands#7412 | https://github.com/msinhore/adaptive_climate | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `adjustable_bed` | home-assistant/brands#9116 | https://github.com/kristofferR/ha-adjustable-bed | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `afvalwijzer` | home-assistant/brands#1851 | https://github.com/xirixiz/homeassistant-afvalwijzer | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aguacatec` | home-assistant/brands#6912 | https://github.com/AguacatecHA/brands | Active, pushed 2026-02-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aguasdegaia` | home-assistant/brands#5492 | https://github.com/zerolo/aguasgaiaHA | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `agur` | home-assistant/brands#5016 | https://github.com/tbouron/ha-agur | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2145,8 +2318,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `ampaera` | home-assistant/brands#9176 | https://github.com/morteng/ampaera-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ampster` | home-assistant/brands#7121 | https://github.com/ampster-co/ampster-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `amshan` | home-assistant/brands#1766 | https://github.com/toreamun/amshan-homeassistant](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `andersen_ev` | home-assistant/brands#6896 | https://github.com/lwsrbrts/hassio-andersen-ev | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `anker_solix` | home-assistant/brands#5263 | https://github.com/thomluther/hacs-anker-solix | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ankermake` | home-assistant/brands#5643 | https://github.com/sondregronas/ankermake-hass-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `anova_nano` | home-assistant/brands#6377 | https://github.com/mcolyer/hacs-anova-nano | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `apex` | home-assistant/brands#3554 | https://github.com/itchannel/apex-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2156,7 +2327,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `aqua_medic_dc_runner` | home-assistant/brands#6616 | https://github.com/maziggy/aqua_medic_dc_runner | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aqua_temp` | home-assistant/brands#4389 | https://github.com/radical-squared/aquatemp | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aquaforte` | home-assistant/brands#5925 | https://github.com/geelenbert/aquaforte](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `arctic_spa` | home-assistant/brands#9771 | https://github.com/jensenbox/ha-arctic-spa | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `arris_cm3500` | home-assistant/brands#6489 | https://github.com/stickpin/homeassistant-arris_cm3500 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `arris_dcx960` | home-assistant/brands#2785 | https://github.com/Sholofly/arrisdcx960 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `artemis_rgb` | home-assistant/brands#8787 | https://github.com/Artemis-RGB/Artemis | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2165,15 +2335,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `assistant_cooker` | home-assistant/brands#9246 | https://github.com/machintrucbidule/assistant-cooker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `asys_ble` | home-assistant/brands#7480 | https://github.com/tom42530/asys_ble_ha](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aten_pe` | home-assistant/brands#10626 | https://github.com/home-assistant/home-assistant.io | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `atmo` | home-assistant/brands#4556 | https://github.com/natekspencer/hacs-atmo | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `atmofrance` | home-assistant/brands#4367 | https://github.com/sebcaps/atmofrance | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `atomcam_hack` | home-assistant/brands#3328 | https://github.com/vwt12eh8/hassio-atomcam-hack | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aus_space_weather` | home-assistant/brands#6862 | https://github.com/kcoffau/AUS_BOM_Space_Weather_Alert_System | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `auto_light` | home-assistant/brands#7724 | https://github.com/xiaoshi930/auto_light | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `autoarm` | home-assistant/brands#8545 | https://github.com/rhizomatics/autoarm | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `automationhat` | home-assistant/brands#6320 | https://github.com/marcvivet/ha_automation_hat](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `autosnooze` | home-assistant/brands#9055 | https://github.com/mossipcams/autosnooze | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `avalon_nano3s` | home-assistant/brands#9596 | https://github.com/jinx-22/avalon_nano3s | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `avgear_matrix` | home-assistant/brands#7656 | https://github.com/marklynch/hass-avgear-matrix | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `aws_codepipeline` | home-assistant/brands#2217 | https://github.com/rj175/home-assistant-aws-codepipeline | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `azure_ai_tasks` | home-assistant/brands#7940 | https://github.com/loryanstrant/HA-Azure-AI-tasks | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2190,7 +2357,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `beckettlink` | home-assistant/brands#4057 | https://github.com/dcmeglio/homeassistant-beckettlink | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `behome` | home-assistant/brands#7561 | https://github.com/bemfa/behome](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bemfa` | home-assistant/brands#3118 | https://github.com/larry-wong/bemfa](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `bergfex` | home-assistant/brands#8307 | https://github.com/timmaurice/bergfex | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `berlin_transport` | home-assistant/brands#5077 | https://github.com/vas3k/home-assistant-berlin-transport | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bernerbox` | home-assistant/brands#8361 | https://github.com/moarph/homeassistant_berner_torantriebe | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bestin` | home-assistant/brands#5772 | https://github.com/lunDreame/ha-bestin | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2205,7 +2371,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `bing_wallpaper` | home-assistant/brands#7074 | https://github.com/ndesgranges/bing-wallpaper | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `birthdays` | home-assistant/brands#6749 | https://github.com/UnoSite/Birthdays | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bituopmd` | home-assistant/brands#5842 | https://github.com/script0803/BituoPMD | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `blauberg_s21` | home-assistant/brands#5007 | https://github.com/jvitkauskas/homeassistant_blauberg_s21 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bleep` | home-assistant/brands#6129 | https://github.com/magicus/ha-bleep | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `blitzerde` | home-assistant/brands#5991 | https://github.com/timniklas/hacs_blitzerde | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `bluebolt` | home-assistant/brands#8801 | https://github.com/matthewdean/ha-bluebolt | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2236,14 +2401,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `cable_modem_monitor` | home-assistant/brands#8237 | https://github.com/kwschulz/cable_modem_monitor | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `calaos` | home-assistant/brands#4266 | https://github.com/tiramiseb/calaos-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `calendar_events` | home-assistant/brands#5592 | https://github.com/kgn3400/calendar_events | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `calendar_merge` | home-assistant/brands#5670 | https://github.com/kgn3400/calendar_merge | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `calendarific` | home-assistant/brands#4893 | https://github.com/pinkywafer/Calendarific | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `calorie_tracker` | home-assistant/brands#7289 | https://github.com/kgstorm/home-assistant-calorie-tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cameralux` | home-assistant/brands#7655 | https://github.com/markfrancisonly/ha-cameralux | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `canaan` | home-assistant/brands#9593 | https://github.com/jinx-22/avalon_nano3s | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `candy` | home-assistant/brands#2884 | https://github.com/ofalvai/home-assistant-candy | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `carbon_intensity_uk` | home-assistant/brands#1669 | https://github.com/jscruz/sensor.carbon_intensity_uk | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `cardata` | home-assistant/brands#8642 | https://github.com/kvanbiesen/bmw-cardata-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `carelink` | home-assistant/brands#3898 | https://github.com/yo-han/Home-Assistant-Carelink | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `casambi_bt` | home-assistant/brands#3961 | https://github.com/lkempf/casambi-bt-hass | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `catholic_calendar` | home-assistant/brands#5041 | https://github.com/jmacri01/homeassistant-custom-components-catholic-calendar | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2260,7 +2423,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `chores4kids` | home-assistant/brands#8321 | https://github.com/qlerup/chores4kids-sync | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `chronoshade` | home-assistant/brands#7431 | https://github.com/mikipal7/ha-chronoshade | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `citibike` | home-assistant/brands#5632 | https://github.com/ruchoff/homeassistant-citibike | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `city_visitor_parking` | home-assistant/brands#9048 | https://github.com/sir-Unknown/ha_City-Visitor-Parking | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cityhome_intercom` | home-assistant/brands#7548 | https://github.com/krassalexs/ha-cityhome-intercom | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `clage_homeserver` | home-assistant/brands#2930 | https://github.com/klacol/homeassistant-clage_homeserver | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `clash` | home-assistant/brands#6280 | https://github.com/yangtfu/hass-clash | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2278,27 +2440,21 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `cn360` | home-assistant/brands#6950 | https://github.com/cavefire/cn360-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cocoro_air` | home-assistant/brands#6575 | https://github.com/yuyuvn/cocoro-air | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `columbusgoesdigital` | home-assistant/brands#6756 | https://github.com/RobWildGarlic/zambretti-integration | Active, pushed 2026-03-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `combivox_web` | home-assistant/brands#9362 | https://github.com/stich86/ha-combivox-web | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `comfoclime` | home-assistant/brands#6888 | https://github.com/msfuture/comfoclime | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `comma_ai` | home-assistant/brands#8283 | https://github.com/bscholer/home-assistant-comma-ai](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `commax_iot` | home-assistant/brands#8751 | https://github.com/yoonpooh/homeassistant-commax-iot | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `connectd` | home-assistant/brands#8736 | https://github.com/sudoxnym/connectd | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `connectivity_monitor` | home-assistant/brands#6155 | https://github.com/joshburkard/ConnectivityMonitor | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `connectlife` | home-assistant/brands#5435 | https://github.com/oyvindwe/connectlife-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `consumable_tracker` | home-assistant/brands#8964 | https://github.com/thetic/hass-consumable-tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `controme` | home-assistant/brands#6554 | https://github.com/[flame4ever/homeassistant-controme-integration](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `convert_media_album_art` | home-assistant/brands#8707 | https://github.com/zembrzycki/convert-media-album-art | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `coral_mylo` | home-assistant/brands#7529 | https://github.com/jakeyr/coral_mylo_ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `countit` | home-assistant/brands#8084 | https://github.com/robinvervoort/countit-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cover_time_based_synced` | home-assistant/brands#2674 | https://github.com/kotborealis/home-assistant-custom-components-cover-time-based-synced | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `coverflex` | home-assistant/brands#3496 | https://github.com/netsoft-ruidias/ha-custom-component-coverflex | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `coway` | home-assistant/brands#2356 | https://github.com/sarahhenkens/home-assistant-iocare | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `crewmeister` | home-assistant/brands#8357 | https://github.com/mztechnik/hacs-crewmeister | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cryptostate` | home-assistant/brands#2582 | https://github.com/hacs/default | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `csgo_gamestate` | home-assistant/brands#1593 | https://github.com/lociii/homeassistant-csgo | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `csnet_home` | home-assistant/brands#8255 | https://github.com/mmornati/home-assistant-csnet-home | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `culligan` | home-assistant/brands#4759 | https://github.com/rewardone/homeassistant-culligan-water-softener | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `cummins_generator` | home-assistant/brands#7867 | https://github.com/mswilson/cummins-hass-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `currentcost` | home-assistant/brands#1850 | https://github.com/lolouk44/CurrentCost_HA_CC | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `custom_icons` | home-assistant/brands#6989 | https://github.com/thomasloven/hass-custom_icons | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `custom_recorder` | home-assistant/brands#4961 | https://github.com/oukene/custom_recorder | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2307,11 +2463,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `cyberq` | home-assistant/brands#6269 | https://github.com/jchonig/ha_cyberq | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cync_lights` | home-assistant/brands#4412 | https://github.com/nikshriv/cync_lights | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `cz_energy_spot_prices` | home-assistant/brands#4104 | https://github.com/rnovacek/homeassistant_cz_energy_spot_prices | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `dahua` | home-assistant/brands#2606 | https://github.com/rroller/dahua | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dahua_poe` | home-assistant/brands#6538 | https://github.com/slydiman/dahua_poe](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dahua_vto` | home-assistant/brands#2369 | https://github.com/myhomeiot/DahuaVTO | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `daikin_d3net` | home-assistant/brands#5895 | https://github.com/martinstafford/daikin_d3net | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `daikin_onecta` | home-assistant/brands#5232 | https://github.com/jwillemsen/daikin_onecta | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `daikin_residential` | home-assistant/brands#3584 | https://github.com/rospogrigio/daikin_residential | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `daikinone` | home-assistant/brands#4427 | https://github.com/zlangbert/ha-daikinone | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `daily_hadith` | home-assistant/brands#6706 | https://github.com/zubir2k/homeassistant-dailyhadith | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2319,7 +2473,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `daily_text` | home-assistant/brands#7324 | https://github.com/53l3cu5/daily_text | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `danfoss` | home-assistant/brands#9297 | https://github.com/jonbng/ha-danfoss-eco | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dashcast` | home-assistant/brands#7150 | https://github.com/AlexxIT/DashCast | Active, pushed 2024-12-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `dashie` | home-assistant/brands#9133 | https://github.com/jwlerch78/dashie-ha-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `datadog_agentless` | home-assistant/brands#5559 | https://github.com/kamaradclimber/datadog-integration-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `davis_local` | home-assistant/brands#4617 | https://github.com/ryan-lang/homeassistant-davis-local | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `davis_weatherlink_live` | home-assistant/brands#6565 | https://github.com/stevesinchak/ha-weatherlink-live | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2334,7 +2487,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `deva4004` | home-assistant/brands#4383 | https://github.com/s1lvi0/deva4004 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `device_maintenance_monitor` | home-assistant/brands#5602 | https://github.com/rafael-zilberman/device-maintenance-monitor-custom-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `device_pulse` | home-assistant/brands#8298 | https://github.com/studiobts/home-assistant-device-pulse](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `deye_dehumidifier` | home-assistant/brands#4221 | https://github.com/stackia/ha-deye-dehumidifier | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `diagral` | home-assistant/brands#6629 | https://github.com/mguyard/hass-diagral | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dialect_thermometer` | home-assistant/brands#8077 | https://github.com/kbyrkjeland/dialect-thermometer | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `digitalstrom` | home-assistant/brands#1592 | https://github.com/lociii/homeassistant-digitalstrom | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2356,7 +2508,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `dvsportal` | home-assistant/brands#4991 | https://github.com/ChessSpider/dvsportal | Active, pushed 2026-09-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dwd_precipitation_forecast` | home-assistant/brands#5591 | https://github.com/stoppegp/ha-dwd-precipitation-forecast | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `dynamic_dns` | home-assistant/brands#6436 | https://github.com/jdolieslager/homeassistant-dynamic-dns | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `dynamic_energy_cost` | home-assistant/brands#6413 | https://github.com/martinarva/dynamic_energy_cost | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `eafm_enhanced` | home-assistant/brands#9325 | https://github.com/thefunkygibbon/eafm-enhanced | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `easun_inverter` | home-assistant/brands#6639 | https://github.com/vgsolar2/easunpy | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `easymonitor` | home-assistant/brands#6562 | https://github.com/home-assistant/wheels | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2367,7 +2518,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `echonetlite` | home-assistant/brands#2817 | https://github.com/scottyphillips/echonetlite_homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ecl_modbus` | home-assistant/brands#8623 | https://github.com/user-attachments/assets | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `eco2mix` | home-assistant/brands#6177 | https://github.com/lfpoulain/ha-eco2mix | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ecobulles` | home-assistant/brands#7216 | https://github.com/jul-fls/ha_ecobulles | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ecoflow_cloud` | home-assistant/brands#4686 | https://github.com/tolwi/hassio-ecoflow-cloud | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ecoguard` | home-assistant/brands#9024 | https://github.com/skogsmaskin/ecoguard-home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ecologi` | home-assistant/brands#3851 | https://github.com/owenvoke/hass-ecologi | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2410,7 +2560,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `ensure` | home-assistant/brands#7985 | https://github.com/markus99/ha-ensure-device-control | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `entity_copy` | home-assistant/brands#5003 | https://github.com/oukene/entity_copy | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `entity_notes` | home-assistant/brands#7623 | https://github.com/martindell/ha-entity-notes | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `entur_sx` | home-assistant/brands#8218 | https://github.com/jm-cook/entur_situation_exchange_custom_integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `envertech_solar` | home-assistant/brands#7652 | https://github.com/jimmybonesde/envertech_solar | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `envi_heater` | home-assistant/brands#5388 | https://github.com/wlatic/envi_heater | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `envisalink_new` | home-assistant/brands#6281 | https://github.com/ufodone/envisalink_new | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2421,10 +2570,7 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `epg` | home-assistant/brands#6465 | https://github.com/yohaybn/HomeAssistant-EPG | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `eps_smart_pool_control` | home-assistant/brands#6224 | https://github.com/robsonke/eps_smart_pool_control | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `epson_snmp` | home-assistant/brands#9249 | https://github.com/thizanchettin/home-assistant-epson-snmp | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `epson_workforce` | home-assistant/brands#7792 | https://github.com/lymanepp/ha-epson-workforce | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `equation` | home-assistant/brands#4955 | https://github.com/notifications/unsubscribe-auth | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `esolatgps` | home-assistant/brands#6089 | https://github.com/zubir2k/homeassistant-esolatgps | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `esolattakwim` | home-assistant/brands#6296 | https://github.com/zubir2k/homeassistant-esolattakwim | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `esphome_designer` | home-assistant/brands#9565 | https://github.com/koosoli/ESPHomeDesigner | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ess_controller` | home-assistant/brands#6060 | https://github.com/mgenrique/ESS_ControllerHA](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `estimenergy_integration` | home-assistant/brands#4330 | https://github.com/eulemitkeule/estimenergy | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2433,7 +2579,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `eufy_security` | home-assistant/brands#2142 | https://github.com/nonsleepr/ha-eufy-security | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `euronext` | home-assistant/brands#4176 | https://github.com/hulkhaugen/hass_custom_components | Active, pushed 2023-06-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ev_charger_modbus` | home-assistant/brands#6498 | https://github.com/matfroh/abl_emh1_modbus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `evcc_intg` | home-assistant/brands#5483 | https://github.com/marq24/ha-evcc | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `evconduit` | home-assistant/brands#9374 | https://github.com/stevelea/evconduit-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `evlinkha` | home-assistant/brands#7313 | https://github.com/rogasp/evlinkha-homeassistant](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `evon` | home-assistant/brands#9137 | https://github.com/milanorszagh/evon-smart-home-homeassistant-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2487,7 +2632,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `gewe_notify` | home-assistant/brands#6271 | https://github.com/netcookies/Gewe-Notify | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `glimmr` | home-assistant/brands#2915 | https://github.com/d8ahazard/glimmr | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `goalzero_ble` | home-assistant/brands#7515 | https://github.com/mattxcnm/goalzero_ble | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `goecharger_api2` | home-assistant/brands#5411 | https://github.com/marq24/ha-goecharger-api2 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `goecontroller_mqtt` | home-assistant/brands#5020 | https://github.com/karloskar/homeassistant-goecontroller-mqtt | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `gogs` | home-assistant/brands#3126 | https://github.com/youdroid/home-assistant-gogs | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `google_assistant_relay` | home-assistant/brands#3760 | https://github.com/amosyuen/ha-google-assistant-relay | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2534,7 +2678,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `ha_nostr_notifier` | home-assistant/brands#9365 | https://github.com/psic4t/ha-nostr-notifier | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ha_sotd` | home-assistant/brands#6936 | https://github.com/trollix/ha-sotd-int | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ha_strava` | home-assistant/brands#1746 | https://github.com/codingcyclist/ha_strava | Active, pushed 2023-03-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ha_text_ai` | home-assistant/brands#6140 | https://github.com/smkrv/ha-text-ai | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ha_the_masjid_app` | home-assistant/brands#7776 | https://github.com/sabaatworld/ha-the-masjid-app | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ha_urbansolar_bv` | home-assistant/brands#6999 | https://github.com/chourmovs/ha-urbansolar-bv | Active, pushed 2026-01-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ha_visualiser` | home-assistant/brands#7640 | https://github.com/jonducrou/ha_visualiser | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2679,20 +2822,17 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `lambda_modbus` | home-assistant/brands#6443 | https://github.com/johbau/home-assistant-lambda-modbus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `launtel` | home-assistant/brands#7771 | https://github.com/yenchenLiu/home-assistant-launtel | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ldap_auth` | home-assistant/brands#8875 | https://github.com/stefandmn/ldap_auth￼ | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `leakbot` | home-assistant/brands#5248 | https://github.com/sHedC/homeassistant-leakbot | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `leakomatic` | home-assistant/brands#7067 | https://github.com/johanwilliams/leakomatic_api | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `lednetwf_ble` | home-assistant/brands#4939 | https://github.com/raulgbcr/lednetwf_ble | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `leeds_bins` | home-assistant/brands#5396 | https://github.com/joemcc-90/leeds-bins-hass | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `lektrico_custom` | home-assistant/brands#3341 | https://github.com/home-assistant/home-assistant.io | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `leneda` | home-assistant/brands#6937 | https://github.com/fedus/leneda-client | Active, pushed 2026-06-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `leviton_decora_smart_wifi` | home-assistant/brands#4377 | https://github.com/schmittx/home-assistant-leviton_decora_smart_wifi | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `lg_hombot` | home-assistant/brands#3040 | https://github.com/plakna/ha-lg-hombot | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `liander` | home-assistant/brands#8828 | https://github.com/TheDutchScorpion/ha-liander | Active, pushed 2026-01-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `librelink` | home-assistant/brands#4981 | https://github.com/notifications/unsubscribe-auth | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `libreview` | home-assistant/brands#5233 | https://github.com/PTST/LibreView-HomeAssistant](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `lierda_iot` | home-assistant/brands#5637 | https://github.com/qcgzxw/hass-lierda-iot | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `life360` | home-assistant/brands#5078 | https://github.com/home-assistant/home-assistant.io | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `lifedomus` | home-assistant/brands#8669 | https://github.com/svalsemey/hassio-lifedomus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `light_group_dimmer` | home-assistant/brands#6703 | https://github.com/user-attachments/assets | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `light_reilluminator` | home-assistant/brands#8912 | https://github.com/ronaldheft/ha-light-reilluminator | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `line_messaging` | home-assistant/brands#6676 | https://github.com/nao-pon/ha-line-messaging | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2726,10 +2866,8 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `masjidbox` | home-assistant/brands#8668 | https://github.com/sohailpervaiz/ha-masjidbox-custom-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `massa_node` | home-assistant/brands#5408 | https://github.com/kevin-briand/massa_node](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mateo_meals` | home-assistant/brands#7957 | https://github.com/ketels/mateo-hacs | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `matkahuolto_tracking` | home-assistant/brands#4841 | https://github.com/jesmak/matkahuolto_tracking | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `matterbridge` | home-assistant/brands#4665 | https://github.com/42wim/matterbridge | Active, pushed 2024-12-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mattermost` | home-assistant/brands#6148 | https://github.com/arkane-systems/ha-mattermost | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mawaqit` | home-assistant/brands#4673 | https://github.com/mawaqit/home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `max_notify` | home-assistant/brands#9533 | https://github.com/kai-zer-ru/max-notify-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `maxxisun` | home-assistant/brands#9291 | https://github.com/peter-lueer/Maxxisun-HA | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mc66c` | home-assistant/brands#3914 | https://github.com/hacs/default | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2798,17 +2936,14 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `mistral_ai_api` | home-assistant/brands#6250 | https://github.com/BlaXun/home_assistant_mistral_ai | Active, pushed 2025-06-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mitmili` | home-assistant/brands#8864 | https://github.com/bartkummel/mitmili | Active, pushed 2026-01-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mitsubishi_ae200` | home-assistant/brands#8800 | https://github.com/sftgunner/mitsubishi-ae200-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mitsubishi_matouch` | home-assistant/brands#6240 | https://github.com/cyaneous/mitsubishi_matouch | Active, pushed 2026-08-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mitsubishi_wf_rac` | home-assistant/brands#4580 | https://github.com/jeatheak/Mitsubishi-WF-RAC-Integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mittfortum` | home-assistant/brands#6339 | https://github.com/selleronom/mittfortum | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `miwa` | home-assistant/brands#4352 | https://github.com/geertmeersman/miwa | Active, pushed 2026-08-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `miwifi` | home-assistant/brands#3300 | https://github.com/dmamontov/hass-miwifi | Active, pushed 2024-07-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `miwifi_cb0401v2` | home-assistant/brands#6076 | https://github.com/MKsys1337/MiWiFi-CB0401V2 | Active, pushed 2025-08-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `miyocube` | home-assistant/brands#8616 | https://github.com/miyosmart/miyocube-homeassistant-custom-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mlgw` | home-assistant/brands#2333 | https://github.com/giachello/mlgw | Active, pushed 2024-09-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mnb_rates` | home-assistant/brands#5619 | https://github.com/amaximus/mnb_rates | Active, pushed 2024-10-29 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mobile_vikings` | home-assistant/brands#4238 | https://github.com/geertmeersman/mobile-vikings | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `modbus_connect` | home-assistant/brands#6666 | https://github.com/dmatscheko/modbus_connect | Active, pushed 2026-10-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `modbus_devices` | home-assistant/brands#6641 | https://github.com/eriknn/ha-modbus_devices | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `modbus_logo` | home-assistant/brands#5586 | https://github.com/nos86/hacs-modbus-logo | Active, pushed 2026-02-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `modbus_manager` | home-assistant/brands#6229 | https://github.com/TCzerny/ha-modbus-manager | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2824,11 +2959,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `monitor_docker` | home-assistant/brands#1703 | https://github.com/ualex73/monitor_docker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `monitormysolar` | home-assistant/brands#5791 | https://github.com/zakery292/monitormysolar | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `monoprice_enhanced` | home-assistant/brands#8591 | https://github.com/derwoodums/monoprice-enhanced | Active, pushed 2026-03-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `monoprice_htp1` | home-assistant/brands#9120 | https://github.com/TimoJJ/ha-monolith-htp1 | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `montreal_aqi` | home-assistant/brands#6533 | https://github.com/normcyr/home-assistant-montreal-aqi | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `montreal_snow_removal` | home-assistant/brands#8860 | https://github.com/ludodefgh/montreal-snow-removal | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `moodo` | home-assistant/brands#8132 | https://github.com/deanlongstaff/home-assistant-moodo-integration | Active, pushed 2026-08-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `moon_astro` | home-assistant/brands#7871 | https://github.com/svalsemey/hassio-moon-astro | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `moonside` | home-assistant/brands#9005 | https://github.com/kylewhirl/homeassistant-moonside | Active, pushed 2026-01-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mopidy` | home-assistant/brands#3226 | https://github.com/mopidy/mopidy | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `morningstar` | home-assistant/brands#3455 | https://github.com/hulkhaugen/hass_custom_components | Active, pushed 2023-06-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2843,21 +2976,13 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `moving_colors` | home-assistant/brands#7594 | https://github.com/starwarsfan/moving-colors | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `moving_intelligence` | home-assistant/brands#3070 | https://github.com/cyberjunky/home-assistant-moving_intelligence | Active, pushed 2021-12-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `movistar_rft8115vw` | home-assistant/brands#6518 | https://github.com/luis-garza/movistar_rft8115vw | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mozillion` | home-assistant/brands#9193 | https://github.com/KRoperUK/mozillion-hass | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mpk_lodz` | home-assistant/brands#6091 | https://github.com/DominikWrobel/mpk_lodz | Active, pushed 2025-07-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_connection_state` | home-assistant/brands#9303 | https://github.com/studioIngrid/mqtt_connection_state | Active, pushed 2026-02-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_discoverystream` | home-assistant/brands#2834 | https://github.com/koying/mqtt_discoverystream_ha | Active, pushed 2026-03-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mqtt_discoverystream_alt` | home-assistant/brands#5391 | https://github.com/RogerSelwyn/mqtt_discoverystream_ha | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_light_custom` | home-assistant/brands#7232 | https://github.com/huangfengdan/hwlight_ha_component | Active, pushed 2025-06-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_media_player` | home-assistant/brands#8473 | https://github.com/bkbilly/mqtt_media_player | Active, pushed 2026-10-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_sonos` | home-assistant/brands#3998 | https://github.com/svrooij/home-assistant-mqtt-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mqtt_vacuum_camera` | home-assistant/brands#5570 | https://github.com/sca075/mqtt_vacuum_camera | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ms365_calendar` | home-assistant/brands#5511 | https://github.com/RogerSelwyn/MS365-Calendar | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ms365_contacts` | home-assistant/brands#7019 | https://github.com/RogerSelwyn/MS365-Contacts | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ms365_mail` | home-assistant/brands#5540 | https://github.com/RogerSelwyn/MS365-Mail | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ms365_teams` | home-assistant/brands#5662 | https://github.com/RogerSelwyn/MS365-Teams | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ms365_todo` | home-assistant/brands#5526 | https://github.com/RogerSelwyn/MS365-ToDo | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mspa` | home-assistant/brands#7587 | https://github.com/jm-cook/mspa-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `multi_zone_receiver` | home-assistant/brands#5949 | https://github.com/jzucker2/multi-zone-receiver | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `multicraft` | home-assistant/brands#8972 | https://github.com/fre69/multicraft | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `multisport` | home-assistant/brands#8578 | https://github.com/theundefined/multisport-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2869,7 +2994,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `mycloud` | home-assistant/brands#7676 | https://github.com/J-shw/ha-mycloud | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mycodo_app` | home-assistant/brands#5474 | https://github.com/zachi40/home-assistant-mycodo | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mydolphin_plus` | home-assistant/brands#3686 | https://github.com/sh00t2kill/dolphin-robot | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `myelectrica` | home-assistant/brands#6375 | https://github.com/cnecrea/myelectrica | Active, pushed 2026-09-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `myenergi` | home-assistant/brands#2782 | https://github.com/CJNE/ha-myenergi | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `myfox` | home-assistant/brands#5860 | https://github.com/Angelius007/myfox-api | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `myfund` | home-assistant/brands#9096 | https://github.com/Morgaroth/ha-myfund | Active, pushed 2026-03-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2881,7 +3005,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `mypyllant` | home-assistant/brands#4137 | https://github.com/signalkraft/mypyllant-component | Active, pushed 2026-07-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `myraid_box` | home-assistant/brands#8227 | https://github.com/938134/myraid_box | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mysa` | home-assistant/brands#9181 | https://github.com/kgelinas/Mysa_HA | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `mysmartbike` | home-assistant/brands#5095 | https://github.com/ReneNulschDE/ha-mysmartbike | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mysmartbike_ble` | home-assistant/brands#8525 | https://github.com/ReneNulschDE/ha-mysmartbike_ble | Active, pushed 2026-09-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mysmartwindow` | home-assistant/brands#6802 | https://github.com/IoTFenster/MySmartWindow | Active, pushed 2025-12-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `mystic_light` | home-assistant/brands#6354 | https://github.com/and7ey/mystic_light_ha | Active, pushed 2025-01-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2946,8 +3069,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `nexecur` | home-assistant/brands#7911 | https://github.com/Loule95450/HACS-Nexecur](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nexhome` | home-assistant/brands#5469 | https://github.com/nexhome-org/nexhome-homeassistant-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `next_rocket_launch` | home-assistant/brands#4944 | https://github.com/Verbalinsurection/next_rocket_launch | Active, pushed 2026-09-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `nextenergy_battery` | home-assistant/brands#8156 | https://github.com/wimb0/home-assistant-nextenergy-battery-modbus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `nexxtmove` | home-assistant/brands#4286 | https://github.com/geertmeersman/nexxtmove | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nfl` | home-assistant/brands#2857 | https://github.com/zacs/ha-nfl | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nfqws` | home-assistant/brands#7853 | https://github.com/IdadonI/nfqws-ha | Active, pushed 2026-09-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nibe_enery_conversion` | home-assistant/brands#9359 | https://github.com/VitisEK/nibe_energy_conversion | Active, pushed 2026-03-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2980,7 +3101,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `northern_powergrid_power_cuts` | home-assistant/brands#6675 | https://github.com/nosilleg/northern-powergrid-power-cuts | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `northtracker` | home-assistant/brands#9394 | https://github.com/robinostlund/homeassistant-northtracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `norway_alerts` | home-assistant/brands#9236 | https://github.com/jm-cook/norway_alerts | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `norway_seaforecast` | home-assistant/brands#9248 | https://github.com/DTekNO/norway_seaforecast | Active, pushed 2026-06-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `norwegiantidelite` | home-assistant/brands#6150 | https://github.com/jm-cook/ha-norwegiantide-lite | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `notdienstapotheke` | home-assistant/brands#6170 | https://github.com/ne3x7/notdienstapotheke-home-assistant | Active, pushed 2024-12-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `notify_actions` | home-assistant/brands#8794 | https://github.com/akentner/notify_actions | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -2998,25 +3118,17 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `nuki_events` | home-assistant/brands#9336 | https://github.com/titiviking/nuki_events | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nuki_ng` | home-assistant/brands#2888 | https://github.com/kvj/hass_nuki_ng | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nuki_web` | home-assistant/brands#9070 | https://github.com/ArnyminerZ/ha-nuki-web | Active, pushed 2026-10-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `nuvo_simple` | home-assistant/brands#5668 | https://github.com/brmccrary/nuvo_simple | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nuvo_tuner` | home-assistant/brands#5668 | https://github.com/brmccrary/nuvo_simple | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nws_spc_outlook` | home-assistant/brands#6737 | https://github.com/sedward5/nws_spc_outlook | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nyc311` | home-assistant/brands#3020 | https://github.com/elahd/ha_nyc311 | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `nymea` | home-assistant/brands#5858 | https://github.com/Mattes83/nymea | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oasira_b2b` | home-assistant/brands#7826 | https://github.com/EffortlessHome/Oasira_B2C | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `oasira_b2c` | home-assistant/brands#7826 | https://github.com/EffortlessHome/Oasira_B2C | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `oasis_mini` | home-assistant/brands#5644 | https://github.com/natekspencer/hacs-oasis_mini | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oasissmart` | home-assistant/brands#8302 | https://github.com/david-collett/oasissmart | Active, pushed 2025-11-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ocado` | home-assistant/brands#7056 | https://github.com/PineappleEmperor/ocado-ha | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ochsner_local_ots` | home-assistant/brands#9175 | https://github.com/permissionBRICK/OTS-HomeAssistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `octopus_energy_adapter` | home-assistant/brands#9141 | https://github.com/HA-Material-Components/octopus-energy-adapter | Active, pushed 2026-06-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `octopus_energy_es` | home-assistant/brands#8849 | https://github.com/bthos/ha-octopus-energy-es | Active, pushed 2026-08-21 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `octopus_energy_it` | home-assistant/brands#8186 | https://github.com/samuelebistoletti/HomeAssistant-OctopusEnergyIT | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `octopus_ev_spain` | home-assistant/brands#7509 | https://github.com/lockevod/octopus_ev_spain | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `octopus_french` | home-assistant/brands#7842 | https://github.com/domodom30/ha-octopus-french | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `octopus_germany` | home-assistant/brands#6572 | https://github.com/thecem/octopus_germany | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `octopus_intelligent` | home-assistant/brands#3927 | https://github.com/megakid/ha_octopus_intelligent | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `octopus_spain` | home-assistant/brands#4396 | https://github.com/MiguelAngelLV/octopus_spain | Active, pushed 2026-10-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `odense_reno` | home-assistant/brands#4152 | https://github.com/fars-fede-fire/odense_reno | Active, pushed 2025-01-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oekofen_pellematic_compact` | home-assistant/brands#4054 | https://github.com/dominikamann/oekofen-pellematic-compact | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oelo_lights` | home-assistant/brands#7105 | https://github.com/Cinegration/Oelo_Lights_HA | Active, pushed 2025-05-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3025,7 +3137,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `ohdear` | home-assistant/brands#3850 | https://github.com/owenvoke/hass-ohdear | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oidc_provider` | home-assistant/brands#8130 | https://github.com/ganhammar/hass-oidc-auth | Active, pushed 2026-08-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oilfox` | home-assistant/brands#3360 | https://github.com/chises/ha-oilfox | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ojmicroline_thermostat` | home-assistant/brands#4016 | https://github.com/robbinjanssen/home-assistant-ojmicroline-thermostat | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `olarm_int` | home-assistant/brands#7966 | https://github.com/meierra/olarm_int | Active, pushed 2025-09-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `olivetin` | home-assistant/brands#6806 | https://github.com/OliveTin/OliveTin-HomeAssistant | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ollama_image_analysis` | home-assistant/brands#5677 | https://github.com/the-smart-home-maker/hass_ollama_image_analysis | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3035,11 +3146,7 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `omlet_smart_coop` | home-assistant/brands#6171 | https://github.com/williamschey/hassio-omlet-smartcoop-door | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `omniconv` | home-assistant/brands#6861 | https://github.com/mLupine/OmniConv | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `omnik` | home-assistant/brands#3112 | https://github.com/heinoldenhuis/home_assistant_omnik_solar | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `omnik_inverter` | home-assistant/brands#2850 | https://github.com/robbinjanssen/home-assistant-omnik-inverter | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `omnilogic_local` | home-assistant/brands#4365 | https://github.com/cryptk/haomnilogic-local | Active, pushed 2026-09-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `omnis` | home-assistant/brands#8811 | https://github.com/theundefined/omnis-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `omnisense` | home-assistant/brands#6535 | https://github.com/sslivins/hass_omnisense | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `omron` | home-assistant/brands#7391 | https://github.com/eigger/hass-omron | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oncharger` | home-assistant/brands#4777 | https://github.com/krasnoukhov/homeassistant-oncharger | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `onemeter` | home-assistant/brands#7405 | https://github.com/SaDiablo/onemeter-hacs-integration | Active, pushed 2025-04-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `onesmartcontrol` | home-assistant/brands#3613 | https://github.com/PimDoos/onesmartcontrolha | Active, pushed 2026-02-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3058,10 +3165,8 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `openai_response` | home-assistant/brands#5096 | https://github.com/ExPeacer/ha_openai_response](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openai_stt` | home-assistant/brands#5369 | https://github.com/einToast/openai_stt_ha | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openai_tts` | home-assistant/brands#4911 | https://github.com/sfortis/openai_tts](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `openai_whisper_cloud` | home-assistant/brands#5767 | https://github.com/fabio-garavini/ha-openai-whisper-stt-api | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openaq` | home-assistant/brands#8368 | https://github.com/zenguru84/ha-openaq | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openaudio` | home-assistant/brands#8733 | https://github.com/OpenAudioHome/HomeAssistant-Integration-for-HOLOWHAS | Active, pushed 2026-08-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `openems` | home-assistant/brands#6607 | https://github.com/Lamarqe/ha_openems | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openfan_micro` | home-assistant/brands#8021 | https://github.com/bitlisz1/hass-openfan-micro](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `opengrowbox` | home-assistant/brands#6242 | https://github.com/OpenGrow-Box/OpenGrowBox-HA | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openhab` | home-assistant/brands#2924 | https://github.com/kubawolanin/ha-openhab | Active, pushed 2023-01-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3075,7 +3180,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `openwb2mqtt` | home-assistant/brands#5066 | https://github.com/a529987659852/openwb2mqtt | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openweathermap_all` | home-assistant/brands#2382 | https://github.com/viktak/ha-cc-openweathermap_all | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openwrt` | home-assistant/brands#4751 | https://github.com/dscao/openwrt | Active, pushed 2026-02-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `openwrt_mqtt` | home-assistant/brands#9538 | https://github.com/aldweb/ha-openwrt-mqtt | Active, pushed 2026-06-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openwrt_ubus` | home-assistant/brands#7556 | https://github.com/FUjr/homeassistant-openwrt-ubus | Active, pushed 2026-07-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openwrt_updater` | home-assistant/brands#7129 | https://github.com/izipuho/OpenWRT_control | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `openwrt_wakeonlan` | home-assistant/brands#7490 | https://github.com/Ashus/hass-openwrt-wakeonlan | Active, pushed 2025-08-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3083,7 +3187,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `optimistic_feedback` | home-assistant/brands#7433 | https://github.com/nitaybz/optimistic_feedback | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `optispark` | home-assistant/brands#4985 | https://github.com/Big-Tree/HomeAssistant-OptiSpark | Active, pushed 2024-07-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `optoma_projector` | home-assistant/brands#9536 | https://github.com/speedy3wk/ha-optoma-projector | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `opus_greennet` | home-assistant/brands#8590 | https://github.com/kegelmeier/opus_homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `orca` | home-assistant/brands#5647 | https://github.com/Tomasinjo/orca-energy-ha | Active, pushed 2026-07-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `orcommconnect` | home-assistant/brands#7743 | https://github.com/spatecon/orcommconnect | Active, pushed 2025-10-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `oref_alert` | home-assistant/brands#4795 | https://github.com/amitfin/oref_alert | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3105,7 +3208,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `pact_coffee` | home-assistant/brands#5627 | https://github.com/DrTree/pact-coffee | Active, pushed 2026-02-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `padersprinter` | home-assistant/brands#6247 | https://github.com/AlbrechtL/hass-padersprinter | Active, pushed 2026-06-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pagerduty` | home-assistant/brands#5024 | https://github.com/jmacri01/homeassistant-custom-components-pagerduty | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `palgate` | home-assistant/brands#6747 | https://github.com/ShonP40/ha-palgate | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `paloaltonetworks` | home-assistant/brands#6386 | https://github.com/FoUStep/ha-pan-customintegration | Active, pushed 2025-01-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `panasonic_hc` | home-assistant/brands#5678 | https://github.com/david-collett/panasonic_hc | Active, pushed 2026-09-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `panasonic_smart_app` | home-assistant/brands#2549 | https://github.com/osk2/panasonic_smart_app | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3125,15 +3227,11 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `pca301` | home-assistant/brands#8934 | https://github.com/Zwer2k/ha-pca301 | Active, pushed 2026-09-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pcloud_backup` | home-assistant/brands#8410 | https://github.com/ghotso/HAS-pCloud-Backup](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pcsensor` | home-assistant/brands#6467 | https://github.com/eode/pcsensor | Active, pushed 2025-05-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pdf_scrape` | home-assistant/brands#7436 | https://github.com/iluvdata/pdf_scrape | Active, pushed 2026-09-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pdns` | home-assistant/brands#3524 | https://github.com/Cyr-ius/hass-pdns | Active, pushed 2026-10-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `peaqev` | home-assistant/brands#3381 | https://github.com/elden1337/hass-peaq | Active, pushed 2026-08-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pecron` | home-assistant/brands#9525 | https://github.com/jsight/ha-pecron | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `peek_it_ha` | home-assistant/brands#9592 | https://github.com/jolabs40/peek-it-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pella_insynctive` | home-assistant/brands#9326 | https://github.com/johnsonej23/pella_insynctive | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `peloton` | home-assistant/brands#1837 | https://github.com/edwork/homeassistant-peloton-sensor | Active, pushed 2026-08-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `peplink_local` | home-assistant/brands#6725 | https://github.com/weirded/ha-peplink-local | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `periodic_min_max` | home-assistant/brands#6721 | https://github.com/andrew-codechimp/HA-Periodic-Min-Max | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `perplexity` | home-assistant/brands#9063 | https://github.com/bieniu/ha-perplexity | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `perplexity_assistant` | home-assistant/brands#8404 | https://github.com/Pekulll/Perplexity-Assistant](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `perry_cdom` | home-assistant/brands#6014 | https://github.com/ivancoppa/homeassistant-perry-cdom | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3158,16 +3256,13 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `philips_home_access` | home-assistant/brands#9694 | https://github.com/rjbogz/philips_home_access | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `philips_pet_series` | home-assistant/brands#5962 | https://github.com/AboveColin/HA-Philips-Pet-Series | Active, pushed 2026-10-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `philips_shaver` | home-assistant/brands#8790 | https://github.com/mtheli/philips_shaver | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `phoenix_bad` | home-assistant/brands#6049 | https://github.com/FaserF/ha-phoenixbad | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `phonetrack` | home-assistant/brands#7952 | https://github.com/Woulve/phonetrack | Active, pushed 2025-10-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `phoniebox` | home-assistant/brands#5594 | https://github.com/MiczFlor/RPi-Jukebox-RFID | Active, pushed 2026-10-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `photoview` | home-assistant/brands#7794 | https://github.com/agent-ost/ha-media-photoview | Active, pushed 2026-04-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `photovoltaic_manager` | home-assistant/brands#9091 | https://github.com/VaclavSchubert/photovoltaic_manager | Active, pushed 2026-07-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pi_hole_v6` | home-assistant/brands#6642 | https://github.com/bastgau/ha-pi-hole-v6 | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pi_ina219` | home-assistant/brands#8997 | https://github.com/JoshuaLampert/homeassistant-pi_ina219 | Active, pushed 2026-07-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pi_ina3221` | home-assistant/brands#8721 | https://github.com/JoshuaLampert/homeassistant-pi_ina3221 | Active, pushed 2026-07-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `picaso_3d` | home-assistant/brands#6777 | https://github.com/alryaz/hass-picaso-3d | Active, pushed 2025-03-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pico_link` | home-assistant/brands#8768 | https://github.com/smartqasa/pico-link | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `picow_neopixel` | home-assistant/brands#8865 | https://github.com/maxi07/PicoW-Neopixel-Homeassistant-Integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `picqer_stats` | home-assistant/brands#6095 | https://github.com/Baanaaana/Picqer-Stats | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pid_controller` | home-assistant/brands#3078 | https://github.com/soloam/ha-pid-controller | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3190,7 +3285,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `places` | home-assistant/brands#3661 | https://github.com/Snuffy2/places](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `plant_care` | home-assistant/brands#8948 | https://github.com/AK-O/plant_care | Active, pushed 2026-09-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `plant_diary` | home-assistant/brands#7888 | https://github.com/xplanes/ha-plant-diary | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `planta` | home-assistant/brands#5723 | https://github.com/natekspencer/hacs-planta | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `plantsip` | home-assistant/brands#6294 | https://github.com/alexdetsch/plantsip-homeassistant | Active, pushed 2025-05-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `playnite_web_mqtt` | home-assistant/brands#5955 | https://github.com/cvele/playnite_web_mqtt | Active, pushed 2024-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `playtopro` | home-assistant/brands#9543 | https://github.com/playtopro/playtopro-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3199,7 +3293,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `plex_webhooks` | home-assistant/brands#4404 | https://github.com/schmittx/home-assistant-plex-webhooks | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `plexlog` | home-assistant/brands#6279 | https://github.com/larszi/home-assistant-plexlog | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pluggit` | home-assistant/brands#5783 | https://github.com/Tvalley71/pluggit | Active, pushed 2026-10-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `plum_ecomax` | home-assistant/brands#3417 | https://github.com/denpamusic/homeassistant-plum-ecomax | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pocket_money` | home-assistant/brands#6885 | https://github.com/sam-ward/ha-pocket-money | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `podcast_index` | home-assistant/brands#7445 | https://github.com/daswass/ha-podcast-index | Active, pushed 2025-07-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `poer` | home-assistant/brands#7236 | https://github.com/poersmart/poer-home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3208,7 +3301,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `pollen_hu` | home-assistant/brands#2287 | https://github.com/amaximus/pollen-hu | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pollen_lu` | home-assistant/brands#5635 | https://github.com/Foxi352/hacs_pollen_lu | Active, pushed 2026-10-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `polleninformation` | home-assistant/brands#7243 | https://github.com/krissen/polleninformation | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pollenlevels` | home-assistant/brands#7420 | https://github.com/eXPerience83/pollenlevels | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `poly` | home-assistant/brands#8673 | https://github.com/zacs/ha-polycom_speakerphone | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `polyaire` | home-assistant/brands#2918 | https://github.com/mihailescu2m/hass-airtouch4-platform | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `poolchem` | home-assistant/brands#8630 | https://github.com/joyfulhouse/homeassistant-poolchem | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3222,10 +3314,8 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `portail_eau_fr` | home-assistant/brands#6230 | https://github.com/laurent-martin/hass_int_toutsurmoneau | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `posten` | home-assistant/brands#3956 | https://github.com/BobTheShoplifter/HomeAssistant-Posten | Active, pushed 2024-12-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `posti_delivery_dates` | home-assistant/brands#8874 | https://github.com/geekuality/posti-delivery-dates | Active, pushed 2026-09-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `posti_tracking` | home-assistant/brands#4840 | https://github.com/jesmak/posti_tracking | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `power_group_monitor` | home-assistant/brands#7563 | https://github.com/mephdrac/PowerGroupMonitor | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `power_helper` | home-assistant/brands#9011 | https://github.com/Dennis90BW/ha-power-helper | Active, pushed 2026-05-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `power_insight` | home-assistant/brands#7596 | https://github.com/Hoffmann77/ha-power-insight | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `power_max_tracker` | home-assistant/brands#8062 | https://github.com/perosb/power_max_tracker | Active, pushed 2026-08-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `power_price_level` | home-assistant/brands#9148 | https://github.com/martinsheldon/Power-Price-Level | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `power_saver` | home-assistant/brands#9442 | https://github.com/jyourstone/power_saver | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3234,8 +3324,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `powercalc` | home-assistant/brands#2625 | https://github.com/bramstroker/homeassistant-powercalc | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `powerclimate` | home-assistant/brands#8664 | https://github.com/marnixt/PowerClimate | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `powerllm` | home-assistant/brands#5781 | https://github.com/Shulyaka/powerllm | Active, pushed 2026-09-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `powerocean` | home-assistant/brands#9609 | https://github.com/niltrip/powerocean | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `powersensor` | home-assistant/brands#8133 | https://github.com/DiUS/homeassistant-powersensor | Active, pushed 2026-10-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `powertag_gateway` | home-assistant/brands#3561 | https://github.com/Breina/PowerTagGateway | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `powervault` | home-assistant/brands#5975 | https://github.com/adammcdonagh/home-assistant-powervault | Active, pushed 2026-07-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `powerwall_control` | home-assistant/brands#8277 | https://github.com/kilroyd/powerwall_control | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3250,7 +3338,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `premium_bond_checker` | home-assistant/brands#6222 | https://github.com/inverse/python-premium-bond-checker | Active, pushed 2026-10-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `presence_simulation` | home-assistant/brands#2575 | https://github.com/slashback100/presence_simulation | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pressensor` | home-assistant/brands#9648 | https://github.com/cliffkujala/ha-pressensor | Active, pushed 2026-02-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `previous_state_tracker` | home-assistant/brands#7519 | https://github.com/klaptafel/ha-previous-state-tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `prijsplafond` | home-assistant/brands#4062 | https://github.com/rbrink/Home-Assistant-Prijsplafond | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `priority_switch` | home-assistant/brands#6277 | https://github.com/pattisonmichael/hacs_priority_switch | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `prix_carburant` | home-assistant/brands#3424 | https://github.com/Aohzan/hass-prixcarburant | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3281,7 +3368,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `pulselabs` | home-assistant/brands#7483 | https://github.com/axlns/ha-pulselabs | Active, pushed 2025-08-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pumpsteer` | home-assistant/brands#7550 | https://github.com/JohanAlvedal/PumpSteer | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pun_sensor` | home-assistant/brands#5001 | https://github.com/virtualdj/pun_sensor | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `pura` | home-assistant/brands#4384 | https://github.com/natekspencer/hacs-pura | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `puregym` | home-assistant/brands#9177 | https://github.com/jasonyates/ha-puregym | Active, pushed 2026-01-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `purrsong` | home-assistant/brands#2443 | https://github.com/RobertD502/home-assistant-lavviebot | Active, pushed 2024-12-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `pushover_listener` | home-assistant/brands#7293 | https://github.com/armedad/pushover_listener | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3304,7 +3390,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `qingping_cgs1` | home-assistant/brands#5837 | https://github.com/mash2k3/qingping_cgs1 | Active, pushed 2026-03-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qinhua_gas` | home-assistant/brands#7846 | https://github.com/xiaoshi930i/qinhua_gas | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qinlin_door` | home-assistant/brands#5916 | https://github.com/linfenliu/qinlin_door | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `qld_fuel` | home-assistant/brands#9390 | https://github.com/spusuf/qld_fuel-hass | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qolsys_panel` | home-assistant/brands#8016 | https://github.com/EHylands/ha-qolsys-panel | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qr_generator` | home-assistant/brands#3646 | https://github.com/DeerMaximum/QR-Code-Generator | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qstream` | home-assistant/brands#8273 | https://github.com/bramd/qstream-ha | Active, pushed 2025-11-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3314,20 +3399,17 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `qube_heatpump` | home-assistant/brands#7874 | https://github.com/MattieGit/wp-qube | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qubino_wire_pilot` | home-assistant/brands#2332 | https://github.com/piitaya/home-assistant-qubino-wire-pilot | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `quick_timer` | home-assistant/brands#9653 | https://github.com/jozefnad/homeassistant-quick_timer | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `quiet_solar` | home-assistant/brands#7883 | https://github.com/tmenguy/quiet-solar | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qustodio` | home-assistant/brands#8531 | https://github.com/matt-richardson/home-assistant-qustodio | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qvantum` | home-assistant/brands#6696 | https://github.com/perosb/qvantum_custom_component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qweather` | home-assistant/brands#4700 | https://github.com/dscao/qweather | Active, pushed 2026-02-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `qwikswitch_api` | home-assistant/brands#6409 | https://github.com/rhanekom/hass-qwikswitch-api | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `r_volution_player` | home-assistant/brands#7719 | https://github.com/volkerrichert/ha_R_volution_player | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `raccolta_rifiuti` | home-assistant/brands#7002 | https://github.com/DomoticaFacile/raccolta_rifiuti | Active, pushed 2026-09-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `radio_details` | home-assistant/brands#3706 | https://github.com/pmfernandes/radio_details | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `radio_stream` | home-assistant/brands#8784 | https://github.com/TopDeveloper29/RadioStream | Active, pushed 2026-08-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `radoff` | home-assistant/brands#5825 | https://github.com/raelix/ha-radoff-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rainforest_emu_2` | home-assistant/brands#3239 | https://github.com/ryanwinter/hass-rainforest-emu-2 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `raise3d` | home-assistant/brands#5470 | https://github.com/daestx/raise3d | Active, pushed 2025-06-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rako` | home-assistant/brands#6001 | https://github.com/princekama/hacs-rako | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ramses_cc` | home-assistant/brands#5118 | https://github.com/zxdavb/ramses_cc | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ramses_extras` | home-assistant/brands#8909 | https://github.com/wimpie70/brands | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `random_entity` | home-assistant/brands#4830 | https://github.com/hacs/default | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rapdev` | home-assistant/brands#6829 | https://github.com/rapdev-io/ha-datadog-metrics | Active, pushed 2026-07-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3338,7 +3420,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `rbac` | home-assistant/brands#8082 | https://github.com/SamAthanas/user-rbac | Active, pushed 2026-05-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rbfa` | home-assistant/brands#5268 | https://github.com/rgerbranda/rbfa | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rce` | home-assistant/brands#5587 | https://github.com/jacek2511/ha_rce | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `rce_pse` | home-assistant/brands#7189 | https://github.com/Lewa-Reka/ha-rce-pse | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rct_power` | home-assistant/brands#2958 | https://github.com/weltenwort/home-assistant-rct-power-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `react_dashboard` | home-assistant/brands#5519 | https://github.com/home-assistant-react/hacs-dashboard | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `readynaslocal` | home-assistant/brands#6622 | https://github.com/jasonwragg/home-assistant-readynaslocal | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3349,19 +3430,16 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `reclaimenergy` | home-assistant/brands#5649 | https://github.com/david-collett/reclaimenergy | Active, pushed 2026-09-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `recosante` | home-assistant/brands#4476 | https://github.com/geckoflume/hass-recosante | Active, pushed 2023-06-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `recteq` | home-assistant/brands#1908 | https://github.com/pdugas/homeassistant-recteq | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `recycle_app` | home-assistant/brands#3843 | https://github.com/olibos/HomeAssistant-RecycleApp | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `red_energy` | home-assistant/brands#7752 | https://github.com/craibo/ha-red-energy-au | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `redback_tech` | home-assistant/brands#5535 | https://github.com/cabberley/HA_RedbackTech | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `reddit_images` | home-assistant/brands#8662 | https://github.com/saihgupr/reddit_images | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `redfin` | home-assistant/brands#2522 | https://github.com/dreed47/redfin | Active, pushed 2025-01-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `redsea` | home-assistant/brands#7346 | https://github.com/Elwinmage/ha-reefbeat-component | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `reef_pi` | home-assistant/brands#8384 | https://github.com/tdragon/reef-pi-hass-custom | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `refoss_lan` | home-assistant/brands#5590 | https://github.com/Refoss/refoss-homeassistant | Active, pushed 2026-05-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `refoss_rpc` | home-assistant/brands#6582 | https://github.com/ashionky/refoss_rpc | Active, pushed 2025-02-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `regensburg_transport` | home-assistant/brands#6136 | https://github.com/einFreak/brands | Active, pushed 2024-11-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `regulus` | home-assistant/brands#7136 | https://github.com/Haluska77/regulus-ha | Active, pushed 2026-09-29 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `remeha_home` | home-assistant/brands#4022 | https://github.com/msvisser/remeha_home | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `remeha_modbus` | home-assistant/brands#6908 | https://github.com/houthacker/remeha-modbus | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `remko_mqtt` | home-assistant/brands#6266 | https://github.com/Altrec/remko_mqtt-ha | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `remootio` | home-assistant/brands#5742 | https://github.com/Mewks/remootio | Active, pushed 2024-08-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `remote_activity_monitor` | home-assistant/brands#5953 | https://github.com/kgn3400/remote_activity_monitor | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3388,7 +3466,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `rf4ch` | home-assistant/brands#4505 | https://github.com/tanishqmanuja/ha.integration.rf4ch | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rf_cover_time_based` | home-assistant/brands#7416 | https://github.com/edufabra/rf_cover_time_based | Active, pushed 2026-04-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rfplayer` | home-assistant/brands#3465 | https://github.com/gce-electronics/HA_RFPlayer | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `rfx9600` | home-assistant/brands#5566 | https://github.com/peteS-UK/rfx9600 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rheem_eziset` | home-assistant/brands#5000 | https://github.com/illuzn/rheem-eziset | Active, pushed 2026-01-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rika_firenet` | home-assistant/brands#5057 | https://github.com/antibill51/rika-firenet-custom-component](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ring_keypad` | home-assistant/brands#5376 | https://github.com/allenporter/home-assistant-ring-keypad | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3401,7 +3478,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `rn_collectes` | home-assistant/brands#8739 | https://github.com/maxim31cote/RN-Collectes | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rnv` | home-assistant/brands#7576 | https://github.com/mirko-sommer/homeassistant-rnv | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `robinhood_crypto` | home-assistant/brands#8846 | https://github.com/InfoSecured/robinhood_crypto | Active, pushed 2026-01-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `robonect` | home-assistant/brands#4354 | https://github.com/geertmeersman/robonect | Active, pushed 2026-09-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `robonomics` | home-assistant/brands#3553 | https://github.com/airalab/homeassistant-robonomics-integration | Active, pushed 2026-08-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `robovac_mqtt` | home-assistant/brands#9052 | https://github.com/jeppesens/eufy-clean | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `rohlikcz` | home-assistant/brands#6928 | https://github.com/dvejsada/HA_RohlikCZ | Active, pushed 2026-10-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3433,7 +3509,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `s2j_led_driver` | home-assistant/brands#8748 | https://github.com/steves2j/LightingController | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `s3_compatible` | home-assistant/brands#7156 | https://github.com/PhantomPhoton/S3-Compatible | Active, pushed 2026-09-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `s3_size` | home-assistant/brands#4280 | https://github.com/hokiebrian/s3_size | Active, pushed 2024-07-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `s7plc` | home-assistant/brands#7869 | https://github.com/xtimmy86x/ha-s7plc | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `saas` | home-assistant/brands#6899 | https://github.com/sudoxnym/saas | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sabiana` | home-assistant/brands#7510 | https://github.com/CMGeorge/homeassistant_sabiana_smart_energy | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sabiana_energy_smart` | home-assistant/brands#7653 | https://github.com/CMGeorge/homeassistant_sabiana_smart_energy | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3469,7 +3544,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `scene_plus` | home-assistant/brands#9051 | https://github.com/smartqasa/scene-plus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scene_presets` | home-assistant/brands#5142 | https://github.com/Hypfer/hass-scene_presets | Active, pushed 2026-08-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scenery` | home-assistant/brands#7188 | https://github.com/j9brown/scenery | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `scentair` | home-assistant/brands#8991 | https://github.com/simplytoast1/ScentAirHABridge | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `schedule_modes` | home-assistant/brands#8889 | https://github.com/onoffautomations/schedule_mode | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `schedule_state` | home-assistant/brands#2946 | https://github.com/aneeshd/schedule_state | Active, pushed 2026-02-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scheduler` | home-assistant/brands#1795 | https://github.com/nielsfaber/scheduler-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3479,7 +3553,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `schwoerer_lueftung` | home-assistant/brands#9406 | https://github.com/josa42/homeassistant-schwoerer-lueftung | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scinan_thermostat` | home-assistant/brands#3514 | https://github.com/Skarbo/hass-scinan-thermostat | Active, pushed 2024-11-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scout_alarm` | home-assistant/brands#4607 | https://github.com/andyalm/homeassistant-scout-alarm | Active, pushed 2025-07-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `scrutiny` | home-assistant/brands#7219 | https://github.com/vitals5/ha_scrutiny | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scrypted` | home-assistant/brands#4482 | https://github.com/koush/ha_scrypted | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `scstc_bus_status` | home-assistant/brands#9161 | https://github.com/coolacid/hacs_scstc_bus_status | Active, pushed 2026-01-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sdac_elia` | home-assistant/brands#8254 | https://github.com/milanhin/sdac_elia | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3494,7 +3567,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `seismoi` | home-assistant/brands#6500 | https://github.com/bkbilly/Seismoi | Active, pushed 2026-08-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `seiverkot` | home-assistant/brands#3834 | https://github.com/evantaur/seiverkot-consumption | Active, pushed 2023-07-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `selective_scene` | home-assistant/brands#7868 | https://github.com/jpaju/selective-scene | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sems` | home-assistant/brands#4399 | https://github.com/darek-margas/goodwe-sems-home-assistant | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sencor` | home-assistant/brands#4288 | https://github.com/MichalTichy/ha-SencorRobotics | Active, pushed 2025-08-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sensecap` | home-assistant/brands#4774 | https://github.com/Seeed-Solution/home-assistant-SenseCAP | Active, pushed 2025-11-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sensecraft` | home-assistant/brands#4802 | https://github.com/Seeed-Solution/SenseCraft-HomeAssistant | Active, pushed 2025-05-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3509,7 +3581,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `seymour` | home-assistant/brands#6109 | https://github.com/johncarey70/seymour | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sfpuc` | home-assistant/brands#8431 | https://github.com/caplaz/hass-sfpuc | Active, pushed 2026-01-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sg_150` | home-assistant/brands#8853 | https://github.com/FWeinb/ha-sg-150 | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sg_bus_arrivals` | home-assistant/brands#7011 | https://github.com/hanwg/sg-bus-arrivals | Active, pushed 2026-05-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sgcc_pro` | home-assistant/brands#5980 | https://github.com/linfenliu/sgcc_pro | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `shadeauto` | home-assistant/brands#8407 | https://github.com/kevinlester/ShadeAuto-HomeAssistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `shadow_control` | home-assistant/brands#7305 | https://github.com/starwarsfan/shadow-control | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3527,16 +3598,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `sikom` | home-assistant/brands#7897 | https://github.com/Howard0000/home-assistant-sikom | Active, pushed 2026-09-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `silam_pollen` | home-assistant/brands#6716 | https://github.com/danishru/silam_pollen | Active, pushed 2026-07-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sildre` | home-assistant/brands#7740 | https://github.com/toringer/home-assistant-sildre | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `simbase` | home-assistant/brands#8942 | https://github.com/manjotsc/ha-simbase | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simon` | home-assistant/brands#8266 | https://github.com/jesuslg123/simon-io-ha](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simple` | home-assistant/brands#7144 | https://github.com/lsellens/simple | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simple_cooler_heater_pid` | home-assistant/brands#7615 | https://github.com/kriptos1970/simple_cooler_heater_pid | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `simple_device_creator` | home-assistant/brands#8973 | https://github.com/PacmanForever/simple_device_creator | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simple_inventory` | home-assistant/brands#7329 | https://github.com/blaineventurine/simple_inventory | Active, pushed 2026-08-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `simple_pid_controller` | home-assistant/brands#7052 | https://github.com/bvweerd/simple_pid_controller | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simple_plant` | home-assistant/brands#6947 | https://github.com/ndesgranges/simple-plant | Active, pushed 2026-08-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `simple_uptime_monitor` | home-assistant/brands#6488 | https://github.com/LukeMitDemHut/simple_uptime_monitor | Active, pushed 2025-02-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sinapsi_alfa` | home-assistant/brands#5198 | https://github.com/alexdelprete/ha-sinapsi-alfa | Active, pushed 2026-10-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sinope` | home-assistant/brands#6197 | https://github.com/claudegel/sinope-gt125 | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sinricpro` | home-assistant/brands#8900 | https://github.com/sinricpro/homeassistant-sinricpro | Active, pushed 2026-06-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sip_core` | home-assistant/brands#8583 | https://github.com/TECH7Fox/sip-hass-card | Active, pushed 2026-10-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3544,7 +3611,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `sksvatek_sensor` | home-assistant/brands#5862 | https://github.com/LochyCZ/HomeAssistantSKSvatek | Active, pushed 2026-01-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `skybellgen` | home-assistant/brands#7704 | https://github.com/tcareyintx/skybellgen | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `skylight_local` | home-assistant/brands#9566 | https://github.com/b3cksy/skylight_lamp | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `skylinewebcams` | home-assistant/brands#9255 | https://github.com/timmaurice/skyline-webcams | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sl_unifi_stock` | home-assistant/brands#7215 | https://github.com/slsrepo/unifi-stock-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `slack_user` | home-assistant/brands#1630 | https://github.com/GeorgeSG/ha-slack-user | Active, pushed 2024-11-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sleep_mqtt` | home-assistant/brands#9597 | https://github.com/Roeli1996/ha-sleep-mqtt | Active, pushed 2026-02-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3560,12 +3626,10 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `smart_announcements` | home-assistant/brands#9157 | https://github.com/mike-nott/smart-announcements | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_charger` | home-assistant/brands#8247 | https://github.com/enkama/smart_charger | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_climate` | home-assistant/brands#9537 | https://github.com/JoshuaSeidel/smart-climate-ha | Active, pushed 2026-02-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smart_cover_automation` | home-assistant/brands#8004 | https://github.com/helgeklein/ha-smart-cover-automation | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_covers` | home-assistant/brands#7176 | https://github.com/eyalmichon/ha-smart-covers | Active, pushed 2025-06-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_maic` | home-assistant/brands#4791 | https://github.com/krasnoukhov/homeassistant-smart-maic | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_offset_thermostat` | home-assistant/brands#9015 | https://github.com/fabilau/hass_smart_offset_thermostat | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smart_venetian_blinds` | home-assistant/brands#9395 | https://github.com/herpaderpaldent/ha-smart-venetian-blinds | Active, pushed 2026-09-29 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smartbox` | home-assistant/brands#6517 | https://github.com/ajtudela/hass-smartbox | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartcar` | home-assistant/brands#7009 | https://github.com/tube0013/Smartcar-HA | Active, pushed 2026-09-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smarteefi` | home-assistant/brands#6570 | https://github.com/coreembedded/smarteefi-homeassistant | Active, pushed 2026-09-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smarteefi_home_assistant` | home-assistant/brands#5444 | https://github.com/sudipta26889/smarteefi_home_assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3576,32 +3640,25 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `smarthrt` | home-assistant/brands#9241 | https://github.com/CorentinBarban/SmartHRT | Active, pushed 2026-09-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smarti` | home-assistant/brands#5827 | https://github.com/Prosono/smarti | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartipowerflow` | home-assistant/brands#6228 | https://github.com/Prosono/SMARTi_PowerFlow_BaseComponent | Active, pushed 2025-01-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smartmailbox` | home-assistant/brands#9416 | https://github.com/danyial/ha-smart-mailbox | Active, pushed 2026-07-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartme` | home-assistant/brands#5985 | https://github.com/timniklas/hacs_smart-me | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartoilgauge` | home-assistant/brands#5040 | https://github.com/dcmeglio/homeassistant-smartoilgauge | Active, pushed 2023-12-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartrent` | home-assistant/brands#3082 | https://github.com/ZacheryThomas/homeassistant-smartrent | Active, pushed 2026-03-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smartslydr` | home-assistant/brands#7119 | https://github.com/djlactose/smartslydr | Active, pushed 2026-09-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartspaclient` | home-assistant/brands#9112 | https://github.com/jozefnad/homeassistant-smartspaclient | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartthings_customize` | home-assistant/brands#4631 | https://github.com/oukene/smartthings_customize | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartthingsce` | home-assistant/brands#8122 | https://github.com/DSorlov/smartthingsce | Active, pushed 2025-11-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartvanio` | home-assistant/brands#6551 | https://github.com/Smartvan-io/smartvanio-integration | Active, pushed 2026-09-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smartwater` | home-assistant/brands#8342 | https://github.com/ankohanse/hass-smart-water](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smarwi` | home-assistant/brands#5371 | https://github.com/jirutka/hass-smarwi | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smhi_odp` | home-assistant/brands#8905 | https://github.com/Tiimber/ha-smhi-odp | Active, pushed 2026-09-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smhi_season` | home-assistant/brands#8713 | https://github.com/droidgren/smhi_season | Active, pushed 2026-08-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `smogtok` | home-assistant/brands#9589 | https://github.com/ptrkoz/ha-smogtok | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smol` | home-assistant/brands#9504 | https://github.com/BottlecapDave/HomeAssistant-Smol | Active, pushed 2026-06-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smoothing_analytics_sensors` | home-assistant/brands#5913 | https://github.com/woopstar/smoothing_analytics_sensors | Active, pushed 2026-10-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `smsto` | home-assistant/brands#6376 | https://github.com/cnecrea/smsto | Active, pushed 2026-09-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `snapcast_player` | home-assistant/brands#4374 | https://github.com/s-knibbs/snapcast-ha-player | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sncf_trains` | home-assistant/brands#7562 | https://github.com/Master13011/SNCF-API-HA | Active, pushed 2026-10-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `snmp_printer` | home-assistant/brands#8058 | https://github.com/DSorlov/snmp_printer | Active, pushed 2026-10-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `snmp_switch_manager` | home-assistant/brands#8422 | https://github.com/OtisPresley/snmp-switch-manager | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `snow_montreal` | home-assistant/brands#9108 | https://github.com/manjotsc/ha-snow_montreal | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `snowtire` | home-assistant/brands#2305 | https://github.com/Limych/ha-snowtire | Active, pushed 2024-12-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sodexo` | home-assistant/brands#3493 | https://github.com/netsoft-ruidias/ha-custom-component-sodexo | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sofabaton_hub` | home-assistant/brands#8249 | https://github.com/yomonpet/ha-sofabaton-hub | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sofabaton_x1s` | home-assistant/brands#8401 | https://github.com/m3tac0de/home-assistant-sofabaton-x1s | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sok_battery` | home-assistant/brands#7287 | https://github.com/IAmTheMitchell/sok-ha | Active, pushed 2026-04-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sol` | home-assistant/brands#8518 | https://github.com/okkine/HA-Sol | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solakon_one` | home-assistant/brands#8546 | https://github.com/solakon-de/solakon-one-homeassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3612,19 +3669,14 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `solar_manager_forecast` | home-assistant/brands#8477 | https://github.com/neuhausf/ha-solar-manager-forecast | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solar_plus_intelbras` | home-assistant/brands#6547 | https://github.com/hudsonbrendon/HA-solar-plus-intelbras | Active, pushed 2026-09-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solar_window_system` | home-assistant/brands#7761 | https://github.com/jmerifjKriwe/hass-solar-window-system | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `solarcharger` | home-assistant/brands#8050 | https://github.com/flashg1/SolarCharger | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `solardelta` | home-assistant/brands#8336 | https://github.com/KriVaTri/solardelta | Active, pushed 2026-03-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solaredge_ev_charger_au` | home-assistant/brands#6427 | https://github.com/niktest/solaredge_ev_charger_au | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solaredge_ev_charger_us` | home-assistant/brands#9131 | https://github.com/briadelour/solaredge-evcharger-ha | Active, pushed 2026-08-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solaredge_modbus_multi` | home-assistant/brands#3415 | https://github.com/WillCodeForCats/solaredge-modbus-multi | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solarfocus` | home-assistant/brands#3463 | https://github.com/LavermanJJ/home-assistant-solarfocus | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solarguardian` | home-assistant/brands#8048 | https://github.com/CMGeorge/HomeAssistant_SolarGuardian | Active, pushed 2025-11-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solarman_api` | home-assistant/brands#7033 | https://github.com/daspilker/home-assistant-solarman-api | Active, pushed 2026-02-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `solarmanager` | home-assistant/brands#7723 | https://github.com/Soardiac/ha-solarmanager | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solarpool_ai` | home-assistant/brands#8831 | https://github.com/pabloantonelli/solar-pool-ai | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `solarwatt_manager` | home-assistant/brands#9168 | https://github.com/thokaro/solarwatt-manager-homeassistant | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solarweb` | home-assistant/brands#4113 | https://github.com/drc38/python-fronius-web | Active, pushed 2026-08-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `solax_cloud_api` | home-assistant/brands#8347 | https://github.com/NoUsername10/Solax-Cloud-API-for-Home-assistant | Active, pushed 2026-09-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solax_local_api` | home-assistant/brands#8780 | https://github.com/GeroComp/Solax-local-API | Active, pushed 2026-01-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solax_modbus` | home-assistant/brands#3180 | https://github.com/wills106/homsassistant-solax-modbus | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `solem_bluetooth_watering_controller` | home-assistant/brands#6796 | https://github.com/hcraveiro/Home-Assistant-Solem-Bluetooth-Watering-Controller | Active, pushed 2026-01-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3661,9 +3713,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `speedtest_rt_ru` | home-assistant/brands#8389 | https://github.com/soulripper13/speedtest_rt_ru | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `speidel` | home-assistant/brands#5461 | https://github.com/omphteliba/ha-speidel-braumeister | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spintouch` | home-assistant/brands#8593 | https://github.com/joyfulhouse/lamotte-spintouch | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `spock_ems_growatt` | home-assistant/brands#9139 | https://github.com/Spock-p2p/ha-spock_ems_growatt | Active, pushed 2026-06-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `spock_ems_marstek` | home-assistant/brands#8359 | https://github.com/Spock-p2p/ha-spock_ems_marstek | Active, pushed 2026-06-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `spock_ems_sma` | home-assistant/brands#8490 | https://github.com/Spock-p2p/ha-spock_ems_sma | Active, pushed 2026-06-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spock_energy_control` | home-assistant/brands#8296 | https://github.com/Spock-p2p/ha-hacs-energy-control | Active, pushed 2025-11-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spoolman` | home-assistant/brands#4728 | https://github.com/Disane87/spoolman-homeassistant | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sporet` | home-assistant/brands#8622 | https://github.com/toringer/home-assistant-sporet | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3671,15 +3720,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `spot_electricity_cz` | home-assistant/brands#8141 | https://github.com/czechdude/spot_electricity_cz | Active, pushed 2025-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spotcast` | home-assistant/brands#6137 | https://github.com/fondberg/spotcast | Active, pushed 2026-07-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spotify_voice_assistant` | home-assistant/brands#8581 | https://github.com/cauld/spotify-voice-assistant | Active, pushed 2025-12-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `spotifyplus` | home-assistant/brands#5253 | https://github.com/thlucas1/homeassistantcomponent_spotifyplus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spypoint` | home-assistant/brands#6063 | https://github.com/happydev-ca/spypoint-home-assistant | Active, pushed 2026-09-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `spzb0001_thermostat` | home-assistant/brands#2316 | https://github.com/WolfRevo/climate.spzb0001_thermostat | Active, pushed 2023-02-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sql_request` | home-assistant/brands#7104 | https://github.com/hestiia-engineering/sql_request | Active, pushed 2025-08-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `srf_weather` | home-assistant/brands#3329 | https://github.com/siku2/hass-srf-weather | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sscpoe` | home-assistant/brands#5119 | https://github.com/slydiman/sscpoe | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ssh` | home-assistant/brands#4553 | https://github.com/zhbjsh/homeassistant-ssh | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ssh_command` | home-assistant/brands#9283 | https://github.com/gensyn/ssh_command | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ssm` | home-assistant/brands#6844 | https://github.com/ebertek/ssm | Active, pushed 2026-10-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `stadtreinigung_hamburg` | home-assistant/brands#1562 | https://github.com/custom-components/sensor.stadtreinigung_hamburg | Active, pushed 2026-06-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `star_rennes` | home-assistant/brands#6853 | https://github.com/Jems22/ha_star_rennes](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `start_time` | home-assistant/brands#2574 | https://github.com/AlexxIT/StartTime | Active, pushed 2025-08-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3702,11 +3748,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `stremio` | home-assistant/brands#8792 | https://github.com/AboveColin/stremio-ha | Active, pushed 2026-10-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `stromer` | home-assistant/brands#4247 | https://github.com/CoMPaTech/stromer | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `stromgedacht` | home-assistant/brands#8925 | https://github.com/V4n1X/ha_stromgedacht | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `stromkalkulator` | home-assistant/brands#9262 | https://github.com/fredrik-lindseth/Stromkalkulator | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `stromligning` | home-assistant/brands#5978 | https://github.com/mtrab/stromligning | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `studer_xcom` | home-assistant/brands#5794 | https://github.com/ankohanse/hass-studer-xcom | Active, pushed 2026-10-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `subscription_helper` | home-assistant/brands#9067 | https://github.com/mariobrosch/subscription-helper | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `sugar_valley_neopool` | home-assistant/brands#8722 | https://github.com/alexdelprete/ha-sugar-valley-neopool | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sumsg_smart` | home-assistant/brands#6208 | https://github.com/sumsg/sumsg_smart | Active, pushed 2025-11-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `sun2` | home-assistant/brands#4199 | https://github.com/pnbruckner/ha-sun2 | Active, pushed 2026-01-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `suncloud_monitor` | home-assistant/brands#7113 | https://github.com/jsanchezdelvillar/Suncloud_monitor | Active, pushed 2025-09-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3729,22 +3773,17 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `super_soco_custom` | home-assistant/brands#3379 | https://github.com/drakhart/ha-super-soco-custom | Active, pushed 2026-09-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `superior_plus_propane` | home-assistant/brands#7213 | https://github.com/connorgallopo/Superior-Plus-Propane | Active, pushed 2026-05-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `superior_propane` | home-assistant/brands#8165 | https://github.com/plmilord/Hass.io-custom-component-superior-propane | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `supernotify` | home-assistant/brands#8269 | https://github.com/rhizomatics/supernotify | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `surepcha` | home-assistant/brands#8052 | https://github.com/FredrikM97/hass-surepetcare | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `surf_forecast` | home-assistant/brands#7701 | https://github.com/victorigualada/surf-forecast-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `svitlo_yeah` | home-assistant/brands#8297 | https://github.com/ALERTua/ha-svitlo-yeah | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `svt_play` | home-assistant/brands#2848 | https://github.com/lindell/home-assistant-svt-play | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `swatch_time` | home-assistant/brands#5215 | https://github.com/andrewjswan/SwatchTime | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `swegon` | home-assistant/brands#5106 | https://github.com/eriknn/ha-swegon | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `swidget` | home-assistant/brands#9000 | https://github.com/michaelkkehoe/haswidget2 | Active, pushed 2025-01-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `swift_command` | home-assistant/brands#7812 | https://github.com/holdestmade/swift_command | Active, pushed 2026-07-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `swiss_pollen` | home-assistant/brands#7272 | https://github.com/frimtec/hass-swiss-pollen | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `swisscom_internetbox` | home-assistant/brands#5133 | https://github.com/schmidtfx/swisscom-internetbox-hass | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `swissweather` | home-assistant/brands#5650 | https://github.com/izacus/hass-swissweather | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `switch_fan` | home-assistant/brands#6124 | https://github.com/evilmarty/switch_fan | Active, pushed 2026-07-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `switch_port_card_pro` | home-assistant/brands#8587 | https://github.com/partach/switch_port_card_pro | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `switch_timer` | home-assistant/brands#6028 | https://github.com/gh0stblizz4rd/ha-switch-timer | Active, pushed 2025-08-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `switchbot_camera` | home-assistant/brands#7084 | https://github.com/hsakoh/ha-switchbot-kvs-camera | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `synapse` | home-assistant/brands#5615 | https://github.com/Digital-Alchemy-TS/synapse-extension | Active, pushed 2026-03-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `syncthing_plus` | home-assistant/brands#7646 | https://github.com/JuliaSoriaSmith/Syncthing-Plus | Active, pushed 2025-08-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `synology_download_station` | home-assistant/brands#8305 | https://github.com/barto95100/synology-download-station | Active, pushed 2026-02-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3756,11 +3795,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `systemair_modbus` | home-assistant/brands#9433 | https://github.com/Howard0000/home-assistant-systemair-modbus | Active, pushed 2026-09-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `t_skylt` | home-assistant/brands#8935 | https://github.com/jnbp/t-skylt | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `t_smart` | home-assistant/brands#4346 | https://github.com/pdw-mb/tsmart_ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tab5_lvgl` | home-assistant/brands#9515 | https://github.com/GalusPeres/ha-tab5-mqtt-bridge | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tada` | home-assistant/brands#8816 | https://github.com/sginestrini/home-assistant-tada-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tadiy` | home-assistant/brands#9275 | https://github.com/Atsharim/TaDIY | Active, pushed 2026-05-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tado_assist` | home-assistant/brands#6773 | https://github.com/array81/tado-assist | Active, pushed 2026-06-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tado_ce` | home-assistant/brands#9271 | https://github.com/hiall-fyi/tado_ce | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tado_hijack` | home-assistant/brands#9222 | https://github.com/banter240/tado_hijack | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tado_local` | home-assistant/brands#9013 | https://github.com/array81/tado-local | Active, pushed 2026-06-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tado_x` | home-assistant/brands#8987 | https://github.com/exabird/ha-tado-x | Active, pushed 2026-02-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3781,7 +3818,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `tascam_bdmp4k` | home-assistant/brands#9160 | https://github.com/Beormund/tascam-bdmp4k | Active, pushed 2026-02-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `task_tracker` | home-assistant/brands#8836 | https://github.com/gensyn/task_tracker | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tasmota_irhvac` | home-assistant/brands#5512 | https://github.com/hristo-atanasov/Tasmota-IRHVAC | Active, pushed 2026-06-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tasmota_mielhvac` | home-assistant/brands#9393 | https://github.com/aldweb/ha-tasmota-mielhvac | Active, pushed 2026-06-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tasmota_update` | home-assistant/brands#6626 | https://github.com/ahaghshenas/tasmota_update | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tattelecom_intercom` | home-assistant/brands#3627 | https://github.com/dmamontov/hass-tattelecom-intercom | Active, pushed 2023-09-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `taubenschiesser` | home-assistant/brands#8169 | https://github.com/fabibo89/taubenschiesser-HA | Active, pushed 2026-10-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3811,7 +3847,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `telegram_client` | home-assistant/brands#5830 | https://github.com/lufton/ha_telegram_client | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `telegram_voip` | home-assistant/brands#9481 | https://github.com/Sanji78/telegram_voip | Active, pushed 2026-03-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `telenet` | home-assistant/brands#4237 | https://github.com/geertmeersman/telenet | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `temperature_alarm` | home-assistant/brands#9645 | https://github.com/smart-ishhome/temperature_alarm | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tempest` | home-assistant/brands#7031 | https://github.com/julianbow/TempestHomeAssistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `template_media_player` | home-assistant/brands#6059 | https://github.com/EuleMitKeule/template_media_player | Active, pushed 2026-09-07 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tempo` | home-assistant/brands#8653 | https://github.com/chrisbansart/ha_tempo | Active, pushed 2026-01-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3837,7 +3872,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `thegymgroup` | home-assistant/brands#6315 | https://github.com/davidcollins001/thegymgroup | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `themo` | home-assistant/brands#5971 | https://github.com/JonneDatanen/homeassistant-pythemo | Active, pushed 2026-05-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `themodernmilkman` | home-assistant/brands#5952 | https://github.com/jampez77/TheModernMilkman | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `thermal_comfort` | home-assistant/brands#3001 | https://github.com/dolezsa/thermal_comfort | Active, pushed 2026-03-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `thermal_vision` | home-assistant/brands#2656 | https://github.com/TheRealWaldo/thermal | Active, pushed 2026-09-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `thermex_api` | home-assistant/brands#7403 | https://github.com/hsk-dk/home-assistant-thermex | Active, pushed 2026-06-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `thermomaven` | home-assistant/brands#8157 | https://github.com/djiesr/ThermoMaven-ha | Active, pushed 2026-03-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3855,8 +3889,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `tibber_ev` | home-assistant/brands#4910 | https://github.com/leeyuentuen/tibber_ev | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tibber_extended` | home-assistant/brands#8369 | https://github.com/misterboe/tibber-extended | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tibber_graph` | home-assistant/brands#8206 | https://github.com/stefanes/tibber-graph | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tibber_local` | home-assistant/brands#4932 | https://github.com/marq24/ha-tibber-pulse-local | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tibber_prices` | home-assistant/brands#8370 | https://github.com/jpawlowski/hass.tibber_prices | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tibber_websocket` | home-assistant/brands#8017 | https://github.com/foto-andreas/ha_tibber_websocket | Active, pushed 2025-09-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ticktick_todo` | home-assistant/brands#6096 | https://github.com/konikvranik/hacs_ticktick | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tidbytassistant` | home-assistant/brands#5871 | https://github.com/savdagod/tidbytassistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3867,7 +3899,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `time_off` | home-assistant/brands#9327 | https://github.com/sfox38/time_off | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `timer_24h` | home-assistant/brands#8663 | https://github.com/davidss20/home-assistant-24h-timer-integration | Active, pushed 2026-09-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tineco` | home-assistant/brands#9285 | https://github.com/wheeller123/Tineco-HACS-Integration | Active, pushed 2026-10-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tinxylocal` | home-assistant/brands#6057 | https://github.com/arevindh/tinxylocal | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tion` | home-assistant/brands#5646 | https://github.com/airens/tion_home_assistant | Active, pushed 2024-10-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tirelinc` | home-assistant/brands#5459 | https://github.com/k3vmcd/ha-tirelinc | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tl` | home-assistant/brands#4327 | https://github.com/Darkdragon14/Home-Assistant-TL | Active, pushed 2023-05-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3916,7 +3947,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `trem` | home-assistant/brands#5549 | https://github.com/J1A-T13N/ha-trem | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `triad_ams` | home-assistant/brands#7930 | https://github.com/bharat/homeassistant-triad-ams | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `trinnov` | home-assistant/brands#5363 | https://github.com/binarylogic/trinnov-altitude-homeassistant | Active, pushed 2026-09-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `trinnov_altitude` | home-assistant/brands#8455 | https://github.com/binarylogic/trinnov-altitude-homeassistant | Active, pushed 2026-09-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tritius` | home-assistant/brands#6099 | https://github.com/tykovec/home-assistant-tritius | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `trmnl_dashboard` | home-assistant/brands#8601 | https://github.com/pwojtaszko/trmnl-home-assistant-plugin | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `trmnl_sensor_blaster` | home-assistant/brands#7386 | https://github.com/kleinejan/ha-trmnl-sensor-blaster | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3928,14 +3958,12 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `trueachievements` | home-assistant/brands#9088 | https://github.com/dckiller51/trueachievements | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tsun` | home-assistant/brands#5608 | https://github.com/StephanU/ha-talent-monitor | Active, pushed 2026-03-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tsuryphone` | home-assistant/brands#7397 | https://github.com/Tsury/ha-tsuryphone | Active, pushed 2026-01-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ttlock` | home-assistant/brands#4260 | https://github.com/jbergler/hass-ttlock | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tududi_hacs` | home-assistant/brands#7571 | https://github.com/C2gl/tududi_HACS | Active, pushed 2026-07-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tududi_integration` | home-assistant/brands#7682 | https://github.com/C2gl/tududi_integration | Active, pushed 2026-07-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tunnelflight` | home-assistant/brands#7088 | https://github.com/B-Hartley/tunnelflight | Active, pushed 2026-10-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `turkov` | home-assistant/brands#4394 | https://github.com/alryaz/hass-turkov | Active, pushed 2025-03-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tursib` | home-assistant/brands#8703 | https://github.com/clmun/tursib | Active, pushed 2026-01-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tuya_local_ble` | home-assistant/brands#7101 | https://github.com/alexanderznamensky/tuya_local_ble | Active, pushed 2026-07-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `tuya_smart_ir_ac` | home-assistant/brands#5686 | https://github.com/EnzoD86/tuya-smart-ir-ac | Active, pushed 2026-09-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tuya_unsupported_sensors` | home-assistant/brands#8426 | https://github.com/kattcrazy/tuya_unsupported_sensors | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tuya_vacuum_maps` | home-assistant/brands#6056 | https://github.com/jaidenlabelle/tuya-vacuum-maps | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `tv4_play` | home-assistant/brands#2853 | https://github.com/lindell/home-assistant-tv4-play | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3948,10 +3976,8 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `uber_eats` | home-assistant/brands#8081 | https://github.com/zodyking/uber-eats-order-tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ubibot` | home-assistant/brands#7788 | https://github.com/Pandamonium88/Ubibot-Home-Assistant-Intergration | Active, pushed 2025-08-29 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ubiquiti_mobile` | home-assistant/brands#8154 | https://github.com/npnicholson/ubiquiti_mobile | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `uconnect` | home-assistant/brands#6499 | https://github.com/hass-uconnect/hass-uconnect | Active, pushed 2026-09-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `udiconnect_plus` | home-assistant/brands#8969 | https://github.com/rezendeneto/udiconnect-plus-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ufh_controller` | home-assistant/brands#9396 | https://github.com/lnagel/hass-ufh-controller | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ugreen` | home-assistant/brands#7309 | https://github.com/Tom-Bom-badil/home-assistant_ugreen-nas | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `uhomeuponor` | home-assistant/brands#3402 | https://github.com/dave-code-ruiz/uhomeuponor | Active, pushed 2026-04-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `uhppoted` | home-assistant/brands#5270 | https://github.com/uhppoted/uhppoted-app-home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ui_lovelace_minimalist` | home-assistant/brands#3086 | https://github.com/UI-Lovelace-Minimalist/UI | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -3967,19 +3993,16 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `unicom_vs010_tracker` | home-assistant/brands#5983 | https://github.com/tablebird/unicom_vs010_tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unicontrol` | home-assistant/brands#3873 | https://github.com/unisec/custom_components | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unifi_connect` | home-assistant/brands#9624 | https://github.com/danielsza/ha-unifi-connect | Active, pushed 2026-08-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `unifi_insights` | home-assistant/brands#6392 | https://github.com/domalab/ha-unifi-insights | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unifi_network` | home-assistant/brands#8588 | https://github.com/wittypluck/ha-unifi-network | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unifi_network_map` | home-assistant/brands#9119 | https://github.com/merlijntishauser/unifi-network-maps-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unifi_network_rules` | home-assistant/brands#5878 | https://github.com/sirkirby/ha-udm-rule-manager | Active, pushed 2026-10-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unifi_site_manager` | home-assistant/brands#6378 | https://github.com/domalab/ha-unifi-site-manager | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `unii` | home-assistant/brands#5488 | https://github.com/unii-security/homeassistant-unii | Active, pushed 2026-06-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `universal_notifier` | home-assistant/brands#8832 | https://github.com/jumping2000/universal_notifier | Active, pushed 2026-09-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `universal_scheduler` | home-assistant/brands#9293 | https://github.com/schblondie/universal_scheduler | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `universal_thermostat` | home-assistant/brands#5295 | https://github.com/vaproloff/universalThermostat](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `universal_water_heater` | home-assistant/brands#9345 | https://github.com/PhilKloppers/universal-water-heater | Active, pushed 2026-06-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unraid` | home-assistant/brands#5977 | https://github.com/domalab/ha-unraid](url | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `unraid_api` | home-assistant/brands#6789 | https://github.com/chris-mc1/unraid_api | Active, pushed 2026-09-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `unraid_management_agent` | home-assistant/brands#8111 | https://github.com/domalab/ha-unraid-management-agent | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `up-bank` | home-assistant/brands#5531 | https://github.com/jay-oswald/ha-up-bank | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `up_4014_tracker` | home-assistant/brands#5850 | https://github.com/jheizer/up_4014_tracker | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `uplift_desk` | home-assistant/brands#6941 | https://github.com/Bennett-Wendorf/hass-uplift-desk | Active, pushed 2026-09-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4015,11 +4038,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `vda_ir_control` | home-assistant/brands#8844 | https://github.com/vda-solutions/vda-ir-control | Active, pushed 2026-09-08 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `veeam_365` | home-assistant/brands#9661 | https://github.com/Cenvora/ha-veeam-365 | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `veeam_br` | home-assistant/brands#9323 | https://github.com/Cenvora/ha-veeam-br | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `vegvesen_vehicle_lookup` | home-assistant/brands#9546 | https://github.com/esphm/Vegvesen-Vehicle-Lookup | Active, pushed 2026-10-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vehiclevue` | home-assistant/brands#6331 | https://github.com/kennethroe/vehiclevue | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vejdirektoratet_unofficial` | home-assistant/brands#9321 | https://github.com/mathiasi/homeassistant-vejdirektoratet-unofficial | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vemmio` | home-assistant/brands#8481 | https://github.com/vemmio/vemmio_home_assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `venice_ai` | home-assistant/brands#9031 | https://github.com/grasponcrypto/venice_ai | Active, pushed 2026-07-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `venta` | home-assistant/brands#4674 | https://github.com/Michsior14/ha-venta | Active, pushed 2026-02-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `venta_air_humidifier` | home-assistant/brands#4609 | https://github.com/mapero/hass-venta-humidifier | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ventaxia_ha` | home-assistant/brands#7544 | https://github.com/JosyBan/ventaxia_ha | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4028,7 +4049,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `verizon_fios` | home-assistant/brands#8579 | https://github.com/skircr115/ha-verizonFiOS | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vertiv` | home-assistant/brands#8749 | https://github.com/bennydiamond/vertiv_powerassist | Active, pushed 2026-06-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vesta_local` | home-assistant/brands#9355 | https://github.com/mphel44/vesta-local-ha | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `vestaboard` | home-assistant/brands#4445 | https://github.com/natekspencer/hacs-vestaboard | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vevor_heater` | home-assistant/brands#8508 | https://github.com/Spettacolo83/homeassistant-vevor-heater | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vgn_departures` | home-assistant/brands#6113 | https://github.com/alex-jung/home-assistant-vgn-component | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vi_climate_devices` | home-assistant/brands#9360 | https://github.com/ignazhabibi/vi_climate_devices | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4048,10 +4068,8 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `vilnius_air` | home-assistant/brands#9257 | https://github.com/untitledlt/ha-miesto-plauciai | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vimar` | home-assistant/brands#2569 | https://github.com/h4de5/home-assistant-vimar | Active, pushed 2026-04-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vimar_byme_plus` | home-assistant/brands#6046 | https://github.com/andreaprosseda/vimar-byme-plus-homeassistant | Active, pushed 2026-09-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `violet_pool_controller` | home-assistant/brands#5907 | https://github.com/Xerolux/violet-hass | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `virtual` | home-assistant/brands#4881 | https://github.com/twrecked/hass-virtual | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `virtual_battery` | home-assistant/brands#6860 | https://github.com/andybochmann/ha-virtual-battery | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `virtual_devices` | home-assistant/brands#8534 | https://github.com/ha-china/virtual_devices | Active, pushed 2026-08-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `virtual_gas_meter` | home-assistant/brands#9184 | https://github.com/Migz93/ha-virtual_gas_meter | Active, pushed 2026-09-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `virtual_keys` | home-assistant/brands#5573 | https://github.com/kcsoft/virtual-keys | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vitesy_shelfy` | home-assistant/brands#7780 | https://github.com/Sanji78/vitesy_shelfy | Active, pushed 2026-02-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4061,18 +4079,14 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `voebb` | home-assistant/brands#7036 | https://github.com/mrueg/home-assistant-voebb | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vogels_motion_mount_ble` | home-assistant/brands#8010 | https://github.com/Nailik/vogels_motion_mount_ble | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `voice_recorder` | home-assistant/brands#8328 | https://github.com/kukuxx/HA-Voice-Recorder-Card | Active, pushed 2026-04-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `voice_satellite` | home-assistant/brands#9673 | https://github.com/jxlarrea/voice-satellite-card-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `voicevox_tts` | home-assistant/brands#6507 | https://github.com/taikun114/VOICEVOX-TTS-for-Home-Assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `voipms_sms` | home-assistant/brands#8904 | https://github.com/cdonner/ha-voipms_sms | Active, pushed 2026-01-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `volcano_hybrid` | home-assistant/brands#6878 | https://github.com/SavageNL/home-assistant-volcano-hybrid | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `volcano_integration` | home-assistant/brands#7175 | https://github.com/Chuffnugget/volcano_integration | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `volkswagen_goconnect` | home-assistant/brands#9028 | https://github.com/amoisis/volkswagen_goconnect | Active, pushed 2026-07-20 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `voltalis` | home-assistant/brands#8185 | https://github.com/jdelahayes/ha-voltalis | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `volvo_cars` | home-assistant/brands#6111 | https://github.com/thomasddn/home-assistant-volvo-cars | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `volvooncall_cn` | home-assistant/brands#4639 | https://github.com/idreamshen/hass-volvooncall-cn | Active, pushed 2026-01-31 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vonage` | home-assistant/brands#9376 | https://github.com/attilaszasz/vonage-homeassistant](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `voxtaai` | home-assistant/brands#8364 | https://github.com/voxta-ai/voxta-home-assistant-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `vpmobile24` | home-assistant/brands#9520 | https://github.com/Maximilian-Andrew-Kluge/VpMobile24 | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vreaulanova` | home-assistant/brands#6454 | https://github.com/cnecrea/vreaulanova | Active, pushed 2026-09-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vserver_ssh_stats` | home-assistant/brands#7802 | https://github.com/404GamerNotFound/vserver-ssh-stats | Active, pushed 2026-10-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `vsmart` | home-assistant/brands#3893 | https://github.com/HateBaozi/ha-vaillant-vsmart-cn | Active, pushed 2025-01-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4087,11 +4101,9 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `walkscape` | home-assistant/brands#8559 | https://github.com/cnelson-pdx/Walkscape-HA | Active, pushed 2025-11-25 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wallpanel_media_player` | home-assistant/brands#7938 | https://github.com/Riscue/ha-wallpanel-media-player | Active, pushed 2025-12-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `walutomat` | home-assistant/brands#8449 | https://github.com/Currency-One/walutomat-ha | Active, pushed 2025-11-28 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `wanas` | home-assistant/brands#9349 | https://github.com/micpub/homeassistant-wanas | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `warmlink` | home-assistant/brands#9173 | https://github.com/00gtw00/homeassistant_warmlink | Active, pushed 2026-01-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `warmup` | home-assistant/brands#4233 | https://github.com/ha-warmup/warmup | Active, pushed 2026-06-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `was110_8311` | home-assistant/brands#8839 | https://github.com/pentafive/8311-ha-bridge | Active, pushed 2026-03-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `wasp_in_a_box` | home-assistant/brands#9454 | https://github.com/andrew-codechimp/HA-Wasp-In-A-Box | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wasser_residuum` | home-assistant/brands#9034 | https://github.com/hoizi89/wasser_residuum | Active, pushed 2026-03-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `waste_management` | home-assistant/brands#3803 | https://github.com/dcmeglio/homeassistant-waste_management | Active, pushed 2023-02-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `waste_schedule` | home-assistant/brands#8123 | https://github.com/kjanas/homeassistant-waste-schedule | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4104,7 +4116,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `waterguru` | home-assistant/brands#5399 | https://github.com/dwradcliffe/home-assistant-waterguru | Active, pushed 2026-09-21 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `waterinfo` | home-assistant/brands#4931 | https://github.com/physje/waterinfo](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `waterinsights` | home-assistant/brands#3757 | https://github.com/battlemoose/waternsw-waterinsights-ha | Active, pushed 2022-11-27 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `waterius` | home-assistant/brands#8897 | https://github.com/alexanderznamensky/waterius | Active, pushed 2026-09-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `waterius_ha` | home-assistant/brands#8615 | https://github.com/Anat0l/waterius-ha | Active, pushed 2026-08-09 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `watersmart` | home-assistant/brands#5601 | https://github.com/wbyoung/watersmart | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wattpilot` | home-assistant/brands#3348 | https://github.com/mk-maddin/wattpilot-HA | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4127,7 +4138,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `webrtc` | home-assistant/brands#2488 | https://github.com/AlexxIT/WebRTC | Active, pushed 2026-10-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `website_hash_catcher` | home-assistant/brands#6782 | https://github.com/Q14siX/website_hash_catcher | Active, pushed 2025-08-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `weechat` | home-assistant/brands#8799 | https://github.com/Stullemon/hassio-weechat-integration | Active, pushed 2026-01-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `weerplaza` | home-assistant/brands#7498 | https://github.com/MarcoGos/weerplaza | Active, pushed 2026-09-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `weishaupt_modbus` | home-assistant/brands#5710 | https://github.com/MadOne/weishaupt_modbus | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wellyou` | home-assistant/brands#5993 | https://github.com/timniklas/hacs_wellyou | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `welock` | home-assistant/brands#6592 | https://github.com/hzjchina/hass-welock | Active, pushed 2025-04-30 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4149,7 +4159,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `wibeee` | home-assistant/brands#1874 | https://github.com/hacs/default | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wican` | home-assistant/brands#5893 | https://github.com/meatpiHQ/meatpi_ollie_v2 | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wienerlinien` | home-assistant/brands#3431 | https://github.com/tofuSCHNITZEL/home-assistant-wienerlinien | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `wifi_sensor_tracker` | home-assistant/brands#8012 | https://github.com/5a2v0/HA-WiFi-Sensor-Tracker | Active, pushed 2026-09-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wigle` | home-assistant/brands#7617 | https://github.com/elieduclr/Wigle-Stats-HACS | Active, pushed 2026-02-05 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wiheat` | home-assistant/brands#6723 | https://github.com/kimjohnsson/wiheat | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `wikipedia_fact` | home-assistant/brands#6326 | https://github.com/c4software/home-assistant-wikipedia-random-fact | Active, pushed 2026-03-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4196,7 +4205,6 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `xiaozhi_mcp` | home-assistant/brands#7432 | https://github.com/mac8005/xiaozhi-mcp-hacs](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `xlights_scheduler` | home-assistant/brands#8631 | https://github.com/gstrike/ha-xlights_scheduler | Active, pushed 2026-04-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `xplora_watch` | home-assistant/brands#3056 | https://github.com/Ludy87/brands | Active, pushed 2026-07-21 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `xtend_tuya` | home-assistant/brands#5423 | https://github.com/azerty9971/xtend_tuya | Active, pushed 2026-10-14 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `xtherma_fp` | home-assistant/brands#7001 | https://github.com/Xtherma/xtherma_ha | Active, pushed 2026-10-16 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `xweatherly` | home-assistant/brands#7690 | https://github.com/tbclark3/ha-xweatherly | Active, pushed 2025-08-22 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yale_doorman_via_smarthub` | home-assistant/brands#2199 | https://github.com/jockesyk/homeassistant-yale-doorman-via-smarthub | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4207,19 +4215,15 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `yandex_pogoda` | home-assistant/brands#5847 | https://github.com/yandex/pogoda-home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yandex_station` | home-assistant/brands#2489 | https://github.com/AlexxIT/YandexStation | Active, pushed 2026-10-17 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yandex_station_intents` | home-assistant/brands#8895 | https://github.com/dext0r/ha-yandex-station-intents | Active, pushed 2026-10-18 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `yasno_outages` | home-assistant/brands#5655 | https://github.com/denysdovhan/ha-yasno-outages | Active, pushed 2026-10-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yeelight_pro` | home-assistant/brands#4275 | https://github.com/hasscc/yeelight-pro | Active, pushed 2026-03-26 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yerushamayim` | home-assistant/brands#5946 | https://github.com/chilikla/yerushamayim | Active, pushed 2025-12-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yi_hack` | home-assistant/brands#2571 | https://github.com/roleoroleo/yi-hack_ha_integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `yidcal` | home-assistant/brands#7207 | https://github.com/hitchin999/yidcal | Active, pushed 2026-10-11 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `ynab_custom` | home-assistant/brands#6730 | https://github.com/DeLuca21/hacs-ynab | Active, pushed 2026-03-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yocto_colorledcluster` | home-assistant/brands#5961 | https://github.com/yoctopuce-examples/yocto_colorledcluster | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yodel` | home-assistant/brands#5890 | https://github.com/jampez77/Yodel | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `yoin` | home-assistant/brands#5378 | https://github.com/geertmeersman/yoin | Active, pushed 2026-10-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yolink_multi` | home-assistant/brands#8301 | https://github.com/cd1zz/homeassistant-yolink-multi | Active, pushed 2026-08-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yongnuo_yn360` | home-assistant/brands#7526 | https://github.com/singularity0821/yongnuo-yn360-home-assistant | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yoradio` | home-assistant/brands#5911 | https://github.com/e2002/yoradio | Active, pushed 2025-09-15 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `youfone` | home-assistant/brands#4292 | https://github.com/geertmeersman/youfone | Active, pushed 2026-10-01 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `your_pollen_pal` | home-assistant/brands#7194 | https://github.com/TheTrueShell/PollenPalHA | Active, pushed 2025-06-04 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `youtilitics` | home-assistant/brands#6769 | https://github.com/Youtilitics/home-assistant | Active, pushed 2025-06-06 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `yr_norwegian_water_temperatures` | home-assistant/brands#7354 | https://github.com/jornpe/Yr-norwegian-water-temperatures-integration | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
@@ -4247,13 +4251,11 @@ Announcement: https://contributors.home-assistant.io/blog/2026/02/24/brands-prox
 | `zim_slupsk` | home-assistant/brands#6464 | https://github.com/muffintsi/hass-zim-slupsk | Active, pushed 2026-06-02 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zing_music` | home-assistant/brands#8891 | https://github.com/onoffautomations/HA_zing_music_ping | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zkaccess_c3` | home-assistant/brands#4544 | https://github.com/vwout/hass-zkaccess_c3 | Active, pushed 2024-08-24 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `zonneplan_one` | home-assistant/brands#2282 | https://github.com/fsaris/home-assistant-zonneplan-one | Active, pushed 2026-10-13 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zont_ha` | home-assistant/brands#5097 | https://github.com/MihVS/zont_ha | Active, pushed 2026-10-10 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zte_ng_router` | home-assistant/brands#8715 | https://github.com/rosenrot00/ha-zte-ng-router | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zte_router` | home-assistant/brands#5795 | https://github.com/Kajkac/ZTE-MC-Home-assistant-repo | Active, pushed 2026-08-23 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zte_router_info` | home-assistant/brands#8235 | https://github.com/MironJajtic/ha-zte-router-info](https: | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zteh388x` | home-assistant/brands#5965 | https://github.com/masoneff3/ha_zteh388x | Active, pushed 2026-08-12 | Upstream repository was found, but the exact custom component path could not be verified. |  |
-| `ztm_warsaw` | home-assistant/brands#6926 | https://github.com/solarssk/ztm_warsaw | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zuli` | home-assistant/brands#9150 | https://github.com/byerlyb20/zuli-home-assistant | Active, pushed 2026-01-03 | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zwift` | home-assistant/brands#4049 | https://github.com/snicker/zwift_hass | Unavailable | Upstream repository was found, but the exact custom component path could not be verified. |  |
 | `zxart_browser` | home-assistant/brands#6541 | https://github.com/dudanov/hassio-zxart | Active, pushed 2025-03-19 | Upstream repository was found, but the exact custom component path could not be verified. |  |
