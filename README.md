@@ -16,7 +16,7 @@ This repository provides three main folders to store images in:
 - `core_integrations`: Contains images for integrations bundled with the
   Home Assistant Core.
 - `custom_integrations`: Contains images for custom integrations
-  (custom components). Legacy folder: Since HA 2026.3.0, custom components can include their brand icons directly. Please refer to the [Brands Proxy API announcement](https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api) for more details.
+  (custom components). Legacy folder: Since HA 2026.3.0, custom components can include their brand icons directly. Please refer to the [Brands Proxy API announcement](https://contributors.home-assistant.io/blog/2026/02/24/brands-proxy-api/) for more details.
 - `thread_brands`: Contains images for brands that do not have an integration
   at all, but are used to display Thread border routers. See
   [Thread brands](#thread-brands) below.

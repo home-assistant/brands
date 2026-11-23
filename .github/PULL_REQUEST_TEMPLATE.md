@@ -3,7 +3,7 @@
   Please, DO NOT DELETE ANY TEXT from this template! (unless instructed).
 
   Pull requests for adding new custom components will no longer be accepted. Please refer to the Brands Proxy API announcement for more details:
-  https://developers.home-assistant.io/blog/2026/02/24/brands-proxy-api
+  https://contributors.home-assistant.io/blog/2026/02/24/brands-proxy-api/
 -->
 ## Proposed change
 <!-- 
