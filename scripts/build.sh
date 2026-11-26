@@ -16,6 +16,12 @@ git clone --depth=1 https://github.com/Templarian/MaterialDesign mdi
 rsync -aL custom_integrations/ build/_
 rsync -aL custom_integrations/ build
 
+# Copy thread brands
+# These have no integration of their own, they only provide images for
+# Thread border routers. They are served on the same paths as integrations.
+rsync -aL thread_brands/ build/_
+rsync -aL thread_brands/ build
+
 # Copy core integrations 
 rsync -aL --exclude '_homeassistant' core_integrations/ build/_
 rsync -aL --exclude '_homeassistant' --exclude '_placeholder' core_integrations/ build
@@ -162,32 +168,45 @@ done
 # Create domains.json
 core_brands=$(
   find ./core_brands \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 
 core_integrations=$(
   find ./core_integrations \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 custom_integrations=$(
   find ./custom_integrations \
+    -mindepth 1 \
     -maxdepth 1 \
     -exec basename {} \; \
   | sort \
-  | jq -sR 'split("\n")[1:]' \
+  | jq -sR 'split("\n")' \
+  | jq -r 'map(select(length > 0))'
+)
+thread_brands=$(
+  find ./thread_brands \
+    -mindepth 1 \
+    -maxdepth 1 \
+    -exec basename {} \; \
+  | sort \
+  | jq -sR 'split("\n")' \
   | jq -r 'map(select(length > 0))'
 )
 
-jq -n '{"brands": $brands, "core": $core, "custom": $custom}' \
+jq -n '{"brands": $brands, "core": $core, "custom": $custom, "thread": $thread}' \
     --argjson brands "$core_brands" \
     --argjson core "$core_integrations" \
     --argjson custom "$custom_integrations" \
+    --argjson thread "$thread_brands" \
   | jq -r . > ./build/domains.json

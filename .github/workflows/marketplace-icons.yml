@@ -1,0 +1,36 @@
+name: Marketplace icons
+
+on:
+  push:
+    paths: &paths
+      - ".github/workflows/marketplace-icons.yml"
+      - ".nvmrc"
+      - "netlify/**"
+      - "package.json"
+      - "package-lock.json"
+      - "scripts/**/*.ts"
+      - "tsconfig.json"
+  pull_request:
+    paths: *paths
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check and test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Check types
+        run: npm run check
+      - name: Run tests
+        run: npm test
